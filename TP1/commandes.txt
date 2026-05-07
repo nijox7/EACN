@@ -1,8 +1,11 @@
+(ancienne version de cadence, marche plus depuis avril 2026)
 cp -r ~galayko/cours_EACN/projet/cadence_amsC35_projEACN .
 cd cadence_amsC35_projEACN
 tcsh
 source amsC35_config.csh
 ams_cds -mode virt
+
+
 
 S'il y a un problème de READ ONLY:
 

@@ -40,5 +40,5 @@ IHP_TECH is set to "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/"
 PROJECT is set to "/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/"
 
 Machine and OS related information:
-Linux onslow 5.14.0-611.38.1.el9_7.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Mar 10 17:21:28 EDT 2026 x86_64 x86_64 x86_64 GNU/Linux
+Linux brahms 5.14.0-611.49.1.el9_7.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Apr 21 16:39:08 EDT 2026 x86_64 x86_64 x86_64 GNU/Linux
 
