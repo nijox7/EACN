@@ -1,0 +1,10 @@
+define NCSIMRC	( /users/soft/opus/Linux/INCISIVE-15.20.074/tools/inca/files/ncsimrc, ~/.ncsimrc )
+include ./hdlrun.var
+define SNAPSHOT project_EACN_SESI.ADC_SAR:config
+DEFINE RUNMODEDEFAULT 1
+DEFINE LIB_MAP (  => project_EACN_SESI )
+DEFINE LIB_MAP ($LIB_MAP,  => project_EACN_SESI )
+DEFINE LIB_MAP ($LIB_MAP,  => CORELIBD )
+DEFINE LIB_MAP ($LIB_MAP, + => worklib )
+define ELAB_SNAPSHOT
+define SNAPSHOT project_EACN_SESI.ADC_SAR:config

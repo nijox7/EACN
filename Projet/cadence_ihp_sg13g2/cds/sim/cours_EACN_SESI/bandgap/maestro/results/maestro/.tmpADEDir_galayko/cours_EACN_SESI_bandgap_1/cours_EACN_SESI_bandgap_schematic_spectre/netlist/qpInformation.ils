@@ -1,0 +1,1 @@
+(nil plottableAnalyses tran(ac noise dc) signals ((nil fullName "/R1/MINUS" sigExpr "IT(\"/R1/MINUS\")") (nil fullName "/R1/PLUS" sigExpr "IT(\"/R1/PLUS\")") (nil fullName "/net4" sigExpr "VT(\"/net4\")") (nil fullName "/V5/PLUS" sigExpr "IT(\"/V5/PLUS\")") (nil fullName "/V4/PLUS" sigExpr "IT(\"/V4/PLUS\")")) plottableExpressions nil)

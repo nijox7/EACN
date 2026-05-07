@@ -1,0 +1,82 @@
+ahdlcmicompile: Compiling ahdlcmi in INCA_libs/AMSD/ahdlSimDB/3695_tools_affirma_ams_etc_connect_lib_E2L_2.vams.connectLib__E2L_2__module__0x10000001_behavioral.ahdlcmi/Linux-64/ for Linux-64 with optimize using gcc on Thu Mar 19 10:19:01 CET 2026 [5.0]
+ahdlcmicompile: Generating makefile
+PATH:  /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/cdsgcc/gcc/4.1-x86_64/install/bin:/users/soft/opus/Linux/INCISIVE-15.20.074/tools/bin/64bit:/users/soft/opus/Linux/IC6.1.8/bin:/users/soft/opus/Linux/IC6.1.8/tools/bin/64bit:/users/soft/opus/Linux/IC6.1.8/tools/bin:/users/soft/techno/dev/vienne/035.HV-4.10//cds/bin:/users/soft/techno/dev/vienne/035.HV-4.10//programs/bin:/users/soft/opus/Linux//INCISIVE-15.20.074/tools.lnx86/bin:/users/soft/opus/Linux//QUANTUS-21.22-000/bin:/users/soft/opus/cadence/installs/ASSURA41/tools/assura/bin:/users/soft/opus/cadence/installs/ASSURA41/tools/bin:/users/soft/opus/Linux//MMSIM-15.10-803/tools/bin:/users/soft/opus/Linux//IC6.1.8//tools/vframe/bin:/users/soft/opus/Linux//IC6.1.8//tools/notebook/bin:/users/soft/opus/Linux//IC6.1.8//tools/tlfUtil/bin:/users/soft/opus/Linux//IC6.1.8//tools/spectre/bin:/users/soft/opus/Linux//IC6.1.8//tools/plot/bin:/users/soft/opus/Linux//IC6.1.8//tools/pearl/bin:/users/soft/opus/Linux//IC6.1.8//tools/tdm/bin:/users/soft/opus/Linux//IC6.1.8//tools/tdm/bin:/users/soft/opus/Linux//IC6.1.8//tools/modelwriter/bin:/users/soft/opus/Linux//IC6.1.8//tools/leapfrog/bin:/users/soft/opus/Linux//IC6.1.8//tools/gcf/bin:/users/soft/opus/Linux//IC6.1.8//tools/dracula/bin:/users/soft/opus/Linux//IC6.1.8//tools/concice/bin:/users/soft/opus/Linux//IC6.1.8//tools/coeffgen/bin:/users/soft/opus/Linux//IC6.1.8//tools/dfII/bin:/users/soft/opus/Linux//IC6.1.8//tools/bin:/users/soft/opus/Linux//IC6.1.8//share/bin:/users/soft/freepdks/src/free_CAO/ngspice:/users/cao/galayko/.local/bin:/dsk/l1/misc/my_soft/ngspice/bin/:scripts/bin_installation/skencil/bin/:/users/cao/galayko/scripts/bin_installation/pstoedit/bin:/users/cao/galayko/scripts/:/dsk/l1/misc/my_soft/scripts/:/dsk/l1/misc/my_soft/djvulibre/bin/:/usr/X11R6/bin/:/users/outil/oceane/oceane//bin:/dsk/l1/misc/RealPlayer/:/dsk/l1/misc/my_soft/scicoslab/local/scilab-gtk/bin/:/dsk/l1/misc/my_soft/unison/:/users/soft/freepdks/src/free_CAO/ngspice:/users/cao/galayko/.local/bin:/dsk/l1/misc/my_soft/ngspice/bin/:scripts/bin_installation/skencil/bin/:/users/cao/galayko/scripts/bin_installation/pstoedit/bin:/users/cao/galayko/scripts/:/dsk/l1/misc/my_soft/scripts/:/dsk/l1/misc/my_soft/djvulibre/bin/:/usr/X11R6/bin/:/users/outil/oceane/oceane//bin:/dsk/l1/misc/RealPlayer/:/dsk/l1/misc/my_soft/scicoslab/local/scilab-gtk/bin/:/dsk/l1/misc/my_soft/unison/:/usr/lib64/qt-3.3/bin:/users/cao/galayko/perl5/bin:/usr/lib64/ccache:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/bin
+LD_LIBRARY_PATH:  /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/cdsgcc/gcc/4.1-x86_64/install/lib:/users/soft/opus/Linux/INCISIVE-15.20.074/tools/lib/64bit:/users/soft/opus/Linux/INCISIVE-15.20.074/tools/lib/64bit/SuSE:/users/soft/opus/Linux//IC6.1.8//oa_v22.60.096//lib/lnx86/opt:/users/soft/opus/Linux/IC6.1.8/tools/dfII/lib/64bit:/users/soft/opus/Linux/IC6.1.8/tools/sev/lib/64bit:/users/soft/opus/Linux/IC6.1.8/tools/lib/64bit:/users/soft/opus/Linux/IC6.1.8/tools/lib:/users/soft/opus/Linux/IC6.1.8/tools/hdf5/lib/64bit:/users/soft/opus/Linux/IC6.1.8/tools/lz4/lib/64bit:/users/soft/opus/Linux/IC6.1.8/tools/python/64bit/lib:/users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/lib/64bit:/users/soft/opus/Linux/IC6.1.8/tools/TPtools/grpc/lib64:/users/soft/opus/Linux/IC6.1.8/tools/TPtools/grpc/lib:/users/soft/opus/Linux/IC6.1.8/tools/Qt/v5/64bit/lib:/lib64:/users/soft/freepdks/src/free_CAO/ngspice/lib/:/users/cao/galayko/coriolis-2.x/release/install/lib/:/lib:/usr/lib/:/usr/lib64/:/users/cao/galayko/usr/lib/:/dsk/l1/misc/cln-1.1.11/lib:/users/cao/galayko/scripts/bin_installation/pstoedit/lib:/users/outil/cairoplus/alliance/archi/Linux/lib/:/users/outil/xfingers/newlabo/lib/:.:/usr/lib/
+/users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/ahdlcmi/bin/gnumake -j40 -f GNUmakefile
+Cleaning ./obj/optimize/5.0
+rm -f -rf ./obj/optimize/5.0
+Compiling C file connectLib__E2L_2__module__0x10000001_behavioral_func.c (optimize)
+/users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/cdsgcc/gcc/4.8/bin/gcc  -march=k8 -ffast-math -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/ahdlcmi/include -c connectLib__E2L_2__module__0x10000001_behavioral_func.c -o obj/optimize/5.0/connectLib__E2L_2__module__0x10000001_behavioral_func.o || rm -f -f obj/optimize/5.0/connectLib__E2L_2__module__0x10000001_behavioral_func.o
+Compiling C file connectLib__E2L_2__module__0x10000001_behavioral_DcFuncLoad.c (optimize)
+/users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/cdsgcc/gcc/4.8/bin/gcc  -march=k8 -ffast-math -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/ahdlcmi/include -c connectLib__E2L_2__module__0x10000001_behavioral_DcFuncLoad.c -o obj/optimize/5.0/connectLib__E2L_2__module__0x10000001_behavioral_DcFuncLoad.o || rm -f -f obj/optimize/5.0/connectLib__E2L_2__module__0x10000001_behavioral_DcFuncLoad.o
+Compiling C file connectLib__E2L_2__module__0x10000001_behavioral_DcFuncDerLoad.c (optimize)
+/users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/cdsgcc/gcc/4.8/bin/gcc  -march=k8 -ffast-math -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/ahdlcmi/include -c connectLib__E2L_2__module__0x10000001_behavioral_DcFuncDerLoad.c -o obj/optimize/5.0/connectLib__E2L_2__module__0x10000001_behavioral_DcFuncDerLoad.o || rm -f -f obj/optimize/5.0/connectLib__E2L_2__module__0x10000001_behavioral_DcFuncDerLoad.o
+Compiling C file connectLib__E2L_2__module__0x10000001_behavioral_TranFuncDerLoad.c (optimize)
+Compiling C file connectLib__E2L_2__module__0x10000001_behavioral_TranFuncLoad.c (optimize)
+/users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/cdsgcc/gcc/4.8/bin/gcc  -march=k8 -ffast-math -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/ahdlcmi/include -c connectLib__E2L_2__module__0x10000001_behavioral_TranFuncDerLoad.c -o obj/optimize/5.0/connectLib__E2L_2__module__0x10000001_behavioral_TranFuncDerLoad.o || rm -f -f obj/optimize/5.0/connectLib__E2L_2__module__0x10000001_behavioral_TranFuncDerLoad.o
+/users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/cdsgcc/gcc/4.8/bin/gcc  -march=k8 -ffast-math -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/ahdlcmi/include -c connectLib__E2L_2__module__0x10000001_behavioral_TranFuncLoad.c -o obj/optimize/5.0/connectLib__E2L_2__module__0x10000001_behavioral_TranFuncLoad.o || rm -f -f obj/optimize/5.0/connectLib__E2L_2__module__0x10000001_behavioral_TranFuncLoad.o
+Compiling C file connectLib__E2L_2__module__0x10000001_behavioral_cmi_c.c (optimize)
+/users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/ahdlcmi/bin/64bit/ahdlcc 0 /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/cdsgcc/gcc/4.8/bin/gcc  -march=k8 -ffast-math -fno-unsafe-math-optimizations -O3 -m64 -DSYSV -DSVR4 -D_REENTRANT -fPIC   -DconfigSPECTRE -I. -I/users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/ahdlcmi/include -I/users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/cmi/include -c connectLib__E2L_2__module__0x10000001_behavioral_cmi_c.c -o obj/optimize/5.0/connectLib__E2L_2__module__0x10000001_behavioral_cmi_c.o || rm -f -f obj/optimize/5.0/connectLib__E2L_2__module__0x10000001_behavioral_cmi_c.o
+<stdin>: In function 'connectLib__E2L_2__module__0x10000001_behavioral_InitAll':
+<stdin>:376:2: warning: floating constant exceeds range of 'double' [-Woverflow]
+<stdin>:377:2: warning: floating constant exceeds range of 'double' [-Woverflow]
+<stdin>:385:2: warning: floating constant exceeds range of 'double' [-Woverflow]
+<stdin>:386:2: warning: floating constant exceeds range of 'double' [-Woverflow]
+<stdin>:394:2: warning: floating constant exceeds range of 'double' [-Woverflow]
+<stdin>:395:2: warning: floating constant exceeds range of 'double' [-Woverflow]
+<stdin>:403:2: warning: floating constant exceeds range of 'double' [-Woverflow]
+<stdin>:404:2: warning: floating constant exceeds range of 'double' [-Woverflow]
+<stdin>:412:2: warning: floating constant exceeds range of 'double' [-Woverflow]
+<stdin>:413:2: warning: floating constant exceeds range of 'double' [-Woverflow]
+<stdin>:421:2: warning: floating constant exceeds range of 'double' [-Woverflow]
+<stdin>:422:2: warning: floating constant exceeds range of 'double' [-Woverflow]
+<stdin>: In function 'connectLib__E2L_2__module__0x10000001_behavioral_pDC_Load':
+<stdin>:693:1044: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [enabled by default]
+In file included from <stdin>:24:0:
+/users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2419:37: note: expected 'void *' but argument is of type 'long int'
+     ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+                                     ^
+<stdin>: In function 'connectLib__E2L_2__module__0x10000001_behavioral_pCompare':
+<stdin>:747:1412: warning: assignment makes integer from pointer without a cast [enabled by default]
+<stdin>:747:1166: warning: passing argument 1 of 'memcpy' makes pointer from integer without a cast [enabled by default]
+In file included from /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/ahdlcmi/include/ahdlPiCmi.h:5:0,
+                 from /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:81,
+                 from <stdin>:24:
+/usr/include/string.h:42:14: note: expected 'void * __restrict__' but argument is of type 'long int'
+ extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+              ^
+<stdin>:747:1166: warning: passing argument 2 of 'memcpy' makes pointer from integer without a cast [enabled by default]
+In file included from /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/ahdlcmi/include/ahdlPiCmi.h:5:0,
+                 from /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:81,
+                 from <stdin>:24:
+/usr/include/string.h:42:14: note: expected 'const void * __restrict__' but argument is of type 'long int'
+ extern void *memcpy (void *__restrict __dest, const void *__restrict __src,
+              ^
+<stdin>:747:1649: warning: assignment makes integer from pointer without a cast [enabled by default]
+<stdin>: In function 'connectLib__E2L_2__module__0x10000001_behavioral_pGetMatrixPointers':
+<stdin>:753:1852: warning: assignment makes integer from pointer without a cast [enabled by default]
+<stdin>: In function 'connectLib__E2L_2__module__0x10000001_behavioral_pAnalTranLoad':
+<stdin>:795:2176: warning: passing argument 1 of 'aslDevFillZeorDiagonalElemet' makes pointer from integer without a cast [enabled by default]
+rm -f -rf connectLib__E2L_2__module__0x10000001_behavioral_DcFuncLoad.c
+In file included from <stdin>:24:0:
+/users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:2419:37: note: expected 'void *' but argument is of type 'long int'
+     ASL_FUNC_DECL_START extern void aslDevFillZeorDiagonalElemet( void *, int, unsigned int, struct ahdlFuncModeParam * );
+                                     ^
+<stdin>: In function 'connectLib__E2L_2__module__0x10000001_behavioral_pSaveRestart':
+<stdin>:821:647: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [enabled by default]
+In file included from <stdin>:24:0:
+/users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1203:43: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+     ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+                                           ^
+<stdin>: In function 'connectLib__E2L_2__module__0x10000001_behavioral_pSaveRestartInst':
+<stdin>:824:649: warning: passing argument 2 of 'aslDevAvarSR' from incompatible pointer type [enabled by default]
+In file included from <stdin>:24:0:
+/users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/ahdlcmi/include/ahdlDevLibGlobal.h:1203:43: note: expected 'struct ahdlAnalogVar *' but argument is of type 'char *'
+     ASL_FUNC_DECL_START extern PklError_e aslDevAvarSR( int, struct ahdlAnalogVar *, char *, char *, char *, PklJar_t * );
+                                           ^
+rm -f -rf connectLib__E2L_2__module__0x10000001_behavioral_DcFuncDerLoad.c
+rm -f -rf connectLib__E2L_2__module__0x10000001_behavioral_TranFuncLoad.c
+rm -f -rf connectLib__E2L_2__module__0x10000001_behavioral_TranFuncDerLoad.c
+rm -f -rf connectLib__E2L_2__module__0x10000001_behavioral_func.c
+rm -f -rf connectLib__E2L_2__module__0x10000001_behavioral_cmi_c.c
+/users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/cdsgcc/gcc/4.8/bin/gcc -shared -O3 -m64 -fPIC -o obj/optimize/5.0/libahdlcmi_connectLib__E2L_2__module__0x10000001_behavioral.so ./obj/optimize/5.0/connectLib__E2L_2__module__0x10000001_behavioral_func.o ./obj/optimize/5.0/connectLib__E2L_2__module__0x10000001_behavioral_DcFuncDerLoad.o ./obj/optimize/5.0/connectLib__E2L_2__module__0x10000001_behavioral_DcFuncLoad.o ./obj/optimize/5.0/connectLib__E2L_2__module__0x10000001_behavioral_TranFuncDerLoad.o ./obj/optimize/5.0/connectLib__E2L_2__module__0x10000001_behavioral_TranFuncLoad.o ./obj/optimize/5.0/connectLib__E2L_2__module__0x10000001_behavioral_cmi_c.o  -Wl,-rpath,/usr/lib -Wl,-rpath,/lib -s 

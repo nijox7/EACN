@@ -1,0 +1,7 @@
+("analogLib" "vpulse" "spectre" "spectre") t
+("functional" "comparator" "spectre" "spectre") t
+("analogLib" "res" "spectre" "spectre") t
+("analogLib" "cap" "spectre" "spectre") t
+("PRIMLIB" "pmos4" "spectre" "spectre") t
+("PRIMLIB" "nmos4" "spectre" "spectre") t
+("analogLib" "vdc" "spectre" "spectre") t

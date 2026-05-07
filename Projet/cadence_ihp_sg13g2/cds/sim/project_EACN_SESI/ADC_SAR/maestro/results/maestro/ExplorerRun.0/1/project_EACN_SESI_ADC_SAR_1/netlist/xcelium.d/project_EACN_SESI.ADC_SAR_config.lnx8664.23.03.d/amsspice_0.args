@@ -1,0 +1,25 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-ahdllibdir
+/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/sharedData/CDS/ahdl/input.ahdlSimDB
+-outdir
+./xcelium.d/AMSD/ams_spice_in
+-runmode
+-cdslib
+./xcelium.d/project_EACN_SESI.ADC_SAR_config.lnx8664.23.03.d/cdsrun.lib
+-hdlvar
+./xcelium.d/project_EACN_SESI.ADC_SAR_config.lnx8664.23.03.d/hdlrun.var
+-work
+worklib
+-64bit
+-AMSOSSIRUNBIND
+-amscommfile
+./xcelium.d/AMSD/ams_spice_in/amsossbinding.list
+-amsspice-errfile
+./xcelium.d/AMSD/ams_spice_in/amsspice_binding.log
+-amsi
+./.amsbind.scs
+-modelincdir
+"/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/"

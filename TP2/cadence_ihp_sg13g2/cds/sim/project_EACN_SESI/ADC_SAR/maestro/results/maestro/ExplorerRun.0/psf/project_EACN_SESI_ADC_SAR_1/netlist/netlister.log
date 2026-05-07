@@ -1,0 +1,81 @@
+Begin Netlisting Apr  2 09:48:08 2026
+INFO (VLOGNET-60): The stimulus name mapped table will not be printed in the
+
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/digital/testfixture.verilog" file. To print the stimulus name mapped
+table, set 
+simVerilogPrintStimulusNameMappingTable = t either in CIW or the
+.simrc file 
+before invoking Verilog netlister.
+ 
+INFO (VLOGNET-62): Database internal net names will be printed for floating
+instance ports. To prevent 
+them from being printed, set
+simVerilogProcessNullPorts = t either in CIW or 
+the .simrc file.
+ 
+INFO (VLOGNET-64): All cellviews in the design will be printed in the Netlist
+Configuration list. 
+If you want to print only those cellviews that need to be
+re-netlisted in the 
+list, set simVerilogIncrementalNetlistConfigList = t either
+in CIW or the 
+.simrc file.
+ 
+INFO (VLOGNET-68): The initial state of stimulus of all inout pins is set to
+"z". To get inout 
+pins with initial state of "0", set
+hnlVerilogIOInitStimulusStr = "0" 
+either in CIW or the .simrc file.
+ 
+INFO (AMS-2150): Generating the 'changedVarsSummary' file in the 'netlist'
+directory. This file prints the values of the netlister control variables, which
+are different from their default values. To disable the file creation, type
+'envSetVal("ams.netlisterOpts" "print_control_vars" 'boolean nil )' in the
+'.cdsinit' file.
+
+INFO (VLOGNET-117): Re-netlisting the entire design.
+
+INFO (VLOGNET-118): Using connection by name (explicit connections) for all
+stopping and 
+non-stopping cells.
+ 
+WARNING (VLOGNET-110): The cell 'project_EACN_SESI/ADC_SAR/schematic' has no
+ports. Make sure that this was the intended 
+design.
+ 
+INFO (VLOGNET-126): ---------- Beginning netlist configuration information
+----------
+
+
+
+LIB NAME                    CELL NAME                   VIEW NAME           
+NOTE             
+---------                   ---------                   ---------           
+----             
+
+analogLib                   vdc                         spectre             
+*Stopping View*  
+analogLib                   cap                         spectre             
+*Stopping View*  
+SG13_dev                    nmos                        spectre             
+*Stopping View*  
+SG13_dev                    pmos                        spectre             
+*Stopping View*  
+ixc013g2ng_stdcell          INVJIX0                     functional          
+*Stopping View*  
+functional                  comparator                  spectre             
+*Stopping View*  
+project_EACN_SESI           control                     behavioral          
+*Stopping View*  
+analogLib                   vpulse                      spectre             
+*Stopping View*  
+ixc013g2ng_stdcell          INVJIX1                     functional          
+*Stopping View*  
+project_EACN_SESI           ADC_SAR                     schematic               
+             
+project_EACN_SESI           SWITCH                      schematic               
+             
+
+---------- End of netlist configuration information   ----------
+Running netlist assembly..
+End netlisting Apr  2 09:48:16 2026

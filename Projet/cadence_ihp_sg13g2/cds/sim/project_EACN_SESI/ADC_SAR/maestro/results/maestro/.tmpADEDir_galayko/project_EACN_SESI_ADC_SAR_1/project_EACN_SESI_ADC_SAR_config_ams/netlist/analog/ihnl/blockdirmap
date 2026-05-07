@@ -1,0 +1,4 @@
+CADENCE IHNL04122
+
+project_EACN_SESI SWITCH schematic nil schematic project_EACN_SESI ADC_SAR config 0 cds0
+project_EACN_SESI ADC_SAR schematic nil schematic project_EACN_SESI ADC_SAR config 1 cds1

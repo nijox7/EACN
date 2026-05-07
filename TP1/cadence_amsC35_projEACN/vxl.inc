@@ -1,0 +1,14 @@
+-v $AMS_DIR/verilog/c35b4/c35_CORELIB_3B.v
+-v $AMS_DIR/verilog/c35b4/c35_CORELIBD_3B.v
+-v $AMS_DIR/verilog/c35b4/c35_CORELIBD.v
+-v $AMS_DIR/verilog/c35b4/c35_CORELIB.v
+-v $AMS_DIR/verilog/c35b4/c35_CORELIB_V5_3B.v
+-v $AMS_DIR/verilog/c35b4/c35_CORELIB_V5.v
+-v $AMS_DIR/verilog/c35b4/c35_IOLIB_3B.v
+-v $AMS_DIR/verilog/c35b4/c35_IOLIBC_3B.v
+-v $AMS_DIR/verilog/c35b4/c35_IOLIBCV5_3B.v
+-v $AMS_DIR/verilog/c35b4/c35_IOLIB.v
+-v $AMS_DIR/verilog/c35b4/c35_IOLIBV5.v
+-v $AMS_DIR/verilog/c35b4/FILLANT.v
+-v $AMS_DIR/verilog/udp.v
++sdf_nocheck_celltype

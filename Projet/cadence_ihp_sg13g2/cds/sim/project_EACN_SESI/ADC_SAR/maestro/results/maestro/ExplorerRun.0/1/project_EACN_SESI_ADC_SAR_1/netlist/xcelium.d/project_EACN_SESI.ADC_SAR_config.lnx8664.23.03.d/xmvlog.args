@@ -1,0 +1,54 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-XLMODE
+./xcelium.d/project_EACN_SESI.ADC_SAR_config.lnx8664.23.03.d
+-RUNMODE
+-amsossirunbind
+.amsbind.scs
+-CDSLIB
+./xcelium.d/project_EACN_SESI.ADC_SAR_config.lnx8664.23.03.d/cdsrun.lib
+-ERRORMAX
+50
+-STATUS
+-NOWARN
+DLNOHV
+-NOWARN
+DLCLAP
+-INCDIR
+/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/
+-VTIMESCALE
+1ns/1ns
+-MODELINCDIR
+/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/
+-AUTO_USE_REFFILE
+-AMSINPUT
+-AUTO_USE_REFFILE
+-AMSINPUT
+-ALLOWREDEFINITION
+./netlist.vams
+-AUTO_USE_REFFILE
+-AMSINPUT
+./cds_globals.vams
+-SNAPSHOT
+project_EACN_SESI.ADC_SAR:config
+-HDLVAR
+./xcelium.d/project_EACN_SESI.ADC_SAR_config.lnx8664.23.03.d/hdlrun.var
+-xmfatal
+NOTCMP
+/users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX1/functional/verilog.v
+/users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX0/functional/verilog.v
+-amscompilefile
+"file:/users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX0/functional/verilog.v lib:ixc013g2ng_stdcell cell:INVJIX0 view:functional"
+-amscompilefile
+"file:/users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX1/functional/verilog.v lib:ixc013g2ng_stdcell cell:INVJIX1 view:functional"
+-MESSAGES
+-UPDATE
+-XLLIBSTORE
+./xcelium.d/project_EACN_SESI.ADC_SAR_config.lnx8664.23.03.d/xllibs
+-ALLOWUNBOUND
+-HASVLOGAMSINPUT
+-hastop
+-amscommfile
+./xcelium.d/AMSD/ams_spice_in/amscomm.list

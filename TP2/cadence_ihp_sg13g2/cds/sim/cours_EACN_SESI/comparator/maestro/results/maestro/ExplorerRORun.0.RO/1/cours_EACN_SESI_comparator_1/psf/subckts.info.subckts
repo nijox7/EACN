@@ -1,0 +1,280 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "24.1.0.198.isr3"
+"date" "6:14:52 PM, Thur Apr 2, 2026"
+"design" "// Point Netlist Generated on: Apr  2 18:14:51 2026"
+"analysis type" "info.subckts"
+"analysis name" "subckts"
+"analysis description" "Circuit Information"
+"xVecSorted" "unknown"
+"tolerance.relative" 1.000000000000000e-03
+TYPE
+"subckt" STRUCT(
+"subckt_file" STRING *
+"subckt_params" STRING *
+"subckt_terminals" STRING *
+"subckt_instances" STRING *
+) PROP(
+"key" "sub"
+)
+VALUE
+"dnw" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib 351"
+""
+""
+""
+)
+"idiodevdd_2kv" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib 118"
+""
+""
+""
+)
+"sg13_lv_nmos" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_mod.lib 79"
+"mfact ng wmin z2 ad z1 as pd trise w ps l rfmode pre_layout"
+"d g s b"
+"N13 N5 N4 N3 N2"
+)
+"inductor3" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib 183"
+""
+""
+""
+)
+"ptap1" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res.lib 56"
+""
+""
+""
+)
+"sg13_hv_nmos" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_mod.lib 79"
+""
+""
+""
+)
+"pdnw" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib 320"
+""
+""
+""
+)
+"pnpMPA" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_vbic.lib 468"
+""
+""
+""
+)
+"nmoscl_2" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib 545"
+""
+""
+""
+)
+"ntap1" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res.lib 62"
+""
+""
+""
+)
+"pad" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib 15"
+""
+""
+""
+)
+"isolbox" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib 211"
+""
+""
+""
+)
+"cap_rfcmim" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib 104"
+""
+""
+""
+)
+"pad_model" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib 19"
+""
+""
+""
+)
+"dantenna" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib 64"
+""
+""
+""
+)
+"npn13G2l" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_vbic.lib 206"
+""
+""
+""
+)
+"idiodevdd_4kv" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib 238"
+""
+""
+""
+)
+"sg13_hv_svaricap" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_svaricaphv_mosvar_mod.lib 48"
+""
+""
+""
+)
+"sg13_lv_pmos" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_mod.lib 126"
+"mfact ng wmin z2 ad z1 as pd trise w ps l rfmode pre_layout"
+"d g s b"
+"P3 P2 P1"
+)
+"cap_cmim" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib 84"
+""
+""
+""
+)
+"diodevss_2kv" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib 307"
+""
+""
+""
+)
+"sg13_hv_pmos" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_mod.lib 126"
+""
+""
+""
+)
+"dummy1" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib 312"
+""
+""
+""
+)
+"Cparasitic" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib 63"
+""
+""
+""
+)
+"diodevdd_4kv" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib 186"
+""
+""
+""
+)
+"dschottky_nbl1" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_mod.lib 62"
+""
+""
+""
+)
+"nmoscl_4" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib 882"
+""
+""
+""
+)
+"res_rsil" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res.lib 85"
+""
+""
+""
+)
+"dpantenna" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib 162"
+""
+""
+""
+)
+"tsv_model" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_tsv.lib 30"
+""
+""
+""
+)
+"diodevss_4kv" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib 427"
+""
+""
+""
+)
+"npn13G2" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_vbic.lib 75"
+""
+""
+""
+)
+"idiodevss_2kv" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib 359"
+""
+""
+""
+)
+"tsv" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_tsv.lib 22"
+""
+""
+""
+)
+"Rparasitic" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res.lib 75"
+""
+""
+""
+)
+"bondpad_model" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib 12"
+""
+""
+""
+)
+"diodevdd_2kv" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib 66"
+""
+""
+""
+)
+"npn13G2v" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_vbic.lib 337"
+""
+""
+""
+)
+"bondpad" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib 8"
+""
+""
+""
+)
+"res_rhigh" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res.lib 146"
+""
+""
+""
+)
+"diode_pp" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib 258"
+""
+""
+""
+)
+"idiodevss_4kv" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib 478"
+""
+""
+""
+)
+"res_rppd" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res.lib 208"
+""
+""
+""
+)
+END

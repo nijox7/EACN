@@ -1,0 +1,41 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "ADC_SAR"
+  repList "verilogams veriloga behavioral functional module schematic spectre symbol"
+  stopList "symbol spectre"
+  globalList "VDD! VSS! vdd! gnd!"
+  hierDelim "."
+  globalHierPrefix "cds_globals."
+  prefixHierarchyWithCV "YES"
+  netlistDir "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/digital"
+  busRef   "ORDERED"
+  netType   "BUS"
+  leftStr  "["
+  rangeStr  ":"
+  rightStr  "]"
+  slashCheck   "t"
+ )
+( defbus
+( "out" 3 0  "out" 3 0  )
+ )
+( net
+( "VSS!" "cds_globals.\\VSS! " )
+( "vdd!" "cds_globals.\\vdd! " )
+( "gnd!" "cds_globals.\\gnd! " )
+( "VDD!" "cds_globals.\\VDD! " )
+ )
+( model
+( "project_EACN_SESI/SWITCH/schematic" "SWITCH" )
+( "project_EACN_SESI/buf_eq_delay/schematic" "buf_eq_delay" )
+( "project_EACN_SESI/ADC_SAR/schematic" "ADC_SAR" )
+ )
+( param
+( "vin" "cds_globals.vin" )
+( "Cu" "cds_globals.Cu" )
+( "temperature" "cds_globals.\\temperature " )
+ )
+( "ADC_SAR" "ihnl/cds2/map" )
+( "SWITCH" "ihnl/cds1/map" )
+( "buf_eq_delay" "ihnl/cds0/map" )
+ )

@@ -1,0 +1,6 @@
+2026/04/16 17:02:27 INFO (/users/soft/opus/Linux/IC-23.10.120/tools.lnx86/bin/cdnsEnvCheck): AlmaLinux release 9.7 (Moss Jungle Cat) detected (set environment variable CDS_SKIP_OS_CHECK_ON_STARTUP=1 to suppress).
+Qt Unknown Message Type: Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+spectre: WARNING: 32bit executable version of "spectre" not found... the 64bit version will  be used instead.
+2026/04/16 17:02:30 INFO (/users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/bin/cdnsEnvCheck): AlmaLinux release 9.7 (Moss Jungle Cat) detected (set environment variable CDS_SKIP_OS_CHECK_ON_STARTUP=1 to suppress).
+spectre: WARNING: 32bit executable version of "spectre" not found... the 64bit version will  be used instead.
+2026/04/16 17:02:52 INFO (/users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/bin/cdnsEnvCheck): AlmaLinux release 9.7 (Moss Jungle Cat) detected (set environment variable CDS_SKIP_OS_CHECK_ON_STARTUP=1 to suppress).

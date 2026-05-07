@@ -1,0 +1,13 @@
+CADENCE IHNL04120
+$model
+project_EACN_SESI/ADC_SAR/schematic project_EACN_SESI/ADC_SAR/schematic/schematic/project_EACN_SESI_ADC_SAR_config/1 ADC_SAR
+CORELIBD/INVX1/cmos_sch CORELIBD/INVX1/cmos_sch/cmos_sch/project_EACN_SESI_ADC_SAR_config/0 INVX1
+project_EACN_SESI/SWITCH/schematic project_EACN_SESI/SWITCH/schematic/schematic/project_EACN_SESI_ADC_SAR_config/0 SWITCH
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+Cu Cu
+$endparam

@@ -1,0 +1,26 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-XLMODE
+/users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi//INCA_libs/irun.lnx8664.15.20.nc
+-RUNMODE
+-NOCOPYRIGHT
+-NOSTDOUT
+-NOWARN
+DLNOHV
+-NOWARN
+DLNOHV
+-NOWARN
+DLCLAP
+-V93
+-ALLOWREDEFINITION
+-CDSLIB
+/users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi//INCA_libs/irun.lnx8664.15.20.nc/cdsrun.lib
+/users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi//dummyMapi.vhms
+-HDLVAR
+/users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi//INCA_libs/irun.lnx8664.15.20.nc/hdlrun.var
+-MESSAGES
+-UPDATE
+-amsdlibdir
+/users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi//INCA_libs/AMSD

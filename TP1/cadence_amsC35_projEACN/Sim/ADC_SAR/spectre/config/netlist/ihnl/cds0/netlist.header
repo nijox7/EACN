@@ -1,0 +1,7 @@
+
+// Library name: CORELIBD
+// Cell name: INVX1
+// View name: cmos_sch
+// Inherited view list: verilogams veriloga behavioral functional module
+// schematic spectre symbol
+subckt INVX1 A Q inh_gnd inh_vdd

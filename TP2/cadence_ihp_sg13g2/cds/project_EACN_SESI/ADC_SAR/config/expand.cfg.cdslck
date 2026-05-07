@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      galayko
+HostName                       bop.soc.lip6.fr
+ProcessIdentifier              19387
+ProcessCreationTime_UTC        1773911482
+ProcessCreationTime_Readable   Thu Mar 19 10:11:22 2026 CET
+AppIdentifier                  /users/soft/opus/Linux/IC6.1.8/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Not specified
+FilePathUsedToEditLock         /users/cao/galayko/cadence_amsC35_projEACN/project_EACN_SESI/ADC_SAR/config/expand.cfg
+TimeEditLocked                 Thu Mar 19 10:14:38 2026 CET

@@ -1,0 +1,37 @@
+
+-UNBUFFERED 
+-cdslib ./cds.lib 
+-errormax 50 
+-status 
+-nowarn DLNOHV 
+-nowarn DLCLAP 
+-v93 
+-incdir ${IC_INVOKE_DIR}/
+-ade 
+-timescale 1ns/1ns 
+-vtimescale 1ns/1ns 
+-dresolution 
+-delay_mode None 
+-novitalaccl 
+-access r 
+-noparamerr 
+-amspartinfo ../psf/partition.info -rnm_partinfo 
+-modelincdir ${IC_INVOKE_DIR}/
+./spiceModels.scs 
+./amsControlSpectre.scs 
+-input ./probe.tcl 
+-run -exit 
+-ncsimargs "+amsrawdir ../psf" 
+ -simcompatible_ams spectre 
+-name project_EACN_SESI.ADC_SAR:config  
+-f /users/soft/techno/dev/vienne/035.HV-4.10/verilog/c35b4/vxl.inc 
+-allowredefinition 
+-amsbind 
+-top project_EACN_SESI.ADC_SAR:schematic 
+-top cds_globals 
+./netlist.vams 
+./ie_card.scs
+-f ./textInputs
+./cds_globals.vams 
+-l ../psf/irun.log
+-spectre_args +aps

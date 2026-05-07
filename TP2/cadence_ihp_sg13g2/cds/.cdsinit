@@ -1,0 +1,2 @@
+IHP_TECH   =getShellEnvVar( "IHP_TECH"  )
+loadi(strcat(IHP_TECH "/env/cdsinit"));

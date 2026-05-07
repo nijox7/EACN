@@ -1,0 +1,10 @@
+include "$IHP_TECH/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs" section=typ
+include "$IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs" section=tt
+include "$IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs" section=tt
+include "$IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs" section=typ
+include "$IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs" section=typ
+include "$IHP_TECH/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs" section=tt
+include "$IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib"
+include "$IHP_TECH/tech/SG13_ESD/spectre/SG13_esd.lib"
+include "$IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs" section=typ
+include "$IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib"

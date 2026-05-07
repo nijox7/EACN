@@ -1,0 +1,13 @@
+"issueInfoMsgOnCellRename" t
+"dspfBindingToCell" "bindToAll"
+"_dspfFullDesignInfo" nil
+"hnlProcessDifferentPmAndInstTerminalRepresentation" nil
+"printComments" (nil nil)
+"dspfBindingSummary" t
+"supportDspfMasterOption" t
+"preserveSubcktTermNamesByOrder" nil
+"setTopLevelAsSubckt" nil
+"bindingSummaryCellData" (("SWITCH" ("project_EACN_SESI" "SWITCH" "schematic")))
+"_dspfFileToEnvOptionsMapInfo" nil
+"srcFileMappingInfo" nil
+"changedSubcktNames" nil

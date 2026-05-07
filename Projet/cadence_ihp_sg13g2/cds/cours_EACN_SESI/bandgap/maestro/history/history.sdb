@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
+			<timestamp>Apr 9 15:40:03 2026</timestamp>
+			<uuid>{b8bcf300-ff7b-4fa0-bd30-a7961abf0ae1}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/cours_EACN_SESI/bandgap/maestro/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/cours_EACN_SESI/bandgap/maestro/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/cours_EACN_SESI/bandgap/maestro/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+	</history>
+</setupdb>

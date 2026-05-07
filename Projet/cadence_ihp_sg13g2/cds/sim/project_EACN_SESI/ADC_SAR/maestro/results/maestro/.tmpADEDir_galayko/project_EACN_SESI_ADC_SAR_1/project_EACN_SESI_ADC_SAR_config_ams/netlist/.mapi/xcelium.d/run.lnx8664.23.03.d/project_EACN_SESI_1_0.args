@@ -1,0 +1,27 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-RUNMODE
+-NOCOPYRIGHT
+-NOSTDOUT
+-NOWARN
+DLNOHV
+-NOWARN
+DLNOHV
+-NOWARN
+DLCLAP
+-V93
+-ALLOWREDEFINITION
+-SMARTLIB
+-UPDATE
+-CDSLIB
+/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/.mapi/xcelium.d/run.lnx8664.23.03.d/cdsrun.lib
+-HDLVAR
+/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/.mapi/xcelium.d/run.lnx8664.23.03.d/hdlrun.var
+-amscommfile
+/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/.mapi/xcelium.d/AMSD/ams_spice_in/amscomm.list
+-work
+project_EACN_SESI
+-messages
+/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/project_EACN_SESI/control/behavioral/vhdl.vhd

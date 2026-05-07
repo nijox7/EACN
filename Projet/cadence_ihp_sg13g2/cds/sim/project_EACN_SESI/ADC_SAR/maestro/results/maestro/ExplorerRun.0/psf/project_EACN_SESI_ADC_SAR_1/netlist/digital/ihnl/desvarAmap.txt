@@ -1,0 +1,3 @@
+desvar,*Cu,*Cu,*200f
+desvar,*vin,*vin,*0.9
+desvar,*temperature,*\temperature ,*27

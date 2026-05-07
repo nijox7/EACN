@@ -1,0 +1,10 @@
+define XMSIMRC	( /users/soft/opus/Linux/XCELIUM-23.03-013/tools/xcelium/files/xmsimrc, ~/.xmsimrc )
+define AMSRC	( /users/soft/opus/Linux/XCELIUM-23.03-013/tools/xcelium/files/amsrc, ~/.amsrc )
+include ./hdlrun.var
+define SNAPSHOT project_EACN_SESI.ADC_SAR:config
+DEFINE RUNMODEDEFAULT 1
+DEFINE LIB_MAP (  => project_EACN_SESI )
+DEFINE LIB_MAP ($LIB_MAP,  => project_EACN_SESI )
+DEFINE LIB_MAP ($LIB_MAP, + => worklib )
+define ELAB_SNAPSHOT
+define SNAPSHOT project_EACN_SESI.ADC_SAR:config

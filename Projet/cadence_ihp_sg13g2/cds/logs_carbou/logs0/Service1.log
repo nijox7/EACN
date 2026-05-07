@@ -1,0 +1,171 @@
+\# Program start time:     UTC 2026.04.16 10:17:08.004
+\# Local time: GMT+02:00 (UTC+02:00) 2026.04.16 12:17:08.004
+\o Program:		@(#)$CDS: Virtuoso Studio version IC23.1-64b 01/14/2025 22:42 (cpgbld16) $
+\o Hierarchy:		/users/soft/opus/Linux/IC-23.10.120/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC23.1-64b.ISR12.37  (64-bit addresses)
+\# Command line:	/users/soft/opus/Linux/IC-23.10.120/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost onslow -beanport 11714 -beanbinlog  -beanLogFile /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/amps_Service1.log -mpssession virtuoso2372617 -mpshost onslow -davinciService DaVinciService_2372617_1776334622 -scopedPid 2372617 -axlSession fnxSession0 -axlServiceIdFlag 1 -uuid 2adf8aff-888e-4708-b577-aaf189095889 -heartbeat /dev/shm/swift-heartbeat.9uPQi68Q4c -log /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service1.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D7BF4EC7EFC06D3387AF8E071FC06D33A5CD08F1FFC06867E66E38F1FFC06BC4D66E38F1FFC06BC4D0F03383D4B24D5AD00001E80 -interactive -offlineExprEval -upfrontMode -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	onslow (x86_64)
+\# Operating system:	Linux 5.14.0-611.38.1.el9_7.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Mar 10 17:21:28 EDT 2026
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:5109 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        745 MB
+\# Available memory:	    147,083 MB
+\# System memory:	    160,397 MB
+\# Maximum memory size:	    159,827 MB
+\# Max mem available:	    147,259 MB
+\# Initial memory used:	        176 MB
+\#        process size:	      1,533 MB
+\# Thread usage limits (effective/default):	maxthreads 510227/510227 maxload 20.00/20.00
+\# Qt version:		5.15.9
+\# Window Manager:	other
+\# User Name:		carbou
+\o Working Directory:	onslow:/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds
+\# Process Id:		2373551
+\o 
+\o COPYRIGHT (C) 1992-2025  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2025  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading im.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading layers.cxt 
+\o Loading drv.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading analog.cxt 
+\o Loading par.cxt 
+\o Loading asimenv.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\# Memory report: using         314 MB, process size 1,717 MB at UTC 2026.04.16 10:17:14.576
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o Loading sipLayout.cxt 
+\o Loading viva.cxt 
+\o Loading diagCenter.cxt 
+\o INFO (ELI-00333) License program mode is LSCS.
+\# [12:17:08.189337] Configured Lic search path (23.02-s006): 30000@cadence.cnfm.fr
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso2372617, host=onslow). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 2373551 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\w *WARNING* The directory: '/users/soft/techno/dev/IHP/sg13/modules_SG13G2/MEMRES_0.20.0_updated_march2026/lib/MEMRES_updated_march2026' does not exist
+\w 	but was defined in libFile '/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/modules.lib' for Lib 'MEMRES_updated_march2026'.
+\o [INFO] Start cdsinit.
+\o loading cdsLibMgr.il file...
+\o loading cdsLibMgr.il file...
+\o [INFO] Calibre Integration introduction.
+\o 
+\o ***************************************************
+\o * Technology vendor:  IHP Microelectronics GmbH
+\o * Process:            SG13G2/M6M7
+\o * Technology library: SG13_dev
+\o * Designkit:          (c) 2026 IHP Microelectronics GmbH
+\o *       release name: SG13G2_618_rev1.3.3
+\o *       release date: 2026-03-03
+\o * Grid                0.005u
+\o ***************************************************
+\o IHP_TECH is set to "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/"
+\o PROJECT is set to "/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/"
+\o 
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool cdsLibManager
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool ui
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool spectre
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool asimenv
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool graphic
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool layout
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool layoutXL
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool schematic
+\w *WARNING* envSetVal: Can't set the value of variable 'markerType',
+\w 	in tool[.partition] 'schematic' - it has not been registered.
+\w *WARNING* envSetVal: Can't set the value of variable 'markerSource',
+\w 	in tool[.partition] 'schematic' - it has not been registered.
+\o Use Shift-f and Ctrl-f in the layout editor to change the display stop level
+\o Bindkey-addons in layout:
+\o Shift-0..Shift-9 change entry layer (drawing)
+\o 0..9 change SnapSpacing (0.005u to 10.0u)
+\o Ctrl-0..Ctrl9 change Cursor-Delta (0.005u to 10.0u)
+\o - toggles flight line visibility
+\o Ctrl- and Ctrl+ change IncompleteNets (in LayoutXL only)
+\o Ctrl-e toggles DRD (Design Rule Driven Layout) and dynamic measurement
+\o Use <Key>F7 in CIW to open IHP config window:
+\o Load modules...
+\o function ihpCreateEffectiveCDF redefined
+\o Loading layerProc.cxt 
+\w *WARNING* The directory: '/users/soft/techno/dev/IHP/sg13/modules_SG13G2/MEMRES_0.20.0_updated_march2026/lib/MEMRES_updated_march2026' does not exist
+\w 	but was defined in libFile '/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/modules.lib' for Lib 'MEMRES_updated_march2026'.
+\o End of GDS form initialization
+\e *Error* fprintf: argument #1 should be an I/O port (type template = "ptg") - nil
+\o Loading MPP templates
+\o Loading MPP templates for SG13_dev
+\o Loading le.cxt 
+\o [INFO] End cdsinit.
+\p SG13G2/M6M7
+\o Loading tilp.cxt 
+\o Loading validator.cxt 
+\o Loading vrf.cxt 
+\o Loading multiTechPlugin.cxt 
+\o Loading exportDie.cxt 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 2373551' to open it when Virtuoso freezes.
+\# INFO (PerfDiag): The private spectre.envOpts environment variable 'useAltergroup' is set to value 'nil' different than default value 't'.
+\# INFO (PerfDiag): The private spectre.envOpts environment variable 'modelFiles' is set to value '" $IHP_TECH/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs;typ #;$IHP_TECH/tech/SG13G2_HBT/HICUM/spectre/SG13G2_cornerBIP_hicum.scs;typ $IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs;tt $IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs;tt #;$IHP_TECH/tech/SG13_MOS/library/spectreG2/CheckMOSstat.scs #;$IHP_TECH/tech/SG13_MOS/library/spectreG2/CheckMOSdyn.scs $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs;typ $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs;typ #;$IHP_TECH/tech/SG13G2_PASSIVES/spectre/Ind_unit_4PI #;$IHP_TECH/tech/SG13G2_PASSIVES/spectre/Ind_unit_2PI $IHP_TECH/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs;tt $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib $IHP_TECH/tech/SG13_ESD/spectre/SG13_esd.lib $IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs;typ $IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib"' different than default value '""'.
+\# INFO (PerfDiag): The private spectre.envOpts environment variable 'includePath' is set to value '"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//lib/TL_SG13/RLCG/spectre/"' different than default value '""'.
+\# INFO (PerfDiag): The private schematic environment variable 'instLibName' is set to value '"SG13_dev"' different than default value '""'.
+\# INFO (PerfDiag): The private ams.envOpts environment variable 'modelFiles' is set to value '" $IHP_TECH/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs;typ #;$IHP_TECH/tech/SG13G2_HBT/HICUM/spectre/SG13G2_cornerBIP_hicum.scs;typ $IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs;tt $IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs;tt #;$IHP_TECH/tech/SG13_MOS/library/spectreG2/CheckMOSstat.scs #;$IHP_TECH/tech/SG13_MOS/library/spectreG2/CheckMOSdyn.scs $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs;typ $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs;typ #;$IHP_TECH/tech/SG13G2_PASSIVES/spectre/Ind_unit_4PI #;$IHP_TECH/tech/SG13G2_PASSIVES/spectre/Ind_unit_2PI $IHP_TECH/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs;tt $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib $IHP_TECH/tech/SG13_ESD/spectre/SG13_esd.lib $IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs;typ $IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib"' different than default value '""'.
+\# (PerfDiag): Use backtrace from GLIBC.
+\# Available memory:        146,900 MB at UTC 2026.04.16 10:17:18.207
+\# Memory report: Maximum memory size now 147,279 MB at UTC 2026.04.16 10:17:18.207
+\# Thread usage report: 12 active threads, active load 1.40 at UTC 2026.04.16 10:17:18.207
+\i _axlRunServices()
+\# [12:17:18.212312] Periodic Lic check successful
+\# [12:17:18.212314] Feature usage summary:
+\o Loading simui.cxt 
+\o [2026-04-16 12:17:18.229 +0200] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"jobid": "1", "hostname": "onslow", "processid": 2373551, "logfile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service1.log"}
+\o [2026-04-16 12:22:20.764 +0200] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Netlist Service process exits. {"jobid": "1", "hostname": "onslow", "processid": 2373551, "logfile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service1.log"}
+\o Loading vdsil.cxt 
+\# Lic Summary:
+\# [12:22:21.270122] Cdslmd servers:30000@cadence.cnfm.fr
+\# [12:22:21.794425] Feature usage summary:
+\# Memory report: on exit            408 MB, process size 1,879 MB at UTC 2026.04.16 10:22:21.794
+\# Memory report: peak usage         408 MB, process size 1,879 MB

@@ -1,0 +1,9 @@
+HEADER
+"PSFversion" "1.00"
+"I30n I31n I35n I36n I37n I38n" "ixc013g2ng_stdcell_INVJIX1_functional"
+"I29n" "project_EACN_SESI_control_behavioral"
+"I10n I11n I13n I14n I16n I17n I19n I34n I4n I5n I8n" "project_EACN_SESI_SWITCH_schematic"
+"X1n" "functional_comparator_spectre"
+"V6n V7n" "analogLib_vpulse_spectre"
+"V0n V1n V2n V5n" "analogLib_vdc_spectre"
+"Cn C0n C1n C2n" "analogLib_cap_spectre"

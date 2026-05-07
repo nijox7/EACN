@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// (c) Copyright 2010 Cadence Design Systems, Inc. All rights reserved worldwide.
+// -----------------------------------------------------------------------------
+
+// HDL file for Lib - project_EACN_SESI ,Cell - control, View - entity
+-makelib project_EACN_SESI 
+-specificunit control 
+${IC_INVOKE_DIR}/project_EACN_SESI/control/entity/vhdl.vhd
+// HDL file for Lib - project_EACN_SESI ,Cell - control, View - behavioral
+-makelib project_EACN_SESI -view behavioral
+-specificunit control:behavioral 
+${IC_INVOKE_DIR}/project_EACN_SESI/control/behavioral/vhdl.vhd
+
+-endlib 
+// Create required libraries 
+-makelib CORELIBD 
+-endlib 

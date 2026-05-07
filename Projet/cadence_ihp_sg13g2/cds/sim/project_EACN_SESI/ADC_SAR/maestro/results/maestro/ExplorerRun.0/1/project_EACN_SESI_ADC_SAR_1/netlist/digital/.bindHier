@@ -1,0 +1,12 @@
+("project_EACN_SESI" "SAR_control" "behavioral" "behavioral") nil
+("project_EACN_SESI" "SWITCH" "schematic" "schematic") (("I4" ("project_EACN_SESI" "ADC_SAR" "schematic" "schematic")) ("I41" ("project_EACN_SESI" "ADC_SAR" "schematic" "schematic")) ("I5" ("project_EACN_SESI" "ADC_SAR" "schematic" "schematic")) ("I8" ("project_EACN_SESI" "ADC_SAR" "schematic" "schematic")) ("I10" ("project_EACN_SESI" "ADC_SAR" "schematic" "schematic")) ("I11" ("project_EACN_SESI" "ADC_SAR" "schematic" "schematic")) ("I13" ("project_EACN_SESI" "ADC_SAR" "schematic" "schematic")) ("I14" ("project_EACN_SESI" "ADC_SAR" "schematic" "schematic")) ("I40" ("project_EACN_SESI" "ADC_SAR" "schematic" "schematic")) ("I16" ("project_EACN_SESI" "ADC_SAR" "schematic" "schematic")) ("I17" ("project_EACN_SESI" "ADC_SAR" "schematic" "schematic")) ("I19" ("project_EACN_SESI" "ADC_SAR" "schematic" "schematic")) ("I34" ("project_EACN_SESI" "ADC_SAR" "schematic" "schematic")))
+("ixc013g2ng_stdcell" "INVJIX0" "functional" "functional") nil
+("project_EACN_SESI" "ADC_SAR" "schematic" "schematic") nil
+("functional" "comparator" "spectre" "spectre") nil
+("analogLib" "vpulse" "spectre" "spectre") nil
+("SG13_dev" "pmos" "spectre" "spectre") nil
+("analogLib" "cap" "spectre" "spectre") nil
+("project_EACN_SESI" "buf_eq_delay" "schematic" "schematic") (("I56" ("project_EACN_SESI" "ADC_SAR" "schematic" "schematic")) ("I57" ("project_EACN_SESI" "ADC_SAR" "schematic" "schematic")) ("I65" ("project_EACN_SESI" "ADC_SAR" "schematic" "schematic")) ("I66" ("project_EACN_SESI" "ADC_SAR" "schematic" "schematic")) ("I67" ("project_EACN_SESI" "ADC_SAR" "schematic" "schematic")) ("I68" ("project_EACN_SESI" "ADC_SAR" "schematic" "schematic")))
+("ixc013g2ng_stdcell" "INVJIX1" "functional" "functional") nil
+("SG13_dev" "nmos" "spectre" "spectre") nil
+("analogLib" "vdc" "spectre" "spectre") nil

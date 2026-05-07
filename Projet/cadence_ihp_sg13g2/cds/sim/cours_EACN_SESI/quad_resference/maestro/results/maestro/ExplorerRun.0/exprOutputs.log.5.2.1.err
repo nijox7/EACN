@@ -1,0 +1,2 @@
+2026/04/09 16:57:49 INFO (/users/soft/opus/Linux/IC-23.10.120/tools.lnx86/bin/cdnsEnvCheck): AlmaLinux release 9.7 (Moss Jungle Cat) detected (set environment variable CDS_SKIP_OS_CHECK_ON_STARTUP=1 to suppress).
+Qt Unknown Message Type: Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.

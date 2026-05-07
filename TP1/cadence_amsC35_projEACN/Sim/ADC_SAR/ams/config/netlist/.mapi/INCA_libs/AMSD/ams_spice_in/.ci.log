@@ -1,0 +1,13 @@
+ERROR: Cannot find /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi/INCA_libs/AMSD/ams_spice_in/.amsspice_pre.ckt ! 
+Notice: /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/etc/configs/spectre.cfg is filtered . 
+Notice: /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/etc/configs/mapsubckt.cfg is filtered . 
+Notice: /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/etc/ahdl/discipline.h is filtered . 
+Notice: /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/etc/ahdl/disciplines.vams is filtered . 
+Notice: /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/etc/ahdl/constants.h is filtered . 
+Notice: /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/etc/ahdl/constants.vams is filtered . 
+
+Copy /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi//INCA_libs/AMSD/ams_spice_in/.amsspice_pre.ckt.log ... 
+Generating TAR file... 
+Done!
+
+Pack Directory: /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi/INCA_libs/AMSD/ams_spice_in/.a 

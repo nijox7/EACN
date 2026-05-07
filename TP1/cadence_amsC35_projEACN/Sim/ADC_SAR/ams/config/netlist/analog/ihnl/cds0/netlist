@@ -1,0 +1,6 @@
+    M_i_1 (Q A inh_vdd inh_vdd) modp w=0.7u l=0.35u as=5.95e-13 \
+        ad=5.95e-13 ps=2.4u pd=2.4u nrd=0.7142857 nrs=0.7142857 ng=1
+    M_i_0 (Q A inh_gnd inh_gnd) modn w=0.4u l=0.35u as=3.4e-13 ad=3.4e-13 \
+        ps=2.1u pd=2.1u nrd=1.25 nrs=1.25 ng=1
+ends INVX1
+// End of subcircuit definition.

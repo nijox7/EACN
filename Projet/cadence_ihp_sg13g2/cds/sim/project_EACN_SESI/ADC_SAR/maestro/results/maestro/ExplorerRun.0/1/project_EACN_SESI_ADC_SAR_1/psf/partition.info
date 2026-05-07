@@ -1,0 +1,829 @@
+( global ( resolution_type basic ) )
+
+( net ADC_SAR.net16 ADC_SAR.net16 analog/mixed electrical )
+( net ADC_SAR.I10.SW_CLK ADC_SAR.net16 analog/mixed electrical )
+( net ADC_SAR.I10.I39.A ADC_SAR.net16 digital/mixed logic )
+( net ADC_SAR.I68.Q ADC_SAR.net16 analog/mixed electrical )
+
+( net ADC_SAR.vsw2 ADC_SAR.vsw2 analog/mixed electrical )
+( net ADC_SAR.I50.A ADC_SAR.vsw2 digital/mixed logic )
+( net ADC_SAR.I68.A ADC_SAR.vsw2 analog/mixed electrical )
+
+( net ADC_SAR.I68.\VSS!  ADC_SAR.I68.\VSS!  analog electrical ( resolved_name cds_globals.\VSS!  ) )
+
+( net ADC_SAR.I68.\VDD!  ADC_SAR.I68.\VDD!  analog electrical ( resolved_name cds_globals.\VDD!  ) )
+
+( net ADC_SAR.net15 ADC_SAR.net15 analog/mixed electrical )
+( net ADC_SAR.I17.SW_CLK ADC_SAR.net15 analog/mixed electrical )
+( net ADC_SAR.I17.I39.A ADC_SAR.net15 digital/mixed logic )
+( net ADC_SAR.I67.Q ADC_SAR.net15 analog/mixed electrical )
+
+( net ADC_SAR.vswC ADC_SAR.vswC analog/mixed electrical )
+( net ADC_SAR.I49.A ADC_SAR.vswC digital/mixed logic )
+( net ADC_SAR.I67.A ADC_SAR.vswC analog/mixed electrical )
+
+( net ADC_SAR.I67.\VSS!  ADC_SAR.I67.\VSS!  analog electrical ( resolved_name cds_globals.\VSS!  ) )
+
+( net ADC_SAR.I67.\VDD!  ADC_SAR.I67.\VDD!  analog electrical ( resolved_name cds_globals.\VDD!  ) )
+
+( net ADC_SAR.net14 ADC_SAR.net14 analog/mixed electrical )
+( net ADC_SAR.I16.SW_CLK ADC_SAR.net14 analog/mixed electrical )
+( net ADC_SAR.I16.I39.A ADC_SAR.net14 digital/mixed logic )
+( net ADC_SAR.I66.Q ADC_SAR.net14 analog/mixed electrical )
+
+( net ADC_SAR.vswC0 ADC_SAR.vswC0 analog/mixed electrical )
+( net ADC_SAR.I48.A ADC_SAR.vswC0 digital/mixed logic )
+( net ADC_SAR.I66.A ADC_SAR.vswC0 analog/mixed electrical )
+
+( net ADC_SAR.I66.\VSS!  ADC_SAR.I66.\VSS!  analog electrical ( resolved_name cds_globals.\VSS!  ) )
+
+( net ADC_SAR.I66.\VDD!  ADC_SAR.I66.\VDD!  analog electrical ( resolved_name cds_globals.\VDD!  ) )
+
+( net ADC_SAR.net11 ADC_SAR.net11 analog/mixed electrical )
+( net ADC_SAR.I13.SW_CLK ADC_SAR.net11 analog/mixed electrical )
+( net ADC_SAR.I13.I39.A ADC_SAR.net11 digital/mixed logic )
+( net ADC_SAR.I65.Q ADC_SAR.net11 analog/mixed electrical )
+
+( net ADC_SAR.vswC1 ADC_SAR.vswC1 analog/mixed electrical )
+( net ADC_SAR.I47.A ADC_SAR.vswC1 digital/mixed logic )
+( net ADC_SAR.I65.A ADC_SAR.vswC1 analog/mixed electrical )
+
+( net ADC_SAR.I65.\VSS!  ADC_SAR.I65.\VSS!  analog electrical ( resolved_name cds_globals.\VSS!  ) )
+
+( net ADC_SAR.I65.\VDD!  ADC_SAR.I65.\VDD!  analog electrical ( resolved_name cds_globals.\VDD!  ) )
+
+( net ADC_SAR.net7 ADC_SAR.net7 analog/mixed electrical )
+( net ADC_SAR.I41.SW_CLK ADC_SAR.net7 analog/mixed electrical )
+( net ADC_SAR.I41.I39.A ADC_SAR.net7 digital/mixed logic )
+( net ADC_SAR.I57.Q ADC_SAR.net7 analog/mixed electrical )
+
+( net ADC_SAR.vswC3 ADC_SAR.vswC3 analog/mixed electrical )
+( net ADC_SAR.I45.A ADC_SAR.vswC3 digital/mixed logic )
+( net ADC_SAR.I57.A ADC_SAR.vswC3 analog/mixed electrical )
+
+( net ADC_SAR.I57.\VSS!  ADC_SAR.I57.\VSS!  analog electrical ( resolved_name cds_globals.\VSS!  ) )
+
+( net ADC_SAR.I57.\VDD!  ADC_SAR.I57.\VDD!  analog electrical ( resolved_name cds_globals.\VDD!  ) )
+
+( net ADC_SAR.net2 ADC_SAR.net2 analog/mixed electrical )
+( net ADC_SAR.I5.SW_CLK ADC_SAR.net2 analog/mixed electrical )
+( net ADC_SAR.I5.I39.A ADC_SAR.net2 digital/mixed logic )
+( net ADC_SAR.I56.Q ADC_SAR.net2 analog/mixed electrical )
+
+( net ADC_SAR.vswC2 ADC_SAR.vswC2 analog/mixed electrical )
+( net ADC_SAR.I46.A ADC_SAR.vswC2 digital/mixed logic )
+( net ADC_SAR.I56.A ADC_SAR.vswC2 analog/mixed electrical )
+
+( net ADC_SAR.I56.\VSS!  ADC_SAR.I56.\VSS!  analog electrical ( resolved_name cds_globals.\VSS!  ) )
+
+( net ADC_SAR.I56.\VDD!  ADC_SAR.I56.\VDD!  analog electrical ( resolved_name cds_globals.\VDD!  ) )
+
+( net ADC_SAR.I34.net04 ADC_SAR.I34.net04 analog/mixed electrical )
+( net ADC_SAR.I34.I39.Q ADC_SAR.I34.net04 digital/mixed logic )
+
+( net ADC_SAR.vsw1 ADC_SAR.vsw1 analog/mixed electrical )
+( net ADC_SAR.I34.SW_CLK ADC_SAR.vsw1 analog/mixed electrical )
+( net ADC_SAR.I34.I39.A ADC_SAR.vsw1 digital/mixed logic )
+
+( net ADC_SAR.compin ADC_SAR.compin analog electrical )
+( net ADC_SAR.I34.SW1 ADC_SAR.compin analog electrical )
+
+( net ADC_SAR.vcm ADC_SAR.vcm analog electrical )
+( net ADC_SAR.I34.SW2 ADC_SAR.vcm analog electrical )
+
+( net ADC_SAR.I19.net04 ADC_SAR.I19.net04 analog/mixed electrical )
+( net ADC_SAR.I19.I39.Q ADC_SAR.I19.net04 digital/mixed logic )
+
+( net ADC_SAR.net9 ADC_SAR.net9 analog/mixed electrical )
+( net ADC_SAR.I49.Q ADC_SAR.net9 digital/mixed logic )
+( net ADC_SAR.I19.SW_CLK ADC_SAR.net9 analog/mixed electrical )
+( net ADC_SAR.I19.I39.A ADC_SAR.net9 digital/mixed logic )
+
+( net ADC_SAR.I19.SW1 ADC_SAR.I19.SW1 analog electrical )
+( net cds_globals.\gnd!  ADC_SAR.I19.SW1 analog electrical )
+( net ADC_SAR.I4.SW1 ADC_SAR.I19.SW1 analog electrical )
+( net ADC_SAR.I11.SW1 ADC_SAR.I19.SW1 analog electrical )
+( net ADC_SAR.I14.SW1 ADC_SAR.I19.SW1 analog electrical )
+( net ADC_SAR.I40.SW1 ADC_SAR.I19.SW1 analog electrical )
+
+( net ADC_SAR.net5 ADC_SAR.net5 analog electrical )
+( net ADC_SAR.I17.SW2 ADC_SAR.net5 analog electrical )
+( net ADC_SAR.I19.SW2 ADC_SAR.net5 analog electrical )
+
+( net ADC_SAR.I17.net04 ADC_SAR.I17.net04 analog/mixed electrical )
+( net ADC_SAR.I17.I39.Q ADC_SAR.I17.net04 digital/mixed logic )
+
+( net ADC_SAR.a ADC_SAR.a analog electrical )
+( net ADC_SAR.I41.SW1 ADC_SAR.a analog electrical )
+( net ADC_SAR.I5.SW1 ADC_SAR.a analog electrical )
+( net ADC_SAR.I8.SW2 ADC_SAR.a analog electrical )
+( net ADC_SAR.I10.SW2 ADC_SAR.a analog electrical )
+( net ADC_SAR.I13.SW1 ADC_SAR.a analog electrical )
+( net ADC_SAR.I16.SW1 ADC_SAR.a analog electrical )
+( net ADC_SAR.I17.SW1 ADC_SAR.a analog electrical )
+
+( net ADC_SAR.I16.net04 ADC_SAR.I16.net04 analog/mixed electrical )
+( net ADC_SAR.I16.I39.Q ADC_SAR.I16.net04 digital/mixed logic )
+
+( net ADC_SAR.net4 ADC_SAR.net4 analog electrical )
+( net ADC_SAR.I14.SW2 ADC_SAR.net4 analog electrical )
+( net ADC_SAR.I16.SW2 ADC_SAR.net4 analog electrical )
+
+( net ADC_SAR.I40.net04 ADC_SAR.I40.net04 analog/mixed electrical )
+( net ADC_SAR.I40.I39.Q ADC_SAR.I40.net04 digital/mixed logic )
+
+( net ADC_SAR.net1 ADC_SAR.net1 analog/mixed electrical )
+( net ADC_SAR.I45.Q ADC_SAR.net1 digital/mixed logic )
+( net ADC_SAR.I40.SW_CLK ADC_SAR.net1 analog/mixed electrical )
+( net ADC_SAR.I40.I39.A ADC_SAR.net1 digital/mixed logic )
+
+( net ADC_SAR.vbc3 ADC_SAR.vbc3 analog electrical )
+( net ADC_SAR.I41.SW2 ADC_SAR.vbc3 analog electrical )
+( net ADC_SAR.I40.SW2 ADC_SAR.vbc3 analog electrical )
+
+( net ADC_SAR.I14.net04 ADC_SAR.I14.net04 analog/mixed electrical )
+( net ADC_SAR.I14.I39.Q ADC_SAR.I14.net04 digital/mixed logic )
+
+( net ADC_SAR.net10 ADC_SAR.net10 analog/mixed electrical )
+( net ADC_SAR.I48.Q ADC_SAR.net10 digital/mixed logic )
+( net ADC_SAR.I14.SW_CLK ADC_SAR.net10 analog/mixed electrical )
+( net ADC_SAR.I14.I39.A ADC_SAR.net10 digital/mixed logic )
+
+( net ADC_SAR.I13.net04 ADC_SAR.I13.net04 analog/mixed electrical )
+( net ADC_SAR.I13.I39.Q ADC_SAR.I13.net04 digital/mixed logic )
+
+( net ADC_SAR.net3 ADC_SAR.net3 analog electrical )
+( net ADC_SAR.I11.SW2 ADC_SAR.net3 analog electrical )
+( net ADC_SAR.I13.SW2 ADC_SAR.net3 analog electrical )
+
+( net ADC_SAR.I11.net04 ADC_SAR.I11.net04 analog/mixed electrical )
+( net ADC_SAR.I11.I39.Q ADC_SAR.I11.net04 digital/mixed logic )
+
+( net ADC_SAR.net8 ADC_SAR.net8 analog/mixed electrical )
+( net ADC_SAR.I47.Q ADC_SAR.net8 digital/mixed logic )
+( net ADC_SAR.I11.SW_CLK ADC_SAR.net8 analog/mixed electrical )
+( net ADC_SAR.I11.I39.A ADC_SAR.net8 digital/mixed logic )
+
+( net ADC_SAR.I10.net04 ADC_SAR.I10.net04 analog/mixed electrical )
+( net ADC_SAR.I10.I39.Q ADC_SAR.I10.net04 digital/mixed logic )
+
+( net ADC_SAR.vref ADC_SAR.vref analog electrical )
+( net ADC_SAR.I10.SW1 ADC_SAR.vref analog electrical )
+
+( net ADC_SAR.I8.net04 ADC_SAR.I8.net04 analog/mixed electrical )
+( net ADC_SAR.I8.I39.Q ADC_SAR.I8.net04 digital/mixed logic )
+
+( net ADC_SAR.net12 ADC_SAR.net12 analog/mixed electrical )
+( net ADC_SAR.I50.Q ADC_SAR.net12 digital/mixed logic )
+( net ADC_SAR.I8.SW_CLK ADC_SAR.net12 analog/mixed electrical )
+( net ADC_SAR.I8.I39.A ADC_SAR.net12 digital/mixed logic )
+
+( net ADC_SAR.vin ADC_SAR.vin analog electrical )
+( net ADC_SAR.I8.SW1 ADC_SAR.vin analog electrical )
+
+( net ADC_SAR.I5.net04 ADC_SAR.I5.net04 analog/mixed electrical )
+( net ADC_SAR.I5.I39.Q ADC_SAR.I5.net04 digital/mixed logic )
+
+( net ADC_SAR.vbc2 ADC_SAR.vbc2 analog electrical )
+( net ADC_SAR.I4.SW2 ADC_SAR.vbc2 analog electrical )
+( net ADC_SAR.I5.SW2 ADC_SAR.vbc2 analog electrical )
+
+( net ADC_SAR.I41.net04 ADC_SAR.I41.net04 analog/mixed electrical )
+( net ADC_SAR.I41.I39.Q ADC_SAR.I41.net04 digital/mixed logic )
+
+( net ADC_SAR.I4.net04 ADC_SAR.I4.net04 analog/mixed electrical )
+( net ADC_SAR.I4.I39.Q ADC_SAR.I4.net04 digital/mixed logic )
+
+( net ADC_SAR.net6 ADC_SAR.net6 analog/mixed electrical )
+( net ADC_SAR.I46.Q ADC_SAR.net6 digital/mixed logic )
+( net ADC_SAR.I4.SW_CLK ADC_SAR.net6 analog/mixed electrical )
+( net ADC_SAR.I4.I39.A ADC_SAR.net6 digital/mixed logic )
+
+( net ADC_SAR.out[3] ADC_SAR.out[3] digital logic )
+
+( net ADC_SAR.out[2] ADC_SAR.out[2] digital logic )
+
+( net ADC_SAR.out[1] ADC_SAR.out[1] digital logic )
+
+( net ADC_SAR.out[0] ADC_SAR.out[0] digital logic )
+
+( net ADC_SAR.comp ADC_SAR.comp analog electrical )
+
+( net ADC_SAR.CLK ADC_SAR.CLK analog electrical )
+
+( net ADC_SAR.net20 ADC_SAR.net20 analog electrical )
+
+( net cds_globals.\VSS!  cds_globals.\VSS!  analog electrical )
+
+( net cds_globals.\VDD!  cds_globals.\VDD!  analog electrical )
+
+( net cds_globals.\vdd!  cds_globals.\vdd!  analog electrical )
+
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.I34.net04
+   electrical
+   analog
+   (
+    ( ADC_SAR.I34.I39.Q logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.E2L_2:module
+   ADC_SAR.I34.SW_CLK
+   electrical
+   analog
+   (
+    ( ADC_SAR.I34.I39.A logic digital )
+   )
+   "connect E2L_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vhi (1.2 + 0)) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vtol (((0 + ((((1.2 + 0) - 0) * 2) / 3)) - (0 + (((1.2 + 0) - 0) / 3))) / 4)) (tr 2e-10) (txdel (2e-10 * 4)) (ttol_c (2e-10 / 4)) (nox 0) (enable_highz 0) (duration 5e-09) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.I19.net04
+   electrical
+   analog
+   (
+    ( ADC_SAR.I19.I39.Q logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.E2L_2:module
+   ADC_SAR.I19.SW_CLK
+   electrical
+   analog
+   (
+    ( ADC_SAR.I19.I39.A logic digital )
+   )
+   "connect E2L_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vhi (1.2 + 0)) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vtol (((0 + ((((1.2 + 0) - 0) * 2) / 3)) - (0 + (((1.2 + 0) - 0) / 3))) / 4)) (tr 2e-10) (txdel (2e-10 * 4)) (ttol_c (2e-10 / 4)) (nox 0) (enable_highz 0) (duration 5e-09) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.I17.net04
+   electrical
+   analog
+   (
+    ( ADC_SAR.I17.I39.Q logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.E2L_2:module
+   ADC_SAR.I17.SW_CLK
+   electrical
+   analog
+   (
+    ( ADC_SAR.I17.I39.A logic digital )
+   )
+   "connect E2L_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vhi (1.2 + 0)) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vtol (((0 + ((((1.2 + 0) - 0) * 2) / 3)) - (0 + (((1.2 + 0) - 0) / 3))) / 4)) (tr 2e-10) (txdel (2e-10 * 4)) (ttol_c (2e-10 / 4)) (nox 0) (enable_highz 0) (duration 5e-09) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.I16.net04
+   electrical
+   analog
+   (
+    ( ADC_SAR.I16.I39.Q logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.E2L_2:module
+   ADC_SAR.I16.SW_CLK
+   electrical
+   analog
+   (
+    ( ADC_SAR.I16.I39.A logic digital )
+   )
+   "connect E2L_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vhi (1.2 + 0)) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vtol (((0 + ((((1.2 + 0) - 0) * 2) / 3)) - (0 + (((1.2 + 0) - 0) / 3))) / 4)) (tr 2e-10) (txdel (2e-10 * 4)) (ttol_c (2e-10 / 4)) (nox 0) (enable_highz 0) (duration 5e-09) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.I40.net04
+   electrical
+   analog
+   (
+    ( ADC_SAR.I40.I39.Q logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.E2L_2:module
+   ADC_SAR.I40.SW_CLK
+   electrical
+   analog
+   (
+    ( ADC_SAR.I40.I39.A logic digital )
+   )
+   "connect E2L_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vhi (1.2 + 0)) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vtol (((0 + ((((1.2 + 0) - 0) * 2) / 3)) - (0 + (((1.2 + 0) - 0) / 3))) / 4)) (tr 2e-10) (txdel (2e-10 * 4)) (ttol_c (2e-10 / 4)) (nox 0) (enable_highz 0) (duration 5e-09) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.I14.net04
+   electrical
+   analog
+   (
+    ( ADC_SAR.I14.I39.Q logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.E2L_2:module
+   ADC_SAR.I14.SW_CLK
+   electrical
+   analog
+   (
+    ( ADC_SAR.I14.I39.A logic digital )
+   )
+   "connect E2L_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vhi (1.2 + 0)) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vtol (((0 + ((((1.2 + 0) - 0) * 2) / 3)) - (0 + (((1.2 + 0) - 0) / 3))) / 4)) (tr 2e-10) (txdel (2e-10 * 4)) (ttol_c (2e-10 / 4)) (nox 0) (enable_highz 0) (duration 5e-09) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.I13.net04
+   electrical
+   analog
+   (
+    ( ADC_SAR.I13.I39.Q logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.E2L_2:module
+   ADC_SAR.I13.SW_CLK
+   electrical
+   analog
+   (
+    ( ADC_SAR.I13.I39.A logic digital )
+   )
+   "connect E2L_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vhi (1.2 + 0)) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vtol (((0 + ((((1.2 + 0) - 0) * 2) / 3)) - (0 + (((1.2 + 0) - 0) / 3))) / 4)) (tr 2e-10) (txdel (2e-10 * 4)) (ttol_c (2e-10 / 4)) (nox 0) (enable_highz 0) (duration 5e-09) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.I11.net04
+   electrical
+   analog
+   (
+    ( ADC_SAR.I11.I39.Q logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.E2L_2:module
+   ADC_SAR.I11.SW_CLK
+   electrical
+   analog
+   (
+    ( ADC_SAR.I11.I39.A logic digital )
+   )
+   "connect E2L_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vhi (1.2 + 0)) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vtol (((0 + ((((1.2 + 0) - 0) * 2) / 3)) - (0 + (((1.2 + 0) - 0) / 3))) / 4)) (tr 2e-10) (txdel (2e-10 * 4)) (ttol_c (2e-10 / 4)) (nox 0) (enable_highz 0) (duration 5e-09) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.I10.net04
+   electrical
+   analog
+   (
+    ( ADC_SAR.I10.I39.Q logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.E2L_2:module
+   ADC_SAR.I10.SW_CLK
+   electrical
+   analog
+   (
+    ( ADC_SAR.I10.I39.A logic digital )
+   )
+   "connect E2L_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vhi (1.2 + 0)) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vtol (((0 + ((((1.2 + 0) - 0) * 2) / 3)) - (0 + (((1.2 + 0) - 0) / 3))) / 4)) (tr 2e-10) (txdel (2e-10 * 4)) (ttol_c (2e-10 / 4)) (nox 0) (enable_highz 0) (duration 5e-09) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.I8.net04
+   electrical
+   analog
+   (
+    ( ADC_SAR.I8.I39.Q logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.E2L_2:module
+   ADC_SAR.I8.SW_CLK
+   electrical
+   analog
+   (
+    ( ADC_SAR.I8.I39.A logic digital )
+   )
+   "connect E2L_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vhi (1.2 + 0)) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vtol (((0 + ((((1.2 + 0) - 0) * 2) / 3)) - (0 + (((1.2 + 0) - 0) / 3))) / 4)) (tr 2e-10) (txdel (2e-10 * 4)) (ttol_c (2e-10 / 4)) (nox 0) (enable_highz 0) (duration 5e-09) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.I5.net04
+   electrical
+   analog
+   (
+    ( ADC_SAR.I5.I39.Q logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.E2L_2:module
+   ADC_SAR.I5.SW_CLK
+   electrical
+   analog
+   (
+    ( ADC_SAR.I5.I39.A logic digital )
+   )
+   "connect E2L_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vhi (1.2 + 0)) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vtol (((0 + ((((1.2 + 0) - 0) * 2) / 3)) - (0 + (((1.2 + 0) - 0) / 3))) / 4)) (tr 2e-10) (txdel (2e-10 * 4)) (ttol_c (2e-10 / 4)) (nox 0) (enable_highz 0) (duration 5e-09) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.I41.net04
+   electrical
+   analog
+   (
+    ( ADC_SAR.I41.I39.Q logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.E2L_2:module
+   ADC_SAR.I41.SW_CLK
+   electrical
+   analog
+   (
+    ( ADC_SAR.I41.I39.A logic digital )
+   )
+   "connect E2L_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vhi (1.2 + 0)) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vtol (((0 + ((((1.2 + 0) - 0) * 2) / 3)) - (0 + (((1.2 + 0) - 0) / 3))) / 4)) (tr 2e-10) (txdel (2e-10 * 4)) (ttol_c (2e-10 / 4)) (nox 0) (enable_highz 0) (duration 5e-09) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.I4.net04
+   electrical
+   analog
+   (
+    ( ADC_SAR.I4.I39.Q logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.E2L_2:module
+   ADC_SAR.I4.SW_CLK
+   electrical
+   analog
+   (
+    ( ADC_SAR.I4.I39.A logic digital )
+   )
+   "connect E2L_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vhi (1.2 + 0)) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vtol (((0 + ((((1.2 + 0) - 0) * 2) / 3)) - (0 + (((1.2 + 0) - 0) / 3))) / 4)) (tr 2e-10) (txdel (2e-10 * 4)) (ttol_c (2e-10 / 4)) (nox 0) (enable_highz 0) (duration 5e-09) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.E2L_2:module
+   ADC_SAR.CLK
+   electrical
+   analog
+   (
+    ( ADC_SAR.I43:CLK logic digital )
+   )
+   "connect E2L_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vhi (1.2 + 0)) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vtol (((0 + ((((1.2 + 0) - 0) * 2) / 3)) - (0 + (((1.2 + 0) - 0) / 3))) / 4)) (tr 2e-10) (txdel (2e-10 * 4)) (ttol_c (2e-10 / 4)) (nox 0) (enable_highz 0) (duration 5e-09) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.vswC3
+   electrical
+   analog
+   (
+    ( ADC_SAR.I43:VSWC3 logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.E2L_2:module
+   ADC_SAR.vswC3
+   electrical
+   analog
+   (
+    ( ADC_SAR.I45.A logic digital )
+   )
+   "connect E2L_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vhi (1.2 + 0)) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vtol (((0 + ((((1.2 + 0) - 0) * 2) / 3)) - (0 + (((1.2 + 0) - 0) / 3))) / 4)) (tr 2e-10) (txdel (2e-10 * 4)) (ttol_c (2e-10 / 4)) (nox 0) (enable_highz 0) (duration 5e-09) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.vswC2
+   electrical
+   analog
+   (
+    ( ADC_SAR.I43:VSWC2 logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.E2L_2:module
+   ADC_SAR.vswC2
+   electrical
+   analog
+   (
+    ( ADC_SAR.I46.A logic digital )
+   )
+   "connect E2L_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vhi (1.2 + 0)) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vtol (((0 + ((((1.2 + 0) - 0) * 2) / 3)) - (0 + (((1.2 + 0) - 0) / 3))) / 4)) (tr 2e-10) (txdel (2e-10 * 4)) (ttol_c (2e-10 / 4)) (nox 0) (enable_highz 0) (duration 5e-09) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.vswC1
+   electrical
+   analog
+   (
+    ( ADC_SAR.I43:VSWC1 logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.E2L_2:module
+   ADC_SAR.vswC1
+   electrical
+   analog
+   (
+    ( ADC_SAR.I47.A logic digital )
+   )
+   "connect E2L_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vhi (1.2 + 0)) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vtol (((0 + ((((1.2 + 0) - 0) * 2) / 3)) - (0 + (((1.2 + 0) - 0) / 3))) / 4)) (tr 2e-10) (txdel (2e-10 * 4)) (ttol_c (2e-10 / 4)) (nox 0) (enable_highz 0) (duration 5e-09) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.vswC0
+   electrical
+   analog
+   (
+    ( ADC_SAR.I43:VSWC0 logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.E2L_2:module
+   ADC_SAR.vswC0
+   electrical
+   analog
+   (
+    ( ADC_SAR.I48.A logic digital )
+   )
+   "connect E2L_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vhi (1.2 + 0)) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vtol (((0 + ((((1.2 + 0) - 0) * 2) / 3)) - (0 + (((1.2 + 0) - 0) / 3))) / 4)) (tr 2e-10) (txdel (2e-10 * 4)) (ttol_c (2e-10 / 4)) (nox 0) (enable_highz 0) (duration 5e-09) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.vswC
+   electrical
+   analog
+   (
+    ( ADC_SAR.I43:VSWC logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.E2L_2:module
+   ADC_SAR.vswC
+   electrical
+   analog
+   (
+    ( ADC_SAR.I49.A logic digital )
+   )
+   "connect E2L_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vhi (1.2 + 0)) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vtol (((0 + ((((1.2 + 0) - 0) * 2) / 3)) - (0 + (((1.2 + 0) - 0) / 3))) / 4)) (tr 2e-10) (txdel (2e-10 * 4)) (ttol_c (2e-10 / 4)) (nox 0) (enable_highz 0) (duration 5e-09) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.vsw2
+   electrical
+   analog
+   (
+    ( ADC_SAR.I43:VSW2 logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.E2L_2:module
+   ADC_SAR.vsw2
+   electrical
+   analog
+   (
+    ( ADC_SAR.I50.A logic digital )
+   )
+   "connect E2L_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vhi (1.2 + 0)) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vtol (((0 + ((((1.2 + 0) - 0) * 2) / 3)) - (0 + (((1.2 + 0) - 0) / 3))) / 4)) (tr 2e-10) (txdel (2e-10 * 4)) (ttol_c (2e-10 / 4)) (nox 0) (enable_highz 0) (duration 5e-09) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.vsw1
+   electrical
+   analog
+   (
+    ( ADC_SAR.I43:VSW1 logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.E2L_2:module
+   ADC_SAR.comp
+   electrical
+   analog
+   (
+    ( ADC_SAR.I43:COMP logic digital )
+   )
+   "connect E2L_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vhi (1.2 + 0)) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vtol (((0 + ((((1.2 + 0) - 0) * 2) / 3)) - (0 + (((1.2 + 0) - 0) / 3))) / 4)) (tr 2e-10) (txdel (2e-10 * 4)) (ttol_c (2e-10 / 4)) (nox 0) (enable_highz 0) (duration 5e-09) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.net1
+   electrical
+   analog
+   (
+    ( ADC_SAR.I45.Q logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.net9
+   electrical
+   analog
+   (
+    ( ADC_SAR.I49.Q logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.net8
+   electrical
+   analog
+   (
+    ( ADC_SAR.I47.Q logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.net6
+   electrical
+   analog
+   (
+    ( ADC_SAR.I46.Q logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.net10
+   electrical
+   analog
+   (
+    ( ADC_SAR.I48.Q logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+( connect
+   connectLib.L2E_2:module
+   ADC_SAR.net12
+   electrical
+   analog
+   (
+    ( ADC_SAR.I50.Q logic digital )
+   )
+   "connect L2E_2 merged logic, electrical"
+   ( (vsup 1.2) (vlo 0) (vthi (0 + ((((1.2 + 0) - 0) * 2) / 3))) (vtlo (0 + (((1.2 + 0) - 0) / 3))) (vhi (1.2 + 0)) (vx 0) (tr 2e-10) (tf 2e-10) (ttol_t (2e-10 / 10)) (tdelay 0) (tdeltran_fall 0) (rlo (200 == 0)?200:200) (rhi (200 == 0)?200:200) (rx (200 == 0)?200:200) (rz 10000000) (r_SUPPLY 4) (r_PULL 1500) (r_LARGE 9000) (r_WEAK 55000) (r_MEDIUM 320000) (r_SMALL 1900000) (debug 0) (vinlimit (0 + ((1.2 * 4) / 3))) )
+)
+(instance ADC_SAR.I43 digital)
+(instance ADC_SAR.I68.N0 analog)
+(instance ADC_SAR.I68.P0 analog)
+(instance ADC_SAR.I68 analog)
+(instance ADC_SAR.I67.N0 analog)
+(instance ADC_SAR.I67.P0 analog)
+(instance ADC_SAR.I67 analog)
+(instance ADC_SAR.I66.N0 analog)
+(instance ADC_SAR.I66.P0 analog)
+(instance ADC_SAR.I66 analog)
+(instance ADC_SAR.I65.N0 analog)
+(instance ADC_SAR.I65.P0 analog)
+(instance ADC_SAR.I65 analog)
+(instance ADC_SAR.I57.N0 analog)
+(instance ADC_SAR.I57.P0 analog)
+(instance ADC_SAR.I57 analog)
+(instance ADC_SAR.I56.N0 analog)
+(instance ADC_SAR.I56.P0 analog)
+(instance ADC_SAR.I56 analog)
+(instance ADC_SAR.I34.I39 digital)
+(instance ADC_SAR.I34.MN11 analog)
+(instance ADC_SAR.I34.MP5 analog)
+(instance ADC_SAR.I34 mixed)
+(instance ADC_SAR.I19.I39 digital)
+(instance ADC_SAR.I19.MN11 analog)
+(instance ADC_SAR.I19.MP5 analog)
+(instance ADC_SAR.I19 mixed)
+(instance ADC_SAR.I17.I39 digital)
+(instance ADC_SAR.I17.MN11 analog)
+(instance ADC_SAR.I17.MP5 analog)
+(instance ADC_SAR.I17 mixed)
+(instance ADC_SAR.I16.I39 digital)
+(instance ADC_SAR.I16.MN11 analog)
+(instance ADC_SAR.I16.MP5 analog)
+(instance ADC_SAR.I16 mixed)
+(instance ADC_SAR.I40.I39 digital)
+(instance ADC_SAR.I40.MN11 analog)
+(instance ADC_SAR.I40.MP5 analog)
+(instance ADC_SAR.I40 mixed)
+(instance ADC_SAR.I14.I39 digital)
+(instance ADC_SAR.I14.MN11 analog)
+(instance ADC_SAR.I14.MP5 analog)
+(instance ADC_SAR.I14 mixed)
+(instance ADC_SAR.I13.I39 digital)
+(instance ADC_SAR.I13.MN11 analog)
+(instance ADC_SAR.I13.MP5 analog)
+(instance ADC_SAR.I13 mixed)
+(instance ADC_SAR.I11.I39 digital)
+(instance ADC_SAR.I11.MN11 analog)
+(instance ADC_SAR.I11.MP5 analog)
+(instance ADC_SAR.I11 mixed)
+(instance ADC_SAR.I10.I39 digital)
+(instance ADC_SAR.I10.MN11 analog)
+(instance ADC_SAR.I10.MP5 analog)
+(instance ADC_SAR.I10 mixed)
+(instance ADC_SAR.I8.I39 digital)
+(instance ADC_SAR.I8.MN11 analog)
+(instance ADC_SAR.I8.MP5 analog)
+(instance ADC_SAR.I8 mixed)
+(instance ADC_SAR.I5.I39 digital)
+(instance ADC_SAR.I5.MN11 analog)
+(instance ADC_SAR.I5.MP5 analog)
+(instance ADC_SAR.I5 mixed)
+(instance ADC_SAR.I41.I39 digital)
+(instance ADC_SAR.I41.MN11 analog)
+(instance ADC_SAR.I41.MP5 analog)
+(instance ADC_SAR.I41 mixed)
+(instance ADC_SAR.I4.I39 digital)
+(instance ADC_SAR.I4.MN11 analog)
+(instance ADC_SAR.I4.MP5 analog)
+(instance ADC_SAR.I4 mixed)
+(instance ADC_SAR.I45 digital)
+(instance ADC_SAR.I49 digital)
+(instance ADC_SAR.I47 digital)
+(instance ADC_SAR.I46 digital)
+(instance ADC_SAR.I48 digital)
+(instance ADC_SAR.I50 digital)
+(instance ADC_SAR.V5 analog)
+(instance ADC_SAR.V2 analog)
+(instance ADC_SAR.V1 analog)
+(instance ADC_SAR.V0 analog)
+(instance ADC_SAR.C analog)
+(instance ADC_SAR.C0 analog)
+(instance ADC_SAR.C4 analog)
+(instance ADC_SAR.C1 analog)
+(instance ADC_SAR.C2 analog)
+(instance ADC_SAR.X3 analog)
+(instance ADC_SAR.V10 analog)
+(instance ADC_SAR.V8 analog)
+(instance ADC_SAR mixed)
+(instance cds_globals analog)

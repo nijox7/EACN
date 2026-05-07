@@ -1,0 +1,43 @@
+TOOL:	xrun(64)	23.03-s013: Started on Apr 16, 2026 at 17:28:52 CEST
+xrun
+	-f /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/.mapi/mapi_run.args
+		-64bit
+		-compile
+		-NOCOPYRIGHT
+		-nostdout
+		-nowarn DLNOHV
+		-logfile /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/.mapi/mapirun.log
+		-nowarn DLNOHV
+		-nowarn DLCLAP
+		-v93
+		-allowredefinition
+		-incdir /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/
+		-mixesc
+		-xmlibdirpath /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/.mapi/
+		-cdslib /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/.mapi/cds.lib
+		-amscompilefile "file:/users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX1/functional/verilog.v lib:ixc013g2ng_stdcell cell:INVJIX1 view:functional"
+		-amscompilefile "file:/users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX0/functional/verilog.v lib:ixc013g2ng_stdcell cell:INVJIX0 view:functional"
+		-smartlib
+		-makelib project_EACN_SESI
+		-view behavioral
+		/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/project_EACN_SESI/SAR_control/behavioral/vhdl.vhd
+		-endlib
+		/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/.mapi//dummyMapi.vams
+		/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/.mapi//dummyMapi.vhms
+/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/project_EACN_SESI/SAR_control/behavioral/vhdl.vhd:
+	errors: 0, warnings: 0
+\project_EACN_SESI\.\SAR_control\ (entity):
+	streams: 12, words: 406
+\project_EACN_SESI\.\SAR_control\:BEHAVIORAL (architecture):
+	streams: 1, words: 431
+file: /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/.mapi//dummyMapi.vams
+file: /users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX1/functional/verilog.v
+	module ixc013g2ng_stdcell.INVJIX1:functional
+		errors: 0, warnings: 0
+file: /users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX0/functional/verilog.v
+	module ixc013g2ng_stdcell.INVJIX0:functional
+		errors: 0, warnings: 0
+xmvlog: *W,SPDUSD: Include directory /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/ given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+TOOL:	xrun(64)	23.03-s013: Exiting on Apr 16, 2026 at 17:28:53 CEST  (total: 00:00:01)

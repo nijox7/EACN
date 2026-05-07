@@ -1,0 +1,23 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-ahdllibdir
+INCA_libs/AMSD/ams_spice_in/ahdlSimDB
+-outdir
+/users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi//INCA_libs/AMSD/ams_spice_in
+-outamsddir
+/users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi//INCA_libs/AMSD
+-runmode
+-cdslib
+/users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi//INCA_libs/irun.lnx8664.15.20.nc/cdsrun.lib
+-hdlvar
+/users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi//INCA_libs/irun.lnx8664.15.20.nc/hdlrun.var
+-work
+worklib
+-64bit
+-amscommfile
+/users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi//INCA_libs/AMSD/ams_spice_in/amscomm.list
+-amsspice-errfile
+/users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi//INCA_libs/AMSD/ams_spice_in/amsspice_pre.log
+-dumpprim

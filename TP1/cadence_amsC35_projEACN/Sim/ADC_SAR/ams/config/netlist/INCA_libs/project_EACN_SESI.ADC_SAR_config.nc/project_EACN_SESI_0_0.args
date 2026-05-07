@@ -1,0 +1,31 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-RUNMODE
+-ERRORMAX
+50
+-STATUS
+-NOWARN
+DLNOHV
+-NOWARN
+DLCLAP
+-V93
+-MODELINCDIR
+/users/cao/galayko/cadence_amsC35_projEACN/
+-ALLOWREDEFINITION
+-UPDATE
+-CDSLIB
+./INCA_libs/project_EACN_SESI.ADC_SAR_config.lnx8664.15.20.nc/cdsrun.lib
+-HDLVAR
+./INCA_libs/project_EACN_SESI.ADC_SAR_config.lnx8664.15.20.nc/hdlrun.var
+-amscommfile
+./INCA_libs/AMSD/ams_spice_in/amscomm.list
+-amsossirunbind
+./INCA_libs/AMSD/ams_spice_in/amsossbinding.list
+-work
+project_EACN_SESI
+-messages
+-SPECIFICUNIT
+control
+/users/cao/galayko/cadence_amsC35_projEACN/project_EACN_SESI/control/entity/vhdl.vhd

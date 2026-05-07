@@ -1,0 +1,23 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-ahdllibdir
+/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/.mapi/xcelium.d/AMSD/ams_spice_in/ahdlSimDB
+-outdir
+/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/.mapi/xcelium.d/AMSD/ams_spice_in
+-outamsddir
+/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/.mapi/xcelium.d/AMSD
+-runmode
+-cdslib
+/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/.mapi/xcelium.d/run.lnx8664.23.03.d/cdsrun.lib
+-hdlvar
+/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/.mapi/xcelium.d/run.lnx8664.23.03.d/hdlrun.var
+-work
+worklib
+-64bit
+-amscommfile
+/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/.mapi/xcelium.d/AMSD/ams_spice_in/amscomm.list
+-amsspice-errfile
+/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/.mapi/xcelium.d/AMSD/ams_spice_in/amsspice_pre.log
+-dumpprim

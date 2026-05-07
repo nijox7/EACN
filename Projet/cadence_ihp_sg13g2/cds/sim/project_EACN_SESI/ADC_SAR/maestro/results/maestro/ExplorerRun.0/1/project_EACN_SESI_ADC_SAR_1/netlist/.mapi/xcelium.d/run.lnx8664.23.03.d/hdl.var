@@ -1,0 +1,7 @@
+define XMSIMRC	( /users/soft/opus/Linux/XCELIUM-23.03-013/tools/xcelium/files/xmsimrc, ~/.xmsimrc )
+define AMSRC	( /users/soft/opus/Linux/XCELIUM-23.03-013/tools/xcelium/files/amsrc, ~/.amsrc )
+include ./hdlrun.var
+define SNAPSHOT ixc013g2ng_stdcell.INVJIX1:functional
+DEFINE RUNMODEDEFAULT 1
+DEFINE LIB_MAP (  => project_EACN_SESI )
+DEFINE LIB_MAP ($LIB_MAP, + => worklib )

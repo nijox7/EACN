@@ -1,0 +1,786 @@
+simulator lang=spectre
+
+
+// File:  /funcMSpectre/f_abs.s
+// absoluteValue block
+//
+subckt f_abs in out
+R1  in 0  resistor r=1000G 
+E4  out 0 in 0  uvcvs externf="uusubabs"
+ends f_abs
+
+
+
+// File:  /funcMSpectre/f_adder.s
+//adder block
+//
+subckt f_adder in1 in2 out 
+R1  in1 0 resistor r=1000G 
+R2  in2 0 resistor r=1000G 
+E1 ( out 0  in1 0 in2 0 ) pvcvs coeffs=[0 1 1 ]
+
+ends f_adder
+
+
+// File: /funcMSpectre/f_amp.s
+//amplifier block
+//
+subckt f_amp in out
+parameters gain=2
+R1 in 0 resistor r=1000G
+E1 out 0 in 0 vcvs gain=gain
+ends f_amp
+
+//File:  /funcMSpectre/f_cMacro.s
+//compMacro block
+//Small signal model of input stage, no Iout limits or power supply.
+//               No power supply effects, simple resistive input stage,
+//               small large signal delay, constant Rout and and no current
+//               limit.
+//
+//   Parameters
+//
+//   Input bias current                        ibias =  200n
+//   Input offset voltage                      vos   =  0
+//   Input offset current                      ios   =  10n
+//   Input resistance                          rin   =  1meg
+//   Input capacitance                         cin   =  1p
+//   Positive output voltage swing             voh   =  5
+//   Negative output voltage swing             vol   =  0
+//   Overdrive voltage for delay time test     vis   =  2m
+//   Small signal rising and falling time      trs   =  20n
+//   Small signal delay time                   tds   =  50n
+//   Open loop gain                            gol   =  100k
+//   Output resistance                         ro    =  200
+
+
+
+
+subckt f_cMacro in ref out
+parameters ibias=200n vos=0 ios=10n rin=1M cin=1p voh=5 vol=0 \
+vis=2m trs=20n tds=50n gol=100k ro=200 coeffTemp=1/(ro+0.1)
+
+//
+//input stage
+//
+RIN  in ref resistor r=rin
+CIN  in ref capacitor c=cin
+IBP  in 0   isource dc=ibias+ios/2
+IBN  ref 0   isource dc=ibias-ios/2
+//
+//   Gain Stage
+//
+G1   0 2 in ref  pvccs coeffs=[ (vos*gol/1E5)  (gol/1E5)]
+C1   2 0   capacitor c=((tds-trs/2)/log(2))/(1E5/(gol*vis*trs/(voh-(vol))/((tds-trs/2)/log(2))-1))
+
+RX   2 3   resistor r=1E5*(voh-(vol)/((tds-trs/2)/log(2))-1)/(gol*(vis)*trs)
+//
+
+//  original eq:   N=voh/VT/LOG(1E28)  - Trial and error
+//  gives VT to be 46.35823.  Not sure what this number is
+//  or how cdsSpice is generating it.
+ 
+ 
+ model DH diode  is=0.3*gol/1E33  n=voh/46.35823/log(1E28)
+//make sure n below is non-zero
+ model DL diode  is=0.3*gol/1E33  n=-(vol)/46.35823/log(1E28)+(1e-10)
+ model DM diode  is=0.3*gol/1E33  n=(voh+(vol))/2/46.35823/log(1E28)
+
+if voh*(vol)!=0 { 
+  RD1   3 0 resistor r=1E5
+  DH1   3 0 DH
+  DL1   0 3 DL
+
+}else{
+  RD2   3 8   resistor r=1E5
+  DH2  3 8  DM
+  DL2   8 3 DM
+  VM2   8 0   vsource dc=(voh+(vol))/2
+}
+//
+//   Output Stage
+//
+RO  0 out  resistor r=ro 
+G2  0 out  3 0  pvccs coeffs=[0 coeffTemp]
+ends f_cMacro 
+
+
+//file:  /funcMSpectre/f_cmplxP1.s
+//complex_pole 1 block
+subckt f_cmplxP1 in out
+parameters sigma=-5 wn=6283.1853
+E1 3 0 in 0 vcvs gain=1E-6
+R1 4 5 resistor r=1
+L1 3 4 inductor l=(1/(-2*(sigma)))
+C1 5 0 capacitor c=(-2*((sigma)))/(((wn)*(wn))+((sigma)*(sigma)))
+E2 out 0 5 0 vcvs gain=1E6
+ends f_cmplxP1 
+
+
+//file:  /funcMSpectre/f_cmplxP2.s
+//complex_pole2 block
+subckt f_cmplxP2 in out 
+parameters zeta=0.005 wo=6283.1853
+E1 3 0 in 0 vcvs gain=1E-6
+R1 4 5 resistor r=1
+L1 3 4 inductor l=(1/(2*(zeta)*(wo)))
+C1 5 0 capacitor c=(2*(zeta))/(wo)
+E2 out 0 5 0 vcvs gain=1E6
+ends f_cmplxP2
+
+//file:  /funcMSpectre/f_cmplxP3.s
+//complex_pole3 block
+subckt f_cmplxP3 in out 
+parameters Qo=50 fo=1K peakGain=0
+
+E1 3 0 in 0 vcvs gain=1E-6
+R1 4 5 resistor r=1
+L1 3 4 inductor l=((sqrt((Qo)*(Qo)-0.5))/(6.2831853*(fo)))
+C1 5 0 capacitor c=((sqrt(1-(1/(2*(Qo)*(Qo)))))/(6.2831853*(Qo)*(fo)))
+E2 out 0 5 0 vcvs gain=((1E6*(10**(peakGain/20)))/((Qo*(Qo))/(sqrt((Qo*(Qo))-0.25))))
+ends f_cmplxP3 
+
+
+
+//File:  /funcMSpectre/f_comp.s
+//comparator block
+subckt f_comp in ref out
+parameters outputHigh=10 outputLow=-10 slope=1000
+R1 in ref resistor r=1000G
+E4   out 0 in ref  uvcvs externf="uusubcts" coeffs=[outputHigh outputLow slope ]
+ends  f_comp
+
+
+//File:  /funcMSpectre/f_currDba.s
+//current_dba block
+
+subckt f_currDba inp inn out
+parameters linLow=-1m linHigh=1m lol=0 gain1=1 gain2=1
+IDUM  inp inn iprobe
+F4  0 out  ucccs probes=[IDUM] externf="uusubidb" \
+coeffs=[linLow linHigh lol gain1 gain2]
+R1  out 0 resistor r=1000G
+
+ends f_currDba
+
+// File:  /funcMSpectre/f_diff.s
+//differentiator block
+//
+subckt f_diff in out
+G1 3 0 in 0 vccs gm=1
+L1 3 0 inductor l=1E-6
+E1 out 0 0 3 vcvs gain=1E6
+ends f_diff
+
+
+// File:  /funcMSpectre/f_diode.m
+model f_diode  diode cjo=1e-12
+
+
+// File:  /funcMSpectre/f_divider.s
+//divider block
+//
+subckt f_divider in1 in2 out
+R1  in1 0 resistor r=1000G
+R2  in2 0 resistor r=1000G
+
+e1 ( out 0 in1 0 in2 0) uvcvs externf="uusubdiv"
+
+ends f_divider
+
+
+//File: /funcMSpectre/f_driver.s
+// Diff-driver block
+
+subckt f_driver inp inn ref outp outn
+parameters gain=1
+R1  inp inn  resistor r=1000G
+E1  outp ref inp inn vcvs gain=gain/2
+E2  ref outn inp inn vcvs gain=gain/2
+ends f_driver
+
+
+// File:  /funcMSpectre/f_integ2.s
+// integrator block
+//
+subckt f_integ2 in out
+G1 3 0 in 0 vccs gm=10E-9
+R1 3 0 resistor r=1E9
+C1 3 0  capacitor c=10E-9 ic=0
+E1 out 0 0 3 vcvs gain=1
+ends f_integ2
+
+
+//File:  /funcMSpectre/f_iSwitch.s
+// iSwitch
+
+subckt f_iSwitch np nn ncp ncn
+parameters con=1 coff=1 ron=1 roff=1 td=1 v1=1
+d1 5 6 ncp ncn delay td=(td)
+w1  np nn 5 6 relay vt1=(v1) vt2=(v1+0.001) ropen=(roff) rclosed=(ron)
+c1  np 0 capacitor c=coff 
+c2  nn 0 capacitor c=(con-coff)
+r1  5 0 resistor r=1e12
+ends f_iSwitch 
+
+
+// File:  /funcMSpectre/f_limitAmp.s
+// limiting amplifier block
+
+subckt f_limitAmp inp inn out
+parameters limitHigh=10 limitLow=-10 gain=1 vinSym=0
+R1  inp 0  resistor r=1000G
+R2  inn 0  resistor r=1000G
+E4  (out 0 inp inn)  uvcvs externf="uusubnla" coeffs=[ limitHigh limitLow gain vinSym ] 
+ends f_limitAmp
+
+
+// File:  /funcMSpectre/f_logAmp.s
+// log_amplifier block
+//
+subckt f_logAmp in out
+R1  in 0  resistor r=1000G
+E4  out 0 in 0  uvcvs externf="uusublog"
+ends f_logAmp
+
+
+
+//File:  /funcMSpectre/f_multPlex.s
+// multiplexor block
+
+subckt f_multPlex in1 in2 in3 vcp vcn out
+parameters threshold1=-1 threshold2=1
+R1  in1 0  resistor r=1000G
+R2  in2 0  resistor r=1000G
+R3  in3 0  resistor r=1000G
+R4  vcp 0  resistor r=1000G
+R5  vcn 0  resistor r=1000G
+R6  out 0  resistor r=1000G
+R10 10 0 resistor r=1000G
+W1 (in1 out vcp vcn) relay vt1=threshold1 vt2=threshold1-0.001 ropen=1E20 rclosed=1E-3
+W2  (in2 10 vcp vcn) relay vt1=threshold1-.001 vt2=threshold1 ropen=1E20 rclosed=1E-3
+W3 (10 out vcp vcn) relay vt1=threshold2+0.001 vt2=threshold2 ropen=1E20 rclosed=1E-3
+W4 (in3 out vcp vcn) relay vt1=threshold2 vt2=threshold2+0.001 ropen=1E20 rclosed=1E-3
+ends f_multPlex 
+
+
+
+// File:  /funcMSpectre/f_multPli.s
+// multiplier block
+//
+subckt f_multPli in1 in2 out 
+R1 in1 0  resistor r=1000G 
+R2 in2 0  resistor r=1000G
+E1 ( out 0  in1 0 in2 0 ) pvcvs coeffs=[0 0 0 0 1 ] 
+ends f_multPli
+
+
+//File:  /funcMSpectre/f_opAmp.s
+// op_amp block
+
+subckt f_opAmp inp inn out 
+parameters openLoopGain=1E+10
+R1  inp inn   resistor r=1000G
+E1  out 0 inp inn vcvs gain=openLoopGain
+ends f_opAmp 
+
+
+//File:  /funcMSpectre/f_oplv1c.s
+// Op Amp Subckt
+
+subckt f_oplv1c inp inn vout ref vcc vee
+parameters ccc=30p ibs=100n ios=10n vos=1m+0.01n*(27-25) srp=1e+7 srn=1e+7 \
+ftp=0.1 gol=100000 cmr=90 gbw=10M ff2=20M tsd=500n roa=20 rod=30 vsn=-14 vsp=14 \
+ion=50m iop=50m prn=90 prp=90 iee=5m icc=5m vnm=15 bigEquation=P_K*(27+273.15)/P_Q/(iop*roa)*log(max(1e-30,gol*srp/(gbw*2.0*M_PI*(rod-roa))*max(1,-1/(srp/srn-ftp))/1E-14))
+
+
+
+// original vos=1m+.01m*(TEMPDC-25)
+ 
+// TEMPDC changed to tnom
+// tnom defaulted to 27 everywhere
+ 
+
+model DP diode  is=1E-14  n=(srp)/(P_K*(27+273.15)/P_Q*(gbw)*2.0*M_PI*(1+((srp)/(srn)-(ftp)))) 
+
+model DN diode  is=1E-14*((srp)/(srn)-(ftp))*exp(-(vos)*(gbw)*2.0*M_PI*(1+((srp)/(srn)-(ftp)))/(srp)) \
+n=(srp)/(P_K*(27+273.15)/P_Q*(gbw)*2.0*M_PI*(1+((srp)/(srn)-(ftp))))
+
+model DV diode  is=(gol)*(srp)/((gbw)*2.0*M_PI*((rod)-(roa)))*max(1,-1/((srp)/(srn)-(ftp)))*exp(-1/P_K*(27+273.15)/P_Q)  n=.1
+
+model D1 diode  is=1E-14  n=1
+model D2 diode  is=1E-14  n=abs((ion)/(iop))
+
+
+VP inp 11 vsource dc=0
+DP 11 1  DP
+VN inn 21 vsource dc=0
+DN 21 1  DN
+FA inn ref cccs probe=VN gain=((ibs)+(ios)/2)/((ibs)-(ios)/2)-1
+I1 1  vee  isource dc=((ibs)-(ios)/2)*(1+((srp)/(srn)-(ftp)))
+                                          
+C1 1  ref capacitor c=(ftp)*((ibs)-(ios)/2)*(1+((srp)/(srn)-(ftp)))/(srp) \
+ic=-((srp)/((gbw)*2.0*M_PI*(1+((srp)/(srn)-(ftp))))*log(max(1e-30,((ibs)-(ios)/2))/1E-14))
+
+
+FP 4 ref cccs probe=VP  gain=(ccc)*(srp)/(((ibs)-(ios)/2)*(1+((srp)/(srn)-(ftp))))
+FN ref 4 cccs probe=VN  gain=(ccc)*(srp)/(((ibs)-(ios)/2)*(1+((srp)/(srn)-(ftp)))*((srp)/(srn)-(ftp)))
+
+GC ref 4  11 ref vccs gm=(ccc)*(gbw)*2.0*M_PI/(10**((cmr)/20))
+
+CT  4  ref capacitor c=1/(2*M_PI*(ff2))
+G2  ref  2  4  ref  vccs gm=1.0
+
+GPP  ref  4  vcc  7 vccs gm=(gbw)*2.0*M_PI*(ccc)/(10**((prp)/20))
+GPN  ref  4  8  vee vccs gm=(gbw)*2.0*M_PI*(ccc)/(10**((prn)/20))
+
+VPP  7  ref  vsource dc=(vnm)
+RPP  7  ref  resistor r=1K
+VPN  ref  8  vsource dc=vnm
+RPN  ref  8  resistor r=1K
+
+RT   4  ref  resistor r=1.0
+
+R2   2  ref  resistor r=(tsd)/(log(2)*(ccc))
+CC   2   3  capacitor c=ccc
+
+GOL  3  ref  2  ref vccs gm=(gol)*log(2)/((gbw)*2.0*M_PI*(tsd)*((rod)-(roa)))
+
+
+//#         in+ in- vout ref vcc vee
+//.SUBCKT &1 10  20  30  60   40  50
+
+
+RD   3  ref  resistor r=(rod)-(roa)
+DH   3  5   DV
+DL   6  3   DV
+VH  15  5   vsource dc=0.1-(vsp)
+ECC vcc  15  vcc  ref vcvs gain=1.0
+VL   6  16   vsource dc=0.1+(vsn)
+EEE vee  16  vee  ref vcvs gain=1.0
+IH  vcc  ref isource dc=icc
+IL  ref  vee  isource dc=iee
+
+D1   3   9  D1
+D2   9   3  D2
+
+
+EX1 (9  ref  3  ref  3  vout)  pvcvs coeffs=[0  1  bigEquation ]
+
+
+RO   3  vout  resistor r=roa
+ends f_oplv1c 
+
+
+//File:  /funcMSpectre/f_pole.s
+// pole block
+
+subckt f_pole in out
+parameters fc=1K
+G1 3 0 in 0 vccs gm=1E-6
+R1 3 0 resistor r=1E3
+C1 3 0 capacitor c=(1/(fc*6283.1853))
+E1 out 0 0 3 vcvs gain=1E3
+ends f_pole 
+
+//File:  /funcMSpectre/f_repeater.s
+// repeater block
+
+subckt f_repeater in out
+parameters period=1m
+R1 in 0 resistor r=1000G
+E1 ( 3 0  in 0 5 0 ) pvcvs coeffs=[0 1 0.9999999 ]
+
+d1 5 0 3 0 delay td=period
+ROUT 5 0 resistor r=1e12
+EOUT out 0 3 0 vcvs gain=1
+ends f_repeater
+
+//File: /funcMSpectre/f_shifter.s
+subckt f_shifter in out
+parameters shift=1
+R1 in 0 resistor r=1000G
+E1 out 3 in 0 vcvs gain=1
+V1 3 0 vsource dc=55
+ends f_shifter
+
+// File:  /funcMSpectre/f_subtract.s
+// subtractor block
+//
+subckt f_subtract in1 in2 out 
+R1  in1 0 resistor r=1000G 
+R2  in2 0 resistor r=1000G 
+E1  ( out 0  in1 0 in2 0 ) pvcvs coeffs=[0 1 -1 ] 
+ends f_subtract
+
+
+// File:  /funcMSpectre/f_topaz1.s
+// Description:  Pole and Zero Transfer function generator.
+//               Can generate up to 3 poles, zeroes and 3 each
+//               complex-conjugate poles and zeroes.
+//
+//               Also allows gm, and input/output R & C. 
+//
+
+subckt f_topaz1 inp inn out ref
+parameters dcGain=1 inputR=1T inputC=0 outputR=1m outputC=0 nPoles=0 nZeroes=0 \
+nConjPoles=0 nConjZeroes=0 freqPole1=1K freqPole2=2K freqPole3=3K \
+freqZero1=1K freqZero2=2K freqZero3=3K freqConjPole1=1K sigmaConjPole1=-5 \
+freqConjPole2=2K sigmaConjPole2=-5 freqConjPole3=3K sigmaConjPole3=-5 \
+freqConjZero1=1K sigmaConjZero1=-5 freqConjZero2=2K sigmaConjZero2=-5 \
+freqConjZero3=3K sigmaConjZero3=-5
+
+EDIFF 10 ref inp inn vcvs gain=1.0
+RIN inp inn resistor r=inputR
+CIN inp inn capacitor c=inputC
+
+G1 ref 40 10 ref vccs gm=dcGain
+R1 40 ref resistor r=1
+//
+//POLES###############################
+//
+if (nPoles==0) { 
+ GP31 ref 301 40 ref vccs gm=1.0
+ RP31 ref 301 resistor r=1
+} else {
+ if (freqPole1==0) {
+GP11 ref 101 40 ref vccs gm=1e-12
+CP11 101 ref capacitor c=1e-12
+ } else {
+GP12 ref 101 40 ref vccs gm=1E-3 
+RP12 101 ref resistor r=1e3
+CP12 101 ref capacitor c= 1/(2.0*1e3*M_PI*(freqPole1))
+}
+
+if nPoles==1 {
+ GP32 ref 301 101 ref vccs gm=1
+ RP32  301 ref resistor r=1 
+} else  {
+ if freqPole2==0 {
+GP21 ref 201 101 ref vccs gm=1e-12
+CP21 201 ref capacitor c=1e-12
+ }else{
+GP22 ref 201 101 ref vccs gm=1e-3 
+RP22 201 ref resistor r=1.0E3
+CP22 201 ref capacitor c=1/(2.0*1e3*M_PI*(freqPole2))
+ }
+
+if nPoles==2 {
+ GP33 ref 301 201 ref vccs gm=1
+ RP33 301 ref resistor r=1 
+ }else {
+ if freqPole3==0 {
+GP34 ref 301 201 ref vccs gm=1e-12
+CP34 301 ref capacitor c=1e-12
+}else{
+GP35 ref 301 201 ref vccs gm=1e-3 
+RP35 301 ref resistor r=1e3
+CP35 301 ref capacitor c=1/(2.0*1e3*M_PI*(freqPole3))
+ }
+}
+}
+}
+
+
+
+//##############################ZEROES########################
+
+if nZeroes==0 {
+ GZ31 ref 3001 301 ref vccs gm=1
+ RZ31 3001 ref resistor r=1
+}else{
+ if freqZero1==0 {
+GZ11 ref 1001 301 ref vccs gm=1
+LZ11 1001 ref inductor l=1 
+ }else{
+GZ12 ref 1001 301 ref vccs gm=1e6/(2*M_PI*(freqZero1)) 
+RZ12 1001 1002 resistor r=2.0e-6*M_PI*(freqZero1) 
+LZ12 1002 ref inductor l=1e-6 
+ }
+
+if nZeroes==1 {
+ GZ32 ref 3001 1001 ref vccs gm=1
+ RZ32 3001 ref resistor r=1
+}else{
+ if freqZero2==0 {
+GZ21 ref 2001 1001 ref vccs gm=1
+LZ21 2001 ref inductor l=1 
+ }else{
+GZ22 ref 2001 1001 ref vccs gm=1e6/(2*M_PI*(freqZero2)) 
+RZ22 2001 2002 resistor r=2.0e-6*M_PI*(freqZero2)
+LZ22 2002 ref inductor l=1e-6 
+ }
+
+if nZeroes==2 {
+ GZ33 ref 3001 2001 ref vccs gm=1
+ RZ33 3001 ref resistor r=1
+}else{
+ if freqZero3==0 {
+GZ34 ref 3001 2001 ref vccs gm=1
+LZ34 3001 ref inductor l=1 
+ }else{
+GZ35 ref 3001 2001 ref vccs gm=1e6/(2*M_PI*(freqZero3)) 
+RZ35 3001 3002 resistor r=2.0e-6*M_PI*(freqZero3) 
+LZ35 3002 ref inductor l=1e-6 
+ }
+}
+}
+}
+//#
+//************* Complex Zeroes ***************
+//#
+//###First complex zero####
+//#
+if nConjZeroes==0 {
+ GCZ31 ref 30004 3001 ref vccs gm=1
+ RCZ31 30004 ref resistor r=1
+}else{
+ if freqConjZero1==0 {
+  if sigmaConjZero1==0 {
+//  ####2nd order zero at the origin#########
+  GCZ111 ref 10001 3001 ref vccs gm=1  
+  LCZ111 10001 ref inductor l=1
+  GCZ121 ref 10004 10001 ref vccs gm=1 
+  LCZ121 10004 ref inductor l=1
+  }else{
+//  ####2nd order zero at sigma+j0####
+  GCZ112 ref 10001 3001 ref vccs gm=-1e6/(sigmaConjZero1)    
+  RCZ112 10001 10002 resistor r=(sigmaConjZero1)*(-1e-6)
+  LCZ112 10002 ref inductor l=1e-6
+  GCZ122 ref 10004 10001 ref vccs gm=-1e6/(sigmaConjZero1)
+  RCZ122 10004 10005 resistor r=(sigmaConjZero1)*(-1e-6)
+  LCZ122 10005 ref inductor l=1e-6
+  }
+}else{
+//####Complex zero at sigma+/-jomega######
+GCZ113 ref 10001 3001 ref vccs gm=1  
+RCZ113 10001 10002 resistor r=1 
+LCZ113 10002 10003 inductor l=1/(-2*(sigmaConjZero1)) 
+CCZ113 10003 ref capacitor c=(-2*(sigmaConjZero1))/((4*(M_PI*(freqConjZero1))**2)+((sigmaConjZero1)**2))
+GCZ123 ref 10004 10001 ref vccs gm=(-2*(sigmaConjZero1))/((4*(M_PI*(freqConjZero1))**2)+((sigmaConjZero1)**2))
+LCZ123 10004 ref inductor l=1
+ }
+//#
+//####Second complex zero###
+//#
+if nConjZeroes==1 {
+ GCZ32 ref 30004 10004 ref vccs gm=1
+ RCZ32 30004 ref resistor r=1
+}else{
+ if freqConjZero2==0 {
+  if sigmaConjZero2==0 {
+//  ####2nd order zero at the origin#########
+  GCZ211 ref 20001 10004 ref vccs gm=1  
+  LCZ211 20001 ref inductor l=1
+  GCZ221 ref 20004 20001 ref vccs gm=1 
+  LCZ221 20004 ref inductor l=1
+  }else{
+//  ####2nd order zero at sigma+j0####
+  GCZ212 ref 20001 10004 ref vccs gm=-1e6/(sigmaConjZero2)    
+  RCZ212 20001 20002 resistor r=(sigmaConjZero2)*(-1e-6)
+  LCZ212 20002 ref inductor l=1e-6
+  GCZ222 ref 20004 20001 ref vccs gm=-1e6/(sigmaConjZero2)
+  RCZ222 20004 20005 resistor r=(sigmaConjZero2)*(-1e-6)
+  LCZ222 20005 ref inductor l=1e-6
+  }
+ }else{
+//####Complex zero at sigma+/-jomega######
+GCZ213 ref 20001 10004 ref vccs gm=1  
+RCZ213 20001 20002 resistor r=1 
+LCZ213 20002 20003 inductor l=1/(-2*(sigmaConjZero2)) 
+CCZ213 20003 ref capacitor c=(-2*(sigmaConjZero2))/((4*(M_PI*(freqConjZero2))**2)+((sigmaConjZero2)**2))
+GCZ223 ref 20004 20001 ref vccs gm=(-2*(sigmaConjZero2))/((4*(M_PI*(freqConjZero2))**2)+((sigmaConjZero2)**2))
+LCZ223 20004 ref inductor l=1
+ }
+//#
+//####Third complex zero###
+//#
+if nConjZeroes==2 {
+ GCZ33 ref 30004 20004 ref vccs gm=1
+ RCZ33 30004 ref resistor r=1
+}else{
+ if freqConjZero3==0 {
+  if sigmaConjZero3==0 {
+//  ####2nd order zero at the origin#########
+  GCZ311 ref 30001 20004 ref vccs gm=1  
+  LCZ311 30001 ref inductor l=1
+  GCZ321 ref 30004 30001 ref vccs gm=1 
+  LCZ321 30004 ref inductor l=1
+  }else{
+//  ####2nd order zero at sigma+j0####
+  GCZ312 ref 30001 20004 ref vccs gm=-1e6/(sigmaConjZero3)    
+  RCZ312 30001 30002 resistor r=(sigmaConjZero3)*(-1e-6)
+  LCZ312 30002 ref inductor l=1e-6
+  GCZ322 ref 30004 30001 ref vccs gm=-1e6/(sigmaConjZero3)
+  RCZ322 30004 30005 resistor r=(sigmaConjZero3)*(-1e-6)
+  LCZ322 30005 ref inductor l=1e-6
+  }
+ }else{
+//####Complex zero at sigma+/-jomega######
+GCZ313 ref 30001 20004 ref vccs gm=1  
+RCZ313 30001 30002 resistor r=1 
+LCZ313 30002 30003 inductor  l=1/(-2*(sigmaConjZero3)) 
+CCZ313 30003 ref capacitor c=(-2*(sigmaConjZero3))/((4*(M_PI*(freqConjZero3))**2)+((sigmaConjZero3)**2))
+GCZ323 ref 30004 30001 ref vccs gm=(-2*(sigmaConjZero3))/((4*(M_PI*(freqConjZero3))**2)+((sigmaConjZero3)**2))
+LCZ323 30004 ref inductor l=1
+ }
+}
+}
+}
+//#
+//#
+//**************** Complex Poles ****************
+//#
+//####First complex pole####
+//#
+if nConjPoles==0 {
+ GCP31 ref 300004 30004 ref vccs gm=1
+ RCP31 300004 ref resistor r=1
+}else{
+ if freqConjPole1==0 {
+  if sigmaConjPole1==0 {
+//  #####2nd order pole at the origin######
+  GCP111 ref 100001 30004 ref vccs gm=1e-12
+  CCP111 100001 ref capacitor c=1e-12
+  GCP121 ref 100004 100001 ref vccs gm=1e-12
+  CCP121 100004 ref capacitor c=1e-12   
+  }else{
+//  #####2nd order pole at sigma+j0#####
+  GCP112 ref 100001 30004 ref vccs gm=1e-6
+  RCP112 100001 ref resistor r=1e6
+  CCP112 100001 ref capacitor c=1/(-1e6*(sigmaConjPole1))
+  GCP122 ref 100004 100001 ref vccs gm=1e-6
+  RCP122 100004 ref resistor r=1e6
+  CCP122 100004 ref capacitor c=1/(-1e6*(sigmaConjPole1))
+  }
+ }else{
+//####Complex pole at sigma+/-jomega####
+ECP11 100001 ref 30004 ref vcvs gain=1  
+RCP11 100001 100002 resistor r=1 
+LCP11 100002 100004 inductor l=1/(-2*(sigmaConjPole1)) 
+CCP11 100004 ref capacitor c=(-2*(sigmaConjPole1))/((4*(M_PI*(freqConjPole1))**2)+((sigmaConjPole1)**2)) 
+ }
+//#
+//####Second complex pole####
+//#
+if nConjPoles==1 {
+ GCP32 ref 300004 100004 ref vccs gm=1
+ RCP32 300004 ref resistor r=1
+}else{
+ if freqConjPole2==0 {
+  if sigmaConjPole2==0 {
+//#####2nd order pole at the origin######
+  GCP211 ref 200001 100004 ref vccs gm=1e-12
+  CCP211 200001 ref capacitor c=1e-12   
+  GCP221 ref 200004 200001 ref vccs gm=1e-12
+  CCP221 200004 ref capacitor c=1e-12
+  }else{
+//  #####2nd order pole at sigma+j0#####
+  GCP212 ref 200001 100004 ref vccs gm=1e-6
+  RCP212 200001 ref resistor r=1e6
+  CCP212 200001 ref capacitor c=1/(-1e6*(sigmaConjPole2))
+  GCP222 ref 200004 200001 ref vccs gm=1e-6
+  RCP222 200004 ref resistor r=1e6
+  CCP222 200004 ref capacitor c=1/(-1e6*(sigmaConjPole2))
+  }
+ }else{
+//####Complex pole at sigma+/-jomega####
+ECP22 200001 ref 100004 ref vcvs gain=1  
+RCP22 200001 200002 resistor r=1 
+LCP22 200002 200004 inductor l=1/(-2*(sigmaConjPole2)) 
+CCP22 200004 ref capacitor c=(-2*(sigmaConjPole2))/((4*(M_PI*(freqConjPole2))**2)+((sigmaConjPole2)**2))
+ }
+//#
+//####Third complex pole####
+//#
+if nConjPoles==2 {
+ GCP33 ref 300004 200004 ref vccs gm=1
+ RCP33 300004 ref resistor r=1
+}else{
+ if freqConjPole3==0 {
+  if sigmaConjPole3==0 {
+//#####2nd order pole at the origin######
+  GCP311 ref 300001 200004 ref vccs gm=1e-12
+  CCP311 300001 ref capacitor c=1e-12
+  GCP321 ref 300004 300001 ref vccs gm=1e-12
+  CCP321 300004 ref capacitor c=1e-12   
+  }else{
+//  #####2nd order pole at sigma+j0#####
+  GCP312 ref 300001 200004 ref vccs gm=1e-6
+  RCP312 300001 ref resistor r=1e6
+  CCP312 300001 ref capacitor c=1/(-1E6*(sigmaConjPole3))
+  GCP322 ref 300004 300001 ref vccs gm=1e-6
+  RCP322 300004 ref resistor r=1e6
+  CCP322 300004 ref capacitor c=1/(-1e6*(sigmaConjPole3))
+  }
+ }else{
+//####Complex pole at sigma+/-jomega####
+ECP34 300001 ref 200004 ref vcvs gain=1  
+RCP34 300001 300002 resistor r=1 
+LCP34 300002 300004 inductor l=1/(-2*(sigmaConjPole3)) 
+CCP34 300004 ref capacitor c=(-2*(sigmaConjPole3))/((4*(M_PI*(freqConjPole3))**2)+((sigmaConjPole3)**2))
+//#
+ }
+}
+}
+}
+//############################################################
+EOUT 30 ref 300004 ref vcvs gain=1
+ROUT 30 out resistor r=outputR
+COUT 30 out capacitor c=outputC
+
+ends f_topaz1
+
+//File: /funcMSpectre/f_varGAmp.s
+// variable gain amplifier block
+
+subckt f_varGAmp inp inn vcp vcn out
+parameters gainConst=10 LimitHigh=10 LimitLow=-10 vinSym=0
+
+R1  inp inn resistor r=1000G
+R2  vcp vcn resistor r=1000G
+E4  out 0 inp inn vcp vcn  uvcvs externf="uusubvga" \
+coeffs=[ LimitHigh LimitLow gainConst vinSym ]
+ends f_varGAmp
+
+
+//File: /funcMSpectre/f_vco.s
+// vco block
+
+subckt f_vco inp inn out
+parameters amplitude=1 centerFreq=1K VCOgain=1000 phaseOff=0 DCOff=0
+
+G1 3 0 inp inn vccs gm=10E-9
+R1 3 0 resistor r=1E9
+C1 3 0 capacitor c=10E-9 ic=0
+E2 4 0 0 3 vcvs gain=1
+
+// end of integrator
+
+E1  out 0 4 0  uvcvs externf="uusubvco" \
+coeffs=[ amplitude centerFreq VCOgain phaseOff DCOff]
+ends f_vco
+
+
+//File: /funcMSpectre/f_voltDba.s
+// voltage dba block
+
+subckt f_voltDba inp inn out
+parameters vinLow=-10 vinHigh=10 vol=0 gain1=1 gain2=1
+R1  inp inn resistor r=1000G
+E4  out 0 inp inn   uvcvs externf="uusubvdb" \
+coeffs=[ vinLow vinHigh vol gain1 gain2 ] 
+ends f_voltDba
+ 
+//File: /funcMSpectre/f_zero.s
+// zero block
+
+subckt f_zero in out
+parameters fc=1K
+G1 3 0 in 0 vccs gm=1E-6
+L1 4 0 inductor l=(1/(6.2831853*fc))
+R1 3 4 resistor r=1
+E1 out 0 0 3 vcvs gain=1E6
+ends f_zero 
+
+

@@ -1,0 +1,44 @@
+Cadence related information:
+Cadence:
+/users/soft/opus/Linux/IC-23.10.120/bin/virtuoso
+@(#)$CDS: virtuoso version IC23.1-64b 01/14/2025 22:42 (cpgbld16) $
+sub-version  IC23.1-64b.ISR12.37 
+
+Spectre:
+/users/soft/opus/Linux//SPECTRE-24.10.03.198/tools/bin/spectre
+ not found
+spectre: WARNING: 32bit executable version of "spectre" not found... the 64bit version will  be used instead.
+@(#)$CDS: spectre  version 24.1.0 64bit 01/06/2025 19:41 (mmsimcm40c-1) $
+ not found
+spectre: WARNING: 32bit executable version of "spectre" not found... the 64bit version will  be used instead.
+sub-version  24.1.0.198.isr3 
+
+Assura:
+ not found
+assura: Command not found.
+ not found
+
+RCX:
+ not found
+rcxToDfII: Command not found.
+ not found
+
+/users/soft/opus/Linux//EXT-17.21.000/tools/bin/capgen
+ not found
+ not found
+ not found
+
+Designkit related information:
+Technology: SG13G2
+Metallization: M6M7
+Release Name: SG13G2_618_rev1.3.3
+Revision Date: 2026-03-03
+Author: IHP Microelectronics GmbH
+
+Environment settings:
+IHP_TECH is set to "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/"
+PROJECT is set to "/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/"
+
+Machine and OS related information:
+Linux onslow 5.14.0-611.38.1.el9_7.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Mar 10 17:21:28 EDT 2026 x86_64 x86_64 x86_64 GNU/Linux
+

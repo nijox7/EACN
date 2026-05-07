@@ -1,0 +1,16 @@
+; 14.1.08 GG: 
+; adjust and specify this file in your Diva DRC as RSF (Run-Specific Command File) 
+; to pass multiple GND nets w/o false short messages since DRC doesn't distinguish
+; between ptap1 and ptap (or ntap1 and ntap)
+
+changeLabel( 
+  ("AGND" "GND")
+  ("GNDA" "GND")
+  ("gnd" "GND")
+  ("agnd" "GND")
+  ("gnda" "GND")
+  ("gnd!" "GND")
+  ("GND!" "GND")
+  ("AGND!" "GND")
+  ("GNDA!" "GND")
+)

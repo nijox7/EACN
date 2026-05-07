@@ -1,0 +1,250 @@
+
+Spectre (R) Circuit Simulator
+Version 24.1.0.198.isr3 64bit -- 6 Jan 2025
+Copyright (C) 1989-2024 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: carbou   Host: dowland   HostID: E3846843   PID: 430838
+Memory  available: 128.1717 GB  physical: 133.8286 GB
+Linux   : AlmaLinux release 9.7 (Moss Jungle Cat)
+CPU Type: Intel(R) Core(TM) Ultra 7 265
+        Socket: Processors [Frequency]
+        0:       0 [800.0],  1 [4084.4],  2 [1816.7],  3 [2201.8],  4 [2206.0]
+                 5 [5043.1],  6 [2213.9],  7 [1991.3],  8 [3184.7],  9 [800.0]
+                10 [800.0], 11 [1801.4], 12 [4564.5], 13 [4556.0], 14 [800.0]
+                15 [800.0], 16 [4542.3], 17 [4600.0], 18 [4593.3], 19 [800.0]
+        
+System load averages (1min, 5min, 15min) : 4.0 %, 4.7 %, 4.3 %
+HPC is enabled
+
+
+Simulating `input.scs' on dowland at 6:14:52 PM, Thur Apr 2, 2026 (process id: 430838).
+Current working directory: /users/enseig/carbou/Documents/S2/EACN/TP2/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/comparator/maestro/results/maestro/ExplorerRORun.0.RO/1/cours_EACN_SESI_comparator_1/netlist
+Command line:
+    /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools/bin/spectre -64  \
+        input.scs +escchars +log ../psf/spectre.out -format psfxl -raw  \
+        ../psf  \
+        -I/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/lib/TL_SG13/RLCG/spectre/  \
+        +aps +mt +lqtimeout 900 -maxw 5 -maxn 5 -env ade  \
+        +adespetkn=0001089D13A302B663E41FB550AF0DF415A679A322D5069144BF588C12F604E07EF416DC01A319B562BB63D35FF319BA45A35BB313DA389C50A90ABE47DA4F9271A179D15D9175FF349864C67B9974D35BED6FD3189710D355F643E118F874D30EA879D118F874D3349879D118F874D33498101F8D03E1285D5600003653  \
+        +mts -ahdllibdir  \
+        /users/enseig/carbou/Documents/S2/EACN/TP2/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/comparator/maestro/results/maestro/ExplorerRORun.0.RO/sharedData/CDS/ahdl/input.ahdlSimDB  \
+        +logstatus
+
+Simulation Id: miGmFSd1LOdc6VE9
+Licensing Information:
+[18:14:52.291241] Configured Lic search path (24.01-s002): 30000@cadence.cnfm.fr
+
+Licensing Information:
+[18:14:52.163651] Periodic Lic check successful
+
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libphilips_I_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /users/enseig/carbou/Documents/S2/EACN/TP2/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/comparator/maestro/results/maestro/ExplorerRORun.0.RO/1/cours_EACN_SESI_comparator_1/netlist/input.scs
+Reading file:  /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /users/enseig/carbou/Documents/S2/EACN/TP2/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/comparator/maestro/results/maestro/ExplorerRORun.0.RO/1/cours_EACN_SESI_comparator_1/netlist/ade_e.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_vbic.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_parm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_parm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_svaricaphv_mosvar_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_paramsTSV.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_tsv.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib
+
+Notice from spectre in `bondpad_model', during circuit read-in.
+    "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib" 13: Subcircuit 'bondpad_model' is empty.
+
+Time for NDB Parsing: CPU = 50.923 ms, elapsed = 366.921 ms.
+Time accumulated: CPU = 120.541 ms, elapsed = 366.922 ms.
+Peak resident memory used = 187 Mbytes.
+
+Time for Elaboration: CPU = 9.635 ms, elapsed = 11.5061 ms.
+Time accumulated: CPU = 130.214 ms, elapsed = 378.465 ms.
+Peak resident memory used = 196 Mbytes.
+
+ Start ADE Session ID: miGmFSd1LOdc6VE9
+
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8527): There are some nodes and instances removed from the netlist topology check. Check the circuit and correct the topology. Or use preserve_inst to keep them if necessary.
+
+***********************************************
+  Total removed instances 2 ( dangling 2, terminals connected together 0)  
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8532): Found dangling isource I8, which can affect the circuit behavior. Check the circuit topology and fix it before running the simulation.
+    WARNING (SPECTRE-8532): Found dangling isource I7, which can affect the circuit behavior. Check the circuit topology and fix it before running the simulation.
+
+
+  Total removed nodes 2 ( dangling nodes 2, floating nodes 0 )
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8530): Dangling node. net16 is removed.
+    WARNING (SPECTRE-8530): Dangling node. net14 is removed.
+
+***********************************************
+Time for EDB Visiting: CPU = 564 us, elapsed = 563.86 us.
+Time accumulated: CPU = 130.82 ms, elapsed = 379.071 ms.
+Peak resident memory used = 197 Mbytes.
+
+
+Notice from spectre during topology check.
+    No connections to node `net4'.
+    No DC path from node `net4' to ground, Gmin installed to provide path.
+Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Netlist title:
+        // Point Netlist Generated on: Apr  2 18:14:51 2026
+
+
+Global user options:
+         psfversion = 1.4.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = sqldb
+      ignorezerovar = yes
+               save = allpub
+           currents = all
+     subcktprobelvl = 5
+       saveahdlvars = all
+             reltol = 0.001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 12
+            isource 4     
+          pspnqs103 8     
+           resistor 2     
+            vsource 5     
+
+Analysis and control statement inventory:
+                 dc 1     
+               info 7     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 1     
+
+Design checks inventory:
+          paramtest 33    
+
+
+Notice from spectre during initial setup.
+    Protected devices exist and are not included in the circuit inventory.
+    APS enabled.
+
+Time for parsing: CPU = 1.27 ms, elapsed = 6.3231 ms.
+Time accumulated: CPU = 132.116 ms, elapsed = 385.419 ms.
+Peak resident memory used = 201 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (APS) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+******************
+DC Analysis `dcOp'
+******************
+
+Opening the PSF file ../psf/dcOp.dc ...
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+    rabsshort = 1 mOhm
+
+Maximum value achieved for any signal of each quantity: 
+V: V(vdd!) = 1.2 V
+I: I(V4:p) = 15.88 uA
+Convergence achieved in 8 iterations.
+DC simulation time: CPU = 1.644 ms, elapsed = 7.18188 ms.
+Total time required for dc analysis `dcOp': CPU = 1.667 ms, elapsed = 7.20382 ms, util. = 23.1%.
+Time accumulated: CPU = 138.693 ms, elapsed = 398.692 ms.
+Peak resident memory used = 205 Mbytes.
+
+dcOpInfo: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dcOpInfo.info ...
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+Licensing Information:
+Lic Summary:
+[18:14:52.296480] Cdslmd servers:30000@cadence.cnfm.fr
+[18:14:52.820777] Feature usage summary:
+[18:14:52.820777] Virtuoso_Multi_mode_Simulation
+
+
+Aggregate audit (6:14:52 PM, Thur Apr 2, 2026):
+Time used: CPU = 146 ms, elapsed = 426 ms, util. = 34.2%.
+Time spent in licensing: elapsed = 259 ms, percentage of total = 60.7%.
+Peak memory used = 207 Mbytes.
+Simulation started at: 6:14:52 PM, Thur Apr 2, 2026, ended at: 6:14:52 PM, Thur Apr 2, 2026, with elapsed time (wall clock): 426 ms.
+spectre completes with 0 errors, 5 warnings, and 7 notices.
+
+
+********* LOG ENDS **************
+**                             **

@@ -1,0 +1,6 @@
+("functional" "comparator" "spectre" "spectre") t
+("analogLib" "vpulse" "spectre" "spectre") t
+("SG13_dev" "pmos" "spectre" "spectre") t
+("analogLib" "cap" "spectre" "spectre") t
+("SG13_dev" "nmos" "spectre" "spectre") t
+("analogLib" "vdc" "spectre" "spectre") t

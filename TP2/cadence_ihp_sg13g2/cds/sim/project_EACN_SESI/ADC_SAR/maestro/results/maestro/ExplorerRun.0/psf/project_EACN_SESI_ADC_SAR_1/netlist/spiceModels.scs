@@ -1,0 +1,13 @@
+
+simulator lang=spectre
+include "$IHP_TECH/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs" section=typ amsd_subckt_bind=yes
+include "$IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs" section=tt amsd_subckt_bind=yes
+include "$IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs" section=tt amsd_subckt_bind=yes
+include "$IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs" section=typ amsd_subckt_bind=yes
+include "$IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs" section=typ amsd_subckt_bind=yes
+include "$IHP_TECH/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs" section=tt amsd_subckt_bind=yes
+include "$IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib" amsd_subckt_bind=yes
+include "$IHP_TECH/tech/SG13_ESD/spectre/SG13_esd.lib" amsd_subckt_bind=yes
+include "$IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs" section=typ amsd_subckt_bind=yes
+include "$IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib" amsd_subckt_bind=yes
+include "/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs" amsd_subckt_bind=yes

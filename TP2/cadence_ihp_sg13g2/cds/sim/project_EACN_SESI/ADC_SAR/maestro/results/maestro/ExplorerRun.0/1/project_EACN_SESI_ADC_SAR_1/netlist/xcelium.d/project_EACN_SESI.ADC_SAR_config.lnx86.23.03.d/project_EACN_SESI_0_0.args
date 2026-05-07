@@ -1,0 +1,31 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-RUNMODE
+-ERRORMAX
+50
+-STATUS
+-NOWARN
+DLNOHV
+-NOWARN
+DLCLAP
+-V93
+-MODELINCDIR
+/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/
+-ALLOWREDEFINITION
+-UPDATE
+-CDSLIB
+./xcelium.d/project_EACN_SESI.ADC_SAR_config.lnx86.23.03.d/cdsrun.lib
+-HDLVAR
+./xcelium.d/project_EACN_SESI.ADC_SAR_config.lnx86.23.03.d/hdlrun.var
+-amscommfile
+./xcelium.d/AMSD/ams_spice_in/amscomm.list
+-amsossirunbind
+./xcelium.d/AMSD/ams_spice_in/amsossbinding.list
+-work
+project_EACN_SESI
+-messages
+-SPECIFICUNIT
+control
+/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/project_EACN_SESI/control/entity/vhdl.vhd

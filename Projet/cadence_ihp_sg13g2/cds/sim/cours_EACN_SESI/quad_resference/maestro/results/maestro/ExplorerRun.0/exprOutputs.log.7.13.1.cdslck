@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      carbou
+HostName                       berwald
+ProcessIdentifier              35658
+ProcessCreationTime_UTC        1775748447
+ProcessCreationTime_Readable   Thu Apr  9 17:27:27 2026 CEST
+AppIdentifier                  /users/soft/opus/Linux/IC-23.10.120/tools.lnx86/dfII/bin/64bit/vds
+OSType                         lnx86
+ReasonForPlacingEditLock       Set lock by hiiLockFile
+FilePathUsedToEditLock         /users/enseig/carbou/Documents/S2/EACN/TP3/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/quad_resference/maestro/results/maestro/ExplorerRun.0/exprOutputs.log.7.13.1
+TimeEditLocked                 Thu Apr  9 17:27:27 2026 CEST

@@ -1,0 +1,23 @@
+// -----------------------------------------------------------------------------
+// (c) Copyright 2010 Cadence Design Systems, Inc. All rights reserved worldwide.
+// -----------------------------------------------------------------------------
+
+
+// Binding AMSD Control Block for config project_EACN_SESI.ADC_SAR:config
+// Created On: Apr  2 09:48:16 2026
+// NOTE      : DO NOT change this system generated file.
+
+amsd {
+	config designtop="project_EACN_SESI.ADC_SAR:schematic"
+
+	config cell="f_comp" view="analogtext"
+	config cell="control" lib="project_EACN_SESI" view="behavioral"
+	config cell="INVJIX1" lib="ixc013g2ng_stdcell" view="functional"
+	config cell="sg13_lv_nmos" view="analogtext"
+	config cell="capacitor" view="analogtext"
+	config cell="vsource" view="analogtext"
+	config cell="SWITCH" lib="project_EACN_SESI" view="schematic"
+	config cell="INVJIX0" lib="ixc013g2ng_stdcell" view="functional"
+	config cell="sg13_lv_pmos" view="analogtext"
+
+ }

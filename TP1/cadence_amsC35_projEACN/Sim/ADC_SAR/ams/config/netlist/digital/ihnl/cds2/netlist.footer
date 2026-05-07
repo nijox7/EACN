@@ -1,0 +1,26 @@
+
+SWITCH I19 ( .SW1(cds_globals.\gnd! ), .SW_CLK(net18), .SW2(net5));
+
+SWITCH I17 ( .SW1(net1), .SW_CLK(net17), .SW2(net5));
+
+SWITCH I16 ( .SW1(net1), .SW_CLK(net16), .SW2(net4));
+
+SWITCH I14 ( .SW1(cds_globals.\gnd! ), .SW_CLK(net15), .SW2(net4));
+
+SWITCH I13 ( .SW1(net1), .SW_CLK(net13), .SW2(net3));
+
+SWITCH I11 ( .SW1(cds_globals.\gnd! ), .SW_CLK(net12), .SW2(net3));
+
+SWITCH I10 ( .SW1(vin), .SW_CLK(net10), .SW2(net1));
+
+SWITCH I8 ( .SW1(cds_globals.\gnd! ), .SW_CLK(net9), .SW2(net1));
+
+SWITCH I5 ( .SW1(net1), .SW_CLK(net8), .SW2(net2));
+
+SWITCH I4 ( .SW1(cds_globals.\gnd! ), .SW_CLK(net7), .SW2(net2));
+
+control I20 ( .q(net11), .d(net23), .en(net9));
+
+INVX1 I24 ( .Q(net10), .A(net9));
+
+endmodule

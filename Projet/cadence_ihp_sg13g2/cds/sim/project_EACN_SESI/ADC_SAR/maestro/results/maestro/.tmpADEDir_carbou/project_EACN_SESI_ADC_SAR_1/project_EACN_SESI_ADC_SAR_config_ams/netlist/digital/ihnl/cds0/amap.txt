@@ -1,0 +1,7 @@
+netMap,*buf_eq_delay,*inh_VSS_VSS!,*\VSS! 
+netMap,*buf_eq_delay,*inh_VDD_VDD!,*\VDD! 
+netMap,*buf_eq_delay,*VDD!,*cds_globals.\VDD! 
+netMap,*buf_eq_delay,*VSS!,*cds_globals.\VSS! 
+netMap,*buf_eq_delay,*vdd!,*cds_globals.\vdd! 
+netMap,*buf_eq_delay,*gnd!,*cds_globals.\gnd! 
+cellMap,*buf_eq_delay,*buf_eq_delay,*project_EACN_SESI,*schematic

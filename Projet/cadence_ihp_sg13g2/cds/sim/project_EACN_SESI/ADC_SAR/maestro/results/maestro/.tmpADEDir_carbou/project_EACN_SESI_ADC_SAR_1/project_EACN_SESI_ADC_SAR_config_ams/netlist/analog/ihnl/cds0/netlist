@@ -1,0 +1,6 @@
+    N0 (A inh_VDD Q inh_VSS) sg13_lv_nmos w=880.00n l=130.00n ng=1 ad=0.0 \
+        as=0.0 pd=0.0 ps=0.0 m=1
+    P0 (A inh_VSS Q inh_VDD) sg13_lv_pmos w=1.34u l=130.00n ng=1 ad=0.0 \
+        as=0.0 pd=0.0 ps=0.0 m=1
+ends buf_eq_delay
+// End of subcircuit definition.

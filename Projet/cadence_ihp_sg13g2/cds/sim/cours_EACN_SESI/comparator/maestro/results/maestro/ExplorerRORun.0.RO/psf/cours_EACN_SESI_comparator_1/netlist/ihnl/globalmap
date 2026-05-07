@@ -1,0 +1,11 @@
+CADENCE IHNL11140
+$model
+cours_EACN_SESI/comparator/schematic comparator
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+vd vd
+temperature temperature
+$endparam

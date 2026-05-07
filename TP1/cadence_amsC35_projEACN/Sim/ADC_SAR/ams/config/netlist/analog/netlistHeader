@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Mar 19 10:58:19 2026
+// Design library name: project_EACN_SESI
+// Design cell name: ADC_SAR
+// Design view name: config
+simulator lang=spectre binding=vlog  
+global 0 vdd!

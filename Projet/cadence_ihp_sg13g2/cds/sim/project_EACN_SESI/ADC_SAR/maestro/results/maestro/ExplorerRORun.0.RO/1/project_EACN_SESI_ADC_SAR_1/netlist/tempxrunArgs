@@ -1,0 +1,38 @@
+
+-UNBUFFERED 
+-cdslib ./cds.lib 
+-errormax 50 
+-status 
+-nowarn DLNOHV 
+-nowarn DLCLAP 
+-64bit 
+-v93 
+-incdir ${IC_INVOKE_DIR}/
+-ade 
+-timescale 1ns/1ns 
+-vtimescale 1ns/1ns 
+-delay_mode None 
+-novitalaccl 
+-access r 
+-noparamerr 
+-amspartinfo ../psf/partition.info -rnm_partinfo 
+-modelincdir ${IC_INVOKE_DIR}/
+./spiceModels.scs 
+./amsControlSpectre.scs 
+-input ./probe.tcl 
+-run -exit 
+-xmsimargs "+amsrawdir ../psf" 
+-spectre_args "-ahdllibdir /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRORun.0.RO/sharedData/CDS/ahdl/input.ahdlSimDB" 
+-spectre_args +logstatus 
+ -simcompatible_ams spectre 
+-name project_EACN_SESI.ADC_SAR:config  
+-allowredefinition 
+-amsbind 
+-top project_EACN_SESI.ADC_SAR:schematic 
+-top cds_globals 
+./netlist.vams 
+./ie_card.scs
+-f ./textInputs
+./cds_globals.vams 
+-l ../psf/xrun.log
+-spectre_args +aps

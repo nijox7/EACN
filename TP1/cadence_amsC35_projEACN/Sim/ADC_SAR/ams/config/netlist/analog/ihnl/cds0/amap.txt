@@ -1,0 +1,11 @@
+cellMap,*INVX1,*INVX1,*CORELIBD,*cmos_sch
+netMap,*INVX1,*vdd!,*vdd!
+netMap,*INVX1,*gnd!,*0
+instMap,*INVX1,*M_i_1,*M_i_1
+instMaster,*INVX1,*M_i_1,*PRIMLIB_pmos4_spectre,*modp
+instMap,*INVX1,*M_i_0,*M_i_0
+instMaster,*INVX1,*M_i_0,*PRIMLIB_nmos4_spectre,*modn
+netMap,*INVX1,*inh_gnd_gnd!,*inh_gnd
+netMap,*INVX1,*inh_vdd_vdd!,*inh_vdd
+portMap,*INVX1,*A,*A
+portMap,*INVX1,*Q,*Q

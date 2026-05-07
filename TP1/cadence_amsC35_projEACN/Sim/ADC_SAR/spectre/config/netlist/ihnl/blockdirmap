@@ -1,0 +1,5 @@
+CADENCE IHNL11143
+
+CORELIBD INVX1 cmos_sch nil verilogams_veriloga_behavioral_functional_module_schematic_spectre_symbol project_EACN_SESI ADC_SAR config 0 cds0
+project_EACN_SESI SWITCH schematic nil verilogams_veriloga_behavioral_functional_module_schematic_spectre_symbol project_EACN_SESI ADC_SAR config 0 cds1
+project_EACN_SESI ADC_SAR schematic nil verilogams_veriloga_behavioral_functional_module_schematic_spectre_symbol project_EACN_SESI ADC_SAR config 1 cds2

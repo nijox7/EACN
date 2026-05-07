@@ -1,0 +1,29 @@
+// Library - CORELIBD, Cell - INVX1, View - cmos_sch
+// LAST TIME SAVED: Sep  5 11:28:01 2012
+// NETLIST TIME: Mar 19 10:59:32 2026
+`timescale 1ns / 1ps 
+
+`worklib CORELIBD
+`view cmos_sch
+
+(* cds_ams_schematic *) 
+(* dfII_lib="CORELIBD", dfII_cell="INVX1", dfII_view="cmos_sch", worklib_name="CORELIBD", view_name="cmos_sch", last_save_time="Sep  5 11:28:01 2012" *)
+
+module INVX1 (Q, A);
+
+output  Q;
+
+input  A;
+
+wire (*
+integer inh_conn_prop_name = "gnd";
+integer inh_conn_def_value = "cds_globals.\\gnd! ";*)
+\gnd! ;
+
+wire (*
+integer inh_conn_prop_name = "vdd";
+integer inh_conn_def_value = "cds_globals.\\vdd! ";*)
+\vdd! ;
+
+
+endmodule

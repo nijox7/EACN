@@ -1,0 +1,30 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-timescale
+1ns/1ns
+-DELAY_MODE
+None
+-NOVITALACCL
+-ACCESS
+r
+-AMSPARTINFO
+../psf/partition.info
+-RNM_PARTINFO
+-MODELINCDIR
+/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/
+-SPECTRE_ARGS
+"-ahdllibdir /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRORun.0.RO/sharedData/CDS/ahdl/input.ahdlSimDB"
+-SPECTRE_ARGS
++logstatus
+
+project_EACN_SESI.ADC_SAR:schematic
+
+cds_globals
+-AMSCOMPILEFILE
+"file:/users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX1/functional/verilog.v lib:ixc013g2ng_stdcell cell:INVJIX1 view:functional"
+-AMSCOMPILEFILE
+"file:/users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX0/functional/verilog.v lib:ixc013g2ng_stdcell cell:INVJIX0 view:functional"
+-SPECTRE_ARGS
++aps

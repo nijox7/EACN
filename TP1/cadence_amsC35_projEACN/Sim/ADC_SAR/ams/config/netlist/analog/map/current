@@ -1,0 +1,22 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "ADC_SAR"
+  repList "verilogams veriloga behavioral functional module schematic spectre symbol"
+  stopList "symbol spectre"
+  globalList "vdd! gnd!"
+  hierDelim "."
+  netlistDir "/users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/analog"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "project_EACN_SESI/SWITCH/schematic" "SWITCH" )
+( "CORELIBD/INVX1/cmos_sch" "INVX1" )
+( "project_EACN_SESI/ADC_SAR/schematic" "ADC_SAR" )
+ )
+( "ADC_SAR" "ihnl/cds2/map" )
+( "SWITCH" "ihnl/cds1/map" )
+( "INVX1" "ihnl/cds0/map" )
+ )

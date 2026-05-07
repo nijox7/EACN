@@ -1,0 +1,92 @@
+
+Spectre (R) Circuit Simulator
+Version 24.1.0.198.isr3 64bit -- 6 Jan 2025
+Copyright (C) 1989-2024 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: galayko   Host: ropartz   HostID: E3846E43   PID: 649554
+Memory  available: 126.2847 GB  physical: 133.8288 GB
+Linux   : AlmaLinux release 9.7 (Moss Jungle Cat)
+CPU Type: Intel(R) Core(TM) Ultra 7 265
+        Socket: Processors [Frequency]
+        0:       0 [800.0],  1 [800.0],  2 [2192.2],  3 [800.0],  4 [2194.9]
+                 5 [2197.8],  6 [800.0],  7 [800.0],  8 [800.0],  9 [800.0]
+                10 [800.0], 11 [2902.3], 12 [1506.4], 13 [800.0], 14 [1501.9]
+                15 [800.0], 16 [800.0], 17 [800.0], 18 [4580.6], 19 [2069.8]
+        
+System load averages (1min, 5min, 15min) : 3.3 %, 2.1 %, 1.4 %
+
+
+Simulating `./xcelium.d/AMSD/ams_spice_in/.amsspice_normal.ckt' on ropartz at 9:50:25 AM, Thur Apr 2, 2026 (process id: 649554).
+Current working directory: /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist
+Environment variable:
+    SPECTRE_DEFAULTS=
+Command line:
+    /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/bin/spectre  \
+        -64 ./xcelium.d/AMSD/ams_spice_in/.amsspice_normal.ckt +dcopt=0  \
+        -va,amsspice_normal -ahdllibdir  \
+        /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/sharedData/CDS/ahdl/input.ahdlSimDB  \
+        =log ./xcelium.d/AMSD/ams_spice_in/.amsspice_normal.ckt.log  \
+        +mts  \
+        -I/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/  \
+        -token{token}
+
+Licensing Information:
+[09:50:25.291241] Configured Lic search path (24.01-s002): 30000@cadence.cnfm.fr
+
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libphilips_I_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/xcelium.d/AMSD/ams_spice_in/.amsspice_normal.ckt
+Reading file:  /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/spiceModels.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_vbic.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_parm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_parm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_svaricaphv_mosvar_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_paramsTSV.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_tsv.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib
+
+Notice from spectre in `bondpad_model', during circuit read-in.
+    "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib" 13: Subcircuit 'bondpad_model' is empty.
+
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/amsControlSpectre.scs
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/ie_card.scs
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_ADC_SAR_1/netlist/.amsbind.scs
+Time for NDB Parsing: CPU = 53.585 ms, elapsed = 217.432 ms.
+Time accumulated: CPU = 117.218 ms, elapsed = 217.436 ms.
+Peak resident memory used = 192 Mbytes.
+
+Licensing Information:
+Lic Summary:
+[09:50:25.476146] Cdslmd servers:30000@cadence.cnfm.fr
+[09:50:25.476155] Feature usage summary:
+

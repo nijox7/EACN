@@ -1,0 +1,12 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-INCDIR
+/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/
+-VTIMESCALE
+1ns/1ns
+-MODELINCDIR
+/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/
+-SNAPSHOT
+project_EACN_SESI.ADC_SAR:config

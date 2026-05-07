@@ -1,0 +1,1 @@
+(nil plottableAnalyses tran(ac noise dc) signals ((nil fullName "/out<3>" sigExpr "VT(\"/out<3>\")") (nil fullName "/compin" sigExpr "VT(\"/compin\")")) plottableExpressions nil)

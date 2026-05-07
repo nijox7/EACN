@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"I56n I57n I65n I66n I67n I68n" "project_EACN_SESI_buf_eq_delay_schematic"
+"I45n I46n I47n I48n I49n I50n" "ixc013g2ng_stdcell_INVJIX1_functional"
+"I43n" "project_EACN_SESI_SAR_control_behavioral"
+"I10n I11n I13n I14n I16n I17n I19n I34n I4n I40n I41n I5n I8n" "project_EACN_SESI_SWITCH_schematic"
+"X3n" "functional_comparator_spectre"
+"V10n V8n" "analogLib_vpulse_spectre"
+"V0n V1n V2n V5n" "analogLib_vdc_spectre"
+"Cn C0n C1n C2n C4n" "analogLib_cap_spectre"

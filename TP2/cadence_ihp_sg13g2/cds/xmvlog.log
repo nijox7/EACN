@@ -1,0 +1,37 @@
+xmvlog: 23.03-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+ASSIGN mixSig DISPLAY CadenceLib
+|
+xmvlog: *W,DLCLIB (/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/env/cds.lib_composite,14): cds.lib Library not defined 'mixSig' (cds.lib command ignored).
+ASSIGN spectreHDL DISPLAY CadenceLib
+|
+xmvlog: *W,DLCLIB (/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/env/cds.lib_composite,15): cds.lib Library not defined 'spectreHDL' (cds.lib command ignored).
+ASSIGN corners DISPLAY CadenceLib
+|
+xmvlog: *W,DLCLIB (/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/env/cds.lib_composite,16): cds.lib Library not defined 'corners' (cds.lib command ignored).
+SOFTINCLUDE ${AMSHOME}/tools/inca/files/cds.lib
+|
+xmvlog: *W,DLCVAR (/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/env/cds.lib_composite,22): cds.lib Invalid environment variable ''.
+ASSIGN SG13_Example DISPLAY PDKlib
+|
+xmvlog: *W,DLCLIB (/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/env/cds.lib_composite,31): cds.lib Library not defined 'SG13_Example' (cds.lib command ignored).
+SOFTINCLUDE ${AMSHOME}/tools/inca/files/cds.lib_plain
+|
+xmvlog: *W,DLCVAR (./cds.lib,8): cds.lib Invalid environment variable ''.
+TOOL:	xmvlog	23.03-s013: Started on Apr 02, 2026 at 09:43:26 CEST
+xmvlog
+    -USE5X
+    -CDS_IMPLICIT_TMPDIR ./.pcdb
+    -NOWARN DLNOHV
+    -WORK ixc013g2ng_stdcell
+    -view functional
+    /users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX1/functional/verilog.v
+    -linedebug
+    -messages
+
+xmvlog: *W,HVDEPRREN: HDL.VAR Variable (NCVLOGOPTS) is deprecated. Use (XMVLOGOPTS) instead.
+file: /users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX1/functional/verilog.v
+	module ixc013g2ng_stdcell.INVJIX1:functional
+		errors: 0, warnings: 0
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 7
+TOOL:	xmvlog	23.03-s013: Exiting on Apr 02, 2026 at 09:43:26 CEST  (total: 00:00:00)

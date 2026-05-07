@@ -1,0 +1,13 @@
+"serviceLog=logs0/Service8.log"
+nodes=14
+jobId=9
+idInRun=2
+host=ropartz
+jobLog=logs0/Job9.log
+recommendedThreads=1
+cpuTime=0.188000
+cpuUtil=34
+Memory=212 M
+startTime=3:40:14 PM, Thur Apr 9, 2026
+endTime=3:40:15 PM, Thur Apr 9, 2026
+elapsedTime=0.552000

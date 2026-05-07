@@ -1,0 +1,11 @@
+# File Created by Dimitri Galayko at Thu Apr  2 09:14:54 2026
+# assisted by CdsLibEditor
+#---------------------------------------------------------------
+# TO HAVE THE OLD LIBRARY VIEW, INCLUDE cds.lib_plain INSTEAD OF cds.lib_composite
+# SOFTINCLUDE ${IHP_TECH}/env/cds.lib_plain
+#---------------------------------------------------------------
+SOFTINCLUDE ${IHP_TECH}/env/cds.lib_composite
+SOFTINCLUDE ${AMSHOME}/tools/inca/files/cds.lib_plain
+DEFINE tmp /users/cao/galayko/cadence_ihp_sg13g2/cds/tmp
+DEFINE cours_EACN_SESI cours_EACN_SESI
+DEFINE project_EACN_SESI project_EACN_SESI

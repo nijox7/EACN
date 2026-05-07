@@ -1,0 +1,50 @@
+
+--Create Entity:
+--Library=project_EACN_SESI,Cell=SAR_control,View=entity
+--Time:Tue Apr 14 12:04:35 2026
+--By:galayko
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+ENTITY \SAR_control\ IS
+    PORT(
+        Vsw1 : OUT std_ulogic;
+        Vsw2 : OUT std_ulogic;
+        VswC : OUT std_ulogic;
+        VswC0 : OUT std_ulogic;
+        VswC1 : OUT std_ulogic;
+        VswC2 : OUT std_ulogic;
+        VswC3 : OUT std_ulogic;
+		Cout   : OUT std_ulogic_vector(3 downto 0);
+        CLK : IN std_ulogic;
+        Comp : IN std_ulogic
+    );
+END \SAR_control\;
+
+
+architecture Behavioral of \SAR_control\ is
+    signal phase_count : integer range 0 to 5 :=0;
+    signal 	Cout_s   : std_ulogic_vector(3 downto 0); -- le mot de sortie
+    signal out_ready : std_ulogic; 
+ 
+begin
+
+   process (CLK) 
+	begin
+	if clk='1' then
+         out_ready<='0';
+		case phase_count is
+			when 0 =>  -- sample
+				--- compl?ter ici
+				phase_count<=phase_count+1;
+			when 1 => 	
+			-- compl?ter ici
+				phase_count<=phase_count+1;
+		--- compl?ter ici
+			when others =>
+				null;				
+		end case;
+	end if;
+	end process;
+end Behavioral;
+

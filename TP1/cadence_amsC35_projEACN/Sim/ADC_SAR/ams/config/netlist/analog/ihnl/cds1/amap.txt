@@ -1,0 +1,12 @@
+cellMap,*SWITCH,*SWITCH,*project_EACN_SESI,*schematic
+netMap,*SWITCH,*vdd!,*vdd!
+netMap,*SWITCH,*gnd!,*0
+instMap,*SWITCH,*MP5,*MP5
+instMaster,*SWITCH,*MP5,*PRIMLIB_pmos4_spectre,*modp
+instMap,*SWITCH,*MN11,*MN11
+instMaster,*SWITCH,*MN11,*PRIMLIB_nmos4_spectre,*modn
+instMap,*SWITCH,*I39,*I39
+instMaster,*SWITCH,*I39,*CORELIBD_INVX1_cmos_sch,*INVX1
+portMap,*SWITCH,*SW1,*SW1
+portMap,*SWITCH,*SW2,*SW2
+portMap,*SWITCH,*SW_CLK,*SW_CLK

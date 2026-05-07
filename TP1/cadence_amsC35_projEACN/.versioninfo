@@ -1,0 +1,8 @@
+Thu Mar 19 10:09:33 CET 2026
+hitkit: ams_4.10
+Cadence: 2026/03/19 10:09:33 System is not a supported distribution
+2026/03/19 10:09:33 An error occurred. We don't recognize OS 
+2026/03/19 10:09:33 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/03/19 10:09:33 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+sub-version  IC6.1.8-64b.500.36 
+ 

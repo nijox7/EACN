@@ -1,0 +1,58 @@
+amspacktool: WARNING: 64bit executable version of "amspacktool" not found... the 32bit version will  be used instead.
+ERROR: Cannot find /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/INCA_libs/AMSD/ams_spice_in/.amsspice_pre.ckt ! 
+Notice: /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/etc/configs/spectre.cfg is filtered . 
+Notice: /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/etc/configs/mapsubckt.cfg is filtered . 
+Copy /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/spiceModels.scs ... 
+ln -s /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/INCA_libs/AMSD/ams_spice_in/.a//users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/spiceModels.scs /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/INCA_libs/AMSD/ams_spice_in/.a/. 
+Use of uninitialized value $i in numeric lt (<) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 292, <LF> line 43.
+Use of uninitialized value $i in array element at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 294, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $i in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $i in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Use of uninitialized value $binary_num in numeric eq (==) at /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/amspacktool/bin/32bit/amspacktool line 297, <LF> line 43.
+Copy /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/soac.scs ... 
+Copy /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/processOption.scs ... 
+Copy /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/process.scs ... 
+Copy /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/soac.va ... 
+Notice: /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/etc/ahdl/constants.h is filtered . 
+Notice: /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/etc/ahdl/constants.vams is filtered . 
+Notice: /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/etc/ahdl/discipline.h is filtered . 
+Notice: /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/etc/ahdl/disciplines.vams is filtered . 
+Copy /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/processOption/C35B4M3.scs ... 
+Copy /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/cmos53.scs ... 
+Copy /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/res.scs ... 
+Copy /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/cap.scs ... 
+Copy /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/bip.scs ... 
+Copy /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/ind.scs ... 
+Copy /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/esddiode.scs ... 
+Copy /users/cao/galayko/cadence_amsC35_projEACN/allFunc.scs ... 
+Copy /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/amsControlSpectre.scs ... 
+Copy /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/ie_card.scs ... 
+
+Copy ./INCA_libs/AMSD/ams_spice_in/.amsspice_pre.ckt.log ... 
+Generating TAR file... 
+Done!
+
+Pack Directory: /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/INCA_libs/AMSD/ams_spice_in/.a 

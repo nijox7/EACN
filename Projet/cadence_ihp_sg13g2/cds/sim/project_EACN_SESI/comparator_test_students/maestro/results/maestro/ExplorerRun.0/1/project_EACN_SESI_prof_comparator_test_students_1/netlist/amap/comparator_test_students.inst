@@ -1,0 +1,7 @@
+HEADER
+"PSFversion" "1.00"
+"N5n N4n N3n N2n N1n N0n" "SG13_dev_nmos_spectre"
+"P3n P2n P1n P0n" "SG13_dev_pmos_spectre"
+"V5n V6n V3n V0n" "analogLib_vdc_spectre"
+"V2n V1n" "analogLib_vpulse_spectre"
+"I12n" "DFRRSQJIX1"

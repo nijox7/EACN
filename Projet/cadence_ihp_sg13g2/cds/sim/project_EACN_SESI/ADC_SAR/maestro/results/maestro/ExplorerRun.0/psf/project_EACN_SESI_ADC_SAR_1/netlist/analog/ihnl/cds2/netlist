@@ -1,0 +1,38 @@
+
+// Library name: project_EACN_SESI
+// Cell name: ADC_SAR
+// View name: schematic
+// Inherited view list: schematic
+V5 (net20 0) vsource dc=vin type=dc
+V2 (vref 0) vsource dc=1 type=dc
+V1 (vcm 0) vsource dc=500.0m type=dc
+V0 (vdd! 0) vsource dc=1.2 type=dc
+C (compin net5) capacitor c=Cu
+C0 (compin net4) capacitor c=Cu
+C4 (compin vbc3) capacitor c=8*Cu
+C1 (compin net3) capacitor c=2*Cu
+C2 (compin vbc2) capacitor c=4*Cu
+X3 (compin vcm comp) f_comp outputHigh=1.2 outputLow=0 slope=10000
+I68 buf_eq_delay
+I67 buf_eq_delay
+I66 buf_eq_delay
+I65 buf_eq_delay
+I57 buf_eq_delay
+I56 buf_eq_delay
+V10 (vin 0) vsource type=pulse val0=0 val1=1 period=1 delay=50u rise=3m \
+        fall=1m width=500.0m
+V8 (CLK 0) vsource type=pulse val0=0 val1=1.2 period=10u delay=0 rise=1n \
+        fall=1n width=5u
+I34 SWITCH
+I19 SWITCH
+I17 SWITCH
+I16 SWITCH
+I40 SWITCH
+I14 SWITCH
+I13 SWITCH
+I11 SWITCH
+I10 SWITCH
+I8 SWITCH
+I5 SWITCH
+I41 SWITCH
+I4 SWITCH

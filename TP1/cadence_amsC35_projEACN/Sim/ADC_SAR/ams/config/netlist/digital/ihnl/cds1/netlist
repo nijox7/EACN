@@ -1,0 +1,21 @@
+// Library - project_EACN_SESI, Cell - SWITCH, View - schematic
+// LAST TIME SAVED: Mar 19 10:15:30 2026
+// NETLIST TIME: Mar 19 10:59:32 2026
+`timescale 1ns / 1ps 
+
+`worklib project_EACN_SESI
+`view schematic
+
+(* cds_ams_schematic *) 
+(* dfII_lib="project_EACN_SESI", dfII_cell="SWITCH", dfII_view="schematic", worklib_name="project_EACN_SESI", view_name="schematic", last_save_time="Mar 19 10:15:30 2026" *)
+
+module SWITCH (SW1, SW2, SW_CLK);
+
+inout  SW1, SW2;
+
+input  SW_CLK;
+
+
+INVX1 I39 ( .Q(net04), .A(SW_CLK));
+
+endmodule

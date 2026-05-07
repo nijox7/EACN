@@ -1,0 +1,36 @@
+
+// Library name: project_EACN_SESI
+// Cell name: ADC_SAR
+// View name: schematic
+// Inherited view list: verilogams veriloga behavioral functional module
+// schematic spectre symbol
+V5 (vin 0) vsource dc=1 type=dc
+V2 (vref 0) vsource dc=2.24 type=dc
+V1 (vcm 0) vsource dc=1.12 type=dc
+V0 (vdd! 0) vsource dc=3.3 type=dc
+C (net6 net5) capacitor c=Cu
+C0 (net6 net4) capacitor c=Cu
+C1 (net6 net3) capacitor c=2*Cu
+C2 (net6 net2) capacitor c=4*Cu
+I34 (net6 vcm vsw1 0 vdd!) SWITCH
+I19 (vcm net5 vswc 0 vdd!) SWITCH
+I17 (net1 net5 net17 0 vdd!) SWITCH
+I16 (net1 net4 net16 0 vdd!) SWITCH
+I14 (vcm net4 vswc0 0 vdd!) SWITCH
+I13 (net1 net3 net13 0 vdd!) SWITCH
+I11 (vcm net3 vswc1 0 vdd!) SWITCH
+I10 (net20 net1 net10 0 vdd!) SWITCH
+I8 (vref net1 vsw2 0 vdd!) SWITCH
+I5 (net1 net2 net8 0 vdd!) SWITCH
+I4 (vcm net2 vswc2 0 vdd!) SWITCH
+X1 (net6 vcm net22) f_comp outputHigh=3.3 outputLow=0 slope=1000
+I29 control
+V7 (net21 0) vsource type=pulse val0=0 val1=3.3 period=1u delay=0 \
+        rise=100p fall=100p width=500.0n
+V6 (net23 0) vsource type=pulse val0=0 val1=3.3 period=2u delay=100.0n \
+        rise=100p fall=100p width=1u
+I24 (vsw2 net10 0 vdd!) INVX1
+I30 (vswc2 net8 0 vdd!) INVX1
+I32 (vswc0 net16 0 vdd!) INVX1
+I31 (vswc1 net13 0 vdd!) INVX1
+I33 (vswc net17 0 vdd!) INVX1

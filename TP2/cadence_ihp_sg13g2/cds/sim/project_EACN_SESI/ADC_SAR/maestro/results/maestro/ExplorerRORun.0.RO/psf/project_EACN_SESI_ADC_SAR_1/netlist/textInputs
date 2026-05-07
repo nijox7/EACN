@@ -1,0 +1,20 @@
+// -----------------------------------------------------------------------------
+// (c) Copyright 2010 Cadence Design Systems, Inc. All rights reserved worldwide.
+// -----------------------------------------------------------------------------
+
+// HDL file for Lib - ixc013g2ng_stdcell ,Cell - INVJIX1, View - functional
+-amscompilefile "file:/users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX1/functional/verilog.v lib:ixc013g2ng_stdcell cell:INVJIX1 view:functional"
+
+// HDL file for Lib - project_EACN_SESI ,Cell - control, View - entity
+-makelib project_EACN_SESI 
+-specificunit control 
+${IC_INVOKE_DIR}/project_EACN_SESI/control/entity/vhdl.vhd
+// HDL file for Lib - project_EACN_SESI ,Cell - control, View - behavioral
+-makelib project_EACN_SESI -view behavioral
+-specificunit control:behavioral 
+${IC_INVOKE_DIR}/project_EACN_SESI/control/behavioral/vhdl.vhd
+
+-endlib 
+// HDL file for Lib - ixc013g2ng_stdcell ,Cell - INVJIX0, View - functional
+-amscompilefile "file:/users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX0/functional/verilog.v lib:ixc013g2ng_stdcell cell:INVJIX0 view:functional"
+

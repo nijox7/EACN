@@ -1,0 +1,102 @@
+xrun: 23.03-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xrun	23.03-s013: Started on Apr 02, 2026 at 09:50:16 CEST
+xrun
+	-f xrunArgs
+		-UNBUFFERED
+		-cdslib ./cds.lib
+		-errormax 50
+		-status
+		-nowarn DLNOHV
+		-nowarn DLCLAP
+		-v93
+		-incdir /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/
+		-ade
+		-timescale 1ns/1ns
+		-vtimescale 1ns/1ns
+		-delay_mode None
+		-novitalaccl
+		-access r
+		-noparamerr
+		-amspartinfo ../psf/partition.info
+		-rnm_partinfo
+		-modelincdir /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/
+		./spiceModels.scs
+		./amsControlSpectre.scs
+		-input ./probe.tcl
+		-run
+		-exit
+		-xmsimargs "+amsrawdir ../psf"
+		-spectre_args "-ahdllibdir /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/sharedData/CDS/ahdl/input.ahdlSimDB"
+		-spectre_args +logstatus
+		-simcompatible_ams spectre
+		-name project_EACN_SESI.ADC_SAR:config
+		-allowredefinition
+		-amsbind
+		-top project_EACN_SESI.ADC_SAR:schematic
+		-top cds_globals
+		./netlist.vams
+		./ie_card.scs
+		-f ./textInputs
+			-amscompilefile "file:/users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX1/functional/verilog.v lib:ixc013g2ng_stdcell cell:INVJIX1 view:functional"
+			-makelib project_EACN_SESI
+			-specificunit control
+			/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/project_EACN_SESI/control/entity/vhdl.vhd
+			-makelib project_EACN_SESI
+			-view behavioral
+			-specificunit control:behavioral
+			/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/project_EACN_SESI/control/behavioral/vhdl.vhd
+			-endlib
+			-amscompilefile "file:/users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX0/functional/verilog.v lib:ixc013g2ng_stdcell cell:INVJIX0 view:functional"
+		./cds_globals.vams
+		-l ../psf/xrun.log
+		-spectre_args +aps
+/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/project_EACN_SESI/control/entity/vhdl.vhd:
+	errors: 0, warnings: 0
+xmvhdl_p: Memory Usage - Current physical: 16.1M, Current virtual: 31.9M
+\project_EACN_SESI\.CONTROL (entity):
+	streams: 4, words: 56
+xmvhdl_cg: Memory Usage - Current physical: 15.8M, Current virtual: 27.5M
+xmvhdl: CPU Usage - 0.0s system + 0.0s user = 0.0s total (0.1s, 31.8% cpu)
+/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/project_EACN_SESI/control/behavioral/vhdl.vhd:
+	errors: 0, warnings: 0
+xmvhdl_p: Memory Usage - Current physical: 16.2M, Current virtual: 32.0M
+\project_EACN_SESI\.CONTROL:BEHAVIORAL (architecture):
+	streams: 1, words: 114
+xmvhdl_cg: Memory Usage - Current physical: 15.8M, Current virtual: 27.5M
+xmvhdl: CPU Usage - 0.0s system + 0.0s user = 0.0s total (0.1s, 33.3% cpu)
+file: ./netlist.vams
+	module project_EACN_SESI.SWITCH:schematic
+		errors: 0, warnings: 0
+	module project_EACN_SESI.ADC_SAR:schematic
+		errors: 0, warnings: 0
+file: ./cds_globals.vams
+	module worklib.cds_globals:vams
+		errors: 0, warnings: 0
+file: /users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX1/functional/verilog.v
+	module ixc013g2ng_stdcell.INVJIX1:functional
+		errors: 0, warnings: 0
+file: /users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX0/functional/verilog.v
+	module ixc013g2ng_stdcell.INVJIX0:functional
+		errors: 0, warnings: 0
+xmvlog: *W,SPDUSD: Include directory /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/ given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+xmvlog: Memory Usage - Current physical: 19.6M, Current virtual: 43.1M
+xmvlog: CPU Usage - 0.0s system + 0.0s user = 0.0s total (0.1s, 20.9% cpu)
+		Caching library 'ixc013g2ng_stdcell' ....... Done
+		Caching library 'project_EACN_SESI' ....... Done
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+xmelab: *N,MSFLON: Xcelium will initiate mixed signal elaboration, Reason: Verilog AMS module.
+	Top level design units:
+		ADC_SAR
+		cds_globals
+xmelab: *F,XAMS32: Xcelium AMS flow with analog engine is not supported in 32-bit mode.
+xmelab: Memory Usage - Final: 43.3M, Peak: 43.3M, Peak virtual: 109.3M
+xmelab: CPU Usage - 0.0s system + 0.0s user = 0.0s total (0.1s, 31.1% cpu)
+xrun: *E,ELBERR: Error (*E) or soft error (*SE) occurred during elaboration (status 2), exiting.
+TOOL:	xrun	23.03-s013: Exiting on Apr 02, 2026 at 09:50:25 CEST  (total: 00:00:09)
+
+
+********* LOG ENDS **************
+**                             **

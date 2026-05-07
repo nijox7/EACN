@@ -1,0 +1,11 @@
+
+simulator lang=spectre
+include "/users/soft/techno/dev/vienne/035.HV-4.10//spectre/c35/soac/soac.scs" amsd_subckt_bind=yes
+include "/users/soft/techno/dev/vienne/035.HV-4.10//spectre/c35/soac/processOption.scs" amsd_subckt_bind=yes
+include "/users/soft/techno/dev/vienne/035.HV-4.10//spectre/c35/soac/cmos53.scs" section=cmostm amsd_subckt_bind=yes
+include "/users/soft/techno/dev/vienne/035.HV-4.10//spectre/c35/soac/res.scs" section=restm amsd_subckt_bind=yes
+include "/users/soft/techno/dev/vienne/035.HV-4.10//spectre/c35/soac/cap.scs" section=captm amsd_subckt_bind=yes
+include "/users/soft/techno/dev/vienne/035.HV-4.10//spectre/c35/soac/bip.scs" section=biptm amsd_subckt_bind=yes
+include "/users/soft/techno/dev/vienne/035.HV-4.10//spectre/c35/soac/ind.scs" section=indtm amsd_subckt_bind=yes
+include "/users/soft/techno/dev/vienne/035.HV-4.10//spectre/c35/soac/esddiode.scs" section=esddiodetm amsd_subckt_bind=yes
+include "/users/cao/galayko/cadence_amsC35_projEACN/allFunc.scs" amsd_subckt_bind=yes

@@ -1,0 +1,4 @@
+
+INVX1 I39 ( .Q(net04), .A(SW_CLK));
+
+endmodule

@@ -1,0 +1,5 @@
+netMap,*INVX1,*inh_gnd_gnd!,*\gnd! 
+netMap,*INVX1,*inh_vdd_vdd!,*\vdd! 
+netMap,*INVX1,*vdd!,*cds_globals.\vdd! 
+netMap,*INVX1,*gnd!,*cds_globals.\gnd! 
+cellMap,*INVX1,*INVX1,*CORELIBD,*cmos_sch

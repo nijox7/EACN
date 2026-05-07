@@ -1,0 +1,73 @@
+// Library - project_EACN_SESI, Cell - ADC_SAR, View - schematic
+// LAST TIME SAVED: Apr 16 17:28:47 2026
+// NETLIST TIME: Apr 16 17:28:53 2026
+`timescale 1ns / 1ns 
+
+`worklib project_EACN_SESI
+`view schematic
+
+(* cds_ams_schematic *) 
+(* dfII_lib="project_EACN_SESI", dfII_cell="ADC_SAR", dfII_view="schematic", worklib_name="project_EACN_SESI", view_name="schematic", last_save_time="Apr 16 17:28:47 2026" *)
+
+module ADC_SAR ();
+
+// Buses in the design
+
+wire  [3:0]  out;
+
+
+SAR_control I43 ( .cout(out), .clk(CLK), .vswc3(vswC3), .vswc2(vswC2), 
+    .vswc1(vswC1), .vswc0(vswC0), .vswc(vswC), .vsw2(vsw2), 
+    .vsw1(vsw1), .comp(comp));
+
+buf_eq_delay I68 ( .A(vsw2), .Q(net16));
+
+buf_eq_delay I67 ( .A(vswC), .Q(net15));
+
+buf_eq_delay I66 ( .A(vswC0), .Q(net14));
+
+buf_eq_delay I65 ( .A(vswC1), .Q(net11));
+
+buf_eq_delay I57 ( .A(vswC3), .Q(net7));
+
+buf_eq_delay I56 ( .A(vswC2), .Q(net2));
+
+SWITCH I34 ( .SW1(compin), .SW_CLK(vsw1), .SW2(vcm));
+
+SWITCH I19 ( .SW1(cds_globals.\gnd! ), .SW_CLK(net9), .SW2(net5));
+
+SWITCH I17 ( .SW1(a), .SW_CLK(net15), .SW2(net5));
+
+SWITCH I16 ( .SW1(a), .SW_CLK(net14), .SW2(net4));
+
+SWITCH I40 ( .SW1(cds_globals.\gnd! ), .SW_CLK(net1), .SW2(vbc3));
+
+SWITCH I14 ( .SW1(cds_globals.\gnd! ), .SW_CLK(net10), .SW2(net4));
+
+SWITCH I13 ( .SW1(a), .SW_CLK(net11), .SW2(net3));
+
+SWITCH I11 ( .SW1(cds_globals.\gnd! ), .SW_CLK(net8), .SW2(net3));
+
+SWITCH I10 ( .SW1(vref), .SW_CLK(net16), .SW2(a));
+
+SWITCH I8 ( .SW1(vin), .SW_CLK(net12), .SW2(a));
+
+SWITCH I5 ( .SW1(a), .SW_CLK(net2), .SW2(vbc2));
+
+SWITCH I41 ( .SW1(a), .SW_CLK(net7), .SW2(vbc3));
+
+SWITCH I4 ( .SW1(cds_globals.\gnd! ), .SW_CLK(net6), .SW2(vbc2));
+
+INVJIX1 I45 ( .A(vswC3), .Q(net1));
+
+INVJIX1 I49 ( .A(vswC), .Q(net9));
+
+INVJIX1 I47 ( .A(vswC1), .Q(net8));
+
+INVJIX1 I46 ( .A(vswC2), .Q(net6));
+
+INVJIX1 I48 ( .A(vswC0), .Q(net10));
+
+INVJIX1 I50 ( .A(vsw2), .Q(net12));
+
+endmodule

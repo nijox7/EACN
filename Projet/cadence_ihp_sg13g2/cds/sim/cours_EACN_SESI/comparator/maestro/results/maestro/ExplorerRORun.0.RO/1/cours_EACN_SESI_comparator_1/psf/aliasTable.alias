@@ -1,0 +1,21 @@
+# ALIAS_TABLE_V01
+# Created at: Thu Apr  2 23:37:03 2026
+#
+# aliasSignalName, realSignalName(data)
+#
+"N5:d", "N5:1"
+"N5:g", "N5:2"
+"N5:s", "N5:3"
+"N5:b", "N5:4"
+"N4:d", "N4:1"
+"N4:g", "N4:2"
+"N4:s", "N4:3"
+"N4:b", "N4:4"
+"N3:d", "N3:1"
+"N3:g", "N3:2"
+"N3:s", "N3:3"
+"N3:b", "N3:4"
+"N2:d", "N2:1"
+"N2:g", "N2:2"
+"N2:s", "N2:3"
+"N2:b", "N2:4"

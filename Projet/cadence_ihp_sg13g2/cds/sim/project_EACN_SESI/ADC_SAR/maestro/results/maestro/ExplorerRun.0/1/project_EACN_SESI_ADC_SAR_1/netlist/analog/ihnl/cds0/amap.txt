@@ -1,0 +1,13 @@
+cellMap,*buf_eq_delay,*buf_eq_delay,*project_EACN_SESI,*schematic
+netMap,*buf_eq_delay,*VDD!,*VDD!
+netMap,*buf_eq_delay,*VSS!,*VSS!
+netMap,*buf_eq_delay,*vdd!,*vdd!
+netMap,*buf_eq_delay,*gnd!,*0
+instMap,*buf_eq_delay,*N0,*N0
+instMaster,*buf_eq_delay,*N0,*SG13_dev_nmos_spectre,*sg13_lv_nmos
+instMap,*buf_eq_delay,*P0,*P0
+instMaster,*buf_eq_delay,*P0,*SG13_dev_pmos_spectre,*sg13_lv_pmos
+netMap,*buf_eq_delay,*inh_VSS_VSS!,*inh_VSS
+netMap,*buf_eq_delay,*inh_VDD_VDD!,*inh_VDD
+portMap,*buf_eq_delay,*A,*A
+portMap,*buf_eq_delay,*Q,*Q

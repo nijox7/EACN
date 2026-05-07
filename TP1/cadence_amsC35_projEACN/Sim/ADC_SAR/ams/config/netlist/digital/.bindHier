@@ -1,0 +1,11 @@
+("project_EACN_SESI" "SWITCH" "schematic" "schematic") nil
+("project_EACN_SESI" "ADC_SAR" "schematic" "schematic") nil
+("analogLib" "vpulse" "spectre" "spectre") nil
+("functional" "comparator" "spectre" "spectre") nil
+("analogLib" "res" "spectre" "spectre") nil
+("CORELIBD" "INVX1" "cmos_sch" "cmos_sch") nil
+("project_EACN_SESI" "control" "behavioral" "behavioral") nil
+("analogLib" "cap" "spectre" "spectre") nil
+("PRIMLIB" "pmos4" "spectre" "spectre") nil
+("PRIMLIB" "nmos4" "spectre" "spectre") nil
+("analogLib" "vdc" "spectre" "spectre") nil

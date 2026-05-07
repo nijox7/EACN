@@ -1,0 +1,2149 @@
+<!DOCTYPE LAM_FILE>
+<LIBRARY_DATA>
+  <VERSION NUMBER="0.3" />
+  <PHYSICAL>
+    <COMPONENT_TYPE_GROUPS>
+      <LIB NAME="SG13_dev" >
+        <COMPONENT_TYPE_GROUP NAME="ixc013ng_stdcellFILLER" >
+          <COMP_CLASS>FILLER</COMP_CLASS>
+        </COMPONENT_TYPE_GROUP>
+        <COMPONENT_TYPE_GROUP NAME="ixc013ng_stdcellSUB" >
+          <COMP_CLASS>STDSUBCONT</COMP_CLASS>
+        </COMPONENT_TYPE_GROUP>
+        <COMPONENT_TYPE_GROUP NAME="ixc013ng_stdcellSTD" >
+          <COMP_CLASS>STDCELL</COMP_CLASS>
+        </COMPONENT_TYPE_GROUP>
+      </LIB>
+    </COMPONENT_TYPE_GROUPS>
+    <MAPPINGS>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="FEED5JI" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellFILLER</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="FEED3JI" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellFILLER</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="FEED2JI" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellFILLER</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="FEED25JI" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellFILLER</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="FEED1JI" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellFILLER</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="FEED10JI" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellFILLER</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="LOGIC1JI" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSUB</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="LOGIC0JI" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSUB</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="SIGNALHOLDJI" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="SDFRSQJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="SDFRSQJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="SDFRRSQJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="SDFRRSQJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="SDFRRSJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="SDFRRSJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="SDFRRQJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="SDFRRQJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="SDFRQJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="SDFRQJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="OR4JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="OR4JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="OR4JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="OR3JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="OR3JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="OR3JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="OR2JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="OR2JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="OR2JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON33JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON33JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON33JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON32JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON32JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON32JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON31JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON31JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON31JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON22JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON22JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON22JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON222JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON222JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON222JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON221JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON221JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON221JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON21JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON21JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON21JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON211JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON211JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ON211JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="OA33JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="OA33JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="OA33JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="OA32JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="OA32JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="OA32JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="OA31JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="OA31JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="OA31JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="OA22JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="OA22JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="OA22JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NO4JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NO4JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NO4JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NO4I2JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NO4I2JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NO4I2JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NO4I1JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NO4I1JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NO4I1JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NO3JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NO3JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NO3JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NO3I1JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NO3I1JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NO3I1JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NO2JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NO2JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NO2JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NO2I1JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NO2I1JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NO2I1JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NA4JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NA4JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NA4JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NA4I2JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NA4I2JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NA4I2JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NA4I1JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NA4I1JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NA4I1JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NA3JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NA3JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NA3JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NA3I1JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NA3I1JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NA3I1JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NA2JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NA2JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NA2JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NA2I1JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NA2I1JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="NA2I1JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="MU4JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="MU4JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="MU4JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="MU2JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="MU2JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="MU2JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="LSOGCPJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="LSOGCNJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="LSGCPJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="LSGCNJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="LGCPJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="LGCNJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ITLJIX4" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ITLJIX20" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ITLJIX12" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ITLJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="INVJIX8" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="INVJIX4" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="INVJIX20" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="INVJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="INVJIX16" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="INVJIX12" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="INVJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="INVJIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="INJIX8" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="INJIX4" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="INJIX20" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="INJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="INJIX16" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="INJIX12" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="INJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="INJIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="HAJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="HAJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="HAJIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="FAJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="FAJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="FAJIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="EO3JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="EO3JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="EO3JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="EO2JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="EO2JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="EO2JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="EN3JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="EN3JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="EN3JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="EN2JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="EN2JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="EN2JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DLY8JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DLY4JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DLY2JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DLY1JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DLLSQJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DLLSQJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DLLRSQJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DLLRSQJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DLLRQJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DLLRQJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DLLQJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DLLQJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DLHSQJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DLHSQJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DLHRSQJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DLHRSQJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DLHRQJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DLHRQJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DLHQJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DLHQJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DFRSQJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DFRSQJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DFRRSQJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DFRRSQJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DFRRQJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DFRRQJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DFRQJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DFRQJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DECAP5JI" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DECAP3JI" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DECAP25JI" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="DECAP10JI" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="BUJIX8" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="BUJIX4" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="BUJIX20" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="BUJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="BUJIX16" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="BUJIX12" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="BUJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="BUFJIX8" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="BUFJIX4" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="BUFJIX20" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="BUFJIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="BUFJIX16" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="BUFJIX12" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="BUFJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="BTLJIX4" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="BTLJIX20" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="BTLJIX12" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="BTLJIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO33JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO33JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO33JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO32JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO32JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO32JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO31JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO31JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO31JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO22JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO22JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO22JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO222JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO222JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO222JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO221JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO221JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO221JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO21JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO21JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO21JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO211JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO211JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AO211JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ANTENNACELLP2JI" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ANTENNACELLNP2JI" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="ANTENNACELLN2JI" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AND4JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AND4JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AND4JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AND3JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AND3JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AND3JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AND2JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AND2JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AND2JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN33JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN33JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN33JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN32JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN32JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN32JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN31JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN31JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN31JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN22JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN22JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN22JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN222JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN222JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN222JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN221JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN221JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN221JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN21JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN21JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN21JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN211JIX2" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN211JIX1" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+      <LIB NAME="ixc013ng_stdcell" >
+        <CELL NAME="AN211JIX0" >
+          <COMPONENT_TYPE>
+            <NAME>ixc013ng_stdcellSTD</NAME>
+            <LIB>SG13_dev</LIB>
+          </COMPONENT_TYPE>
+        </CELL>
+      </LIB>
+    </MAPPINGS>
+  </PHYSICAL>
+</LIBRARY_DATA>

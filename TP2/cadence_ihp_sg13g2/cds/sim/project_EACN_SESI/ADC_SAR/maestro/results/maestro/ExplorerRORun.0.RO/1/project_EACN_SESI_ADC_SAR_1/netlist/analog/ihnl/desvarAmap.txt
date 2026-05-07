@@ -1,0 +1,2 @@
+desvar,*Cu,*Cu,*20f
+desvar,*temperature,*temperature,*27

@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"MP5n" "PRIMLIB_pmos4_spectre"
+"MN11n" "PRIMLIB_nmos4_spectre"
+"I39n" "INVX1"
+"SW1v" ":1v"
+"SW2v" ":2v"
+"SW_CLKv" ":3v"
+"[@gnd:%:gnd!]v" ":4v"
+"[@vdd:%:vdd!]v" ":5v"

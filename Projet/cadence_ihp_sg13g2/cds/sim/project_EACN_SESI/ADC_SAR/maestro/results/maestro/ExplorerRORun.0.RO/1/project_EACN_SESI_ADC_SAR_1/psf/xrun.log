@@ -1,0 +1,537 @@
+xrun(64): 23.03-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	23.03-s013: Started on Apr 02, 2026 at 10:10:06 CEST
+xrun
+	-f xrunArgs
+		-UNBUFFERED
+		-cdslib ./cds.lib
+		-errormax 50
+		-status
+		-nowarn DLNOHV
+		-nowarn DLCLAP
+		-64bit
+		-v93
+		-incdir /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/
+		-ade
+		-timescale 1ns/1ns
+		-vtimescale 1ns/1ns
+		-delay_mode None
+		-novitalaccl
+		-access r
+		-noparamerr
+		-amspartinfo ../psf/partition.info
+		-rnm_partinfo
+		-modelincdir /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/
+		./spiceModels.scs
+		./amsControlSpectre.scs
+		-input ./probe.tcl
+		-run
+		-exit
+		-xmsimargs "+amsrawdir ../psf"
+		-spectre_args "-ahdllibdir /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRORun.0.RO/sharedData/CDS/ahdl/input.ahdlSimDB"
+		-spectre_args +logstatus
+		-simcompatible_ams spectre
+		-name project_EACN_SESI.ADC_SAR:config
+		-allowredefinition
+		-amsbind
+		-top project_EACN_SESI.ADC_SAR:schematic
+		-top cds_globals
+		./netlist.vams
+		./ie_card.scs
+		-f ./textInputs
+			-amscompilefile "file:/users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX1/functional/verilog.v lib:ixc013g2ng_stdcell cell:INVJIX1 view:functional"
+			-makelib project_EACN_SESI
+			-specificunit control
+			/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/project_EACN_SESI/control/entity/vhdl.vhd
+			-makelib project_EACN_SESI
+			-view behavioral
+			-specificunit control:behavioral
+			/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/project_EACN_SESI/control/behavioral/vhdl.vhd
+			-endlib
+			-amscompilefile "file:/users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX0/functional/verilog.v lib:ixc013g2ng_stdcell cell:INVJIX0 view:functional"
+		./cds_globals.vams
+		-l ../psf/xrun.log
+		-spectre_args +aps
+/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/project_EACN_SESI/control/entity/vhdl.vhd:
+	errors: 0, warnings: 0
+xmvhdl_p: Memory Usage - Current physical: 19.3M, Current virtual: 37.0M
+\project_EACN_SESI\.CONTROL (entity):
+	streams: 4, words: 87
+xmvhdl_cg: Memory Usage - Current physical: 20.2M, Current virtual: 32.0M
+xmvhdl: CPU Usage - 0.0s system + 0.0s user = 0.0s total (0.1s, 27.8% cpu)
+/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/project_EACN_SESI/control/behavioral/vhdl.vhd:
+	errors: 0, warnings: 0
+xmvhdl_p: Memory Usage - Current physical: 19.6M, Current virtual: 37.1M
+\project_EACN_SESI\.CONTROL:BEHAVIORAL (architecture):
+	streams: 1, words: 195
+xmvhdl_cg: Memory Usage - Current physical: 20.2M, Current virtual: 32.0M
+xmvhdl: CPU Usage - 0.0s system + 0.0s user = 0.0s total (0.1s, 31.3% cpu)
+file: ./netlist.vams
+	module project_EACN_SESI.SWITCH:schematic
+		errors: 0, warnings: 0
+	module project_EACN_SESI.ADC_SAR:schematic
+		errors: 0, warnings: 0
+file: ./cds_globals.vams
+	module worklib.cds_globals:vams
+		errors: 0, warnings: 0
+file: /users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX1/functional/verilog.v
+	module ixc013g2ng_stdcell.INVJIX1:functional
+		errors: 0, warnings: 0
+file: /users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX0/functional/verilog.v
+	module ixc013g2ng_stdcell.INVJIX0:functional
+		errors: 0, warnings: 0
+xmvlog: *W,SPDUSD: Include directory /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/ given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 1
+xmvlog: Memory Usage - Current physical: 26.2M, Current virtual: 51.6M
+xmvlog: CPU Usage - 0.0s system + 0.0s user = 0.0s total (0.1s, 19.1% cpu)
+		Caching library 'ixc013g2ng_stdcell' ....... Done
+		Caching library 'project_EACN_SESI' ....... Done
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+xmelab: *N,MSFLON: Xcelium will initiate mixed signal elaboration, Reason: Verilog AMS module.
+	Top level design units:
+		ADC_SAR
+		cds_globals
+	Discipline resolution Pass...
+	Doing auto-insertion of connection elements...
+	Connect Rules applied are:
+		logic_cr
+	Building instance overlay tables: .................... Done
+	Using implicit TMP libraries; associated with library project_EACN_SESI
+	Generating native compiled code:
+		project_EACN_SESI.ADC_SAR:schematic <0x2d4264b5>
+			streams:   0, words:     0
+		connectLib.E2L_2:module <0x5bf146c6>
+			streams:  24, words: 21667
+		connectLib.L2E_2:module <0x64d33ef6>
+			streams:  15, words: 17229
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+	VHDL Design hierarchy:
+		Components:              1       1
+		Processes:               2       2
+		Signals:                 1       1
+	Verilog Design hierarchy:
+		Modules:                64      26
+		Verilog packages:        0       1
+		Primitives:             17       1
+		Timing outputs:         17       3
+		Registers:             626     315
+		Scalar wires:           85       -
+		Vectored wires:         34       -
+		Always blocks:         230      82
+		Initial blocks:        408     153
+		Cont. assignments:      34      24
+		Interconnect:           37       -
+		Compilation units:       0       3
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: project_EACN_SESI.ADC_SAR:config
+xmelab: Memory Usage - Final: 70.8M, Peak: 241.4M, Peak virtual: 321.0M
+xmelab: CPU Usage - 0.1s system + 0.1s user = 0.2s total (0.5s, 30.4% cpu)
+Loading snapshot project_EACN_SESI.ADC_SAR:config .................... Done
+Simulating in AMS-SIE mode...
+	Starting analog simulation engine...
+AMSD Flexible Release Matrix --- using Spectre from installation:
+    /users/soft/opus/Linux//SPECTRE-24.10.03.198/tools/bin/spectre
+AMSD: Using spectre solver with arguments: -ahdllibdir /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRORun.0.RO/sharedData/CDS/ahdl/input.ahdlSimDB +logstatus +aps.
+xcelium> source /users/soft/opus/Linux/XCELIUM-23.03-013/tools/xcelium/files/xmsimrc
+xcelium> source /users/soft/opus/Linux/XCELIUM-23.03-013/tools/xcelium/files/amsrc
+xcelium> 
+xcelium> # This is the NC-SIM(R) probe command file
+xcelium> # used in the AMS-ADE integration.
+xcelium> 
+xcelium> 
+xcelium> #
+xcelium> # Database settings
+xcelium> #
+xcelium> if { [info exists ::env(AMS_RESULTS_DIR) ] } { set AMS_RESULTS_DIR $env(AMS_RESULTS_DIR)} else {set AMS_RESULTS_DIR "../psf"}
+../psf
+xcelium> database -open ams_database -into ${AMS_RESULTS_DIR} -default
+Created default SHM database ams_database
+xcelium> 
+xcelium> #
+xcelium> # Probe settings
+xcelium> #
+xcelium> probe -create -emptyok -database ams_database {ADC_SAR.net22}
+Created probe 1
+xcelium> probe -create -emptyok -database ams_database {ADC_SAR.net24}
+Created probe 2
+xcelium> 
+xcelium> run
+
+Spectre (R) Circuit Simulator
+Version 24.1.0.198.isr3 64bit -- 6 Jan 2025
+Copyright (C) 1989-2024 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: galayko   Host: ropartz   HostID: E3846E43   PID: 673370
+Memory  available: 125.8410 GB  physical: 133.8288 GB
+Linux   : AlmaLinux release 9.7 (Moss Jungle Cat)
+CPU Type: Intel(R) Core(TM) Ultra 7 265
+        Socket: Processors [Frequency]
+        0:       0 [800.0],  1 [2200.0],  2 [2202.4],  3 [2200.0],  4 [800.0]
+                 5 [800.0],  6 [800.0],  7 [800.0],  8 [800.0],  9 [800.0]
+                10 [800.0], 11 [4612.0], 12 [1799.3], 13 [2199.5], 14 [1490.6]
+                15 [1971.9], 16 [2029.4], 17 [800.0], 18 [1703.4], 19 [800.0]
+        
+System load averages (1min, 5min, 15min) : 3.9 %, 2.5 %, 1.6 %
+HPC is enabled
+
+
+Simulating `spiceModels.ams' on ropartz at 10:10:17 AM, Thur Apr 2, 2026 (process id: 673370).
+Current working directory: /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRORun.0.RO/1/project_EACN_SESI_ADC_SAR_1/netlist
+Command line:
+    /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools/bin/spectre -64  \
+        spiceModels.ams +config  \
+        /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/spectre/etc/configs/ams.cfg  \
+        -ahdllibdir  \
+        /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRORun.0.RO/sharedData/CDS/ahdl/input.ahdlSimDB  \
+        +logstatus +aps -raw ../psf  \
+        -I/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/  \
+        +ams_control=xcelium.d/AMSD/ams_ctrl/ams_ctrl_672659_ropartz
+Spectre Licensing Information:
+Spectre [10:10:17.291153] Configured Lic search path (24.01-s002): 30000@cadence.cnfm.fr
+
+Spectre Licensing Information:
+Spectre [10:10:18.500923] Periodic Lic check successful
+
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libphilips_I_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRORun.0.RO/1/project_EACN_SESI_ADC_SAR_1/netlist/spiceModels.ams
+
+Notice from spectre during circuit read-in.
+    Configuration file used: `/users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/spectre/etc/configs/ams.cfg'.
+
+Reading file:  /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRORun.0.RO/sharedData/CDS/ahdl/input.ahdlSimDB/connectLib__L2E_2__module__0x10000001_behavioral.flex.va
+Reading file:  /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRORun.0.RO/sharedData/CDS/ahdl/input.ahdlSimDB/connectLib__E2L_2__module__0x10000001_behavioral.flex.va
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRORun.0.RO/1/project_EACN_SESI_ADC_SAR_1/netlist/spiceModels.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_vbic.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_parm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_parm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_svaricaphv_mosvar_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_paramsTSV.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_tsv.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib
+
+Notice from spectre in `bondpad_model', during circuit read-in.
+    "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib" 13: Subcircuit 'bondpad_model' is empty.
+
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRORun.0.RO/1/project_EACN_SESI_ADC_SAR_1/netlist/amsControlSpectre.scs
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRORun.0.RO/1/project_EACN_SESI_ADC_SAR_1/netlist/ie_card.scs
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRORun.0.RO/1/project_EACN_SESI_ADC_SAR_1/netlist/.amsbind.scs
+Reading file:  /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/spectre/etc/configs/ams.cfg
+Time for NDB Parsing: CPU = 129.119 ms, elapsed = 1.12587 s.
+Time accumulated: CPU = 187.167 ms, elapsed = 1.12587 s.
+Peak resident memory used = 199 Mbytes.
+
+Created directory /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRORun.0.RO/sharedData/CDS/ahdl/input.ahdlSimDB/spiceModels.ahdlSimDB/ (775)
+Created directory /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRORun.0.RO/sharedData/CDS/ahdl/input.ahdlSimDB/spiceModels.ahdlSimDB//d4f55f9222d97b558adc24dc2b85f531.connectLib__L2E_2__module__0x10000001_behavioral.ahdlcmi/ (775)
+Created directory /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRORun.0.RO/sharedData/CDS/ahdl/input.ahdlSimDB/spiceModels.ahdlSimDB//d4f55f9222d97b558adc24dc2b85f531.connectLib__L2E_2__module__0x10000001_behavioral.ahdlcmi/Linux-64/ (775)
+Compiling ahdlcmi module library for connectLib__L2E_2__module__0x10000001_behavioral.
+Finished compilation in 720 ms (elapsed) for connectLib__L2E_2__module__0x10000001_behavioral.
+Installed compiled interface for connectLib__L2E_2__module__0x10000001_behavioral.
+Opening directory /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRORun.0.RO/sharedData/CDS/ahdl/input.ahdlSimDB/spiceModels.ahdlSimDB/ (775)
+Created directory /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRORun.0.RO/sharedData/CDS/ahdl/input.ahdlSimDB/spiceModels.ahdlSimDB//250d0b91b190852a8452ba97ee4b1515.connectLib__E2L_2__module__0x10000001_behavioral_c1_0_c2_0_c0_1.ahdlcmi/ (775)
+Created directory /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRORun.0.RO/sharedData/CDS/ahdl/input.ahdlSimDB/spiceModels.ahdlSimDB//250d0b91b190852a8452ba97ee4b1515.connectLib__E2L_2__module__0x10000001_behavioral_c1_0_c2_0_c0_1.ahdlcmi/Linux-64/ (775)
+Compiling ahdlcmi module library for connectLib__E2L_2__module__0x10000001_behavioral_c1_0_c2_0_c0_1.
+Finished compilation in 747 ms (elapsed) for connectLib__E2L_2__module__0x10000001_behavioral_c1_0_c2_0_c0_1.
+Installed compiled interface for connectLib__E2L_2__module__0x10000001_behavioral_c1_0_c2_0_c0_1.
+Time for Elaboration: CPU = 45.27 ms, elapsed = 1.60508 s.
+Time accumulated: CPU = 232.511 ms, elapsed = 2.73102 s.
+Peak resident memory used = 215 Mbytes.
+
+
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8527): There are some nodes and instances removed from the netlist topology check. Check the circuit and correct the topology. Or use preserve_inst to keep them if necessary.
+
+***********************************************
+  Total removed instances 1 ( dangling 1, terminals connected together 0)  
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8529): Dangling instance. ADC_SAR.V5 is removed.
+
+
+  Total removed nodes 1 ( dangling nodes 1, floating nodes 0 )
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8530): Dangling node. ADC_SAR.vin is removed.
+
+***********************************************
+Time for EDB Visiting: CPU = 1.729 ms, elapsed = 9.15384 ms.
+Time accumulated: CPU = 234.299 ms, elapsed = 2.74024 s.
+Peak resident memory used = 216 Mbytes.
+
+
+Notice from spectre during topology check.
+    Only one connection to node `ADC_SAR.net22'.
+Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Netlist title:
+        //
+
+
+Global user options:
+         psfversion = 1.4.0
+               temp = 27
+            vabstol = 1e-06
+            iabstol = 1e-12
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+             pivrel = 0.001
+     checklimitdest = sqldb
+      ignorezerovar = yes
+               save = selected
+               tnom = 27
+              scale = 1
+             scalem = 1
+             reltol = 0.001
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 40
+          capacitor 4     
+connectLib__L2E_2__module__0x10000001_behavioral 16    
+          pspnqs103 22    
+           resistor 1     
+              uvcvs 1     
+            vsource 6     
+connectLib__E2L_2__module__0x10000001_behavioral 18    
+
+Analysis and control statement inventory:
+               info 4     
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 1     
+
+Design checks inventory:
+          paramtest 88    
+
+
+Notice from spectre during initial setup.
+    APS enabled.
+
+Time for parsing: CPU = 1.748 ms, elapsed = 6.74915 ms.
+Time accumulated: CPU = 236.079 ms, elapsed = 2.74702 s.
+Peak resident memory used = 219 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (APS) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 100 us)
+*************************************************
+
+Notice from spectre during IC analysis, during transient analysis `tran'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(ADC_SAR.net6) = 28.2523 mV
+        Use the `gmin_check' option to eliminate or expand this report.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+
+DC simulation time: CPU = 4.291 ms, elapsed = 6.96397 ms.
+
+Opening the PSFXL file ../psf/tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 us
+    step = 100 ns
+    maxstep = 2 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = moderate
+    method = traponly
+    lteratio = 3.5
+    relref = sigglobal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Output and IC/nodeset summary:
+                 save   1       (voltage)
+
+
+Notice from spectre at time = 1.60164 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node ADC_SAR.I34.net04.
+Notice from spectre at time = 1.95796 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node ADC_SAR.I34.net04.
+Notice from spectre at time = 2.53876 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node ADC_SAR.I34.net04.
+Notice from spectre at time = 3.4781 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node ADC_SAR.I34.net04.
+Notice from spectre at time = 4.9952 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node ADC_SAR.I34.net04.
+        Further occurrences of this notice will be suppressed.
+
+    tran: time = 2.5 us       (2.5 %), step = 195.4 ns     (195 m%)
+    tran: time = 7.5 us       (7.5 %), step = 195.3 ns     (195 m%)
+    tran: time = 12.5 us     (12.5 %), step = 195.4 ns     (195 m%)
+    tran: time = 17.5 us     (17.5 %), step = 195.3 ns     (195 m%)
+    tran: time = 22.5 us     (22.5 %), step = 195.4 ns     (195 m%)
+    tran: time = 27.5 us     (27.5 %), step = 195.3 ns     (195 m%)
+    tran: time = 32.5 us     (32.5 %), step = 195.4 ns     (195 m%)
+    tran: time = 37.5 us     (37.5 %), step = 195.3 ns     (195 m%)
+    tran: time = 42.5 us     (42.5 %), step = 195.4 ns     (195 m%)
+    tran: time = 47.5 us     (47.5 %), step = 195.3 ns     (195 m%)
+    tran: time = 52.5 us     (52.5 %), step = 195.4 ns     (195 m%)
+    tran: time = 57.5 us     (57.5 %), step = 195.3 ns     (195 m%)
+    tran: time = 62.5 us     (62.5 %), step = 195.4 ns     (195 m%)
+    tran: time = 67.5 us     (67.5 %), step = 195.3 ns     (195 m%)
+    tran: time = 72.5 us     (72.5 %), step = 195.4 ns     (195 m%)
+    tran: time = 77.5 us     (77.5 %), step = 195.3 ns     (195 m%)
+    tran: time = 82.5 us     (82.5 %), step = 195.4 ns     (195 m%)
+    tran: time = 87.5 us     (87.5 %), step = 195.3 ns     (195 m%)
+    tran: time = 92.5 us     (92.5 %), step = 195.4 ns     (195 m%)
+    tran: time = 97.5 us     (97.5 %), step = 195.3 ns     (195 m%)
+
+The analog simulator has reached stop time, please use `analog -stop <new stop time>' to extend the analog stop time.
+Simulation stopped via transient analysis stoptime at time 100 US
+Memory Usage - Current physical: 97.9M, Current virtual: 251.1M
+CPU Usage - 0.0s system + 0.1s user = 0.1s total (1.8% cpu)
+xcelium> exit
+Number of accepted tran steps =             3527
+
+Notice from spectre during transient analysis `tran'.
+    Trapezoidal ringing is detected during tran analysis.
+        Please use method=trap for better results and performance.
+
+
+Maximum value achieved for any signal of each quantity: 
+V: V(ADC_SAR.net22) = 3.3 V
+I: I(ADC_SAR.V1:p) = 30.97 uA
+If your circuit contains signals of the same quantity that are vastly different in size (such as high voltage circuitry combined with low voltage control circuitry), you should consider specifying global option `bin_relref=yes'.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+         0 (2.8 %)       1 (10.8 %)      2 (2.1 %)       3 (3.1 %)
+         4 (3.8 %)       5 (1.7 %)       6 (2.8 %)       7 (10.1 %)
+         8 (4.5 %)       9 (4.5 %)      10 (5.2 %)      11 (10.0 %)
+        12 (5.9 %)      13 (3.8 %)      14 (5.6 %)      15 (5.2 %)
+        16 (5.2 %)      17 (4.9 %)      18 (9.7 %)      19 (3.8 %)
+        Total: 105.3%
+Initial condition solution time: CPU = 4.311 ms, elapsed = 6.98209 ms.
+Intrinsic tran analysis time:    CPU = 102.776 ms, elapsed = 141.934 ms.
+
+**** AMSD: Mixed-Signal Activity Statistics ****
+Number of A-to-D events:                     635
+  Number of A-to-D events in IEs:            635
+Number of D-to-A events:                      39
+  Number of D-to-A events in IEs:             39
+Number of VHDL-AMS Breaks:                     0
+Number of direct digital accesses:               0
+
+**** AMSD: IE Additional Activity Statistics ****
+Number of IEs with D-to-A X edge:                   16
+Number of IEs with D-to-A Z edge:                    0
+Number of IEs with A-to-D X edge:                    1
+Number of IEs with A-to-D Z edge:                    0
+IE with max number of D-to-A edges:                  3
+   ADC_SAR.I34.net04__L2E_2__logic
+IE with max number of A-to-D edges:                201
+   ADC_SAR.net21__E2L_2__logic
+Number of reporting IEs / total IEs:             35/35
+Number of IEs with Vin/Vdd limit checked:            0
+
+Total time required for tran analysis `tran': CPU = 108.406 ms, elapsed = 157.575 ms, util. = 68.8%.
+Time accumulated: CPU = 364.623 ms, elapsed = 7.93796 s.
+Peak resident memory used = 224 Mbytes.
+
+
+Notice from spectre.
+    15 notices suppressed.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/finalTimeOP.info ...
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+Spectre Licensing Information:
+Spectre Lic Summary:
+[10:10:25.364800] Cdslmd servers:30000@cadence.cnfm.fr
+[10:10:25.889106] Feature usage summary:
+[10:10:25.889107] Virtuoso_Multi_mode_Simulation
+[10:10:25.889107] Spectre_AMS_MMSIM_Lk
+
+
+Aggregate audit (10:10:25 AM, Thur Apr 2, 2026):
+Time used: CPU = 374 ms, elapsed = 7.97 s, util. = 4.69%.
+Time spent in licensing: elapsed = 538 ms, percentage of total = 6.76%.
+Peak memory used = 225 Mbytes.
+Simulation started at: 10:10:17 AM, Thur Apr 2, 2026, ended at: 10:10:25 AM, Thur Apr 2, 2026, with elapsed time (wall clock): 7.97 s.
+spectre completes with 0 errors, 3 warnings, and 16 notices.
+Total License Acquisition Time : 1.54 s.
+  xmsim  : License Acquisition Time -- 1 s.
+  spectre: License Acquisition Time -- 0.538 s.
+xmsim: Memory Usage - Final: 93.1M, Peak: 98.3M, Peak virtual: 315.1M
+xmsim: CPU Usage - 1.6s system + 1.8s user = 3.4s total (10.3s, 32.5% cpu)
+TOOL:	xrun(64)	23.03-s013: Exiting on Apr 02, 2026 at 10:10:26 CEST  (total: 00:00:20)

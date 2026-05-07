@@ -1,0 +1,1 @@
+(nil plottableAnalyses tran(ac noise dc) signals ((nil fullName "/V0/MINUS" sigExpr "IT(\"/V0/MINUS\")")) plottableExpressions ((nil name nil expression (IS("/I8/PLUS") / 4))))

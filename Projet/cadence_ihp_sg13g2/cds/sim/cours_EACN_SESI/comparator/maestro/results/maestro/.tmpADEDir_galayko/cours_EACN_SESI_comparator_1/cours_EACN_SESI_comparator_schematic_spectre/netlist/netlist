@@ -1,0 +1,25 @@
+
+// Library name: cours_EACN_SESI
+// Cell name: comparator
+// View name: schematic
+N5 (vp vm net4 0) sg13_lv_nmos w=2.000u l=500.0n ng=1 ad=0 as=0 pd=0 \
+        ps=0 m=1
+N4 (vm vp net4 0) sg13_lv_nmos w=2.000u l=500.0n ng=1 ad=0 as=0 pd=0 \
+        ps=0 m=1
+N3 (net3 net3 0 0) sg13_lv_nmos w=1.000u l=500.0n ng=1 ad=0 as=0 pd=0 \
+        ps=0 m=1
+N2 (net4 net3 0 0) sg13_lv_nmos w=1.000u l=500.0n ng=1 ad=0 as=0 pd=0 \
+        ps=0 m=1
+V0 (net7 0) vsource dc=2+vd/2 type=dc
+V1 (net5 0) vsource dc=2-vd/2 type=dc
+V3 (net2 0) vsource dc=0.6-vd/2 type=dc
+V2 (net1 0) vsource dc=0.6+vd/2 type=dc
+I8 (0 vm) isource dc=5u type=dc
+I7 (0 vp) isource dc=5u type=dc
+I4 (0 net3) isource dc=10u type=dc
+R1 (net2 0) resistor r=100K
+R0 (net1 0) resistor r=100K
+I23 (0 vp) isource type=pulse val0=-3u val1=3u period=1 delay=0 \
+        rise=10u fall=1n width=500.0m
+I19 (0 vp) isource type=pulse val0=0 val1=1n period=1 delay=0 rise=1n \
+        fall=1n width=5n

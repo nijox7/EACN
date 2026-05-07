@@ -1,0 +1,486 @@
+irun(64): 15.20-s074: (c) Copyright 1995-2019 Cadence Design Systems, Inc.
+Recompiling... reason: file './netlist.vams' is newer than expected.
+	expected: Thu Mar 19 10:58:25 2026
+	actual:   Thu Mar 19 10:59:43 2026
+ncvhdl_p: Memory Usage - 20.0M program + 13.9M data = 33.9M total
+ncvhdl_cg: Memory Usage - 16.0M program + 12.2M data = 28.1M total
+ncvhdl: CPU Usage - 0.0s system + 0.0s user = 0.0s total (0.1s, 60.5% cpu)
+ncvhdl_p: Memory Usage - 20.0M program + 13.8M data = 33.8M total
+ncvhdl_cg: Memory Usage - 16.0M program + 12.2M data = 28.1M total
+ncvhdl: CPU Usage - 0.0s system + 0.0s user = 0.0s total (0.1s, 60.4% cpu)
+ncvlog: *W,LIBNOF: Library file or directory "/programs/ams_4.10/verilog/c35b4/c35_CORELIB_3B.v" does not exist.
+ncvlog: *W,LIBNOF: Library file or directory "/programs/ams_4.10/verilog/c35b4/c35_CORELIBD_3B.v" does not exist.
+ncvlog: *W,LIBNOF: Library file or directory "/programs/ams_4.10/verilog/c35b4/c35_CORELIBD.v" does not exist.
+ncvlog: *W,LIBNOF: Library file or directory "/programs/ams_4.10/verilog/c35b4/c35_CORELIB.v" does not exist.
+ncvlog: *W,LIBNOF: Library file or directory "/programs/ams_4.10/verilog/c35b4/c35_CORELIB_V5_3B.v" does not exist.
+ncvlog: *W,LIBNOF: Library file or directory "/programs/ams_4.10/verilog/c35b4/c35_CORELIB_V5.v" does not exist.
+ncvlog: *W,LIBNOF: Library file or directory "/programs/ams_4.10/verilog/c35b4/c35_IOLIB_3B.v" does not exist.
+ncvlog: *W,LIBNOF: Library file or directory "/programs/ams_4.10/verilog/c35b4/c35_IOLIBC_3B.v" does not exist.
+ncvlog: *W,LIBNOF: Library file or directory "/programs/ams_4.10/verilog/c35b4/c35_IOLIBCV5_3B.v" does not exist.
+ncvlog: *W,LIBNOF: Library file or directory "/programs/ams_4.10/verilog/c35b4/c35_IOLIB.v" does not exist.
+ncvlog: *W,LIBNOF: Library file or directory "/programs/ams_4.10/verilog/c35b4/c35_IOLIBV5.v" does not exist.
+ncvlog: *W,LIBNOF: Library file or directory "/programs/ams_4.10/verilog/c35b4/FILLANT.v" does not exist.
+ncvlog: *W,LIBNOF: Library file or directory "/programs/ams_4.10/verilog/udp.v" does not exist.
+file: ./cds_globals.vams
+ncvlog: *W,SPDUSD: Include directory /users/cao/galayko/cadence_amsC35_projEACN/ given but not used.
+	Total errors/warnings found outside modules and primitives:
+		errors: 0, warnings: 14
+ncvlog: Memory Usage - 21.3M program + 29.1M data = 50.4M total
+ncvlog: CPU Usage - 0.0s system + 0.0s user = 0.0s total (0.1s, 48.7% cpu)
+
+		Caching library 'worklib' ....... Done
+		Caching library 'CORELIBD' ....... Done
+		Caching library 'project_EACN_SESI' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		ADC_SAR
+		cds_globals
+	Discipline resolution Pass...
+	Doing auto-insertion of connection elements...
+	Connect Rules applied are:
+		logic_cr
+	Building instance overlay tables: .................... Done
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+	VHDL Design hierarchy:
+		Components:              1       1
+		Processes:               2       2
+		Signals:                 1       1
+	Verilog Design hierarchy:
+		Modules:                26      22
+		Registers:              20     126
+		Scalar wires:            6       -
+		Vectored wires:          3       -
+		Always blocks:          16      55
+		Initial blocks:          3      24
+		Cont. assignments:       3      21
+		Interconnect:           58       -
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: project_EACN_SESI.ADC_SAR:config
+ncelab: Memory Usage - 49.9M program + 54.6M data = 104.5M total (Peak 238.2M)
+ncelab: CPU Usage - 0.1s system + 0.1s user = 0.2s total (0.4s, 58.9% cpu)
+Loading snapshot project_EACN_SESI.ADC_SAR:config .................... Done
+ncsim: *W,NXDMSO: This design will require a check out of DMSO license when it is run with Xcelium.
+Simulating in AMS-SIE mode...
+	Starting analog simulation engine...
+AMSD: Using spectre solver with arguments: -ahdllibdir INCA_libs/AMSD/ahdlSimDB +aps.
+
+Cadence (R) Virtuoso (R) Spectre (R) Circuit Simulator
+Version 15.1.0.803.isr18 64bit -- 25 Jul 2017
+Copyright (C) 1989-2017 Cadence Design Systems, Inc. All rights reserved
+        worldwide. Cadence, Virtuoso and Spectre are registered trademarks of
+        Cadence Design Systems, Inc. All others are the property of their
+        respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA
+        Security, Inc.
+
+User: galayko   Host: bop.soc.lip6.fr   HostID: E384333F   PID: 2606
+Memory  available: 39.6789 GB  physical: 134.7915 GB
+Linux   : Scientific Linux release 7.9 (Nitrogen)
+CPU Type: Intel(R) Xeon(R) CPU E5-2640 v4 @ 2.40GHz
+All processors running at 2600.0 MHz
+        Socket: Processors (Hyperthreaded Processor)
+        0:       0 ( 20 ),  2 ( 22 ),  4 ( 24 ),  6 ( 26 ),  8 ( 28 )
+                10 ( 30 ), 12 ( 32 ), 14 ( 34 ), 16 ( 36 ), 18 ( 38 )
+        1:       1 ( 21 ),  3 ( 23 ),  5 ( 25 ),  7 ( 27 ),  9 ( 29 )
+                11 ( 31 ), 13 ( 33 ), 15 ( 35 ), 17 ( 37 ), 19 ( 39 )
+        
+System load averages (1min, 5min, 15min) : 50.0 %, 49.5 %, 49.2 %
+Hyperthreading is enabled
+
+
+Analog Kernel using -ANALOGCONTROL  ./spiceModels.scs.
+Reading file: 
+        /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/spiceModels.scs
+Reading file: 
+        /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/netlist.vams
+Reading link:  /users/soft/opus/Linux/INCISIVE-15.20.074/tools
+Reading file: 
+        /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/affirma_ams/etc/connect_lib/L2E_2.vams
+Reading file: 
+        /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/INCA_libs/AMSD/ahdlSimDB/3695_tools_affirma_ams_etc_connect_lib_L2E_2.vams.connectLib__L2E_2__module__0x10000001_behavioral.ahdlcmi/Linux-64/obj/optimize/5.0/libahdlcmi_connectLib__L2E_2__module__0x10000001_behavioral.so
+Installed compiled interface for
+        connectLib__L2E_2__module__0x10000001_behavioral.
+Reading file: 
+        /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/affirma_ams/etc/connect_lib/E2L_2.vams
+Reading file: 
+        /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/INCA_libs/AMSD/ahdlSimDB/3695_tools_affirma_ams_etc_connect_lib_E2L_2.vams.connectLib__E2L_2__module__0x10000001_behavioral.ahdlcmi/Linux-64/obj/optimize/5.0/libahdlcmi_connectLib__E2L_2__module__0x10000001_behavioral.so
+Installed compiled interface for
+        connectLib__E2L_2__module__0x10000001_behavioral.
+Reading file: 
+        /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/cds_globals.vams
+Reading file: 
+        /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/etc/configs/mapsubckt.cfg
+Reading file: 
+        /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/soac.scs
+Reading file: 
+        /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/processOption.scs
+Reading file: 
+        /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/process.scs
+Reading file: 
+        /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/soac.va
+Reading link: 
+        /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/etc/ahdl/constants.h
+Reading file: 
+        /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/etc/ahdl/constants.vams
+Reading link: 
+        /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/etc/ahdl/discipline.h
+Reading file: 
+        /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/etc/ahdl/disciplines.vams
+Reading file: 
+        /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/processOption/C35B4M3.scs
+Reading file: 
+        /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/cmos53.scs
+Reading file: 
+        /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/res.scs
+Reading file: 
+        /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/cap.scs
+Reading file: 
+        /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/bip.scs
+Reading file: 
+        /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/ind.scs
+Reading file: 
+        /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/esddiode.scs
+Reading file:  /users/cao/galayko/cadence_amsC35_projEACN/allFunc.scs
+Reading file: 
+        /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/amsControlSpectre.scs
+Reading file: 
+        /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/ie_card.scs
+Reading file: 
+        /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.amsbind.scs
+Reading file: 
+        /users/soft/opus/Linux/INCISIVE-15.20.074/tools.lnx86/spectre/etc/configs/spectre.cfg
+Time for NDB Parsing: CPU = 189.622 ms, elapsed = 681.472 ms.
+Time accumulated: CPU = 351.729 ms, elapsed = 681.475 ms.
+Peak resident memory used = 75.5 Mbytes.
+
+ncsim> source /users/soft/opus/Linux/INCISIVE-15.20.074/tools/inca/files/ncsimrc
+ncsim> 
+ncsim> # This is the NC-SIM(R) probe command file
+ncsim> # used in the AMS-ADE integration.
+ncsim> 
+ncsim> 
+ncsim> #
+ncsim> # Database settings
+ncsim> #
+ncsim> if { [info exists ::env(AMS_RESULTS_DIR) ] } { set AMS_RESULTS_DIR $env(AMS_RESULTS_DIR)} else {set AMS_RESULTS_DIR "../psf"}
+../psf
+ncsim> database -open ams_database -into ${AMS_RESULTS_DIR} -default
+Created default SHM database ams_database
+ncsim> 
+ncsim> #
+ncsim> # Probe settings
+ncsim> #
+ncsim> probe -create -emptyok -database ams_database {ADC_SAR.net11}
+Created probe 1
+ncsim> probe -create -emptyok -database ams_database {ADC_SAR.net22}
+Created probe 2
+ncsim> probe -create -emptyok -database ams_database {ADC_SAR.net1}
+Created probe 3
+ncsim> 
+ncsim> run
+
+The CPU load for active processors is :
+        Spectre  0 (100.0 %)     1 (2.9 %)       2 (44.8 %)      3 (100.0 %)
+                 4 (40.0 %)      5 (100.0 %)     6 (100.0 %)     7 (1.9 %)
+                 8 (100.0 %)     9 (100.0 %)    10 (100.0 %)    11 (2.9 %)
+                13 (1.9 %)      14 (100.0 %)    15 (100.0 %)    16 (100.0 %)
+                17 (100.0 %)    18 (100.0 %)    19 (22.3 %)     20 (6.6 %)
+                21 (98.1 %)     22 (14.3 %)     23 (1.9 %)      24 (3.8 %)
+                25 (2.9 %)      26 (3.8 %)      27 (100.0 %)    29 (6.7 %)
+                30 (100.0 %)    31 (100.0 %)    32 (100.0 %)    33 (100.0 %)
+                36 (100.0 %)    38 (28.6 %)     39 (20.4 %)     
+        Other   
+Existing shared object for module modp_ahdl is up to date.
+Installed compiled interface for modp_ahdl.
+Existing shared object for module modn_ahdl is up to date.
+Installed compiled interface for modn_ahdl.
+Time for Elaboration: CPU = 123.817 ms, elapsed = 443.802 ms.
+Time accumulated: CPU = 475.769 ms, elapsed = 1.1255 s.
+Peak resident memory used = 95.4 Mbytes.
+
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8527): There are some nodes and instances removed from the
+        netlist topology check. Check the circuit and correct the topology. Or
+        use preserve_inst to keep them if necessary.
+
+***********************************************
+  Total removed instances 4 ( dangling 4, terminals connected together 0)  
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8529): Dangling instance. ADC_SAR.V2 is removed.
+    WARNING (SPECTRE-8529): Dangling instance. ADC_SAR.C3 is removed.
+    WARNING (SPECTRE-8529): Dangling instance. ADC_SAR.C2 is removed.
+    WARNING (SPECTRE-8529): Dangling instance. ADC_SAR.C0 is removed.
+
+
+  Total removed nodes 4 ( dangling nodes 4, floating nodes 0 )
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8530): Dangling node. ADC_SAR.net14 is removed.
+    WARNING (SPECTRE-8530): Dangling node. ADC_SAR.net19 is removed.
+    WARNING (SPECTRE-8530): Dangling node. ADC_SAR.net6 is removed.
+    WARNING (SPECTRE-8530): Dangling node. ADC_SAR.vref is removed.
+
+***********************************************
+Time for EDB Visiting: CPU = 10.081 ms, elapsed = 10.0861 ms.
+Time accumulated: CPU = 486.064 ms, elapsed = 1.1358 s.
+Peak resident memory used = 96.4 Mbytes.
+
+
+Warning from spectre during initial setup.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vspsub:Specified subcircuit master
+        `cvarm' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vspsub:Error in specification of
+        subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vbs:Specified subcircuit master `cvarm'
+        was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vbs:Error in specification of
+        subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvarm_vgb:Specified subcircuit master `cvarm'
+        was not found.
+    WARNING (SPECTRE-16462): SOAC_cvarm_vgb:Error in specification of
+        subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vspsub:Specified subcircuit master
+        `cvart' was not found.
+    WARNING (SPECTRE-16462): SOAC_cvart_vspsub:Error in specification of
+        subcircuit master. Assert is ignored.
+    WARNING (SPECTRE-16460): SOAC_cvart_vbs:Specified subcircuit master `cvart'
+        was not found.
+        Further occurrences of this warning will be suppressed.
+    WARNING (SPECTRE-16462): SOAC_cvart_vbs:Error in specification of
+        subcircuit master. Assert is ignored.
+        Further occurrences of this warning will be suppressed.
+Notice from spectre during topology check.
+    Only one connection to the following 43 nodes:
+        ADC_SAR.net22
+        ADC_SAR.I19.I39.M_i_1.psub!
+        ADC_SAR.I19.I39.M_i_0.psub!
+        ADC_SAR.I19.MP5.psub!
+        ADC_SAR.I19.MN11.psub!
+        Further occurrences of this notice will be suppressed (except in log
+        file).
+
+Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small.
+
+Global user options:
+      addflowsuffix = yes
+        dotprobefmt = hier
+               temp = 27
+             reltol = 0.0001
+            vabstol = 1e-06
+            iabstol = 1e-12
+           homotopy = 7
+              limit = delta
+         compatible = spice2
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+             pivrel = 0.001
+     checklimitdest = psf
+     enable_pre_ver = yes
+      ignorezerovar = yes
+             rawfmt = sst2
+               save = selected
+               tnom = 27
+              scale = 1
+             scalem = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 102
+             assert 175   
+            bsim3v3 42    
+          capacitor 4     
+connectLib__E2L_2__module__0x10000001_behavioral 2     
+connectLib__L2E_2__module__0x10000001_behavioral 1     
+          modn_ahdl 21    
+          modp_ahdl 21    
+           resistor 2     
+              uvcvs 1     
+            vsource 6     
+
+Analysis and control statement inventory:
+               info 4     
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 3     
+
+
+Notice from spectre during initial setup.
+    0 resistors are shorted because of `rabsshort'
+    APS Enabled.
+    1 notice suppressed.
+    2 warnings suppressed.
+
+Time for parsing: CPU = 82.072 ms, elapsed = 88.0189 ms.
+Time accumulated: CPU = 568.398 ms, elapsed = 1.22408 s.
+Peak resident memory used = 106 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
+
+Notice from spectre during transient analysis `tran'.
+    No checklimit analysis defined for asserts. A default checklimit analysis
+        'SpectreChecklimitAnal' has been created with all asserts enabled.
+
+The following asserts will be enabled for all subsequent analyses until the
+        next checklimit analysis statement is found:
+SOAC_modn_vgs : ON 
+SOAC_modn_vds : ON 
+SOAC_modn_vgb : ON 
+SOAC_modn_vdb : ON 
+SOAC_modn_vsb : ON 
+SOAC_modn_vbpsub : ON 
+SOAC_modp_vgs : ON 
+SOAC_modp_vds : ON 
+SOAC_modp_vgb : ON 
+SOAC_modp_vdb : ON 
+SOAC_modp_vsb : ON 
+SOAC_modp_vbpsub : ON 
+
+************************************************
+Transient Analysis `tran': time = (0 s -> 20 us)
+************************************************
+
+Notice from spectre during IC analysis, during transient analysis `tran'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(ADC_SAR.net2) = 14.9267 mV
+        Use the `gmin_check' option to eliminate or expand this report.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is
+        recommended for possible improvement of convergence.
+
+DC simulation time: CPU = 6.211 ms, elapsed = 8.14795 ms.
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 20 us
+    step = 20 ns
+    maxstep = 200 ns
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 10e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = alllocal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Output and IC/nodeset summary:
+                 save   3       (voltage)
+
+    tran: time = 500.1 ns     (2.5 %), step = 116.6 ns     (583 m%)
+    tran: time = 1.5 us       (7.5 %), step = 109.3 ns     (546 m%)
+    tran: time = 2.5 us      (12.5 %), step = 112 ns       (560 m%)
+    tran: time = 3.5 us      (17.5 %), step = 109.2 ns     (546 m%)
+    tran: time = 4.5 us      (22.5 %), step = 111.9 ns     (559 m%)
+    tran: time = 5.5 us      (27.5 %), step = 109.2 ns     (546 m%)
+    tran: time = 6.5 us      (32.5 %), step = 111.7 ns     (558 m%)
+    tran: time = 7.5 us      (37.5 %), step = 109.1 ns     (545 m%)
+    tran: time = 8.5 us      (42.5 %), step = 113.9 ns     (570 m%)
+    tran: time = 9.5 us      (47.5 %), step = 109 ns       (545 m%)
+    tran: time = 10.5 us     (52.5 %), step = 113.8 ns     (569 m%)
+    tran: time = 11.5 us     (57.5 %), step = 109 ns       (545 m%)
+    tran: time = 12.5 us     (62.5 %), step = 113.7 ns     (569 m%)
+    tran: time = 13.5 us     (67.5 %), step = 108.9 ns     (545 m%)
+    tran: time = 14.5 us     (72.5 %), step = 113.6 ns     (568 m%)
+    tran: time = 15.5 us     (77.5 %), step = 108.9 ns     (544 m%)
+    tran: time = 16.5 us     (82.5 %), step = 113.5 ns     (568 m%)
+    tran: time = 17.5 us     (87.5 %), step = 108.8 ns     (544 m%)
+    tran: time = 18.5 us     (92.5 %), step = 113.4 ns     (567 m%)
+    tran: time = 19.5 us     (97.5 %), step = 108.8 ns     (544 m%)
+
+The analog simulator has reached stop time, please use `analog -stop <new stop time>' to extend the analog stop time.
+Simulation stopped via transient analysis stoptime at time 20 US
+Memory Usage - 38.6M program + 501.2M data = 539.8M total
+CPU Usage - 0.1s system + 4.1s user = 4.3s total (78.3% cpu)
+ncsim> exit
+Number of accepted tran steps =             7250
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative, default moderate
+          reltol = 10e-06, default 100e-06 (conservative)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+        Spectre  0 (100.0 %)     1 (15.6 %)      2 (17.0 %)      3 (91.8 %)
+                 4 (15.0 %)      5 (91.0 %)      6 (97.8 %)      7 (4.6 %)
+                 8 (98.0 %)      9 (92.6 %)     10 (99.0 %)     11 (4.4 %)
+                12 (6.2 %)      13 (3.6 %)      14 (100.0 %)    15 (100.0 %)
+                16 (100.0 %)    17 (94.4 %)     18 (100.0 %)    19 (53.9 %)
+                20 (18.6 %)     21 (89.4 %)     22 (72.3 %)     23 (9.4 %)
+                24 (22.9 %)     25 (5.1 %)      26 (37.3 %)     27 (99.8 %)
+                28 (6.4 %)      29 (10.1 %)     30 (47.4 %)     31 (100.0 %)
+                32 (100.0 %)    33 (100.0 %)    34 (3.6 %)      35 (34.4 %)
+                36 (66.0 %)     37 (8.0 %)      38 (20.4 %)     39 (21.5 %)
+        Other   
+Initial condition solution time: CPU = 6.297 ms, elapsed = 8.23212 ms.
+
+**** AMSD: Mixed-Signal Activity Statistics ****
+Number of A-to-D events:                     124
+  Number of A-to-D events in IEs:            124
+Number of D-to-A events:                      22
+  Number of D-to-A events in IEs:             22
+Number of VHDL-AMS Breaks:                     0
+
+Intrinsic tran analysis time:    CPU = 3.75721 s, elapsed = 3.76383 s.
+Total time required for tran analysis `tran': CPU = 3.76715 s, elapsed =
+        3.77622 s.
+Time accumulated: CPU = 4.3397 s, elapsed = 5.00649 s.
+Peak resident memory used = 112 Mbytes.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/finalTimeOP.info ...
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+Simulation complete via transient analysis stoptime at time 20 US
+
+Aggregate audit (10:59:58 AM, Thur Mar 19, 2026):
+Time used: CPU = 4.37 s, elapsed = 5.05 s, util. = 86.6%.
+Time spent in licensing: elapsed = 341 ms, percentage of total = 6.76%.
+Peak memory used = 113 Mbytes.
+Simulation started at: 10:59:53 AM, Thur Mar 19, 2026, ended at: 10:59:58 AM,
+        Thur Mar 19, 2026, with elapsed time (wall clock): 5.05 s.
+spectre completes with 0 errors, 19 warnings, and 9 notices.
+ncsim: Memory Usage - 38.6M program + 490.8M data = 529.4M total (539.9M Peak)
+ncsim: CPU Usage - 0.2s system + 4.2s user = 4.4s total (5.5s, 79.0% cpu)

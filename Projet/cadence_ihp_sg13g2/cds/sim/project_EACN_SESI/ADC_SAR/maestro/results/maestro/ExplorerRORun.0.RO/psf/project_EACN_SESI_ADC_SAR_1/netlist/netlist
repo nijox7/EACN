@@ -1,0 +1,5 @@
+cds.lib: ${AMS_CDS_LIB} 
+lib:  project_EACN_SESI 
+cell: ADC_SAR 
+view: config 
+topCellLib: project_EACN_SESI 

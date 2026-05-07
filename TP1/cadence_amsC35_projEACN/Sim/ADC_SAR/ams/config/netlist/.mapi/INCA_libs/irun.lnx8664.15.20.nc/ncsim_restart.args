@@ -1,0 +1,36 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
++sdf_nocheck_celltype
+-SPECTRE_ARGS
+"-ahdllibdir INCA_libs/AMSD/ahdlSimDB"
+-NOCOPYRIGHT
+-NOSTDOUT
+-NOWARN
+DLNOHV
+-NOWARN
+DLNOHV
+-NOWARN
+DLCLAP
+-MESSAGES
++EMGRLOG
+/users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi/mapirun.log
+-amsdlibdir
+/users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi//INCA_libs/AMSD
+-XLSTIME
+1773914369
+-XLKEEP
+-XLMODE
+/users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi//INCA_libs/irun.lnx8664.15.20.nc
+-RUNMODE
+-CDSLIB
+/users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi//INCA_libs/irun.lnx8664.15.20.nc/cds.lib
+-HDLVAR
+/users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi//INCA_libs/irun.lnx8664.15.20.nc/hdl.var
+-XLNAME
+irun
+-XLVERSION
+"TOOL:	irun(64)	15.20-s074"
+-XLNAME
+./.mapi/INCA_libs/irun.lnx8664.15.20.nc/bop.soc.lip6.fr_39457

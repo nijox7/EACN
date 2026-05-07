@@ -1,0 +1,10 @@
+("project_EACN_SESI" "SWITCH" "schematic" nil) nil
+("ixc013g2ng_stdcell" "INVJIX0" "functional" nil) nil
+("analogLib" "vpulse" "spectre" spectreSrcPrim) t
+("functional" "comparator" "spectre" nil) t
+("project_EACN_SESI" "control" "behavioral" nil) nil
+("analogLib" "cap" "spectre" _spectreCap) t
+("SG13_dev" "pmos" "spectre" nil) t
+("ixc013g2ng_stdcell" "INVJIX1" "functional" nil) nil
+("analogLib" "vdc" "spectre" spectreSrcPrim) t
+("SG13_dev" "nmos" "spectre" nil) t

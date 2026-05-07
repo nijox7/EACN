@@ -1,0 +1,41 @@
+HEADER
+"PSFversion" "1.00"
+"Run Generator" "drlRun rev. 1.0"
+"Run Time Stamp" "Apr  9 17:50:46 2026"
+"date" "Apr  9 17:50:46 2026"
+"simulator" "spectre"
+"netlistDir" "../netlist"
+"axlParamFlag" "true"
+"#maeHistoryName" "ExplorerRORun.0.RO"
+"#maeTestName" "cours_EACN_SESI_quad_resference_1"
+ "externalSweepVariableCount" 1
+TYPE
+"runObject" STRUCT(
+"logName" ARRAY( * ) STRING *
+"parent" STRING *
+"sweepVariable" ARRAY( * ) STRING *
+) PROP( "key" "runObject" )
+VALUE
+"Root" "runObject" (
+("")
+""
+("r")
+)
+"r=100000.0" "runObject" (
+(
+"../../../1/cours_EACN_SESI_quad_resference_1/psf/logFile"
+"../../../1/cours_EACN_SESI_quad_resference_1/psf/artistLogFile"
+"../../../1/cours_EACN_SESI_quad_resference_1/psf/matlabLogFile"
+)
+"Root"
+()
+) PROP(
+ "#maeDesignPoint" 1
+"#maeCorner" "nom"
+ "#pointID" 1
+"netlistDir" "../../../1/cours_EACN_SESI_quad_resference_1/netlist"
+"dataDir" "../../../1/cours_EACN_SESI_quad_resference_1"
+ "r" 1.000000e+05
+)
+
+END

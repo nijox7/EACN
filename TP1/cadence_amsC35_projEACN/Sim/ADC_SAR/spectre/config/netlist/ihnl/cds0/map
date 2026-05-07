@@ -1,0 +1,5 @@
+( ( net
+( "vdd!" "inh_vdd" )
+( "gnd!" "inh_gnd" )
+ )
+ )

@@ -1,0 +1,10 @@
+cellMap,*SWITCH,*SWITCH,*project_EACN_SESI,*schematic
+netMap,*SWITCH,*vdd!,*vdd!
+netMap,*SWITCH,*gnd!,*0
+instMap,*SWITCH,*MN11,*MN11
+instMaster,*SWITCH,*MN11,*SG13_dev_nmos_spectre,*sg13_lv_nmos
+instMap,*SWITCH,*MP5,*MP5
+instMaster,*SWITCH,*MP5,*SG13_dev_pmos_spectre,*sg13_lv_pmos
+portMap,*SWITCH,*SW1,*SW1
+portMap,*SWITCH,*SW2,*SW2
+portMap,*SWITCH,*SW_CLK,*SW_CLK

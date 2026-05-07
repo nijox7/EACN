@@ -1,0 +1,12 @@
+nodes=12
+jobId=12
+idInRun=1
+host=dowland
+jobLog=logs0/Job12.log
+recommendedThreads=1
+cpuTime=0.146000
+cpuUtil=34.2
+Memory=207 M
+startTime=6:14:52 PM, Thur Apr 2, 2026
+endTime=6:14:52 PM, Thur Apr 2, 2026
+elapsedTime=0.426000

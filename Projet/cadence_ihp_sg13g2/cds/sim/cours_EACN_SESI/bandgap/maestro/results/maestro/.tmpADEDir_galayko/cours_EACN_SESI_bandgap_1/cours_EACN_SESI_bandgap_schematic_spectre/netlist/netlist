@@ -1,0 +1,33 @@
+simulator lang=spectre
+
+// Library name: cours_EACN_SESI
+// Cell name: bandgap
+// View name: schematic
+R4 (net6 net1) resistor r=5K
+R3 (net3 0) resistor r=R2
+R2 (net5 0) resistor r=R2
+R1 (vref 0) resistor r=34K
+R0 (net3 net8) resistor r=5K
+V7 (net12 net6) vsource dc=0 type=dc
+V6 (net7 net2) vsource dc=0 type=dc
+V5 (net11 net3) vsource dc=0 type=dc
+V4 (net10 net5) vsource dc=0 type=dc
+V2 (sub! 0) vsource dc=0 type=dc
+V1 (vdd! 0) vsource dc=1.2 type=dc
+D9 (net1 0 0) pnpMPA a=40p p=44u ac=76.254p pc=49.76u m=1
+D8 (net1 0 0) pnpMPA a=40p p=44u ac=76.254p pc=49.76u m=1
+D7 (net1 0 0) pnpMPA a=40p p=44u ac=76.254p pc=49.76u m=1
+D6 (net1 0 0) pnpMPA a=40p p=44u ac=76.254p pc=49.76u m=1
+D5 (net2 0 0) pnpMPA a=40p p=44u ac=76.254p pc=49.76u m=1
+D4 (net8 0 0) pnpMPA a=40p p=44u ac=76.254p pc=49.76u m=1
+D3 (net8 0 0) pnpMPA a=40p p=44u ac=76.254p pc=49.76u m=1
+D2 (net8 0 0) pnpMPA a=40p p=44u ac=76.254p pc=49.76u m=1
+D1 (net8 0 0) pnpMPA a=40p p=44u ac=76.254p pc=49.76u m=1
+D0 (net5 0 0) pnpMPA a=40p p=44u ac=76.254p pc=49.76u m=1
+P2 (vref net9 vdd! vdd!) sg13_lv_pmos w=10.000u l=500.0n ng=1 ad=0 as=0 \
+        pd=0 ps=0 m=1
+P1 (net10 net9 vdd! vdd!) sg13_lv_pmos w=10.000u l=500.0n ng=1 ad=0 as=0 \
+        pd=0 ps=0 m=1
+P0 (net11 net9 vdd! vdd!) sg13_lv_pmos w=10.000u l=500.0n ng=1 ad=0 as=0 \
+        pd=0 ps=0 m=1
+E0 (net9 0 net11 net10) vcvs gain=1000

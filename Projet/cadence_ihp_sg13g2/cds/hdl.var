@@ -1,0 +1,16 @@
+#SOFTINCLUDE  ${AMSHOME}/inca/files/hdl.var
+SOFTINCLUDE  ${AMSHOME}/tools/inca/files/hdl.var
+
+DEFINE NCUSE5X
+DEFINE VHDL_SUFFIX (.vhd,.vhdl)
+DEFINE VERILOG_SUFFIX (.v,.vr,.vb,.vg)
+DEFINE cdslib ${PROJECT}/cds/cds.lib
+
+#Re-define the workLib/Library, which the module is to be compiled - also could be form your cds.lib
+#DEFINE WORK workLib
+
+DEFINE NCVLOGOPTS -linedebug -messages
+DEFINE NCVHDLOPTS -linedebug -messages
+DEFINE VIEW_MAP ($VIEW_MAP, .vs => shell, .v => verilog, .vhd => vhdl)
+DEFINE NCELABOPTS  -nowarn CUVWSP -nowarn CUNGL1 -nowarn CSINFI -nowarn DLCILIB
+DEFINE NCSIMOPTS  -nowarn CIRREGW

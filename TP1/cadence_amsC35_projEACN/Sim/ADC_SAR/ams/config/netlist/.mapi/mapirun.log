@@ -1,0 +1,43 @@
+TOOL:	irun(64)	15.20-s074: Started on Mar 19, 2026 at 10:59:29 CET
+irun
+	-f /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi/mapi_run.args
+		-64bit
+		-compile
+		-NOCOPYRIGHT
+		-nostdout
+		-nowarn DLNOHV
+		-logfile /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi/mapirun.log
+		-nowarn DLNOHV
+		-nowarn DLCLAP
+		-v93
+		-allowredefinition
+		-incdir /users/cao/galayko/cadence_amsC35_projEACN/
+		-f /users/soft/techno/dev/vienne/035.HV-4.10/verilog/c35b4/vxl.inc
+			-v /programs/ams_4.10/verilog/c35b4/c35_CORELIB_3B.v
+			-v /programs/ams_4.10/verilog/c35b4/c35_CORELIBD_3B.v
+			-v /programs/ams_4.10/verilog/c35b4/c35_CORELIBD.v
+			-v /programs/ams_4.10/verilog/c35b4/c35_CORELIB.v
+			-v /programs/ams_4.10/verilog/c35b4/c35_CORELIB_V5_3B.v
+			-v /programs/ams_4.10/verilog/c35b4/c35_CORELIB_V5.v
+			-v /programs/ams_4.10/verilog/c35b4/c35_IOLIB_3B.v
+			-v /programs/ams_4.10/verilog/c35b4/c35_IOLIBC_3B.v
+			-v /programs/ams_4.10/verilog/c35b4/c35_IOLIBCV5_3B.v
+			-v /programs/ams_4.10/verilog/c35b4/c35_IOLIB.v
+			-v /programs/ams_4.10/verilog/c35b4/c35_IOLIBV5.v
+			-v /programs/ams_4.10/verilog/c35b4/FILLANT.v
+			-v /programs/ams_4.10/verilog/udp.v
+			+sdf_nocheck_celltype
+		-nclibdirpath /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi/
+		-cdslib /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi/cds.lib
+		-makelib project_EACN_SESI
+		-view behavioral
+		/users/cao/galayko/cadence_amsC35_projEACN/project_EACN_SESI/control/behavioral/vhdl.vhd
+		-endlib
+		/users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi//dummyMapi.vhms
+/users/cao/galayko/cadence_amsC35_projEACN/project_EACN_SESI/control/behavioral/vhdl.vhd:
+	errors: 0, warnings: 0
+\project_EACN_SESI\.CONTROL (entity):
+	streams: 4, words: 87
+\project_EACN_SESI\.CONTROL:BEHAVIORAL (architecture):
+	streams: 1, words: 175
+TOOL:	irun(64)	15.20-s074: Exiting on Mar 19, 2026 at 10:59:32 CET  (total: 00:00:03)

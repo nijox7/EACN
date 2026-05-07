@@ -1,0 +1,9 @@
+HEADER
+"PSFversion" "1.00"
+"V5n V2n V1n V0n" "analogLib_vdc_spectre"
+"Cn C0n C1n C2n" "analogLib_cap_spectre"
+"I34n I19n I17n I16n I14n I13n I11n I10n I8n I5n I4n" "SWITCH"
+"X1n" "functional_comparator_spectre"
+"I29n" "project_EACN_SESI_control_behavioral"
+"V7n V6n" "analogLib_vpulse_spectre"
+"I24n I30n I32n I31n I33n" "INVX1"

@@ -1,0 +1,7 @@
+[Logging Service: 0]
+[2026-04-02 10:06:00.890 +0200] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init {"dbBasePath": "/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro"}
+[2026-04-02 10:06:00.890 +0200] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... {"hostname": "ropartz", "processid": 666129, "logfile": "/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/logs_galayko/logs0/LoggingService0.log"}
+[2026-04-02 11:40:18.495 +0200] [INFO] [cadence.virtuoso.ade.loggingservice] - Got exit signal in processControlMessage. Will exit. {}
+[2026-04-02 11:40:19.497 +0200] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Current memory used: 59.2656 MBytes, peak memory used: 59.2656 MBytes {"hostname": "ropartz", "processid": 666129, "logfile": "/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/logs_galayko/logs0/LoggingService0.log"}
+[2026-04-02 11:40:19.497 +0200] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Stopping Logging Service process. {"hostname": "ropartz", "processid": 666129, "logfile": "/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/logs_galayko/logs0/LoggingService0.log"}
+[2026-04-02 11:40:19.497 +0200] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service stop!!!! {"hostname": "ropartz", "processid": 666129, "logfile": "/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/logs_galayko/logs0/LoggingService0.log"}

@@ -1,0 +1,454 @@
+HEADER
+"PSFversion" "1.00"
+"simulator" "spectre"
+"version" "24.1.0.198.isr3"
+"date" "3:40:10 PM, Thur Apr 9, 2026"
+"design" "// Point Netlist Generated on: Apr  9 15:40:09 2026"
+"analysis type" "info.subckts"
+"analysis name" "subckts"
+"analysis description" "Circuit Information"
+"xVecSorted" "unknown"
+"tolerance.relative" 1.000000000000000e-03
+TYPE
+"subckt" STRUCT(
+"subckt_file" STRING *
+"subckt_params" STRING *
+"subckt_terminals" STRING *
+"subckt_instances" STRING *
+) PROP(
+"key" "sub"
+)
+VALUE
+"tsv_model" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_tsv.lib 30"
+""
+""
+""
+)
+"idiodevss_2kv" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib 359"
+""
+""
+""
+)
+"npn13G2v" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_vbic.lib 337"
+""
+""
+""
+)
+"f_cMacro" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 59"
+""
+""
+""
+)
+"sg13_hv_pmos" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_mod.lib 126"
+""
+""
+""
+)
+"cap_cmim" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib 84"
+""
+""
+""
+)
+"f_vco" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 750"
+""
+""
+""
+)
+"sg13_hv_nmos" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_mod.lib 79"
+""
+""
+""
+)
+"f_integ2" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 206"
+""
+""
+""
+)
+"nmoscl_4" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib 882"
+""
+""
+""
+)
+"f_abs" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 7"
+""
+""
+""
+)
+"tsv" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_tsv.lib 22"
+""
+""
+""
+)
+"dschottky_nbl1" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_mod.lib 62"
+""
+""
+""
+)
+"nmoscl_2" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib 545"
+""
+""
+""
+)
+"ntap1" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res.lib 62"
+""
+""
+""
+)
+"f_comp" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 147"
+""
+""
+""
+)
+"f_pole" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 378"
+""
+""
+""
+)
+"f_repeater" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 389"
+""
+""
+""
+)
+"diodevss_2kv" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib 307"
+""
+""
+""
+)
+"pdnw" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib 320"
+""
+""
+""
+)
+"bondpad" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib 8"
+""
+""
+""
+)
+"dantenna" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib 64"
+""
+""
+""
+)
+"f_varGAmp" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 737"
+""
+""
+""
+)
+"f_limitAmp" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 230"
+""
+""
+""
+)
+"f_shifter" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 400"
+""
+""
+""
+)
+"f_iSwitch" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 217"
+""
+""
+""
+)
+"f_driver" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 195"
+""
+""
+""
+)
+"bondpad_model" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib 12"
+""
+""
+""
+)
+"cap_rfcmim" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib 104"
+""
+""
+""
+)
+"dnw" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib 351"
+""
+""
+""
+)
+"f_zero" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 778"
+""
+""
+""
+)
+"isolbox" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib 211"
+""
+""
+""
+)
+"inductor3" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib 183"
+""
+""
+""
+)
+"idiodevdd_4kv" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib 238"
+""
+""
+""
+)
+"diodevdd_2kv" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib 66"
+""
+""
+""
+)
+"pad_model" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib 19"
+""
+""
+""
+)
+"ptap1" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res.lib 56"
+""
+""
+""
+)
+"f_diff" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 169"
+""
+""
+""
+)
+"f_oplv1c" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 291"
+""
+""
+""
+)
+"sg13_lv_nmos" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_mod.lib 79"
+""
+""
+""
+)
+"idiodevdd_2kv" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib 118"
+""
+""
+""
+)
+"dummy1" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib 312"
+""
+""
+""
+)
+"npn13G2" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_vbic.lib 75"
+""
+""
+""
+)
+"f_amp" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 28"
+""
+""
+""
+)
+"f_voltDba" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 768"
+""
+""
+""
+)
+"f_subtract" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 410"
+""
+""
+""
+)
+"diodevdd_4kv" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib 186"
+""
+""
+""
+)
+"f_logAmp" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 241"
+""
+""
+""
+)
+"f_topaz1" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 425"
+""
+""
+""
+)
+"res_rsil" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res.lib 85"
+""
+""
+""
+)
+"f_multPli" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 271"
+""
+""
+""
+)
+"res_rppd" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res.lib 208"
+""
+""
+""
+)
+"diodevss_4kv" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib 427"
+""
+""
+""
+)
+"f_cmplxP3" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 133"
+""
+""
+""
+)
+"Cparasitic" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib 63"
+""
+""
+""
+)
+"f_opAmp" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 281"
+""
+""
+""
+)
+"f_divider" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 183"
+""
+""
+""
+)
+"res_rhigh" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res.lib 146"
+""
+""
+""
+)
+"f_currDba" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 157"
+""
+""
+""
+)
+"diode_pp" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib 258"
+""
+""
+""
+)
+"idiodevss_4kv" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib 478"
+""
+""
+""
+)
+"pad" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib 15"
+""
+""
+""
+)
+"sg13_hv_svaricap" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_svaricaphv_mosvar_mod.lib 48"
+""
+""
+""
+)
+"dpantenna" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib 162"
+""
+""
+""
+)
+"npn13G2l" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_vbic.lib 206"
+""
+""
+""
+)
+"f_adder" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 17"
+""
+""
+""
+)
+"f_cmplxP2" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 122"
+""
+""
+""
+)
+"sg13_lv_pmos" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_mod.lib 126"
+"mfact ng wmin z2 ad z1 as pd trise w ps l rfmode pre_layout"
+"d g s b"
+"P2 P1 P0"
+)
+"f_multPlex" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 251"
+""
+""
+""
+)
+"pnpMPA" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_vbic.lib 468"
+"pc sub_p dev_a p sub_a a dev_p ac"
+"e b c"
+"D9_turbo_m4 D5 D4_turbo_m4 D0"
+)
+"Rparasitic" "subckt" (
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res.lib 75"
+""
+""
+""
+)
+"f_cmplxP1" "subckt" (
+"/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs 110"
+""
+""
+""
+)
+END

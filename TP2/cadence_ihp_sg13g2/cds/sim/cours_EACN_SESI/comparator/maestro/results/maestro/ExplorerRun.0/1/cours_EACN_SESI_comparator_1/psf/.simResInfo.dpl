@@ -1,0 +1,13 @@
+nodes=6
+jobId=7
+idInRun=1
+host=dowland
+jobLog=logs0/Job7.log
+recommendedThreads=1
+tranIntrinsicElapsedTime=0.024887
+cpuTime=0.166000
+cpuUtil=34.4
+Memory=213 M
+startTime=5:12:11 PM, Thur Apr 2, 2026
+endTime=5:12:12 PM, Thur Apr 2, 2026
+elapsedTime=0.481000

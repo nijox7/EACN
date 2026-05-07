@@ -1,0 +1,182 @@
+\# Program start time:     UTC 2026.04.08 06:47:46.457
+\# Local time: GMT+02:00 (UTC+02:00) 2026.04.08 08:47:46.457
+\o Program:		@(#)$CDS: Virtuoso Studio version IC23.1-64b 01/14/2025 22:42 (cpgbld16) $
+\o Hierarchy:		/users/soft/opus/Linux/IC-23.10.120/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC23.1-64b.ISR12.37  (64-bit addresses)
+\# Command line:	/users/soft/opus/Linux/IC-23.10.120/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost ropartz -beanport 11697 -beanbinlog  -beanLogFile /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/logs_galayko/logs0/amps_Service4.log -mpssession virtuoso1882706 -mpshost ropartz -davinciService DaVinciService_1882706_1775630657 -scopedPid 1882706 -axlSession fnxSession1 -axlServiceIdFlag 4 -uuid 80596856-05b4-43d2-a874-d1acc2010abe -heartbeat /dev/shm/swift-heartbeat.Z8gpYyD9QQ -log /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/logs_galayko/logs0/Service4.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D73E9877E9306C52664F687708606CE390A8CEC7E9F67D0227DAAD247CD36C87766E3A12FFC06BC4D0F36750F0616D59800001DD8 -interactive -offlineExprEval -upfrontMode -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	ropartz (x86_64)
+\# Operating system:	Linux 5.14.0-611.38.1.el9_7.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Mar 10 17:21:28 EDT 2026
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:4243 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        744 MB
+\# Available memory:	    149,894 MB
+\# System memory:	    160,397 MB
+\# Maximum memory size:	    159,829 MB
+\# Max mem available:	    150,070 MB
+\# Initial memory used:	        176 MB
+\#        process size:	      1,533 MB
+\# Thread usage limits (effective/default):	maxthreads 510227/510227 maxload 20.00/20.00
+\# Qt version:		5.15.9
+\# Window Manager:	other
+\# User Name:		galayko
+\o Working Directory:	ropartz:/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds
+\# Process Id:		1889957
+\o 
+\o COPYRIGHT (C) 1992-2025  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2025  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading im.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading layers.cxt 
+\o Loading drv.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading analog.cxt 
+\o Loading par.cxt 
+\o Loading asimenv.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\# Memory report: using         314 MB, process size 1,717 MB at UTC 2026.04.08 06:47:48.201
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o Loading sipLayout.cxt 
+\o Loading viva.cxt 
+\o Loading diagCenter.cxt 
+\o INFO (ELI-00333) License program mode is LSCS.
+\# [08:47:46.189417] Configured Lic search path (23.02-s006): 30000@cadence.cnfm.fr
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso1882706, host=ropartz). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 1889957 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\w *WARNING* ddiAddLibToOA: Can't access library 'tmp' at path '/users/cao/galayko/cadence_ihp_sg13g2/cds/tmp' in OA 2.2.
+\w OA Exception is: 'Received exception from oaDMFileSys plug-in when accessing library tmp: #9005: Failed to open the library description file: .oalib in /users/cao/galayko/cadence_ihp_sg13g2/cds/tmp..'
+\o [INFO] Start cdsinit.
+\o loading cdsLibMgr.il file...
+\o loading cdsLibMgr.il file...
+\o [INFO] Calibre Integration introduction.
+\o 
+\o ***************************************************
+\o * Technology vendor:  IHP Microelectronics GmbH
+\o * Process:            SG13G2/M6M7
+\o * Technology library: SG13_dev
+\o * Designkit:          (c) 2026 IHP Microelectronics GmbH
+\o *       release name: SG13G2_618_rev1.3.3
+\o *       release date: 2026-03-03
+\o * Grid                0.005u
+\o ***************************************************
+\o IHP_TECH is set to "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/"
+\o PROJECT is set to "/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/"
+\o 
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool cdsLibManager
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool ui
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool spectre
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool asimenv
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool graphic
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool layout
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool layoutXL
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool schematic
+\w *WARNING* envSetVal: Can't set the value of variable 'markerType',
+\w 	in tool[.partition] 'schematic' - it has not been registered.
+\w *WARNING* envSetVal: Can't set the value of variable 'markerSource',
+\w 	in tool[.partition] 'schematic' - it has not been registered.
+\o Use Shift-f and Ctrl-f in the layout editor to change the display stop level
+\o Bindkey-addons in layout:
+\o Shift-0..Shift-9 change entry layer (drawing)
+\o 0..9 change SnapSpacing (0.005u to 10.0u)
+\o Ctrl-0..Ctrl9 change Cursor-Delta (0.005u to 10.0u)
+\o - toggles flight line visibility
+\o Ctrl- and Ctrl+ change IncompleteNets (in LayoutXL only)
+\o Ctrl-e toggles DRD (Design Rule Driven Layout) and dynamic measurement
+\o Use <Key>F7 in CIW to open IHP config window:
+\o Load modules...
+\o function ihpCreateEffectiveCDF redefined
+\o Loading layerProc.cxt 
+\w *WARNING* ddiAddLibToOA: Can't access library 'tmp' at path '/users/cao/galayko/cadence_ihp_sg13g2/cds/tmp' in OA 2.2.
+\w OA Exception is: 'Received exception from oaDMFileSys plug-in when accessing library tmp: #9005: Failed to open the library description file: .oalib in /users/cao/galayko/cadence_ihp_sg13g2/cds/tmp..'
+\o End of GDS form initialization
+\o forbiddenModules = table:forbiddenModules
+\o "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//Modules/ixc013g2ng_stdcell""/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//Modules/ixc013g2ng_stdcell/module_setup.il""I am here""I am here""ixc013g2ng_stdcell"Initializing from module_setup.il for Module ixc013g2ng_stdcell ...
+\w *WARNING* (TECH-2000150): Cannot attach a technology library to another technology library.
+\w *WARNING* (TECH-2000150): Cannot attach a technology library to another technology library.
+\o "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//Modules/ixc013g2_iocell""/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//Modules/ixc013g2_iocell/module_setup.il""I am here"function checkModuleDependencies redefined
+\o function setup_module redefined
+\o function getModuleName redefined
+\o function getModuleVersion redefined
+\o "I am here""ixc013g2_iocell"Initializing from module_setup.il for Module ixc013g2_iocell ...
+\w *WARNING* (TECH-250073): Failed to attach the technology library 'SG13_dev' to the design library 'ixc013g2_iocell' because the design library does not have write permission.
+\w *WARNING* (TECH-250073): Failed to attach the technology library 'SG13_dev' to the design library 'ixc013g2_iocell' because the design library does not have write permission.
+\o 2Loading MPP templates
+\o Loading MPP templates for SG13_dev
+\o Loading le.cxt 
+\o [INFO] End cdsinit.
+\p SG13G2/M6M7
+\o Loading tilp.cxt 
+\o Loading validator.cxt 
+\o Loading vrf.cxt 
+\o Loading multiTechPlugin.cxt 
+\o Loading exportDie.cxt 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 1889957' to open it when Virtuoso freezes.
+\# INFO (PerfDiag): The private spectre.envOpts environment variable 'useAltergroup' is set to value 'nil' different than default value 't'.
+\# INFO (PerfDiag): The private spectre.envOpts environment variable 'modelFiles' is set to value '" $IHP_TECH/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs;typ #;$IHP_TECH/tech/SG13G2_HBT/HICUM/spectre/SG13G2_cornerBIP_hicum.scs;typ $IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs;tt $IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs;tt #;$IHP_TECH/tech/SG13_MOS/library/spectreG2/CheckMOSstat.scs #;$IHP_TECH/tech/SG13_MOS/library/spectreG2/CheckMOSdyn.scs $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs;typ $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs;typ #;$IHP_TECH/tech/SG13G2_PASSIVES/spectre/Ind_unit_4PI #;$IHP_TECH/tech/SG13G2_PASSIVES/spectre/Ind_unit_2PI $IHP_TECH/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs;tt $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib $IHP_TECH/tech/SG13_ESD/spectre/SG13_esd.lib $IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs;typ $IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib"' different than default value '""'.
+\# INFO (PerfDiag): The private spectre.envOpts environment variable 'includePath' is set to value '"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//lib/TL_SG13/RLCG/spectre/"' different than default value '""'.
+\# INFO (PerfDiag): The private schematic environment variable 'instLibName' is set to value '"SG13_dev"' different than default value '""'.
+\# INFO (PerfDiag): The private ams.envOpts environment variable 'modelFiles' is set to value '" $IHP_TECH/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs;typ #;$IHP_TECH/tech/SG13G2_HBT/HICUM/spectre/SG13G2_cornerBIP_hicum.scs;typ $IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs;tt $IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs;tt #;$IHP_TECH/tech/SG13_MOS/library/spectreG2/CheckMOSstat.scs #;$IHP_TECH/tech/SG13_MOS/library/spectreG2/CheckMOSdyn.scs $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs;typ $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs;typ #;$IHP_TECH/tech/SG13G2_PASSIVES/spectre/Ind_unit_4PI #;$IHP_TECH/tech/SG13G2_PASSIVES/spectre/Ind_unit_2PI $IHP_TECH/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs;tt $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib $IHP_TECH/tech/SG13_ESD/spectre/SG13_esd.lib $IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs;typ $IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib"' different than default value '""'.
+\# INFO (PerfDiag): The private ams.envOpts environment variable 'disciplineInfo' is set to value 't' different than default value 'nil'.
+\# (PerfDiag): Use backtrace from GLIBC.
+\i _axlRunServices()
+\# [08:47:51.340706] Periodic Lic check successful
+\# [08:47:51.864995] Feature usage summary:
+\o Loading simui.cxt 
+\o [2026-04-08 08:47:51.884 +0200] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"jobid": "4", "hostname": "ropartz", "processid": 1889957, "logfile": "/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/logs_galayko/logs0/Service4.log"}
+\# Available memory:        149,623 MB at UTC 2026.04.08 06:47:56.930
+\# Memory report: Maximum memory size now 150,031 MB at UTC 2026.04.08 06:47:56.930
+\# Thread usage report: 12 active threads, active load 1.40 at UTC 2026.04.08 06:47:56.930
+\o [2026-04-08 08:52:52.440 +0200] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Netlist Service process exits. {"jobid": "4", "hostname": "ropartz", "processid": 1889957, "logfile": "/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/logs_galayko/logs0/Service4.log"}
+\o Loading vdsil.cxt 
+\# Lic Summary:
+\# [08:52:53.469307] Cdslmd servers:30000@cadence.cnfm.fr
+\# [08:52:53.469320] Feature usage summary:
+\# Memory report: on exit            408 MB, process size 1,878 MB at UTC 2026.04.08 06:52:53.469
+\# Memory report: peak usage         408 MB, process size 1,878 MB

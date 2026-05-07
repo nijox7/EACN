@@ -1,0 +1,5 @@
+
+// Library name: ixc013g2ng_stdcell
+// Cell name: DFRRSQJIX1
+// View name: schematic
+subckt DFRRSQJIX1 Q C D RN SN inh_VDD inh_VSS

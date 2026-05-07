@@ -1,0 +1,9 @@
+HEADER
+"PSFversion" "1.00"
+"Dv" ":1v"
+"Gv" ":2v"
+"Sv" ":3v"
+"Bv" ":4v"
+"(op ?)p" "ids vdsat"
+"(op ids)p" "OP(mappedRoot(\"\") \"ide\")"
+"(op vdsat)p" "OP(mappedRoot(\"\") \"vdss\")"

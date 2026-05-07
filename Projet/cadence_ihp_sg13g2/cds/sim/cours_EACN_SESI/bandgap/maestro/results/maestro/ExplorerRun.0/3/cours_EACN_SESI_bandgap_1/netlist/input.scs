@@ -1,0 +1,40 @@
+// Point Netlist Generated on: Apr  9 15:40:12 2026
+// PDK version:/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/
+// Generated for: spectre
+// Design Netlist Generated on: Apr  9 15:40:06 2026
+// Design library name: cours_EACN_SESI
+// Design cell name: bandgap
+// Design view name: schematic
+simulator lang=spectre
+include "ade_e.scs"
+global 0 sub! vdd!
+parameters temperature=27 R2=80K Vdc=0
+include "$IHP_TECH/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs" section=typ
+include "$IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs" section=tt
+include "$IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs" section=tt
+include "$IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs" section=typ
+include "$IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs" section=typ
+include "$IHP_TECH/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs" section=tt
+include "$IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib"
+include "$IHP_TECH/tech/SG13_ESD/spectre/SG13_esd.lib"
+include "$IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs" section=typ
+include "$IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib"
+include "/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs"
+include "netlist"
+simulatorOptions options psfversion="1.4.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=sqldb ignorezerovar=yes 
+dcOp dc write="spectre.dc" maxiters=150 maxsteps=10000 annotate=status
+dcOpInfo info what=oppoint where=rawfile
+dc dc param=temp start=-50 stop=100 step=1 oppoint=rawfile maxiters=150 \
+    maxsteps=10000 annotate=status
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+save vref V5:p 
+saveOptions options save=allpub currents=all subcktprobelvl=5 \
+    saveahdlvars=all

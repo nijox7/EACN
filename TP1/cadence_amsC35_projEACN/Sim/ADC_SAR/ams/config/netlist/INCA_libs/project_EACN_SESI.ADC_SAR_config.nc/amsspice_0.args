@@ -1,0 +1,23 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
+-outdir
+./INCA_libs/AMSD/ams_spice_in
+-runmode
+-cdslib
+./INCA_libs/project_EACN_SESI.ADC_SAR_config.lnx8664.15.20.nc/cdsrun.lib
+-hdlvar
+./INCA_libs/project_EACN_SESI.ADC_SAR_config.lnx8664.15.20.nc/hdlrun.var
+-work
+worklib
+-64bit
+-AMSOSSIRUNBIND
+-amscommfile
+./INCA_libs/AMSD/ams_spice_in/amsossbinding.list
+-amsspice-errfile
+./INCA_libs/AMSD/ams_spice_in/amsspice_binding.log
+-amsi
+./.amsbind.scs
+-modelincdir
+"/users/cao/galayko/cadence_amsC35_projEACN/"

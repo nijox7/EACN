@@ -1,0 +1,17 @@
+CADENCE IHNL04120
+$model
+project_EACN_SESI/ADC_SAR/schematic project_EACN_SESI/ADC_SAR/schematic/schematic/project_EACN_SESI_ADC_SAR_config/1 ADC_SAR
+project_EACN_SESI/buf_eq_delay/schematic project_EACN_SESI/buf_eq_delay/schematic/schematic/project_EACN_SESI_ADC_SAR_config/0 buf_eq_delay
+project_EACN_SESI/SWITCH/schematic project_EACN_SESI/SWITCH/schematic/schematic/project_EACN_SESI_ADC_SAR_config/0 SWITCH
+$endmodel
+$net
+gnd! 0
+VSS! VSS!
+vdd! vdd!
+VDD! VDD!
+$endnet
+$param
+Cu Cu
+vin vin
+temperature temperature
+$endparam

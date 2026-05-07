@@ -1,0 +1,65 @@
+#!/bin/tcsh
+
+echo "Loading of the Cadence enviroment..."
+
+## Cadence common settings
+setenv CDS_AUTO_64BIT ALL
+setenv CDS_Netlisting_Mode Analog
+unsetenv QRC_ENABLE_EXTRACTION 
+unsetenv ASSURAHOME
+unsetenv OA_HOME
+
+## [Virtuoso]
+setenv CDSHOME <tool install path>/cadence/ic618160
+setenv AMSHOME <tool install path>/cadence/xcelium1909
+setenv INNOVUSHOME  <tool install path>/cadence/innovus/21.17
+setenv SPECTREHOME  <tool install path>/cadence/spectre/23.10.237.isr4
+setenv IUSHOME $AMSHOME
+setenv INCISIVE_HOME $AMSHOME
+
+## [QRC]
+setenv QRC_HOME <tool install path>/cadence/quantus/23.11.p051
+
+## [PVS]
+setenv PVSHOME <tool install path>/cadence/pvs23.11
+
+## [CALIBRE]
+setenv MGC_HOME <tool install path>/mentor/aoi_cal_2023.4
+
+
+## [SONNET]
+setenv SONNET_DIR <tool install path>/sonnet/sonnet/18.52
+
+## [INNOVUS]
+setenv INNOVUSHOME <tool install path>/cadence/innovus2111
+
+## [Enable EMX]
+setenv EMXHOME <tool install path>/cadence/emx/integrand/61.00
+setenv PARAVIEWHOME $EMXHOME/ParaView-5.7.0-MPI-Linux-Python3.7-64bit
+
+
+
+## [License]
+setenv LM_LICENSE_FILE <server name and port>
+
+setenv PATH "${PATH}:$CDSHOME/tools/dfII/bin:$CDSHOME/tools/bin"
+setenv PATH "${PATH}:$MMSIMHOME/tools/bin:$MMSIMHOME/tools/dfII/bin"
+setenv PATH "${PATH}:$QRC_HOME/tools/bin"
+setenv PATH "${PATH}:$IUSHOME/tools/bin"
+setenv PATH "${PATH}:$ENCOUNTER/bin:$ENCOUNTER/fe/bin"
+setenv PATH "${PATH}:$PVSHOME/bin:$PVSHOME/tools/bin:$PVSHOME/tools/pvs/bin:$PATH"
+setenv PATH "${PATH}:${MGC_HOME}/bin"
+setenv PATH "${PATH}:$INNOVUSHOME/bin"
+setenv PATH "${PATH}:$EMXHOME/bin"
+setenv PATH "${PATH}:$PARAVIEWHOME/bin"
+
+## [register to the system]
+setenv LD_LIBRARY_PATH "$CDSHOME/tools/inca/lib"
+setenv LD_LIBRARY_PATH ${MGC_HOME}/lib:${LD_LIBRARY_PATH}
+setenv LD_LIBRARY_PATH "$CDSHOME/tools/inca/lib"
+
+echo "Loading of the Cadence enviroment - end."
+
+## [Project settings]
+setenv IHP_TECH <path to the PDK>
+setenv PROJECT  <path to the working area>

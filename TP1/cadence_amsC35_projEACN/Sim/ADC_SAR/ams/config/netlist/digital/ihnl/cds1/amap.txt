@@ -1,0 +1,5 @@
+instMap,*SWITCH,*I39,*I39
+instMaster,*SWITCH,*I39,*CORELIBD_INVX1_cmos_sch
+netMap,*SWITCH,*vdd!,*cds_globals.\vdd! 
+netMap,*SWITCH,*gnd!,*cds_globals.\gnd! 
+cellMap,*SWITCH,*SWITCH,*project_EACN_SESI,*schematic

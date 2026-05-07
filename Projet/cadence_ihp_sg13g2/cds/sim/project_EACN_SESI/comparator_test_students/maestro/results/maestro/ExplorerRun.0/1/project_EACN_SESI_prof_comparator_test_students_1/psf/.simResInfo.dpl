@@ -1,0 +1,13 @@
+nodes=33
+jobId=8
+idInRun=1
+host=onslow
+jobLog=logs0/Job8.log
+recommendedThreads=1
+tranIntrinsicElapsedTime=2.153962
+cpuTime=2.482480
+cpuUtil=74.6
+Memory=321 M
+startTime=3:35:32 PM, Thur Apr 16, 2026
+endTime=3:35:35 PM, Thur Apr 16, 2026
+elapsedTime=3.323320

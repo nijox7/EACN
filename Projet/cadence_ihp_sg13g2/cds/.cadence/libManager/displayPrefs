@@ -1,0 +1,35 @@
+<!DOCTYPE CDS_DISPLAY_PREFS>
+<DISPLAY_PREFS>
+  <DISPLAY NAME="CadenceLib_top" >
+    <ICON NAME="parameter-collection.png" />
+    <COLOR>
+      <RED>255</RED>
+      <GREEN>0</GREEN>
+      <BLUE>0</BLUE>
+    </COLOR>
+  </DISPLAY>
+  <DISPLAY NAME="CadenceLib" >
+    <ICON NAME="parameter-dependent.png" />
+    <COLOR>
+      <RED>255</RED>
+      <GREEN>0</GREEN>
+      <BLUE>0</BLUE>
+    </COLOR>
+  </DISPLAY>
+  <DISPLAY NAME="PDKlib_top" >
+    <ICON NAME="spec-collection.png" />
+    <COLOR>
+      <RED>170</RED>
+      <GREEN>0</GREEN>
+      <BLUE>255</BLUE>
+    </COLOR>
+  </DISPLAY>
+  <DISPLAY NAME="PDKlib" >
+    <ICON NAME="spec-dependent.png" />
+    <COLOR>
+      <RED>170</RED>
+      <GREEN>0</GREEN>
+      <BLUE>255</BLUE>
+    </COLOR>
+  </DISPLAY>
+</DISPLAY_PREFS>

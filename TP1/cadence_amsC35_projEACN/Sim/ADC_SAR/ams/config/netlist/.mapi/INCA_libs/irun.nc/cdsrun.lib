@@ -1,0 +1,5 @@
+SOFTINCLUDE /users/soft/opus/Linux/INCISIVE-15.20.074/tools/inca/files/IEEE_vhdlams/cds.lib
+include ../../cds.lib
+define project_EACN_SESI ../project_EACN_SESI
+define worklib ../worklib
+define vhdlspice_skeletons ../vhdlspice_skeletons

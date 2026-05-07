@@ -1,0 +1,12 @@
+nodes=7
+jobId=7
+idInRun=1
+host=berwald
+jobLog=logs0/Job7.log
+recommendedThreads=1
+cpuTime=0.252000
+cpuUtil=38.5
+Memory=209 M
+startTime=5:28:24 PM, Thur Apr 9, 2026
+endTime=5:28:24 PM, Thur Apr 9, 2026
+elapsedTime=0.654000

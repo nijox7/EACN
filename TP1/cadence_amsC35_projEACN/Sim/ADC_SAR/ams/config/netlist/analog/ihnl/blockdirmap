@@ -1,0 +1,5 @@
+CADENCE IHNL04123
+
+CORELIBD INVX1 cmos_sch nil cmos_sch project_EACN_SESI ADC_SAR config 0 cds0
+project_EACN_SESI SWITCH schematic nil schematic project_EACN_SESI ADC_SAR config 0 cds1
+project_EACN_SESI ADC_SAR schematic nil schematic project_EACN_SESI ADC_SAR config 1 cds2

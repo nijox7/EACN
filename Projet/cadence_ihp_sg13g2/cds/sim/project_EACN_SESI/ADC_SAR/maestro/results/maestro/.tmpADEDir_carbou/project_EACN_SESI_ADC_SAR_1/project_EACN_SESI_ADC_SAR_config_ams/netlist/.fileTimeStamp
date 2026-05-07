@@ -1,0 +1,17 @@
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/lib/SG13_dev/pmos/spectre/symbol.oa" 1772620137
+"/users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX0/functional/verilog.v" 1762176329
+"/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/project_EACN_SESI/SWITCH/schematic/sch.oa" 1775744007
+"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/lib/SG13_dev/nmos/spectre/symbol.oa" 1772620134
+"/users/soft/opus/Linux/IC-23.10.120/tools.lnx86/dfII/etc/cdslib/artist/analogLib/vpulse/spectre/symbol.oa" 1236576103
+"/users/soft/techno/dev/IHP/sg13/modules_SG13G2/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell/INVJIX1/functional/verilog.v" 1762176329
+templateScript ""
+"lcv" (("project_EACN_SESI" "ADC_SAR" "schematic") ("project_EACN_SESI" "SWITCH" "schematic") ("project_EACN_SESI" "buf_eq_delay" "schematic"))
+"/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/project_EACN_SESI/ADC_SAR/schematic/sch.oa" 1776353327
+"/users/soft/opus/Linux/IC-23.10.120/tools.lnx86/dfII/etc/cdslib/artist/functional/comparator/spectre/symbol.oa" 1238493723
+modelFiles (("$IHP_TECH/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs" "typ") ("$IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs" "tt") ("$IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs" "tt") ("$IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs" "typ") ("$IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs" "typ") ("$IHP_TECH/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs" "tt") ("$IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib" nil) ("$IHP_TECH/tech/SG13_ESD/spectre/SG13_esd.lib" nil) ("$IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs" "typ") ("$IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib" nil) ("/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs" nil))
+headerText "none"
+"/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/project_EACN_SESI/SAR_control/behavioral/vhdl.vhd" 1776351927
+"/users/soft/opus/Linux/IC-23.10.120/tools.lnx86/dfII/etc/cdslib/artist/analogLib/cap/spectre/symbol.oa" 1236576105
+"/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/project_EACN_SESI/buf_eq_delay/schematic/sch.oa" 1776334442
+"/users/soft/opus/Linux/IC-23.10.120/tools.lnx86/dfII/etc/cdslib/artist/analogLib/vdc/spectre/symbol.oa" 1236576109
+templateFile ""

@@ -1,0 +1,29 @@
+// Library - project_EACN_SESI, Cell - buf_eq_delay, View - schematic
+// LAST TIME SAVED: Apr 14 18:47:37 2026
+// NETLIST TIME: Apr 16 15:41:35 2026
+`timescale 1ns / 1ns 
+
+`worklib project_EACN_SESI
+`view schematic
+
+(* cds_ams_schematic *) 
+(* dfII_lib="project_EACN_SESI", dfII_cell="buf_eq_delay", dfII_view="schematic", worklib_name="project_EACN_SESI", view_name="schematic", last_save_time="Apr 14 18:47:37 2026" *)
+
+module buf_eq_delay (Q, A);
+
+output  Q;
+
+input  A;
+
+wire (*
+integer inh_conn_prop_name = "VSS";
+integer inh_conn_def_value = "cds_globals.\\VSS! ";*)
+\VSS! ;
+
+wire (*
+integer inh_conn_prop_name = "VDD";
+integer inh_conn_def_value = "cds_globals.\\VDD! ";*)
+\VDD! ;
+
+
+endmodule

@@ -1,0 +1,55 @@
+//
+// File created by:  irun
+// Do not modify this file
+//
++sdf_nocheck_celltype
+-SPECTRE_ARGS
+"-ahdllibdir INCA_libs/AMSD/ahdlSimDB"
+-AMSINPUT
+-UNBUFFERED
+-ERRORMAX
+50
+-STATUS
+-NOWARN
+DLNOHV
+-NOWARN
+DLCLAP
+-ADE
+-AMSINPUT
+-ANALOGCONTROL
+./spiceModels.scs
+-AMSINPUT
+-ANALOGCONTROL
+./amsControlSpectre.scs
+-INPUT
+./probe.tcl
+-RUN
+-EXIT
++amsrawdir
+../psf
+-SIMCOMPATIBLE_AMS
+spectre
+-AMSINPUT
+-ANALOGCONTROL
+./ie_card.scs
+-SPECTRE_ARGS
++aps
+-ANALOGCONTROL
+.amsbind.scs
+-MESSAGES
++EMGRLOG
+../psf/irun.log
+-XLSTIME
+1773914383
+-XLKEEP
+-XLMODE
+./INCA_libs/project_EACN_SESI.ADC_SAR_config.lnx8664.15.20.nc
+-RUNMODE
+-CDSLIB
+./INCA_libs/project_EACN_SESI.ADC_SAR_config.lnx8664.15.20.nc/cds.lib
+-HDLVAR
+./INCA_libs/project_EACN_SESI.ADC_SAR_config.lnx8664.15.20.nc/hdl.var
+-XLNAME
+irun
+-XLVERSION
+"TOOL:	irun(64)	15.20-s074"

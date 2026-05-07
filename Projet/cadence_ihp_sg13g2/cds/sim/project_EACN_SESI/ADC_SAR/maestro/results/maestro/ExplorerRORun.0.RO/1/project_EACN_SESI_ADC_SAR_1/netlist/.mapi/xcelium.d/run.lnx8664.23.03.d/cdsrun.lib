@@ -1,0 +1,6 @@
+SOFTINCLUDE /users/soft/opus/Linux/XCELIUM-23.03-013/tools/inca/files/IEEE_vhdlams/cds.lib
+include ../../cds.lib
+define ixc013g2ng_stdcell ../ixc013g2ng_stdcell
+define project_EACN_SESI ../project_EACN_SESI
+define worklib ../worklib
+define vhdlspice_skeletons ../vhdlspice_skeletons

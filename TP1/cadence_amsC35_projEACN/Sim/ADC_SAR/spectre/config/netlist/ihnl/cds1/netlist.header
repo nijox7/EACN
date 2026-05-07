@@ -1,0 +1,7 @@
+
+// Library name: project_EACN_SESI
+// Cell name: SWITCH
+// View name: schematic
+// Inherited view list: verilogams veriloga behavioral functional module
+// schematic spectre symbol
+subckt SWITCH SW1 SW2 SW_CLK inh_gnd inh_vdd

@@ -1,0 +1,57 @@
+// Point Netlist Generated on: Apr  9 17:50:41 2026
+// PDK version:/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/
+// Generated for: spectre
+// Design Netlist Generated on: Apr  9 17:46:31 2026
+// Design library name: cours_EACN_SESI
+// Design cell name: quad_resference
+// Design view name: schematic
+simulator lang=spectre
+include "ade_e.scs"
+global 0 vdd!
+parameters temperature=27 Vg=0.6 vdd=1.2 r=100K
+include "$IHP_TECH/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs" section=typ
+include "$IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs" section=tt
+include "$IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs" section=tt
+include "$IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs" section=typ
+include "$IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs" section=typ
+include "$IHP_TECH/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs" section=tt
+include "$IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib"
+include "$IHP_TECH/tech/SG13_ESD/spectre/SG13_esd.lib"
+include "$IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs" section=typ
+include "$IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib"
+
+// Library name: cours_EACN_SESI
+// Cell name: quad_resference
+// View name: schematic
+N0 (net1 net4 net2 0) sg13_lv_nmos w=8.000u l=1.000u ng=1 ad=0 as=0 pd=0 \
+        ps=0 m=1
+N5 (A A 0 0) sg13_lv_nmos w=1.000u l=1.000u ng=1 ad=0 as=0 pd=0 ps=0 m=1
+N4 (B A net3 0) sg13_lv_nmos w=8.000u l=1.000u ng=1 ad=0 as=0 pd=0 ps=0 \
+        m=1
+N1 (net1 net4 0 0) sg13_lv_nmos w=1.000u l=1.000u ng=1 ad=0 as=0 pd=0 ps=0 \
+        m=1
+R1 (net2 0) resistor r=100K
+R0 (net3 0) resistor r=r
+V1 (vdd! 0) vsource dc=vdd type=dc
+Vg (net4 0) vsource dc=Vg type=dc
+V0 (net1 0) vsource dc=600.0m type=dc
+P1 (A B vdd! vdd!) sg13_lv_pmos w=3.000u l=1.000u ng=1 ad=0 as=0 pd=0 ps=0 \
+        m=1
+P0 (B B vdd! vdd!) sg13_lv_pmos w=3.000u l=1.000u ng=1 ad=0 as=0 pd=0 ps=0 \
+        m=1
+simulatorOptions options psfversion="1.4.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=sqldb ignorezerovar=yes 
+dcOp dc write="spectre.dc" maxiters=150 maxsteps=10000 annotate=status
+dcOpInfo info what=oppoint where=rawfile
+dc dc param=r start=5k stop=300k step=5k oppoint=rawfile maxiters=150 \
+    maxsteps=10000 annotate=status
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+saveOptions options save=allpub currents=all subcktprobelvl=5 \
+    saveahdlvars=all

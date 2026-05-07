@@ -1,0 +1,11 @@
+CADENCE IHNL11140
+$model
+cours_EACN_SESI/quad_resference/schematic quad_resference
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+temperature temperature
+$endparam

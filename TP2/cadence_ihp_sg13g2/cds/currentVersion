@@ -1,0 +1,45 @@
+Cadence related information:
+Cadence:
+/users/soft/opus/Linux/IC-23.10.120/bin/virtuoso
+@(#)$CDS: virtuoso version IC23.1-64b 01/14/2025 22:42 (cpgbld16) $
+sub-version  IC23.1-64b.ISR12.37 
+
+Spectre:
+/users/soft/opus/Linux//SPECTRE-24.10.03.198/tools/bin/spectre
+ not found
+spectre: WARNING: 32bit executable version of "spectre" not found... the 64bit version will  be used instead.
+@(#)$CDS: spectre  version 24.1.0 64bit 01/06/2025 19:41 (mmsimcm40c-1) $
+ not found
+spectre: WARNING: 32bit executable version of "spectre" not found... the 64bit version will  be used instead.
+sub-version  24.1.0.198.isr3 
+
+Assura:
+/users/soft/opus/cadence/installs/ASSURA41//tools/assura/bin/assura
+            Release 4.1_USR7_main
+
+Copyright (c) Cadence Design Systems. All rights reserved.
+@(#)$CDS: assura_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.35 07/29/2024 05:34 (sjfhw885) $
+sub-version 4.1_USR7_main, integ signature 2024-07-29-0506
+
+RCX:
+/users/soft/opus/cadence/installs/ASSURA41//tools/assura/bin/rcxToDfII
+@(#)$CDS: rcxToDfII_64 version av4.1:Production:dfII6.1.8-64b:IC6.1.8-64b.500.35 07/29/2024 05:40 (sjfhw885) $
+
+/users/soft/opus/Linux//EXT-17.21.000/tools/bin/capgen
+ not found
+ not found
+
+Designkit related information:
+Technology: SG13G2
+Metallization: M6M7
+Release Name: SG13G2_618_rev1.3.3
+Revision Date: 2026-03-03
+Author: IHP Microelectronics GmbH
+
+Environment settings:
+IHP_TECH is set to "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/"
+PROJECT is set to "/users/enseig/carbou/Documents/S2/EACN/TP2/cadence_ihp_sg13g2/"
+
+Machine and OS related information:
+Linux dowland 5.14.0-611.38.1.el9_7.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Mar 10 17:21:28 EDT 2026 x86_64 x86_64 x86_64 GNU/Linux
+

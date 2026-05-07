@@ -1,0 +1,81 @@
+DEFINE PRIMLIB      $AMS_DIR/cds/HK_C35/PRIMLIB
+|
+ncvhdl: *W,DLCLAP (./cds.lib,39): cds.lib Same file has different definitions for library 'library PRIMLIB from /users/enseig/carbou/Documents/S2/EACN/cadence_amsC35_projEACN/cds.lib line 39, redefines
+    library PRIMLIB from same file line 32 defined earlier.' (continuing with last specified path).
+DEFINE PRIMLIBRF    $AMS_DIR/cds/HK_C35/PRIMLIBRF
+|
+ncvhdl: *W,DLCLAP (./cds.lib,40): cds.lib Same file has different definitions for library 'library PRIMLIBRF from /users/enseig/carbou/Documents/S2/EACN/cadence_amsC35_projEACN/cds.lib line 40, redefines
+    library PRIMLIBRF from same file line 33 defined earlier.' (continuing with last specified path).
+DEFINE ESDLIB       $AMS_DIR/cds/HK_C35/ESDLIB
+|
+ncvhdl: *W,DLCLAP (./cds.lib,41): cds.lib Same file has different definitions for library 'library ESDLIB from /users/enseig/carbou/Documents/S2/EACN/cadence_amsC35_projEACN/cds.lib line 41, redefines
+    library ESDLIB from same file line 34 defined earlier.' (continuing with last specified path).
+DEFINE GATES        $AMS_DIR/cds/HK_C35/GATES
+|
+ncvhdl: *W,DLCLAP (./cds.lib,42): cds.lib Same file has different definitions for library 'library GATES from /users/enseig/carbou/Documents/S2/EACN/cadence_amsC35_projEACN/cds.lib line 42, redefines
+    library GATES from same file line 35 defined earlier.' (continuing with last specified path).
+DEFINE CORELIBD     $AMS_DIR/cds/HK_C35/CORELIBD
+|
+ncvhdl: *W,DLCLAP (./cds.lib,43): cds.lib Same file has different definitions for library 'library CORELIBD from /users/enseig/carbou/Documents/S2/EACN/cadence_amsC35_projEACN/cds.lib line 43, redefines
+    library CORELIBD from same file line 36 defined earlier.' (continuing with last specified path).
+TOOL:	ncvhdl(64)	15.20-s074: Started on Mar 19, 2026 at 17:50:53 CET
+ncvhdl
+    -NOWARN DLNOHV
+    -NOCOPYRIGHT
+    -NOSTDOUT
+    -quiet
+    -messages
+    -use5x
+    -v93
+    -WORK \project_EACN_SESI\
+    -ERRORMAX 100
+    -LOGFILE /users/enseig/carbou/Documents/S2/EACN/cadence_amsC35_projEACN/.cadence/dfII/TextSupport/Logs/Parser/vhdl/project_EACN_SESI/behavioral/compile0.log
+    /users/enseig/carbou/Documents/S2/EACN/cadence_amsC35_projEACN/project_EACN_SESI/control/behavioral/vhdl.vhd
+
+DEFINE PRIMLIB      $AMS_DIR/cds/HK_C35/PRIMLIB
+|
+ncvhdl_p: *W,DLCLAP (./cds.lib,39): cds.lib Same file has different definitions for library 'library PRIMLIB from /users/enseig/carbou/Documents/S2/EACN/cadence_amsC35_projEACN/cds.lib line 39, redefines
+    library PRIMLIB from same file line 32 defined earlier.' (continuing with last specified path).
+DEFINE PRIMLIBRF    $AMS_DIR/cds/HK_C35/PRIMLIBRF
+|
+ncvhdl_p: *W,DLCLAP (./cds.lib,40): cds.lib Same file has different definitions for library 'library PRIMLIBRF from /users/enseig/carbou/Documents/S2/EACN/cadence_amsC35_projEACN/cds.lib line 40, redefines
+    library PRIMLIBRF from same file line 33 defined earlier.' (continuing with last specified path).
+DEFINE ESDLIB       $AMS_DIR/cds/HK_C35/ESDLIB
+|
+ncvhdl_p: *W,DLCLAP (./cds.lib,41): cds.lib Same file has different definitions for library 'library ESDLIB from /users/enseig/carbou/Documents/S2/EACN/cadence_amsC35_projEACN/cds.lib line 41, redefines
+    library ESDLIB from same file line 34 defined earlier.' (continuing with last specified path).
+DEFINE GATES        $AMS_DIR/cds/HK_C35/GATES
+|
+ncvhdl_p: *W,DLCLAP (./cds.lib,42): cds.lib Same file has different definitions for library 'library GATES from /users/enseig/carbou/Documents/S2/EACN/cadence_amsC35_projEACN/cds.lib line 42, redefines
+    library GATES from same file line 35 defined earlier.' (continuing with last specified path).
+DEFINE CORELIBD     $AMS_DIR/cds/HK_C35/CORELIBD
+|
+ncvhdl_p: *W,DLCLAP (./cds.lib,43): cds.lib Same file has different definitions for library 'library CORELIBD from /users/enseig/carbou/Documents/S2/EACN/cadence_amsC35_projEACN/cds.lib line 43, redefines
+    library CORELIBD from same file line 36 defined earlier.' (continuing with last specified path).
+/users/enseig/carbou/Documents/S2/EACN/cadence_amsC35_projEACN/project_EACN_SESI/control/behavioral/vhdl.vhd:
+	errors: 0, warnings: 0
+DEFINE PRIMLIB      $AMS_DIR/cds/HK_C35/PRIMLIB
+|
+ncvhdl_cg: *W,DLCLAP (./cds.lib,39): cds.lib Same file has different definitions for library 'library PRIMLIB from /users/enseig/carbou/Documents/S2/EACN/cadence_amsC35_projEACN/cds.lib line 39, redefines
+    library PRIMLIB from same file line 32 defined earlier.' (continuing with last specified path).
+DEFINE PRIMLIBRF    $AMS_DIR/cds/HK_C35/PRIMLIBRF
+|
+ncvhdl_cg: *W,DLCLAP (./cds.lib,40): cds.lib Same file has different definitions for library 'library PRIMLIBRF from /users/enseig/carbou/Documents/S2/EACN/cadence_amsC35_projEACN/cds.lib line 40, redefines
+    library PRIMLIBRF from same file line 33 defined earlier.' (continuing with last specified path).
+DEFINE ESDLIB       $AMS_DIR/cds/HK_C35/ESDLIB
+|
+ncvhdl_cg: *W,DLCLAP (./cds.lib,41): cds.lib Same file has different definitions for library 'library ESDLIB from /users/enseig/carbou/Documents/S2/EACN/cadence_amsC35_projEACN/cds.lib line 41, redefines
+    library ESDLIB from same file line 34 defined earlier.' (continuing with last specified path).
+DEFINE GATES        $AMS_DIR/cds/HK_C35/GATES
+|
+ncvhdl_cg: *W,DLCLAP (./cds.lib,42): cds.lib Same file has different definitions for library 'library GATES from /users/enseig/carbou/Documents/S2/EACN/cadence_amsC35_projEACN/cds.lib line 42, redefines
+    library GATES from same file line 35 defined earlier.' (continuing with last specified path).
+DEFINE CORELIBD     $AMS_DIR/cds/HK_C35/CORELIBD
+|
+ncvhdl_cg: *W,DLCLAP (./cds.lib,43): cds.lib Same file has different definitions for library 'library CORELIBD from /users/enseig/carbou/Documents/S2/EACN/cadence_amsC35_projEACN/cds.lib line 43, redefines
+    library CORELIBD from same file line 36 defined earlier.' (continuing with last specified path).
+\project_EACN_SESI\.CONTROL (entity):
+	streams: 4, words: 87
+\project_EACN_SESI\.CONTROL:BEHAVIORAL (architecture):
+	streams: 1, words: 175
+TOOL:	ncvhdl(64)	15.20-s074: Exiting on Mar 19, 2026 at 17:50:53 CET  (total: 00:00:00)

@@ -1,0 +1,20 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "comparator_test_students"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "VDD! VSS! gnd! vdd!"
+  hierDelim "."
+  netlistDir "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/comparator_test_students/maestro/results/maestro/ExplorerRORun.0.RO/1/project_EACN_SESI_prof_comparator_test_students_1/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "project_EACN_SESI/comparator_test_students/schematic" "comparator_test_students" )
+( "ixc013g2ng_stdcell/DFRRSQJIX1/schematic" "DFRRSQJIX1" )
+ )
+( "comparator_test_students" "ihnl/cds1/map" )
+( "DFRRSQJIX1" "ihnl/cds0/map" )
+ )

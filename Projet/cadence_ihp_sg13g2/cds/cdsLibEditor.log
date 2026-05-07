@@ -1,0 +1,21 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 23.1 - CAT38 12/12/2024 16:47 (cpgbld16) $
+\o Sub version:		sub-version  s121 
+\o Arguments:		-display localhost:11.0 -mpssession virtuoso617329 -mpshost ropartz -mpsversion 23.1 -namespace CDBA -cdslib /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/cds.lib 
+\o Working Directory:	ropartz:/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.15.9
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(747 408 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 17 0)
+\o Active cell: 17 0 ""
+\a nrListItemAction(cdsLibEditor->mainTable 17 1)
+\o Active cell: 17 1 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 17 1 "project_EACN_SESI")
+\a nrListItemAction(cdsLibEditor->mainTable 17 0)
+\o Active cell: 17 0 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 17 0 "project_EACN_SESI")
+\a nrListItemAction(cdsLibEditor->mainTable 17 1)
+\o Active cell: 17 1 "project_EACN_SESI"
+\a cdsLibEditor->fileSaveButton->value = t
+\a exit(0)

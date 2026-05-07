@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<setupdb version="7">history
+	<active>Active Setup</active>
+	<history>History
+		<historyentry assemblerOrExplorer="explorer" roOrView="ro" runningOrFinished="finished">ExplorerRORun.0.RO
+			<timestamp>Apr 8 08:48:06 2026</timestamp>
+			<uuid>{129db525-8704-48bf-abb5-5ab3f919827f}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/quad_resference/maestro_1/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_PROJECT_DIR/cours_EACN_SESI/quad_resference/maestro_1/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/quad_resference/maestro_1/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_PROJECT_DIR/cours_EACN_SESI/quad_resference/maestro_1/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/quad_resference/maestro_1/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/cours_EACN_SESI/quad_resference/maestro_1/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+		<historyentry assemblerOrExplorer="assembler" roOrView="ro" runningOrFinished="finished">Interactive.0.RO
+			<timestamp>Apr 9 15:42:14 2026</timestamp>
+			<uuid>{b3544152-4adf-409d-9bef-35f16360f7a9}</uuid>
+			<locked>0</locked>
+			<mode>Single Run, Sweeps and Corners</mode>
+			<resultsname>/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/quad_resference/maestro_1/results/maestro/$AXL_HISTORY_NAME.rdb</resultsname>
+			<simresults>$AXL_PROJECT_DIR/cours_EACN_SESI/quad_resference/maestro_1/results/maestro/$AXL_HISTORY_NAME.rdb</simresults>
+			<runlog>/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/quad_resference/maestro_1/results/maestro/$AXL_HISTORY_NAME.log</runlog>
+			<runlogfile>$AXL_PROJECT_DIR/cours_EACN_SESI/quad_resference/maestro_1/results/maestro/$AXL_HISTORY_NAME.log</runlogfile>
+			<psfdir>/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/quad_resference/maestro_1/results/maestro/$AXL_HISTORY_NAME</psfdir>
+			<simdir>$AXL_PROJECT_DIR/cours_EACN_SESI/quad_resference/maestro_1/results/maestro/$AXL_HISTORY_NAME</simdir>
+		</historyentry>
+	</history>
+</setupdb>

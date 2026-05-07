@@ -1,0 +1,10 @@
+cp -r ~galayko/cours_EACN/projet/cadence_ihp_sg13g2 /users/enseig/carbou/Documents/S2/EACN/TP3/
+cd cadence_ihp_sg13g2
+tcsh
+source /users/enseig/carbou/Documents/S2/EACN/TP3/cadence_ihp_sg13g2/cds/cadence env_sg13g2.csh
+virtuoso &
+
+S'il y a un problème de READ ONLY:
+
+find . | grep lck$
+rm tous les fichiers ProjetSESI

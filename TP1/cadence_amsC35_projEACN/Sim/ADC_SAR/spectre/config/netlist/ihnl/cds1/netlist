@@ -1,0 +1,7 @@
+    MP5 (SW2 net04 SW1 vdd!) modp w=1u l=0.35u as=8.5e-13 ad=8.5e-13 \
+        ps=2.7u pd=2.7u nrd=0.5 nrs=0.5 ng=1
+    MN11 (SW1 SW_CLK SW2 0) modn w=0.5u l=0.35u as=4.25e-13 ad=4.25e-13 \
+        ps=2.2u pd=2.2u nrd=1.0 nrs=1.0 ng=1
+    I39 (SW_CLK net04 inh_gnd inh_vdd) INVX1
+ends SWITCH
+// End of subcircuit definition.

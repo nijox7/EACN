@@ -1,0 +1,317 @@
+
+Spectre (R) Circuit Simulator
+Version 24.1.0.198.isr3 64bit -- 6 Jan 2025
+Copyright (C) 1989-2024 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: carbou   Host: onslow   HostID: E3845043   PID: 2603750
+Memory  available: 123.3257 GB  physical: 133.8286 GB
+Linux   : AlmaLinux release 9.7 (Moss Jungle Cat)
+CPU Type: Intel(R) Core(TM) Ultra 7 265
+        Socket: Processors [Frequency]
+        0:       0 [800.0],  1 [2208.8],  2 [4996.8],  3 [800.0],  4 [2200.0]
+                 5 [800.0],  6 [800.0],  7 [2200.0],  8 [4617.1],  9 [4597.4]
+                10 [1796.6], 11 [2592.4], 12 [800.0], 13 [1287.0], 14 [1298.1]
+                15 [1302.8], 16 [1800.1], 17 [1799.8], 18 [1797.9], 19 [1786.8]
+        
+System load averages (1min, 5min, 15min) : 3.3 %, 1.6 %, 1.7 %
+HPC is enabled
+
+
+Simulating `input.scs' on onslow at 6:07:44 PM, Thur Apr 16, 2026 (process id: 2603750).
+Current working directory: /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/comparator_test_students/maestro/results/maestro/ExplorerRORun.0.RO/1/project_EACN_SESI_prof_comparator_test_students_1/netlist
+Command line:
+    /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools/bin/spectre -64  \
+        input.scs +escchars +log ../psf/spectre.out -format psfxl -raw  \
+        ../psf  \
+        -I/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/lib/TL_SG13/RLCG/spectre/  \
+        +aps +mt +lqtimeout 900 -maxw 5 -maxn 5 -env ade  \
+        +adespetkn=0001089D13A302B663E41FB550AF0DF415A679A322D5069144BF588C12F604E07EF416DC01A319B562BB63D341DB079245A369D215C2019161D60DCC528D4F9206D279D15D9175FF349864C67B9974D35BED65CA779674D35BEF43E218F874D30EAB79D118F874D3349879D118F874D33498103011A87D835D790000361B  \
+        -ahdllibdir  \
+        /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/comparator_test_students/maestro/results/maestro/ExplorerRORun.0.RO/sharedData/CDS/ahdl/input.ahdlSimDB  \
+        +logstatus
+
+Simulation Id: sAxxEMUNuBq4FW2J
+Licensing Information:
+[18:07:44.291265] Configured Lic search path (24.01-s002): 30000@cadence.cnfm.fr
+
+Licensing Information:
+[18:07:45.108435] Periodic Lic check successful
+
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libphilips_I_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/comparator_test_students/maestro/results/maestro/ExplorerRORun.0.RO/1/project_EACN_SESI_prof_comparator_test_students_1/netlist/input.scs
+Reading file:  /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/comparator_test_students/maestro/results/maestro/ExplorerRORun.0.RO/1/project_EACN_SESI_prof_comparator_test_students_1/netlist/ade_e.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_vbic.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_parm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_parm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_svaricaphv_mosvar_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_paramsTSV.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_tsv.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib
+
+Notice from spectre in `bondpad_model', during circuit read-in.
+    "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib" 13: Subcircuit 'bondpad_model' is empty.
+
+Time for NDB Parsing: CPU = 57.544 ms, elapsed = 374.986 ms.
+Time accumulated: CPU = 120.635 ms, elapsed = 374.988 ms.
+Peak resident memory used = 193 Mbytes.
+
+Time for Elaboration: CPU = 12.255 ms, elapsed = 15.6879 ms.
+Time accumulated: CPU = 132.974 ms, elapsed = 390.756 ms.
+Peak resident memory used = 203 Mbytes.
+
+ Start ADE Session ID: sAxxEMUNuBq4FW2J
+
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8527): There are some nodes and instances removed from the netlist topology check. Check the circuit and correct the topology. Or use preserve_inst to keep them if necessary.
+
+***********************************************
+  Total removed instances 1 ( dangling 1, terminals connected together 0)  
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8529): Dangling instance. V5 is removed.
+
+
+  Total removed nodes 1 ( dangling nodes 1, floating nodes 0 )
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8530): Dangling node. net2 is removed.
+
+***********************************************
+Time for EDB Visiting: CPU = 1.295 ms, elapsed = 1.29914 ms.
+Time accumulated: CPU = 134.317 ms, elapsed = 392.102 ms.
+Peak resident memory used = 204 Mbytes.
+
+
+Notice from spectre during topology check.
+    No connections to node `VDD!'.
+    No connections to node `VSS!'.
+    No DC path from node `VDD!' to ground, Gmin installed to provide path.
+    No DC path from node `VSS!' to ground, Gmin installed to provide path.
+Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Netlist title:
+        // Point Netlist Generated on: Apr 16 18:07:40 2026
+
+
+Global user options:
+         psfversion = 1.4.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = sqldb
+      ignorezerovar = yes
+               save = allpub
+           currents = all
+     subcktprobelvl = 5
+       saveahdlvars = all
+             reltol = 0.001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 33
+          pspnqs103 44    
+            vsource 6     
+
+Analysis and control statement inventory:
+               info 7     
+               tran 1     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 0     
+
+Design checks inventory:
+          paramtest 177   
+
+
+Notice from spectre during initial setup.
+    Protected devices exist and are not included in the circuit inventory.
+    1 vsources are shorted because their absolute value is less than or equal to 'vabsshort'.
+    APS enabled.
+
+Time for parsing: CPU = 1.84 ms, elapsed = 8.2221 ms.
+Time accumulated: CPU = 136.186 ms, elapsed = 400.352 ms.
+Peak resident memory used = 208 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (APS) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+*************************************************
+Transient Analysis `tran': time = (0 s -> 100 us)
+*************************************************
+
+Notice from spectre during IC analysis, during transient analysis `tran'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I12.net52) = 29.4677 mV
+        Use the `gmin_check' option to eliminate or expand this report.
+
+DC simulation time: CPU = 3.69 ms, elapsed = 3.6962 ms.
+
+Opening the PSFXL file ../psf/tran.tran.tran ...
+Important parameter values:
+    start = 0 s
+    outputstart = 0 s
+    stop = 100 us
+    step = 100 ns
+    maxstep = 1 us
+    ic = all
+    useprevic = no
+    skipdc = no
+    reltol = 100e-06
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    errpreset = conservative
+    method = gear2only
+    lteratio = 10
+    relref = alllocal
+    cmin = 0 F
+    gmin = 1 pS
+    rabsshort = 1 mOhm
+
+
+Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Output and IC/nodeset summary:
+                 save   187     (current)
+                 save   32      (voltage)
+
+    tran: time = 2.501 us     (2.5 %), step = 43.88 ns    (43.9 m%)
+    tran: time = 7.501 us     (7.5 %), step = 47.32 ns    (47.3 m%)
+    tran: time = 12.5 us     (12.5 %), step = 52.54 ns    (52.5 m%)
+    tran: time = 17.5 us     (17.5 %), step = 43.84 ns    (43.8 m%)
+    tran: time = 22.5 us     (22.5 %), step = 44.26 ns    (44.3 m%)
+    tran: time = 27.5 us     (27.5 %), step = 53.52 ns    (53.5 m%)
+    tran: time = 32.5 us     (32.5 %), step = 48.2 ns     (48.2 m%)
+    tran: time = 37.5 us     (37.5 %), step = 44.05 ns      (44 m%)
+    tran: time = 42.5 us     (42.5 %), step = 43.44 ns    (43.4 m%)
+    tran: time = 47.5 us     (47.5 %), step = 41.47 ns    (41.5 m%)
+    tran: time = 52.5 us     (52.5 %), step = 43.24 ns    (43.2 m%)
+    tran: time = 57.5 us     (57.5 %), step = 46.55 ns    (46.6 m%)
+    tran: time = 62.5 us     (62.5 %), step = 40.11 ns    (40.1 m%)
+    tran: time = 67.5 us     (67.5 %), step = 82 ns         (82 m%)
+    tran: time = 72.5 us     (72.5 %), step = 68.87 ns    (68.9 m%)
+    tran: time = 77.5 us     (77.5 %), step = 78.57 ns    (78.6 m%)
+    tran: time = 82.5 us     (82.5 %), step = 81.64 ns    (81.6 m%)
+    tran: time = 87.5 us     (87.5 %), step = 75.12 ns    (75.1 m%)
+    tran: time = 92.5 us     (92.5 %), step = 91.19 ns    (91.2 m%)
+    tran: time = 97.5 us     (97.5 %), step = 49.57 ns    (49.6 m%)
+Number of accepted tran steps =             23264
+
+Maximum value achieved for any signal of each quantity: 
+V: V(I12.net55) = 1.331 V
+I: I(V0:p) = 69.92 uA
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Post-Transient Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   -   To further speed up simulation, consider
+          add ++aps on command line
+   -   Non-default settings that could significantly slow down simulation
+          errpreset = conservative, default moderate
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+During simulation, the CPU load for active processors is :
+         0 (2.4 %)       1 (81.2 %)      2 (10.2 %)      3 (18.7 %)
+         4 (2.3 %)       5 (2.4 %)       6 (1.2 %)      11 (6.6 %)
+        12 (5.1 %)      13 (1.2 %)      14 (4.3 %)      15 (3.5 %)
+        17 (2.4 %)      18 (2.8 %)      19 (2.0 %)      
+        Total: 148.4%
+Initial condition solution time: CPU = 3.707 ms, elapsed = 3.71099 ms.
+Intrinsic tran analysis time:    CPU = 2.14113 s, elapsed = 2.15428 s.
+Total time required for tran analysis `tran': CPU = 2.14698 s, elapsed = 2.16514 s, util. = 99.2%.
+Time accumulated: CPU = 2.46044 s, elapsed = 3.0413 s.
+Peak resident memory used = 326 Mbytes.
+
+finalTimeOP: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/finalTimeOP.info ...
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+Licensing Information:
+Lic Summary:
+[18:07:47.377137] Cdslmd servers:30000@cadence.cnfm.fr
+[18:07:47.901434] Feature usage summary:
+[18:07:47.901435] Virtuoso_Multi_mode_Simulation
+
+
+Aggregate audit (6:07:47 PM, Thur Apr 16, 2026):
+Time used: CPU = 2.47 s, elapsed = 3.08 s, util. = 80.2%.
+Time spent in licensing: elapsed = 256 ms, percentage of total = 8.3%.
+Peak memory used = 325 Mbytes.
+Simulation started at: 6:07:44 PM, Thur Apr 16, 2026, ended at: 6:07:47 PM, Thur Apr 16, 2026, with elapsed time (wall clock): 3.08 s.
+spectre completes with 0 errors, 3 warnings, and 12 notices.
+
+
+********* LOG ENDS **************
+**                             **

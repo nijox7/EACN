@@ -1,0 +1,1643 @@
+hnlLastStopCellInfo = '(
+                           ( "analogLib" "vdc" "spectre" "33" "1736924108" )
+                          ( "analogLib" "cap" "spectre" "30" "1736924108" )
+                          ( "project_EACN_SESI" "SAR_control" "behavioral" "1776351985" "0" )
+                          ( "functional" "comparator" "spectre" "71" "1238493715" )
+                          ( "SG13_dev" "nmos" "spectre" "62" "1772620133" )
+                          ( "SG13_dev" "pmos" "spectre" "64" "1772620137" )
+                          ( "analogLib" "vpulse" "spectre" "34" "1736924108" )
+                          ( "ixc013g2ng_stdcell" "INVJIX0" "functional" "1775744007" "1762176329" )
+                          ( "ixc013g2ng_stdcell" "INVJIX1" "functional" "1775744007" "1762176329" )
+                       )
+hnlLastNetlistConfig = t
+hnlLastConfigFileVersion = 5
+hnlLastConfigFileTimeStamp = "1776334426"
+hnlLastSupportNewConfig = t
+hnlLastConfigInfo = '( 
+( "project_EACN_SESI" "ADC_SAR" "config" 5 "1776334426" )
+) 
+hnlLastTopViewWasConfig = 1
+hnlLastMaxNameLength = 2000
+hnlLastNamePrefix = "hnl_"
+hnlLastNetNamePrefix = "cdsNet"
+hnlLastInstNamePrefix = "Inst_"
+hnlLastModelNamePrefix = "_unl"
+hnlLastTermNamePrefix = "_unl"
+hnlLastGlobalNetPrefix = "global_"
+hnlLastModulePrefix = "cdsModule_"
+hnlLastHierarchyDelimiter = "."
+hnlLastNetlistRevision = "__Revision2"
+hnlLastOptimizeCellGenerationInConfig = nil
+hnlLastMapIfFirstChar = '(
+                            "!"
+                            "#"
+                            "$"
+                            "%"
+                            "&"
+                            "("
+                            ")"
+                            "*"
+                            "+"
+                            ","
+                            "-"
+                            "."
+                            "/"
+                            "0"
+                            "1"
+                            "2"
+                            "3"
+                            "4"
+                            "5"
+                            "6"
+                            "7"
+                            "8"
+                            "9"
+                            ":"
+                            ";"
+                            "="
+                            "?"
+                            "@"
+                            "["
+                             "\\"
+                            "]"
+                            "^"
+                            "`"
+                            "{"
+                            "|"
+                            "}"
+                            "~"
+                          )
+hnlLastMapIfInName = '(
+                            "!"
+                            "#"
+                            "$"
+                            "%"
+                            "&"
+                            "("
+                            ")"
+                            "*"
+                            "+"
+                            ","
+                            "-"
+                            "."
+                            "/"
+                            ":"
+                            ";"
+                            ( "<" "_" )
+                            "="
+                            ( ">" "_" )
+                            "?"
+                            "@"
+                            "["
+                             "\\"
+                            "]"
+                            "^"
+                            "`"
+                            "{"
+                            "|"
+                            "}"
+                            "~"
+                          )
+hnlLastMapNetFirstChar = '(
+                            "!"
+                            "#"
+                            "$"
+                            "%"
+                            "&"
+                            "("
+                            ")"
+                            "*"
+                            "+"
+                            ","
+                            "-"
+                            "."
+                            "/"
+                            "0"
+                            "1"
+                            "2"
+                            "3"
+                            "4"
+                            "5"
+                            "6"
+                            "7"
+                            "8"
+                            "9"
+                            ":"
+                            ";"
+                            "="
+                            "?"
+                            "@"
+                            "["
+                             "\\"
+                            "]"
+                            "^"
+                            "`"
+                            "{"
+                            "|"
+                            "}"
+                            "~"
+                          )
+hnlLastMapNetInName = '(
+                            "!"
+                            "#"
+                            "$"
+                            "%"
+                            "&"
+                            "("
+                            ")"
+                            "*"
+                            "+"
+                            ","
+                            "-"
+                            "."
+                            ( "/" "_" )
+                            ":"
+                            ";"
+                            ( "<" "[" )
+                            "="
+                            ( ">" "]" )
+                            "?"
+                            "@"
+                            "["
+                             "\\"
+                            "]"
+                            "^"
+                            "`"
+                            "{"
+                            "|"
+                            "}"
+                            "~"
+                          )
+hnlLastMapInstFirstChar = '(
+                            "!"
+                            "#"
+                            "$"
+                            "%"
+                            "&"
+                            "("
+                            ")"
+                            "*"
+                            "+"
+                            ","
+                            "-"
+                            "."
+                            "/"
+                            "0"
+                            "1"
+                            "2"
+                            "3"
+                            "4"
+                            "5"
+                            "6"
+                            "7"
+                            "8"
+                            "9"
+                            ":"
+                            ";"
+                            "="
+                            "?"
+                            "@"
+                            "["
+                             "\\"
+                            "]"
+                            "^"
+                            "`"
+                            "{"
+                            "|"
+                            "}"
+                            "~"
+                          )
+hnlLastMapInstInName = '(
+                            "!"
+                            "#"
+                            "$"
+                            "%"
+                            "&"
+                            "("
+                            ")"
+                            "*"
+                            "+"
+                            ","
+                            "-"
+                            "."
+                            "/"
+                            ":"
+                            ";"
+                            ( "<" "_" )
+                            "="
+                           ( ">" )
+                            "?"
+                            "@"
+                            "["
+                             "\\"
+                            "]"
+                            "^"
+                            "`"
+                            "{"
+                            "|"
+                            "}"
+                            "~"
+                          )
+hnlLastMapModelFirstChar = '(
+                            "!"
+                            "#"
+                            "$"
+                            "%"
+                            "&"
+                            "("
+                            ")"
+                            "*"
+                            "+"
+                            ","
+                            "-"
+                            "."
+                            "/"
+                            "0"
+                            "1"
+                            "2"
+                            "3"
+                            "4"
+                            "5"
+                            "6"
+                            "7"
+                            "8"
+                            "9"
+                            ":"
+                            ";"
+                            "="
+                            "?"
+                            "@"
+                            "["
+                             "\\"
+                            "]"
+                            "^"
+                            "`"
+                            "{"
+                            "|"
+                            "}"
+                            "~"
+                          )
+hnlLastMapModelInName = '(
+                            "!"
+                            "#"
+                            "%"
+                            "&"
+                            "("
+                            ")"
+                            "*"
+                            "+"
+                            ","
+                            "-"
+                            "."
+                            "/"
+                            ":"
+                            ";"
+                            "<"
+                            "="
+                            ">"
+                            "?"
+                            "@"
+                            "["
+                             "\\"
+                            "]"
+                            "^"
+                            "`"
+                            "{"
+                            "|"
+                            "}"
+                            "~"
+                          )
+hnlLastMapTermFirstChar = '(
+                            "!"
+                            "#"
+                            "$"
+                            "%"
+                            "&"
+                            "("
+                            ")"
+                            "*"
+                            "+"
+                            ","
+                            "-"
+                            "."
+                            "/"
+                            "0"
+                            "1"
+                            "2"
+                            "3"
+                            "4"
+                            "5"
+                            "6"
+                            "7"
+                            "8"
+                            "9"
+                            ":"
+                            ";"
+                            "="
+                            "?"
+                            "@"
+                            "["
+                             "\\"
+                            "]"
+                            "^"
+                            "`"
+                            "{"
+                            "|"
+                            "}"
+                            "~"
+                          )
+hnlLastMapTermInName = '(
+                            "!"
+                            "#"
+                            "$"
+                            "%"
+                            "&"
+                            "("
+                            ")"
+                            "*"
+                            "+"
+                            ","
+                            "-"
+                            "."
+                            "/"
+                            ":"
+                            ";"
+                            ( "<" "_" )
+                            "="
+                            ( ">" "_" )
+                            "?"
+                            "@"
+                            "["
+                             "\\"
+                            "]"
+                            "^"
+                            "`"
+                            "{"
+                            "|"
+                            "}"
+                            "~"
+                          )
+hnlLastBusNamePrefix = "cdsbus"
+hnlLastMapBusFirstChar = '(
+                            "!"
+                            "#"
+                            "$"
+                            "%"
+                            "&"
+                            "("
+                            ")"
+                            "*"
+                            "+"
+                            ","
+                            "-"
+                            "."
+                            "/"
+                            "0"
+                            "1"
+                            "2"
+                            "3"
+                            "4"
+                            "5"
+                            "6"
+                            "7"
+                            "8"
+                            "9"
+                            ":"
+                            ";"
+                            "="
+                            "?"
+                            "@"
+                            "["
+                             "\\"
+                            "]"
+                            "^"
+                            "`"
+                            "{"
+                            "|"
+                            "}"
+                            "~"
+                          )
+hnlLastMapBusInName = '(
+                            "!"
+                            "#"
+                            "$"
+                            "%"
+                            "&"
+                            "("
+                            ")"
+                            "*"
+                            "+"
+                            ","
+                            "-"
+                            "."
+                            ( "/" "_" )
+                            ":"
+                            ";"
+                            ( "<" "[" )
+                            "="
+                            ( ">" "]" )
+                            "?"
+                            "@"
+                            "["
+                             "\\"
+                            "]"
+                            "^"
+                            "`"
+                            "{"
+                            "|"
+                            "}"
+                            "~"
+                          )
+hnlLastInvalidNames = '(
+                     ( "weak1" "\\weak1 " )
+                     ( "xor" "\\xor " )
+                     ( "realtime" "\\realtime " )
+                     ( "trireg" "\\trireg " )
+                     ( "units" "\\units " )
+                     ( "ddx" "\\ddx " )
+                     ( "from" "\\from " )
+                     ( "if" "\\if " )
+                     ( "time" "\\time " )
+                     ( "laplace_nd" "\\laplace_nd " )
+                     ( "analog" "\\analog " )
+                     ( "primitive" "\\primitive " )
+                     ( "pullup" "\\pullup " )
+                     ( "tri" "\\tri " )
+                     ( "temperature" "\\temperature " )
+                     ( "endspecify" "\\endspecify " )
+                     ( "ac_stim" "\\ac_stim " )
+                     ( "ddt_nature" "\\ddt_nature " )
+                     ( "cos" "\\cos " )
+                     ( "sinh" "\\sinh " )
+                     ( "noise_table" "\\noise_table " )
+                     ( "casez" "\\casez " )
+                     ( "fork" "\\fork " )
+                     ( "acos" "\\acos " )
+                     ( "tran" "\\tran " )
+                     ( "not" "\\not " )
+                     ( "endtask" "\\endtask " )
+                     ( "function" "\\function " )
+                     ( "module" "\\module " )
+                     ( "floor" "\\floor " )
+                     ( "genvar" "\\genvar " )
+                     ( "task" "\\task " )
+                     ( "tri0" "\\tri0 " )
+                     ( "abs" "\\abs " )
+                     ( "net_resolution" "\\net_resolution " )
+                     ( "pull0" "\\pull0 " )
+                     ( "tanh" "\\tanh " )
+                     ( "case" "\\case " )
+                     ( "atanh" "\\atanh " )
+                     ( "default" "\\default " )
+                     ( "endfunction" "\\endfunction " )
+                     ( "table" "\\table " )
+                     ( "for" "\\for " )
+                     ( "bound_step" "\\bound_step " )
+                     ( "zi_np" "\\zi_np " )
+                     ( "pow" "\\pow " )
+                     ( "endmodule" "\\endmodule " )
+                     ( "supply0" "\\supply0 " )
+                     ( "aliasparam" "\\aliasparam " )
+                     ( "tri1" "\\tri1 " )
+                     ( "transition" "\\transition " )
+                     ( "rtranif0" "\\rtranif0 " )
+                     ( "strobe" "\\strobe " )
+                     ( "ifnone" "\\ifnone " )
+                     ( "strong1" "\\strong1 " )
+                     ( "final_step" "\\final_step " )
+                     ( "scalared" "\\scalared " )
+                     ( "specify" "\\specify " )
+                     ( "endparamset" "\\endparamset " )
+                     ( "table_model" "\\table_model " )
+                     ( "ddt" "\\ddt " )
+                     ( "rcmos" "\\rcmos " )
+                     ( "tranif1" "\\tranif1 " )
+                     ( "log" "\\log " )
+                     ( "inf" "\\inf " )
+                     ( "trior" "\\trior " )
+                     ( "potential" "\\potential " )
+                     ( "while" "\\while " )
+                     ( "atan2" "\\atan2 " )
+                     ( "laplace_zd" "\\laplace_zd " )
+                     ( "atan" "\\atan " )
+                     ( "enddiscipline" "\\enddiscipline " )
+                     ( "wire" "\\wire " )
+                     ( "zi_zd" "\\zi_zd " )
+                     ( "ceil" "\\ceil " )
+                     ( "else" "\\else " )
+                     ( "wand" "\\wand " )
+                     ( "endcase" "\\endcase " )
+                     ( "endnature" "\\endnature " )
+                     ( "merged" "\\merged " )
+                     ( "nature" "\\nature " )
+                     ( "specparam" "\\specparam " )
+                     ( "idt" "\\idt " )
+                     ( "timer" "\\timer " )
+                     ( "large" "\\large " )
+                     ( "repeat" "\\repeat " )
+                     ( "idtmod" "\\idtmod " )
+                     ( "analysis" "\\analysis " )
+                     ( "exp" "\\exp " )
+                     ( "begin" "\\begin " )
+                     ( "medium" "\\medium " )
+                     ( "limexp" "\\limexp " )
+                     ( "slew" "\\slew " )
+                     ( "nand" "\\nand " )
+                     ( "defparam" "\\defparam " )
+                     ( "pull1" "\\pull1 " )
+                     ( "exclude" "\\exclude " )
+                     ( "small" "\\small " )
+                     ( "domain" "\\domain " )
+                     ( "strong0" "\\strong0 " )
+                     ( "resolveto" "\\resolveto " )
+                     ( "endtable" "\\endtable " )
+                     ( "inout" "\\inout " )
+                     ( "nor" "\\nor " )
+                     ( "endconnectrules" "\\endconnectrules " )
+                     ( "bufif1" "\\bufif1 " )
+                     ( "flow" "\\flow " )
+                     ( "pulldown" "\\pulldown " )
+                     ( "edge" "\\edge " )
+                     ( "last_crossing" "\\last_crossing " )
+                     ( "end" "\\end " )
+                     ( "notif1" "\\notif1 " )
+                     ( "supply1" "\\supply1 " )
+                     ( "asin" "\\asin " )
+                     ( "bufif0" "\\bufif0 " )
+                     ( "pmos" "\\pmos " )
+                     ( "hypot" "\\hypot " )
+                     ( "sin" "\\sin " )
+                     ( "macromodule" "\\macromodule " )
+                     ( "and" "\\and " )
+                     ( "initial_step" "\\initial_step " )
+                     ( "connectrules" "\\connectrules " )
+                     ( "min" "\\min " )
+                     ( "absdelay" "\\absdelay " )
+                     ( "buf" "\\buf " )
+                     ( "reg" "\\reg " )
+                     ( "sqrt" "\\sqrt " )
+                     ( "vt" "\\vt " )
+                     ( "rtranif1" "\\rtranif1 " )
+                     ( "nmos" "\\nmos " )
+                     ( "discipline" "\\discipline " )
+                     ( "cross" "\\cross " )
+                     ( "zi_zp" "\\zi_zp " )
+                     ( "cosh" "\\cosh " )
+                     ( "laplace_zp" "\\laplace_zp " )
+                     ( "always" "\\always " )
+                     ( "endprimitive" "\\endprimitive " )
+                     ( "highz1" "\\highz1 " )
+                     ( "real" "\\real " )
+                     ( "branch" "\\branch " )
+                     ( "access" "\\access " )
+                     ( "or" "\\or " )
+                     ( "zi_nd" "\\zi_nd " )
+                     ( "white_noise" "\\white_noise " )
+                     ( "join" "\\join " )
+                     ( "notif0" "\\notif0 " )
+                     ( "tan" "\\tan " )
+                     ( "asinh" "\\asinh " )
+                     ( "xnor" "\\xnor " )
+                     ( "connect" "\\connect " )
+                     ( "release" "\\release " )
+                     ( "ln" "\\ln " )
+                     ( "parameter" "\\parameter " )
+                     ( "posedge" "\\posedge " )
+                     ( "acosh" "\\acosh " )
+                     ( "disable" "\\disable " )
+                     ( "rnmos" "\\rnmos " )
+                     ( "discontinuity" "\\discontinuity " )
+                     ( "cmos" "\\cmos " )
+                     ( "casex" "\\casex " )
+                     ( "wait" "\\wait " )
+                     ( "pwr" "\\pwr " )
+                     ( "rtran" "\\rtran " )
+                     ( "weak0" "\\weak0 " )
+                     ( "deassign" "\\deassign " )
+                     ( "event" "\\event " )
+                     ( "highz0" "\\highz0 " )
+                     ( "vectored" "\\vectored " )
+                     ( "negedge" "\\negedge " )
+                     ( "forever" "\\forever " )
+                     ( "triand" "\\triand " )
+                     ( "localparam" "\\localparam " )
+                     ( "initial" "\\initial " )
+                     ( "ground" "\\ground " )
+                     ( "continuous" "\\continuous " )
+                     ( "generate" "\\generate " )
+                     ( "abstol" "\\abstol " )
+                     ( "driver_update" "\\driver_update " )
+                     ( "tranif0" "\\tranif0 " )
+                     ( "input" "\\input " )
+                     ( "discrete" "\\discrete " )
+                     ( "output" "\\output " )
+                     ( "wor" "\\wor " )
+                     ( "above" "\\above " )
+                     ( "force" "\\force " )
+                     ( "split" "\\split " )
+                     ( "laplace_np" "\\laplace_np " )
+                     ( "flicker_noise" "\\flicker_noise " )
+                     ( "max" "\\max " )
+                     ( "idt_nature" "\\idt_nature " )
+                     ( "integer" "\\integer " )
+                     ( "rpmos" "\\rpmos " )
+                     ( "assign" "\\assign " )
+                     ( "wreal" "\\wreal " )
+                   )
+hnlLastInvalidNetNames = '(
+                     ( "weak1" "\\weak1 " )
+                     ( "xor" "\\xor " )
+                     ( "realtime" "\\realtime " )
+                     ( "trireg" "\\trireg " )
+                     ( "units" "\\units " )
+                     ( "ddx" "\\ddx " )
+                     ( "from" "\\from " )
+                     ( "if" "\\if " )
+                     ( "time" "\\time " )
+                     ( "laplace_nd" "\\laplace_nd " )
+                     ( "analog" "\\analog " )
+                     ( "primitive" "\\primitive " )
+                     ( "pullup" "\\pullup " )
+                     ( "tri" "\\tri " )
+                     ( "temperature" "\\temperature " )
+                     ( "endspecify" "\\endspecify " )
+                     ( "ac_stim" "\\ac_stim " )
+                     ( "ddt_nature" "\\ddt_nature " )
+                     ( "cos" "\\cos " )
+                     ( "sinh" "\\sinh " )
+                     ( "noise_table" "\\noise_table " )
+                     ( "casez" "\\casez " )
+                     ( "fork" "\\fork " )
+                     ( "acos" "\\acos " )
+                     ( "tran" "\\tran " )
+                     ( "not" "\\not " )
+                     ( "endtask" "\\endtask " )
+                     ( "function" "\\function " )
+                     ( "module" "\\module " )
+                     ( "floor" "\\floor " )
+                     ( "genvar" "\\genvar " )
+                     ( "task" "\\task " )
+                     ( "tri0" "\\tri0 " )
+                     ( "abs" "\\abs " )
+                     ( "net_resolution" "\\net_resolution " )
+                     ( "pull0" "\\pull0 " )
+                     ( "tanh" "\\tanh " )
+                     ( "case" "\\case " )
+                     ( "atanh" "\\atanh " )
+                     ( "default" "\\default " )
+                     ( "endfunction" "\\endfunction " )
+                     ( "table" "\\table " )
+                     ( "for" "\\for " )
+                     ( "bound_step" "\\bound_step " )
+                     ( "zi_np" "\\zi_np " )
+                     ( "pow" "\\pow " )
+                     ( "endmodule" "\\endmodule " )
+                     ( "supply0" "\\supply0 " )
+                     ( "aliasparam" "\\aliasparam " )
+                     ( "tri1" "\\tri1 " )
+                     ( "transition" "\\transition " )
+                     ( "rtranif0" "\\rtranif0 " )
+                     ( "strobe" "\\strobe " )
+                     ( "ifnone" "\\ifnone " )
+                     ( "strong1" "\\strong1 " )
+                     ( "final_step" "\\final_step " )
+                     ( "scalared" "\\scalared " )
+                     ( "specify" "\\specify " )
+                     ( "endparamset" "\\endparamset " )
+                     ( "table_model" "\\table_model " )
+                     ( "ddt" "\\ddt " )
+                     ( "rcmos" "\\rcmos " )
+                     ( "tranif1" "\\tranif1 " )
+                     ( "log" "\\log " )
+                     ( "inf" "\\inf " )
+                     ( "trior" "\\trior " )
+                     ( "potential" "\\potential " )
+                     ( "while" "\\while " )
+                     ( "atan2" "\\atan2 " )
+                     ( "laplace_zd" "\\laplace_zd " )
+                     ( "atan" "\\atan " )
+                     ( "enddiscipline" "\\enddiscipline " )
+                     ( "wire" "\\wire " )
+                     ( "zi_zd" "\\zi_zd " )
+                     ( "ceil" "\\ceil " )
+                     ( "else" "\\else " )
+                     ( "wand" "\\wand " )
+                     ( "endcase" "\\endcase " )
+                     ( "endnature" "\\endnature " )
+                     ( "merged" "\\merged " )
+                     ( "nature" "\\nature " )
+                     ( "specparam" "\\specparam " )
+                     ( "idt" "\\idt " )
+                     ( "timer" "\\timer " )
+                     ( "large" "\\large " )
+                     ( "repeat" "\\repeat " )
+                     ( "0" "_net0" )
+                     ( "idtmod" "\\idtmod " )
+                     ( "analysis" "\\analysis " )
+                     ( "exp" "\\exp " )
+                     ( "begin" "\\begin " )
+                     ( "medium" "\\medium " )
+                     ( "limexp" "\\limexp " )
+                     ( "slew" "\\slew " )
+                     ( "nand" "\\nand " )
+                     ( "defparam" "\\defparam " )
+                     ( "pull1" "\\pull1 " )
+                     ( "exclude" "\\exclude " )
+                     ( "small" "\\small " )
+                     ( "domain" "\\domain " )
+                     ( "strong0" "\\strong0 " )
+                     ( "resolveto" "\\resolveto " )
+                     ( "endtable" "\\endtable " )
+                     ( "inout" "\\inout " )
+                     ( "nor" "\\nor " )
+                     ( "endconnectrules" "\\endconnectrules " )
+                     ( "bufif1" "\\bufif1 " )
+                     ( "flow" "\\flow " )
+                     ( "pulldown" "\\pulldown " )
+                     ( "edge" "\\edge " )
+                     ( "last_crossing" "\\last_crossing " )
+                     ( "end" "\\end " )
+                     ( "notif1" "\\notif1 " )
+                     ( "supply1" "\\supply1 " )
+                     ( "asin" "\\asin " )
+                     ( "bufif0" "\\bufif0 " )
+                     ( "pmos" "\\pmos " )
+                     ( "hypot" "\\hypot " )
+                     ( "sin" "\\sin " )
+                     ( "macromodule" "\\macromodule " )
+                     ( "and" "\\and " )
+                     ( "initial_step" "\\initial_step " )
+                     ( "connectrules" "\\connectrules " )
+                     ( "min" "\\min " )
+                     ( "absdelay" "\\absdelay " )
+                     ( "buf" "\\buf " )
+                     ( "reg" "\\reg " )
+                     ( "sqrt" "\\sqrt " )
+                     ( "vt" "\\vt " )
+                     ( "rtranif1" "\\rtranif1 " )
+                     ( "nmos" "\\nmos " )
+                     ( "discipline" "\\discipline " )
+                     ( "cross" "\\cross " )
+                     ( "zi_zp" "\\zi_zp " )
+                     ( "cosh" "\\cosh " )
+                     ( "laplace_zp" "\\laplace_zp " )
+                     ( "always" "\\always " )
+                     ( "endprimitive" "\\endprimitive " )
+                     ( "highz1" "\\highz1 " )
+                     ( "real" "\\real " )
+                     ( "branch" "\\branch " )
+                     ( "access" "\\access " )
+                     ( "or" "\\or " )
+                     ( "zi_nd" "\\zi_nd " )
+                     ( "white_noise" "\\white_noise " )
+                     ( "join" "\\join " )
+                     ( "notif0" "\\notif0 " )
+                     ( "tan" "\\tan " )
+                     ( "asinh" "\\asinh " )
+                     ( "xnor" "\\xnor " )
+                     ( "connect" "\\connect " )
+                     ( "release" "\\release " )
+                     ( "ln" "\\ln " )
+                     ( "parameter" "\\parameter " )
+                     ( "posedge" "\\posedge " )
+                     ( "acosh" "\\acosh " )
+                     ( "disable" "\\disable " )
+                     ( "rnmos" "\\rnmos " )
+                     ( "discontinuity" "\\discontinuity " )
+                     ( "cmos" "\\cmos " )
+                     ( "casex" "\\casex " )
+                     ( "wait" "\\wait " )
+                     ( "pwr" "\\pwr " )
+                     ( "rtran" "\\rtran " )
+                     ( "weak0" "\\weak0 " )
+                     ( "deassign" "\\deassign " )
+                     ( "event" "\\event " )
+                     ( "highz0" "\\highz0 " )
+                     ( "vectored" "\\vectored " )
+                     ( "negedge" "\\negedge " )
+                     ( "forever" "\\forever " )
+                     ( "triand" "\\triand " )
+                     ( "localparam" "\\localparam " )
+                     ( "initial" "\\initial " )
+                     ( "ground" "\\ground " )
+                     ( "continuous" "\\continuous " )
+                     ( "generate" "\\generate " )
+                     ( "abstol" "\\abstol " )
+                     ( "driver_update" "\\driver_update " )
+                     ( "tranif0" "\\tranif0 " )
+                     ( "input" "\\input " )
+                     ( "discrete" "\\discrete " )
+                     ( "output" "\\output " )
+                     ( "wor" "\\wor " )
+                     ( "above" "\\above " )
+                     ( "force" "\\force " )
+                     ( "split" "\\split " )
+                     ( "laplace_np" "\\laplace_np " )
+                     ( "flicker_noise" "\\flicker_noise " )
+                     ( "max" "\\max " )
+                     ( "idt_nature" "\\idt_nature " )
+                     ( "integer" "\\integer " )
+                     ( "rpmos" "\\rpmos " )
+                     ( "assign" "\\assign " )
+                     ( "wreal" "\\wreal " )
+                   )
+hnlLastInvalidInstNames = '(
+                     ( "weak1" "\\weak1 " )
+                     ( "xor" "\\xor " )
+                     ( "realtime" "\\realtime " )
+                     ( "trireg" "\\trireg " )
+                     ( "units" "\\units " )
+                     ( "ddx" "\\ddx " )
+                     ( "from" "\\from " )
+                     ( "if" "\\if " )
+                     ( "time" "\\time " )
+                     ( "laplace_nd" "\\laplace_nd " )
+                     ( "analog" "\\analog " )
+                     ( "primitive" "\\primitive " )
+                     ( "pullup" "\\pullup " )
+                     ( "tri" "\\tri " )
+                     ( "temperature" "\\temperature " )
+                     ( "endspecify" "\\endspecify " )
+                     ( "ac_stim" "\\ac_stim " )
+                     ( "ddt_nature" "\\ddt_nature " )
+                     ( "cos" "\\cos " )
+                     ( "sinh" "\\sinh " )
+                     ( "noise_table" "\\noise_table " )
+                     ( "casez" "\\casez " )
+                     ( "fork" "\\fork " )
+                     ( "acos" "\\acos " )
+                     ( "tran" "\\tran " )
+                     ( "not" "\\not " )
+                     ( "endtask" "\\endtask " )
+                     ( "function" "\\function " )
+                     ( "module" "\\module " )
+                     ( "floor" "\\floor " )
+                     ( "genvar" "\\genvar " )
+                     ( "task" "\\task " )
+                     ( "tri0" "\\tri0 " )
+                     ( "abs" "\\abs " )
+                     ( "net_resolution" "\\net_resolution " )
+                     ( "pull0" "\\pull0 " )
+                     ( "tanh" "\\tanh " )
+                     ( "case" "\\case " )
+                     ( "atanh" "\\atanh " )
+                     ( "default" "\\default " )
+                     ( "endfunction" "\\endfunction " )
+                     ( "table" "\\table " )
+                     ( "for" "\\for " )
+                     ( "bound_step" "\\bound_step " )
+                     ( "zi_np" "\\zi_np " )
+                     ( "pow" "\\pow " )
+                     ( "endmodule" "\\endmodule " )
+                     ( "supply0" "\\supply0 " )
+                     ( "aliasparam" "\\aliasparam " )
+                     ( "tri1" "\\tri1 " )
+                     ( "transition" "\\transition " )
+                     ( "rtranif0" "\\rtranif0 " )
+                     ( "strobe" "\\strobe " )
+                     ( "ifnone" "\\ifnone " )
+                     ( "strong1" "\\strong1 " )
+                     ( "final_step" "\\final_step " )
+                     ( "scalared" "\\scalared " )
+                     ( "specify" "\\specify " )
+                     ( "endparamset" "\\endparamset " )
+                     ( "table_model" "\\table_model " )
+                     ( "ddt" "\\ddt " )
+                     ( "rcmos" "\\rcmos " )
+                     ( "tranif1" "\\tranif1 " )
+                     ( "log" "\\log " )
+                     ( "inf" "\\inf " )
+                     ( "trior" "\\trior " )
+                     ( "potential" "\\potential " )
+                     ( "while" "\\while " )
+                     ( "atan2" "\\atan2 " )
+                     ( "laplace_zd" "\\laplace_zd " )
+                     ( "atan" "\\atan " )
+                     ( "enddiscipline" "\\enddiscipline " )
+                     ( "wire" "\\wire " )
+                     ( "zi_zd" "\\zi_zd " )
+                     ( "ceil" "\\ceil " )
+                     ( "else" "\\else " )
+                     ( "wand" "\\wand " )
+                     ( "endcase" "\\endcase " )
+                     ( "endnature" "\\endnature " )
+                     ( "merged" "\\merged " )
+                     ( "nature" "\\nature " )
+                     ( "specparam" "\\specparam " )
+                     ( "idt" "\\idt " )
+                     ( "timer" "\\timer " )
+                     ( "large" "\\large " )
+                     ( "repeat" "\\repeat " )
+                     ( "idtmod" "\\idtmod " )
+                     ( "analysis" "\\analysis " )
+                     ( "exp" "\\exp " )
+                     ( "begin" "\\begin " )
+                     ( "medium" "\\medium " )
+                     ( "limexp" "\\limexp " )
+                     ( "slew" "\\slew " )
+                     ( "nand" "\\nand " )
+                     ( "defparam" "\\defparam " )
+                     ( "pull1" "\\pull1 " )
+                     ( "exclude" "\\exclude " )
+                     ( "small" "\\small " )
+                     ( "domain" "\\domain " )
+                     ( "strong0" "\\strong0 " )
+                     ( "resolveto" "\\resolveto " )
+                     ( "endtable" "\\endtable " )
+                     ( "inout" "\\inout " )
+                     ( "nor" "\\nor " )
+                     ( "endconnectrules" "\\endconnectrules " )
+                     ( "bufif1" "\\bufif1 " )
+                     ( "flow" "\\flow " )
+                     ( "pulldown" "\\pulldown " )
+                     ( "edge" "\\edge " )
+                     ( "last_crossing" "\\last_crossing " )
+                     ( "end" "\\end " )
+                     ( "notif1" "\\notif1 " )
+                     ( "supply1" "\\supply1 " )
+                     ( "asin" "\\asin " )
+                     ( "bufif0" "\\bufif0 " )
+                     ( "pmos" "\\pmos " )
+                     ( "hypot" "\\hypot " )
+                     ( "sin" "\\sin " )
+                     ( "macromodule" "\\macromodule " )
+                     ( "and" "\\and " )
+                     ( "initial_step" "\\initial_step " )
+                     ( "connectrules" "\\connectrules " )
+                     ( "min" "\\min " )
+                     ( "absdelay" "\\absdelay " )
+                     ( "buf" "\\buf " )
+                     ( "reg" "\\reg " )
+                     ( "sqrt" "\\sqrt " )
+                     ( "vt" "\\vt " )
+                     ( "rtranif1" "\\rtranif1 " )
+                     ( "nmos" "\\nmos " )
+                     ( "discipline" "\\discipline " )
+                     ( "cross" "\\cross " )
+                     ( "zi_zp" "\\zi_zp " )
+                     ( "cosh" "\\cosh " )
+                     ( "laplace_zp" "\\laplace_zp " )
+                     ( "always" "\\always " )
+                     ( "endprimitive" "\\endprimitive " )
+                     ( "highz1" "\\highz1 " )
+                     ( "real" "\\real " )
+                     ( "branch" "\\branch " )
+                     ( "access" "\\access " )
+                     ( "or" "\\or " )
+                     ( "zi_nd" "\\zi_nd " )
+                     ( "white_noise" "\\white_noise " )
+                     ( "join" "\\join " )
+                     ( "notif0" "\\notif0 " )
+                     ( "tan" "\\tan " )
+                     ( "asinh" "\\asinh " )
+                     ( "xnor" "\\xnor " )
+                     ( "connect" "\\connect " )
+                     ( "release" "\\release " )
+                     ( "ln" "\\ln " )
+                     ( "parameter" "\\parameter " )
+                     ( "posedge" "\\posedge " )
+                     ( "acosh" "\\acosh " )
+                     ( "disable" "\\disable " )
+                     ( "rnmos" "\\rnmos " )
+                     ( "discontinuity" "\\discontinuity " )
+                     ( "cmos" "\\cmos " )
+                     ( "casex" "\\casex " )
+                     ( "wait" "\\wait " )
+                     ( "pwr" "\\pwr " )
+                     ( "rtran" "\\rtran " )
+                     ( "weak0" "\\weak0 " )
+                     ( "deassign" "\\deassign " )
+                     ( "event" "\\event " )
+                     ( "highz0" "\\highz0 " )
+                     ( "vectored" "\\vectored " )
+                     ( "negedge" "\\negedge " )
+                     ( "forever" "\\forever " )
+                     ( "triand" "\\triand " )
+                     ( "localparam" "\\localparam " )
+                     ( "initial" "\\initial " )
+                     ( "ground" "\\ground " )
+                     ( "continuous" "\\continuous " )
+                     ( "generate" "\\generate " )
+                     ( "abstol" "\\abstol " )
+                     ( "driver_update" "\\driver_update " )
+                     ( "tranif0" "\\tranif0 " )
+                     ( "input" "\\input " )
+                     ( "discrete" "\\discrete " )
+                     ( "output" "\\output " )
+                     ( "wor" "\\wor " )
+                     ( "above" "\\above " )
+                     ( "force" "\\force " )
+                     ( "split" "\\split " )
+                     ( "laplace_np" "\\laplace_np " )
+                     ( "flicker_noise" "\\flicker_noise " )
+                     ( "max" "\\max " )
+                     ( "idt_nature" "\\idt_nature " )
+                     ( "integer" "\\integer " )
+                     ( "rpmos" "\\rpmos " )
+                     ( "assign" "\\assign " )
+                     ( "wreal" "\\wreal " )
+                   )
+hnlLastInvalidModelNames = '(
+                     ( "weak1" "\\weak1 " )
+                     ( "xor" "\\xor " )
+                     ( "realtime" "\\realtime " )
+                     ( "trireg" "\\trireg " )
+                     ( "units" "\\units " )
+                     ( "ddx" "\\ddx " )
+                     ( "from" "\\from " )
+                     ( "if" "\\if " )
+                     ( "time" "\\time " )
+                     ( "laplace_nd" "\\laplace_nd " )
+                     ( "analog" "\\analog " )
+                     ( "primitive" "\\primitive " )
+                     ( "pullup" "\\pullup " )
+                     ( "tri" "\\tri " )
+                     ( "temperature" "\\temperature " )
+                     ( "endspecify" "\\endspecify " )
+                     ( "ac_stim" "\\ac_stim " )
+                     ( "ddt_nature" "\\ddt_nature " )
+                     ( "cos" "\\cos " )
+                     ( "sinh" "\\sinh " )
+                     ( "noise_table" "\\noise_table " )
+                     ( "casez" "\\casez " )
+                     ( "fork" "\\fork " )
+                     ( "acos" "\\acos " )
+                     ( "tran" "\\tran " )
+                     ( "not" "\\not " )
+                     ( "endtask" "\\endtask " )
+                     ( "function" "\\function " )
+                     ( "module" "\\module " )
+                     ( "floor" "\\floor " )
+                     ( "genvar" "\\genvar " )
+                     ( "task" "\\task " )
+                     ( "tri0" "\\tri0 " )
+                     ( "abs" "\\abs " )
+                     ( "net_resolution" "\\net_resolution " )
+                     ( "pull0" "\\pull0 " )
+                     ( "tanh" "\\tanh " )
+                     ( "case" "\\case " )
+                     ( "atanh" "\\atanh " )
+                     ( "default" "\\default " )
+                     ( "endfunction" "\\endfunction " )
+                     ( "table" "\\table " )
+                     ( "for" "\\for " )
+                     ( "bound_step" "\\bound_step " )
+                     ( "zi_np" "\\zi_np " )
+                     ( "pow" "\\pow " )
+                     ( "endmodule" "\\endmodule " )
+                     ( "supply0" "\\supply0 " )
+                     ( "aliasparam" "\\aliasparam " )
+                     ( "tri1" "\\tri1 " )
+                     ( "transition" "\\transition " )
+                     ( "rtranif0" "\\rtranif0 " )
+                     ( "strobe" "\\strobe " )
+                     ( "ifnone" "\\ifnone " )
+                     ( "strong1" "\\strong1 " )
+                     ( "final_step" "\\final_step " )
+                     ( "scalared" "\\scalared " )
+                     ( "specify" "\\specify " )
+                     ( "endparamset" "\\endparamset " )
+                     ( "table_model" "\\table_model " )
+                     ( "ddt" "\\ddt " )
+                     ( "rcmos" "\\rcmos " )
+                     ( "tranif1" "\\tranif1 " )
+                     ( "log" "\\log " )
+                     ( "inf" "\\inf " )
+                     ( "trior" "\\trior " )
+                     ( "potential" "\\potential " )
+                     ( "while" "\\while " )
+                     ( "atan2" "\\atan2 " )
+                     ( "laplace_zd" "\\laplace_zd " )
+                     ( "atan" "\\atan " )
+                     ( "enddiscipline" "\\enddiscipline " )
+                     ( "wire" "\\wire " )
+                     ( "zi_zd" "\\zi_zd " )
+                     ( "ceil" "\\ceil " )
+                     ( "else" "\\else " )
+                     ( "wand" "\\wand " )
+                     ( "endcase" "\\endcase " )
+                     ( "endnature" "\\endnature " )
+                     ( "merged" "\\merged " )
+                     ( "nature" "\\nature " )
+                     ( "specparam" "\\specparam " )
+                     ( "idt" "\\idt " )
+                     ( "timer" "\\timer " )
+                     ( "large" "\\large " )
+                     ( "repeat" "\\repeat " )
+                     ( "idtmod" "\\idtmod " )
+                     ( "analysis" "\\analysis " )
+                     ( "exp" "\\exp " )
+                     ( "begin" "\\begin " )
+                     ( "medium" "\\medium " )
+                     ( "limexp" "\\limexp " )
+                     ( "slew" "\\slew " )
+                     ( "nand" "\\nand " )
+                     ( "defparam" "\\defparam " )
+                     ( "pull1" "\\pull1 " )
+                     ( "exclude" "\\exclude " )
+                     ( "small" "\\small " )
+                     ( "domain" "\\domain " )
+                     ( "strong0" "\\strong0 " )
+                     ( "resolveto" "\\resolveto " )
+                     ( "endtable" "\\endtable " )
+                     ( "inout" "\\inout " )
+                     ( "nor" "\\nor " )
+                     ( "endconnectrules" "\\endconnectrules " )
+                     ( "bufif1" "\\bufif1 " )
+                     ( "flow" "\\flow " )
+                     ( "pulldown" "\\pulldown " )
+                     ( "edge" "\\edge " )
+                     ( "last_crossing" "\\last_crossing " )
+                     ( "end" "\\end " )
+                     ( "notif1" "\\notif1 " )
+                     ( "supply1" "\\supply1 " )
+                     ( "asin" "\\asin " )
+                     ( "bufif0" "\\bufif0 " )
+                     ( "pmos" "\\pmos " )
+                     ( "hypot" "\\hypot " )
+                     ( "sin" "\\sin " )
+                     ( "macromodule" "\\macromodule " )
+                     ( "and" "\\and " )
+                     ( "initial_step" "\\initial_step " )
+                     ( "connectrules" "\\connectrules " )
+                     ( "min" "\\min " )
+                     ( "absdelay" "\\absdelay " )
+                     ( "buf" "\\buf " )
+                     ( "reg" "\\reg " )
+                     ( "sqrt" "\\sqrt " )
+                     ( "vt" "\\vt " )
+                     ( "rtranif1" "\\rtranif1 " )
+                     ( "nmos" "\\nmos " )
+                     ( "discipline" "\\discipline " )
+                     ( "cross" "\\cross " )
+                     ( "zi_zp" "\\zi_zp " )
+                     ( "cosh" "\\cosh " )
+                     ( "laplace_zp" "\\laplace_zp " )
+                     ( "always" "\\always " )
+                     ( "endprimitive" "\\endprimitive " )
+                     ( "highz1" "\\highz1 " )
+                     ( "real" "\\real " )
+                     ( "branch" "\\branch " )
+                     ( "access" "\\access " )
+                     ( "or" "\\or " )
+                     ( "zi_nd" "\\zi_nd " )
+                     ( "white_noise" "\\white_noise " )
+                     ( "join" "\\join " )
+                     ( "notif0" "\\notif0 " )
+                     ( "tan" "\\tan " )
+                     ( "asinh" "\\asinh " )
+                     ( "xnor" "\\xnor " )
+                     ( "connect" "\\connect " )
+                     ( "release" "\\release " )
+                     ( "ln" "\\ln " )
+                     ( "parameter" "\\parameter " )
+                     ( "posedge" "\\posedge " )
+                     ( "acosh" "\\acosh " )
+                     ( "disable" "\\disable " )
+                     ( "rnmos" "\\rnmos " )
+                     ( "discontinuity" "\\discontinuity " )
+                     ( "cmos" "\\cmos " )
+                     ( "casex" "\\casex " )
+                     ( "wait" "\\wait " )
+                     ( "pwr" "\\pwr " )
+                     ( "rtran" "\\rtran " )
+                     ( "weak0" "\\weak0 " )
+                     ( "deassign" "\\deassign " )
+                     ( "event" "\\event " )
+                     ( "highz0" "\\highz0 " )
+                     ( "vectored" "\\vectored " )
+                     ( "negedge" "\\negedge " )
+                     ( "forever" "\\forever " )
+                     ( "triand" "\\triand " )
+                     ( "localparam" "\\localparam " )
+                     ( "initial" "\\initial " )
+                     ( "ground" "\\ground " )
+                     ( "continuous" "\\continuous " )
+                     ( "generate" "\\generate " )
+                     ( "abstol" "\\abstol " )
+                     ( "driver_update" "\\driver_update " )
+                     ( "tranif0" "\\tranif0 " )
+                     ( "input" "\\input " )
+                     ( "discrete" "\\discrete " )
+                     ( "output" "\\output " )
+                     ( "wor" "\\wor " )
+                     ( "above" "\\above " )
+                     ( "force" "\\force " )
+                     ( "split" "\\split " )
+                     ( "laplace_np" "\\laplace_np " )
+                     ( "flicker_noise" "\\flicker_noise " )
+                     ( "max" "\\max " )
+                     ( "idt_nature" "\\idt_nature " )
+                     ( "integer" "\\integer " )
+                     ( "rpmos" "\\rpmos " )
+                     ( "assign" "\\assign " )
+                     ( "wreal" "\\wreal " )
+                   )
+hnlLastInvalidTermNames = '(
+                     ( "weak1" "\\weak1 " )
+                     ( "xor" "\\xor " )
+                     ( "realtime" "\\realtime " )
+                     ( "trireg" "\\trireg " )
+                     ( "units" "\\units " )
+                     ( "ddx" "\\ddx " )
+                     ( "from" "\\from " )
+                     ( "if" "\\if " )
+                     ( "time" "\\time " )
+                     ( "laplace_nd" "\\laplace_nd " )
+                     ( "analog" "\\analog " )
+                     ( "primitive" "\\primitive " )
+                     ( "pullup" "\\pullup " )
+                     ( "tri" "\\tri " )
+                     ( "temperature" "\\temperature " )
+                     ( "endspecify" "\\endspecify " )
+                     ( "ac_stim" "\\ac_stim " )
+                     ( "ddt_nature" "\\ddt_nature " )
+                     ( "cos" "\\cos " )
+                     ( "sinh" "\\sinh " )
+                     ( "noise_table" "\\noise_table " )
+                     ( "casez" "\\casez " )
+                     ( "fork" "\\fork " )
+                     ( "acos" "\\acos " )
+                     ( "tran" "\\tran " )
+                     ( "not" "\\not " )
+                     ( "endtask" "\\endtask " )
+                     ( "function" "\\function " )
+                     ( "module" "\\module " )
+                     ( "floor" "\\floor " )
+                     ( "genvar" "\\genvar " )
+                     ( "task" "\\task " )
+                     ( "tri0" "\\tri0 " )
+                     ( "abs" "\\abs " )
+                     ( "net_resolution" "\\net_resolution " )
+                     ( "pull0" "\\pull0 " )
+                     ( "tanh" "\\tanh " )
+                     ( "case" "\\case " )
+                     ( "atanh" "\\atanh " )
+                     ( "default" "\\default " )
+                     ( "endfunction" "\\endfunction " )
+                     ( "table" "\\table " )
+                     ( "for" "\\for " )
+                     ( "bound_step" "\\bound_step " )
+                     ( "zi_np" "\\zi_np " )
+                     ( "pow" "\\pow " )
+                     ( "endmodule" "\\endmodule " )
+                     ( "supply0" "\\supply0 " )
+                     ( "aliasparam" "\\aliasparam " )
+                     ( "tri1" "\\tri1 " )
+                     ( "transition" "\\transition " )
+                     ( "rtranif0" "\\rtranif0 " )
+                     ( "strobe" "\\strobe " )
+                     ( "ifnone" "\\ifnone " )
+                     ( "strong1" "\\strong1 " )
+                     ( "final_step" "\\final_step " )
+                     ( "scalared" "\\scalared " )
+                     ( "specify" "\\specify " )
+                     ( "endparamset" "\\endparamset " )
+                     ( "table_model" "\\table_model " )
+                     ( "ddt" "\\ddt " )
+                     ( "rcmos" "\\rcmos " )
+                     ( "tranif1" "\\tranif1 " )
+                     ( "log" "\\log " )
+                     ( "inf" "\\inf " )
+                     ( "trior" "\\trior " )
+                     ( "potential" "\\potential " )
+                     ( "while" "\\while " )
+                     ( "atan2" "\\atan2 " )
+                     ( "laplace_zd" "\\laplace_zd " )
+                     ( "atan" "\\atan " )
+                     ( "enddiscipline" "\\enddiscipline " )
+                     ( "wire" "\\wire " )
+                     ( "zi_zd" "\\zi_zd " )
+                     ( "ceil" "\\ceil " )
+                     ( "else" "\\else " )
+                     ( "wand" "\\wand " )
+                     ( "endcase" "\\endcase " )
+                     ( "endnature" "\\endnature " )
+                     ( "merged" "\\merged " )
+                     ( "nature" "\\nature " )
+                     ( "specparam" "\\specparam " )
+                     ( "idt" "\\idt " )
+                     ( "timer" "\\timer " )
+                     ( "large" "\\large " )
+                     ( "repeat" "\\repeat " )
+                     ( "idtmod" "\\idtmod " )
+                     ( "analysis" "\\analysis " )
+                     ( "exp" "\\exp " )
+                     ( "begin" "\\begin " )
+                     ( "medium" "\\medium " )
+                     ( "limexp" "\\limexp " )
+                     ( "slew" "\\slew " )
+                     ( "nand" "\\nand " )
+                     ( "defparam" "\\defparam " )
+                     ( "pull1" "\\pull1 " )
+                     ( "exclude" "\\exclude " )
+                     ( "small" "\\small " )
+                     ( "domain" "\\domain " )
+                     ( "strong0" "\\strong0 " )
+                     ( "resolveto" "\\resolveto " )
+                     ( "endtable" "\\endtable " )
+                     ( "inout" "\\inout " )
+                     ( "nor" "\\nor " )
+                     ( "endconnectrules" "\\endconnectrules " )
+                     ( "bufif1" "\\bufif1 " )
+                     ( "flow" "\\flow " )
+                     ( "pulldown" "\\pulldown " )
+                     ( "edge" "\\edge " )
+                     ( "last_crossing" "\\last_crossing " )
+                     ( "end" "\\end " )
+                     ( "notif1" "\\notif1 " )
+                     ( "supply1" "\\supply1 " )
+                     ( "asin" "\\asin " )
+                     ( "bufif0" "\\bufif0 " )
+                     ( "pmos" "\\pmos " )
+                     ( "hypot" "\\hypot " )
+                     ( "sin" "\\sin " )
+                     ( "macromodule" "\\macromodule " )
+                     ( "and" "\\and " )
+                     ( "initial_step" "\\initial_step " )
+                     ( "connectrules" "\\connectrules " )
+                     ( "min" "\\min " )
+                     ( "absdelay" "\\absdelay " )
+                     ( "buf" "\\buf " )
+                     ( "reg" "\\reg " )
+                     ( "sqrt" "\\sqrt " )
+                     ( "vt" "\\vt " )
+                     ( "rtranif1" "\\rtranif1 " )
+                     ( "nmos" "\\nmos " )
+                     ( "discipline" "\\discipline " )
+                     ( "cross" "\\cross " )
+                     ( "zi_zp" "\\zi_zp " )
+                     ( "cosh" "\\cosh " )
+                     ( "laplace_zp" "\\laplace_zp " )
+                     ( "always" "\\always " )
+                     ( "endprimitive" "\\endprimitive " )
+                     ( "highz1" "\\highz1 " )
+                     ( "real" "\\real " )
+                     ( "branch" "\\branch " )
+                     ( "access" "\\access " )
+                     ( "or" "\\or " )
+                     ( "zi_nd" "\\zi_nd " )
+                     ( "white_noise" "\\white_noise " )
+                     ( "join" "\\join " )
+                     ( "notif0" "\\notif0 " )
+                     ( "tan" "\\tan " )
+                     ( "asinh" "\\asinh " )
+                     ( "xnor" "\\xnor " )
+                     ( "connect" "\\connect " )
+                     ( "release" "\\release " )
+                     ( "ln" "\\ln " )
+                     ( "parameter" "\\parameter " )
+                     ( "posedge" "\\posedge " )
+                     ( "acosh" "\\acosh " )
+                     ( "disable" "\\disable " )
+                     ( "rnmos" "\\rnmos " )
+                     ( "discontinuity" "\\discontinuity " )
+                     ( "cmos" "\\cmos " )
+                     ( "casex" "\\casex " )
+                     ( "wait" "\\wait " )
+                     ( "pwr" "\\pwr " )
+                     ( "rtran" "\\rtran " )
+                     ( "weak0" "\\weak0 " )
+                     ( "deassign" "\\deassign " )
+                     ( "event" "\\event " )
+                     ( "highz0" "\\highz0 " )
+                     ( "vectored" "\\vectored " )
+                     ( "negedge" "\\negedge " )
+                     ( "forever" "\\forever " )
+                     ( "triand" "\\triand " )
+                     ( "localparam" "\\localparam " )
+                     ( "initial" "\\initial " )
+                     ( "ground" "\\ground " )
+                     ( "continuous" "\\continuous " )
+                     ( "generate" "\\generate " )
+                     ( "abstol" "\\abstol " )
+                     ( "driver_update" "\\driver_update " )
+                     ( "tranif0" "\\tranif0 " )
+                     ( "input" "\\input " )
+                     ( "discrete" "\\discrete " )
+                     ( "output" "\\output " )
+                     ( "wor" "\\wor " )
+                     ( "above" "\\above " )
+                     ( "force" "\\force " )
+                     ( "split" "\\split " )
+                     ( "laplace_np" "\\laplace_np " )
+                     ( "flicker_noise" "\\flicker_noise " )
+                     ( "max" "\\max " )
+                     ( "idt_nature" "\\idt_nature " )
+                     ( "integer" "\\integer " )
+                     ( "rpmos" "\\rpmos " )
+                     ( "assign" "\\assign " )
+                     ( "wreal" "\\wreal " )
+                   )
+hnlLastInvalidParamNames = '(
+                     ( "weak1" "\\weak1 " )
+                     ( "xor" "\\xor " )
+                     ( "realtime" "\\realtime " )
+                     ( "trireg" "\\trireg " )
+                     ( "units" "\\units " )
+                     ( "ddx" "\\ddx " )
+                     ( "from" "\\from " )
+                     ( "if" "\\if " )
+                     ( "time" "\\time " )
+                     ( "laplace_nd" "\\laplace_nd " )
+                     ( "analog" "\\analog " )
+                     ( "primitive" "\\primitive " )
+                     ( "pullup" "\\pullup " )
+                     ( "tri" "\\tri " )
+                     ( "temperature" "\\temperature " )
+                     ( "endspecify" "\\endspecify " )
+                     ( "ac_stim" "\\ac_stim " )
+                     ( "ddt_nature" "\\ddt_nature " )
+                     ( "cos" "\\cos " )
+                     ( "sinh" "\\sinh " )
+                     ( "noise_table" "\\noise_table " )
+                     ( "casez" "\\casez " )
+                     ( "fork" "\\fork " )
+                     ( "acos" "\\acos " )
+                     ( "tran" "\\tran " )
+                     ( "not" "\\not " )
+                     ( "endtask" "\\endtask " )
+                     ( "function" "\\function " )
+                     ( "module" "\\module " )
+                     ( "floor" "\\floor " )
+                     ( "genvar" "\\genvar " )
+                     ( "task" "\\task " )
+                     ( "tri0" "\\tri0 " )
+                     ( "abs" "\\abs " )
+                     ( "net_resolution" "\\net_resolution " )
+                     ( "pull0" "\\pull0 " )
+                     ( "tanh" "\\tanh " )
+                     ( "case" "\\case " )
+                     ( "atanh" "\\atanh " )
+                     ( "default" "\\default " )
+                     ( "endfunction" "\\endfunction " )
+                     ( "table" "\\table " )
+                     ( "for" "\\for " )
+                     ( "bound_step" "\\bound_step " )
+                     ( "zi_np" "\\zi_np " )
+                     ( "pow" "\\pow " )
+                     ( "endmodule" "\\endmodule " )
+                     ( "supply0" "\\supply0 " )
+                     ( "aliasparam" "\\aliasparam " )
+                     ( "tri1" "\\tri1 " )
+                     ( "transition" "\\transition " )
+                     ( "rtranif0" "\\rtranif0 " )
+                     ( "strobe" "\\strobe " )
+                     ( "ifnone" "\\ifnone " )
+                     ( "strong1" "\\strong1 " )
+                     ( "final_step" "\\final_step " )
+                     ( "scalared" "\\scalared " )
+                     ( "specify" "\\specify " )
+                     ( "endparamset" "\\endparamset " )
+                     ( "table_model" "\\table_model " )
+                     ( "ddt" "\\ddt " )
+                     ( "rcmos" "\\rcmos " )
+                     ( "tranif1" "\\tranif1 " )
+                     ( "log" "\\log " )
+                     ( "inf" "\\inf " )
+                     ( "trior" "\\trior " )
+                     ( "potential" "\\potential " )
+                     ( "while" "\\while " )
+                     ( "atan2" "\\atan2 " )
+                     ( "laplace_zd" "\\laplace_zd " )
+                     ( "atan" "\\atan " )
+                     ( "enddiscipline" "\\enddiscipline " )
+                     ( "wire" "\\wire " )
+                     ( "zi_zd" "\\zi_zd " )
+                     ( "ceil" "\\ceil " )
+                     ( "else" "\\else " )
+                     ( "wand" "\\wand " )
+                     ( "endcase" "\\endcase " )
+                     ( "endnature" "\\endnature " )
+                     ( "merged" "\\merged " )
+                     ( "nature" "\\nature " )
+                     ( "specparam" "\\specparam " )
+                     ( "idt" "\\idt " )
+                     ( "timer" "\\timer " )
+                     ( "large" "\\large " )
+                     ( "repeat" "\\repeat " )
+                     ( "idtmod" "\\idtmod " )
+                     ( "analysis" "\\analysis " )
+                     ( "exp" "\\exp " )
+                     ( "begin" "\\begin " )
+                     ( "medium" "\\medium " )
+                     ( "limexp" "\\limexp " )
+                     ( "slew" "\\slew " )
+                     ( "nand" "\\nand " )
+                     ( "defparam" "\\defparam " )
+                     ( "pull1" "\\pull1 " )
+                     ( "exclude" "\\exclude " )
+                     ( "small" "\\small " )
+                     ( "domain" "\\domain " )
+                     ( "strong0" "\\strong0 " )
+                     ( "resolveto" "\\resolveto " )
+                     ( "endtable" "\\endtable " )
+                     ( "inout" "\\inout " )
+                     ( "nor" "\\nor " )
+                     ( "endconnectrules" "\\endconnectrules " )
+                     ( "bufif1" "\\bufif1 " )
+                     ( "flow" "\\flow " )
+                     ( "pulldown" "\\pulldown " )
+                     ( "edge" "\\edge " )
+                     ( "last_crossing" "\\last_crossing " )
+                     ( "end" "\\end " )
+                     ( "notif1" "\\notif1 " )
+                     ( "supply1" "\\supply1 " )
+                     ( "asin" "\\asin " )
+                     ( "bufif0" "\\bufif0 " )
+                     ( "pmos" "\\pmos " )
+                     ( "hypot" "\\hypot " )
+                     ( "sin" "\\sin " )
+                     ( "macromodule" "\\macromodule " )
+                     ( "and" "\\and " )
+                     ( "initial_step" "\\initial_step " )
+                     ( "connectrules" "\\connectrules " )
+                     ( "min" "\\min " )
+                     ( "absdelay" "\\absdelay " )
+                     ( "buf" "\\buf " )
+                     ( "reg" "\\reg " )
+                     ( "sqrt" "\\sqrt " )
+                     ( "vt" "\\vt " )
+                     ( "rtranif1" "\\rtranif1 " )
+                     ( "nmos" "\\nmos " )
+                     ( "discipline" "\\discipline " )
+                     ( "cross" "\\cross " )
+                     ( "zi_zp" "\\zi_zp " )
+                     ( "cosh" "\\cosh " )
+                     ( "laplace_zp" "\\laplace_zp " )
+                     ( "always" "\\always " )
+                     ( "endprimitive" "\\endprimitive " )
+                     ( "highz1" "\\highz1 " )
+                     ( "real" "\\real " )
+                     ( "branch" "\\branch " )
+                     ( "access" "\\access " )
+                     ( "or" "\\or " )
+                     ( "zi_nd" "\\zi_nd " )
+                     ( "white_noise" "\\white_noise " )
+                     ( "join" "\\join " )
+                     ( "notif0" "\\notif0 " )
+                     ( "tan" "\\tan " )
+                     ( "asinh" "\\asinh " )
+                     ( "xnor" "\\xnor " )
+                     ( "connect" "\\connect " )
+                     ( "release" "\\release " )
+                     ( "ln" "\\ln " )
+                     ( "parameter" "\\parameter " )
+                     ( "posedge" "\\posedge " )
+                     ( "acosh" "\\acosh " )
+                     ( "disable" "\\disable " )
+                     ( "rnmos" "\\rnmos " )
+                     ( "discontinuity" "\\discontinuity " )
+                     ( "cmos" "\\cmos " )
+                     ( "casex" "\\casex " )
+                     ( "wait" "\\wait " )
+                     ( "pwr" "\\pwr " )
+                     ( "rtran" "\\rtran " )
+                     ( "weak0" "\\weak0 " )
+                     ( "deassign" "\\deassign " )
+                     ( "event" "\\event " )
+                     ( "highz0" "\\highz0 " )
+                     ( "vectored" "\\vectored " )
+                     ( "negedge" "\\negedge " )
+                     ( "forever" "\\forever " )
+                     ( "triand" "\\triand " )
+                     ( "localparam" "\\localparam " )
+                     ( "initial" "\\initial " )
+                     ( "ground" "\\ground " )
+                     ( "continuous" "\\continuous " )
+                     ( "generate" "\\generate " )
+                     ( "abstol" "\\abstol " )
+                     ( "driver_update" "\\driver_update " )
+                     ( "tranif0" "\\tranif0 " )
+                     ( "input" "\\input " )
+                     ( "discrete" "\\discrete " )
+                     ( "output" "\\output " )
+                     ( "wor" "\\wor " )
+                     ( "above" "\\above " )
+                     ( "force" "\\force " )
+                     ( "split" "\\split " )
+                     ( "laplace_np" "\\laplace_np " )
+                     ( "flicker_noise" "\\flicker_noise " )
+                     ( "max" "\\max " )
+                     ( "idt_nature" "\\idt_nature " )
+                     ( "integer" "\\integer " )
+                     ( "rpmos" "\\rpmos " )
+                     ( "assign" "\\assign " )
+                     ( "wreal" "\\wreal " )
+                   )
+hnlLastInstNameDifferentFrom = '( "net" )
+hnlLastModelNameDifferentFrom = '( )
+hnlLastNetNameDifferentFrom = '( "instance" "parameter" )
+hnlLastTermNameDifferentFrom = '( )
+hnlLastParamNameDifferentFrom = '( "net" )
+hnlLastLibInfo = '(
+                    ( "project_EACN_SESI" "1775744007" )
+                  )
+hnlLastConstants = '(
+                      ""
+                    )
+hnlLastDesignVars = '(
+                      "temperature"
+                      "vin"
+                      "Cu"
+                    )

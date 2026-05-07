@@ -1,0 +1,6 @@
+
+// Library name: project_EACN_SESI
+// Cell name: buf_eq_delay
+// View name: schematic
+// Inherited view list: schematic
+subckt buf_eq_delay

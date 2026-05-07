@@ -1,0 +1,7 @@
+-64bit  -compile -NOCOPYRIGHT -nostdout -nowarn DLNOHV
+-logfile /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi/mapirun.log
+-nowarn DLNOHV -nowarn DLCLAP -v93 -allowredefinition -incdir /users/cao/galayko/cadence_amsC35_projEACN/ -f /users/soft/techno/dev/vienne/035.HV-4.10/verilog/c35b4/vxl.inc 
+-nclibdirpath /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi/
+-cdslib /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi/cds.lib
+-makelib project_EACN_SESI -view behavioral /users/cao/galayko/cadence_amsC35_projEACN/project_EACN_SESI/control/behavioral/vhdl.vhd -endlib
+/users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/.mapi//dummyMapi.vhms

@@ -1,0 +1,13 @@
+// Library - project_EACN_SESI, Cell - ADC_SAR, View - schematic
+// LAST TIME SAVED: Mar 19 10:58:11 2026
+// NETLIST TIME: Mar 19 10:59:32 2026
+`timescale 1ns / 1ps 
+
+`worklib project_EACN_SESI
+`view schematic
+
+(* cds_ams_schematic *) 
+(* dfII_lib="project_EACN_SESI", dfII_cell="ADC_SAR", dfII_view="schematic", worklib_name="project_EACN_SESI", view_name="schematic", last_save_time="Mar 19 10:58:11 2026" *)
+
+module ADC_SAR ();
+

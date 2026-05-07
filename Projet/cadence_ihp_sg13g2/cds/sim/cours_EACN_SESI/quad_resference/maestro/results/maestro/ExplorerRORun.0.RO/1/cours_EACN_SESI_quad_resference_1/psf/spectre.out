@@ -1,0 +1,310 @@
+
+Spectre (R) Circuit Simulator
+Version 24.1.0.198.isr3 64bit -- 6 Jan 2025
+Copyright (C) 1989-2024 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: carbou   Host: berwald   HostID: E3846B43   PID: 48141
+Memory  available: 128.4813 GB  physical: 133.8285 GB
+Linux   : AlmaLinux release 9.7 (Moss Jungle Cat)
+CPU Type: Intel(R) Core(TM) Ultra 7 265
+        Socket: Processors [Frequency]
+        0:       0 [800.0],  1 [800.0],  2 [800.0],  3 [800.0],  4 [800.0]
+                 5 [2799.3],  6 [2191.1],  7 [2200.0],  8 [800.0],  9 [1912.2]
+                10 [800.0], 11 [1899.9], 12 [4581.4], 13 [4602.1], 14 [800.0]
+                15 [4615.9], 16 [1909.0], 17 [1892.2], 18 [1900.2], 19 [800.0]
+        
+System load averages (1min, 5min, 15min) : 5.6 %, 4.9 %, 4.6 %
+HPC is enabled
+
+
+Simulating `input.scs' on berwald at 5:50:42 PM, Thur Apr 9, 2026 (process id: 48141).
+Current working directory: /users/enseig/carbou/Documents/S2/EACN/TP3/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/quad_resference/maestro/results/maestro/ExplorerRORun.0.RO/1/cours_EACN_SESI_quad_resference_1/netlist
+Command line:
+    /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools/bin/spectre -64  \
+        input.scs +escchars +log ../psf/spectre.out -format psfxl -raw  \
+        ../psf  \
+        -I/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/lib/TL_SG13/RLCG/spectre/  \
+        +aps +mt +lqtimeout 900 -maxw 5 -maxn 5 -env ade  \
+        +adespetkn=0001089D13A302B663E41FB550AF0DF415A679A322D5069144BF588C12F604E07EF416DC01A319B562BB63D371D2379B45A376C95CD846BE78F60ABE46DA4F9203CF79D15D9175FF349864C67B9974D35BED6ACA1E9D10D355F443E118F874D30EA879D118F874D3349879D118F874D334981006D229BE025D4F0000368D  \
+        +mts -ahdllibdir  \
+        /users/enseig/carbou/Documents/S2/EACN/TP3/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/quad_resference/maestro/results/maestro/ExplorerRORun.0.RO/sharedData/CDS/ahdl/input.ahdlSimDB  \
+        +logstatus
+
+Simulation Id: CHvMCvLn2mecD87W
+Licensing Information:
+[17:50:42.291225] Configured Lic search path (24.01-s002): 30000@cadence.cnfm.fr
+
+Licensing Information:
+[17:50:42.189018] Periodic Lic check successful
+
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libphilips_I_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /users/enseig/carbou/Documents/S2/EACN/TP3/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/quad_resference/maestro/results/maestro/ExplorerRORun.0.RO/1/cours_EACN_SESI_quad_resference_1/netlist/input.scs
+Reading file:  /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /users/enseig/carbou/Documents/S2/EACN/TP3/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/quad_resference/maestro/results/maestro/ExplorerRORun.0.RO/1/cours_EACN_SESI_quad_resference_1/netlist/ade_e.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_vbic.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_parm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_parm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_svaricaphv_mosvar_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_paramsTSV.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_tsv.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib
+
+Notice from spectre in `bondpad_model', during circuit read-in.
+    "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib" 13: Subcircuit 'bondpad_model' is empty.
+
+Time for NDB Parsing: CPU = 48.984 ms, elapsed = 382.485 ms.
+Time accumulated: CPU = 112.339 ms, elapsed = 382.486 ms.
+Peak resident memory used = 185 Mbytes.
+
+Time for Elaboration: CPU = 9.076 ms, elapsed = 11.5261 ms.
+Time accumulated: CPU = 121.452 ms, elapsed = 394.049 ms.
+Peak resident memory used = 194 Mbytes.
+
+ Start ADE Session ID: CHvMCvLn2mecD87W
+
+Time for EDB Visiting: CPU = 431 us, elapsed = 431.061 us.
+Time accumulated: CPU = 121.923 ms, elapsed = 394.522 ms.
+Peak resident memory used = 195 Mbytes.
+
+
+Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Netlist title:
+        // Point Netlist Generated on: Apr  9 17:50:41 2026
+
+
+Global user options:
+         psfversion = 1.4.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = sqldb
+      ignorezerovar = yes
+               save = allpub
+           currents = all
+     subcktprobelvl = 5
+       saveahdlvars = all
+             reltol = 0.001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 7
+          pspnqs103 6     
+           resistor 2     
+            vsource 3     
+
+Analysis and control statement inventory:
+                 dc 2     
+               info 7     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 0     
+
+Design checks inventory:
+          paramtest 25    
+
+
+Notice from spectre during initial setup.
+    Protected devices exist and are not included in the circuit inventory.
+    APS enabled.
+
+Time for parsing: CPU = 1.268 ms, elapsed = 6.22201 ms.
+Time accumulated: CPU = 123.217 ms, elapsed = 400.77 ms.
+Peak resident memory used = 199 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (APS) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+******************
+DC Analysis `dcOp'
+******************
+
+Opening the PSF file ../psf/dcOp.dc ...
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+    rabsshort = 1 mOhm
+
+Maximum value achieved for any signal of each quantity: 
+V: V(vdd!) = 1.2 V
+I: I(V0:p) = 22.8 uA
+Convergence achieved in 7 iterations.
+DC simulation time: CPU = 1.596 ms, elapsed = 6.68716 ms.
+Total time required for dc analysis `dcOp': CPU = 1.618 ms, elapsed = 6.70815 ms, util. = 24.1%.
+Time accumulated: CPU = 129.557 ms, elapsed = 413.281 ms.
+Peak resident memory used = 203 Mbytes.
+
+dcOpInfo: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dcOpInfo.info ...
+
+****************************************
+DC Analysis `dc': r = (5e+03 -> 300e+03)
+****************************************
+
+Opening the PSF file ../psf/dc.dc ...
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+    rabsshort = 1 mOhm
+Trying `homotopy = gmin'.
+    dc: r = 15e+03      (3.39 %), step = 5e+03        (1.69 %)
+    dc: r = 20e+03      (5.08 %), step = 5e+03        (1.69 %)
+    dc: r = 25e+03      (6.78 %), step = 5e+03        (1.69 %)
+    dc: r = 30e+03      (8.47 %), step = 5e+03        (1.69 %)
+    dc: r = 35e+03      (10.2 %), step = 5e+03        (1.69 %)
+    dc: r = 40e+03      (11.9 %), step = 5e+03        (1.69 %)
+    dc: r = 45e+03      (13.6 %), step = 5e+03        (1.69 %)
+    dc: r = 50e+03      (15.3 %), step = 5e+03        (1.69 %)
+    dc: r = 55e+03      (16.9 %), step = 5e+03        (1.69 %)
+    dc: r = 60e+03      (18.6 %), step = 5e+03        (1.69 %)
+    dc: r = 65e+03      (20.3 %), step = 5e+03        (1.69 %)
+    dc: r = 70e+03        (22 %), step = 5e+03        (1.69 %)
+    dc: r = 75e+03      (23.7 %), step = 5e+03        (1.69 %)
+    dc: r = 80e+03      (25.4 %), step = 5e+03        (1.69 %)
+    dc: r = 85e+03      (27.1 %), step = 5e+03        (1.69 %)
+    dc: r = 90e+03      (28.8 %), step = 5e+03        (1.69 %)
+    dc: r = 95e+03      (30.5 %), step = 5e+03        (1.69 %)
+    dc: r = 100e+03     (32.2 %), step = 5e+03        (1.69 %)
+    dc: r = 105e+03     (33.9 %), step = 5e+03        (1.69 %)
+    dc: r = 110e+03     (35.6 %), step = 5e+03        (1.69 %)
+    dc: r = 115e+03     (37.3 %), step = 5e+03        (1.69 %)
+    dc: r = 120e+03       (39 %), step = 5e+03        (1.69 %)
+    dc: r = 125e+03     (40.7 %), step = 5e+03        (1.69 %)
+    dc: r = 130e+03     (42.4 %), step = 5e+03        (1.69 %)
+    dc: r = 135e+03     (44.1 %), step = 5e+03        (1.69 %)
+    dc: r = 140e+03     (45.8 %), step = 5e+03        (1.69 %)
+    dc: r = 145e+03     (47.5 %), step = 5e+03        (1.69 %)
+    dc: r = 150e+03     (49.2 %), step = 5e+03        (1.69 %)
+    dc: r = 155e+03     (50.8 %), step = 5e+03        (1.69 %)
+    dc: r = 160e+03     (52.5 %), step = 5e+03        (1.69 %)
+    dc: r = 165e+03     (54.2 %), step = 5e+03        (1.69 %)
+    dc: r = 170e+03     (55.9 %), step = 5e+03        (1.69 %)
+    dc: r = 175e+03     (57.6 %), step = 5e+03        (1.69 %)
+    dc: r = 180e+03     (59.3 %), step = 5e+03        (1.69 %)
+    dc: r = 185e+03       (61 %), step = 5e+03        (1.69 %)
+    dc: r = 190e+03     (62.7 %), step = 5e+03        (1.69 %)
+    dc: r = 195e+03     (64.4 %), step = 5e+03        (1.69 %)
+    dc: r = 200e+03     (66.1 %), step = 5e+03        (1.69 %)
+    dc: r = 205e+03     (67.8 %), step = 5e+03        (1.69 %)
+    dc: r = 210e+03     (69.5 %), step = 5e+03        (1.69 %)
+    dc: r = 215e+03     (71.2 %), step = 5e+03        (1.69 %)
+    dc: r = 220e+03     (72.9 %), step = 5e+03        (1.69 %)
+    dc: r = 225e+03     (74.6 %), step = 5e+03        (1.69 %)
+    dc: r = 230e+03     (76.3 %), step = 5e+03        (1.69 %)
+    dc: r = 235e+03       (78 %), step = 5e+03        (1.69 %)
+    dc: r = 240e+03     (79.7 %), step = 5e+03        (1.69 %)
+    dc: r = 245e+03     (81.4 %), step = 5e+03        (1.69 %)
+    dc: r = 250e+03     (83.1 %), step = 5e+03        (1.69 %)
+    dc: r = 255e+03     (84.7 %), step = 5e+03        (1.69 %)
+    dc: r = 260e+03     (86.4 %), step = 5e+03        (1.69 %)
+    dc: r = 265e+03     (88.1 %), step = 5e+03        (1.69 %)
+    dc: r = 270e+03     (89.8 %), step = 5e+03        (1.69 %)
+    dc: r = 275e+03     (91.5 %), step = 5e+03        (1.69 %)
+    dc: r = 280e+03     (93.2 %), step = 5e+03        (1.69 %)
+    dc: r = 285e+03     (94.9 %), step = 5e+03        (1.69 %)
+    dc: r = 290e+03     (96.6 %), step = 5e+03        (1.69 %)
+    dc: r = 295e+03     (98.3 %), step = 5e+03        (1.69 %)
+    dc: r = 300e+03      (100 %), step = 5e+03        (1.69 %)
+
+Maximum value achieved for any signal of each quantity: 
+V: V(vdd!) = 1.2 V
+I: I(V0:p) = 22.8 uA
+DC simulation time: CPU = 9.594 ms, elapsed = 11.8089 ms.
+
+Notice from spectre at r = 300e+03 during DC analysis `dc'.
+    The value of parameter 'r' has been reset to the original value 100000.
+
+Total time required for dc analysis `dc': CPU = 9.606 ms, elapsed = 11.8189 ms, util. = 81.3%.
+Time accumulated: CPU = 140.221 ms, elapsed = 430.48 ms.
+Peak resident memory used = 205 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+Licensing Information:
+Lic Summary:
+[17:50:42.348466] Cdslmd servers:30000@cadence.cnfm.fr
+[17:50:42.872770] Feature usage summary:
+[17:50:42.872771] Virtuoso_Multi_mode_Simulation
+
+
+Aggregate audit (5:50:42 PM, Thur Apr 9, 2026):
+Time used: CPU = 148 ms, elapsed = 458 ms, util. = 32.3%.
+Time spent in licensing: elapsed = 264 ms, percentage of total = 57.6%.
+Peak memory used = 206 Mbytes.
+Simulation started at: 5:50:42 PM, Thur Apr 9, 2026, ended at: 5:50:42 PM, Thur Apr 9, 2026, with elapsed time (wall clock): 458 ms.
+spectre completes with 0 errors, 0 warnings, and 6 notices.

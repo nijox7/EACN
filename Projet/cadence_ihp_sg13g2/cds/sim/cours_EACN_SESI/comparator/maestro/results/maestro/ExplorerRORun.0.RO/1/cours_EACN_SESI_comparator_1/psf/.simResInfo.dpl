@@ -1,0 +1,13 @@
+nodes=8
+jobId=23
+idInRun=1
+host=ropartz
+jobLog=logs0/Job23.log
+recommendedThreads=1
+tranIntrinsicElapsedTime=0.782611
+cpuTime=0.970000
+cpuUtil=67
+Memory=281 M
+startTime=11:37:03 PM, Thur Apr 2, 2026
+endTime=11:37:04 PM, Thur Apr 2, 2026
+elapsedTime=1.451450

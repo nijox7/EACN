@@ -1,0 +1,2340 @@
+
+Spectre (R) Circuit Simulator
+Version 24.1.0.198.isr3 64bit -- 6 Jan 2025
+Copyright (C) 1989-2024 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: galayko   Host: ropartz   HostID: E3846E43   PID: 3046985
+Memory  available: 125.7325 GB  physical: 133.8288 GB
+Linux   : AlmaLinux release 9.7 (Moss Jungle Cat)
+CPU Type: Intel(R) Core(TM) Ultra 7 265
+        Socket: Processors [Frequency]
+        0:       0 [3196.2],  1 [2203.2],  2 [2198.5],  3 [800.0],  4 [2169.3]
+                 5 [1867.3],  6 [800.0],  7 [800.0],  8 [800.0],  9 [800.0]
+                10 [800.0], 11 [1413.9], 12 [800.0], 13 [800.0], 14 [1805.0]
+                15 [800.0], 16 [800.0], 17 [1792.1], 18 [1800.4], 19 [800.0]
+        
+System load averages (1min, 5min, 15min) : 1.2 %, 0.6 %, 0.2 %
+HPC is enabled
+
+
+Simulating `input.scs' on ropartz at 3:40:10 PM, Thur Apr 9, 2026 (process id: 3046985).
+Current working directory: /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/1/cours_EACN_SESI_bandgap_1/netlist
+Command line:
+    /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools/bin/spectre -64  \
+        input.scs +escchars +log ../psf/spectre.out -format psfxl -raw  \
+        ../psf  \
+        -I/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/lib/TL_SG13/RLCG/spectre/  \
+        +aps +mt +lqtimeout 900 -maxw 5 -maxn 5 -env ade  \
+        +adespetkn=0001089D13A302B663E41FB550AF0DF415A679A322D5069144BF588C12F604E07EF416DC01A319B562BB63D374CA328345A370BF6CFB418777C100F766DF4F920CCF79D15D9175FF34986CDB10991BD34DF37BC410970ED346EC15BE7B9917B258F7629845A045E340A279D136C874D334981006B4C2D8E95D4F0000366B  \
+        +mts -ahdllibdir  \
+        /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/sharedData/lscsJob9/ahdl/input.ahdlSimDB  \
+        +logstatus
+
+Simulation Id: FPAWJ7CY5TEfAq8W
+Licensing Information:
+[15:40:10.291161] Configured Lic search path (24.01-s002): 30000@cadence.cnfm.fr
+
+Licensing Information:
+[15:40:10.327179] Periodic Lic check successful
+
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libphilips_I_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/1/cours_EACN_SESI_bandgap_1/netlist/input.scs
+Reading file:  /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/1/cours_EACN_SESI_bandgap_1/netlist/ade_e.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_vbic.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_parm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_parm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_svaricaphv_mosvar_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_paramsTSV.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_tsv.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib
+
+Notice from spectre in `bondpad_model', during circuit read-in.
+    "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib" 13: Subcircuit 'bondpad_model' is empty.
+
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs
+Reading link:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/1/cours_EACN_SESI_bandgap_1/netlist/netlist
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/psf/cours_EACN_SESI_bandgap_1/netlist/netlist
+Time for NDB Parsing: CPU = 55.481 ms, elapsed = 407.818 ms.
+Time accumulated: CPU = 116.56 ms, elapsed = 407.819 ms.
+Peak resident memory used = 191 Mbytes.
+
+Time for Elaboration: CPU = 9.389 ms, elapsed = 11.548 ms.
+Time accumulated: CPU = 125.99 ms, elapsed = 419.407 ms.
+Peak resident memory used = 201 Mbytes.
+
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8527): There are some nodes and instances removed from the netlist topology check. Check the circuit and correct the topology. Or use preserve_inst to keep them if necessary.
+
+***********************************************
+  Total removed instances 3 ( dangling 3, terminals connected together 0)  
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8529): Dangling instance. R4 is removed.
+    WARNING (SPECTRE-8529): Dangling instance. D9_turbo_m4 is removed.
+    WARNING (SPECTRE-8529): Dangling instance. D5 is removed.
+
+
+  Total removed nodes 2 ( dangling nodes 2, floating nodes 0 )
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8530): Dangling node. net12 is removed.
+    WARNING (SPECTRE-8530): Dangling node. net7 is removed.
+
+***********************************************
+Time for EDB Visiting: CPU = 513 us, elapsed = 516.891 us.
+Time accumulated: CPU = 126.546 ms, elapsed = 419.967 ms.
+Peak resident memory used = 202 Mbytes.
+
+
+Notice from spectre during topology check.
+    Only one connection to node `sub!'.
+Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Netlist title:
+        // Point Netlist Generated on: Apr  9 15:40:09 2026
+
+
+Global user options:
+         psfversion = 1.4.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = sqldb
+      ignorezerovar = yes
+               save = allpub
+           currents = all
+     subcktprobelvl = 5
+       saveahdlvars = all
+             reltol = 0.001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 14
+                bjt 10    
+          pspnqs103 3     
+           resistor 5     
+               vcvs 1     
+            vsource 6     
+
+Analysis and control statement inventory:
+                 dc 2     
+               info 7     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 1     
+
+Design checks inventory:
+          paramtest 13    
+
+
+Notice from spectre during initial setup.
+    Protected devices exist and are not included in the circuit inventory.
+    3 vsources are shorted because their absolute value is less than or equal to 'vabsshort'.
+    APS enabled.
+
+Time for parsing: CPU = 2.568 ms, elapsed = 9.96709 ms.
+Time accumulated: CPU = 129.141 ms, elapsed = 429.961 ms.
+Peak resident memory used = 206 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (APS) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+******************
+DC Analysis `dcOp'
+******************
+
+Opening the PSF file ../psf/dcOp.dc ...
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+    rabsshort = 1 mOhm
+
+Maximum value achieved for any signal of each quantity: 
+V: V(vdd!) = 1.2 V
+I: I(V1:p) = 58.07 uA
+Convergence achieved in 20 iterations.
+DC simulation time: CPU = 2.94 ms, elapsed = 13.0792 ms.
+Total time required for dc analysis `dcOp': CPU = 2.984 ms, elapsed = 13.123 ms, util. = 22.7%.
+Time accumulated: CPU = 139.895 ms, elapsed = 451.923 ms.
+Peak resident memory used = 210 Mbytes.
+
+dcOpInfo: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dcOpInfo.info ...
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+
+*****************************************
+DC Analysis `dc': temp = (-50 C -> 100 C)
+*****************************************
+
+Opening the PSF file ../psf/dc.dc ...
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = -50 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+    rabsshort = 1 mOhm
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -46 C       (2.67 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -45 C       (3.33 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -44 C          (4 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -43 C       (4.67 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -42 C       (5.33 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -41 C          (6 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -40 C       (6.67 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -39 C       (7.33 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -38 C          (8 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -37 C       (8.67 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -36 C       (9.33 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -35 C         (10 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -34 C       (10.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -33 C       (11.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -32 C         (12 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -31 C       (12.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -30 C       (13.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -29 C         (14 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -28 C       (14.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -27 C       (15.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -26 C         (16 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -25 C       (16.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -24 C       (17.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -23 C         (18 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -22 C       (18.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -21 C       (19.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -20 C         (20 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -19 C       (20.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -18 C       (21.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -17 C         (22 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -16 C       (22.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -15 C       (23.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -14 C         (24 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -13 C       (24.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -12 C       (25.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -11 C         (26 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -10 C       (26.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -9 C        (27.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -8 C          (28 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -7 C        (28.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -6 C        (29.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -5 C          (30 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -4 C        (30.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -3 C        (31.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -2 C          (32 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = -1 C        (32.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 0 C         (33.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 1 C           (34 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 2 C         (34.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 3 C         (35.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 4 C           (36 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 5 C         (36.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 6 C         (37.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 7 C           (38 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 8 C         (38.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 9 C         (39.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 10 C          (40 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 11 C        (40.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 12 C        (41.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 13 C          (42 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 14 C        (42.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 15 C        (43.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 16 C          (44 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 17 C        (44.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 18 C        (45.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 19 C          (46 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 20 C        (46.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 21 C        (47.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 22 C          (48 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 23 C        (48.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 24 C        (49.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 25 C          (50 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 26 C        (50.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 27 C        (51.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 28 C          (52 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 29 C        (52.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 30 C        (53.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 31 C          (54 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 32 C        (54.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 33 C        (55.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 34 C          (56 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 35 C        (56.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 36 C        (57.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 37 C          (58 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 38 C        (58.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 39 C        (59.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 40 C          (60 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 41 C        (60.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 42 C        (61.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 43 C          (62 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 44 C        (62.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 45 C        (63.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 46 C          (64 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 47 C        (64.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 48 C        (65.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 49 C          (66 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 50 C        (66.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 51 C        (67.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 52 C          (68 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 53 C        (68.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 54 C        (69.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 55 C          (70 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 56 C        (70.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 57 C        (71.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 58 C          (72 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 59 C        (72.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 60 C        (73.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 61 C          (74 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 62 C        (74.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 63 C        (75.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 64 C          (76 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 65 C        (76.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 66 C        (77.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 67 C          (78 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 68 C        (78.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 69 C        (79.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 70 C          (80 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 71 C        (80.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 72 C        (81.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 73 C          (82 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 74 C        (82.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 75 C        (83.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 76 C          (84 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 77 C        (84.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 78 C        (85.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 79 C          (86 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 80 C        (86.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 81 C        (87.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 82 C          (88 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 83 C        (88.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 84 C        (89.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 85 C          (90 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 86 C        (90.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 87 C        (91.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 88 C          (92 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 89 C        (92.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 90 C        (93.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 91 C          (94 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 92 C        (94.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 93 C        (95.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 94 C          (96 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 95 C        (96.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 96 C        (97.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 97 C          (98 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 98 C        (98.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 99 C        (99.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+    dc: temp = 100 C        (100 %), step = 1 C          (667 m%)
+
+Maximum value achieved for any signal of each quantity: 
+V: V(vdd!) = 1.2 V
+I: I(V1:p) = 57.17 uA
+DC simulation time: CPU = 38.74 ms, elapsed = 41.1921 ms.
+ Start ADE Session ID: FPAWJ7CY5TEfAq8W
+
+Notice from spectre at temp = 100 C during DC analysis `dc'.
+    The value of parameter 'temp' has been reset to the original value 27.
+
+Total time required for dc analysis `dc': CPU = 38.75 ms, elapsed = 41.2009 ms, util. = 94.1%.
+Time accumulated: CPU = 180.258 ms, elapsed = 499.925 ms.
+Peak resident memory used = 211 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+Licensing Information:
+Lic Summary:
+[15:40:11.058568] Cdslmd servers:30000@cadence.cnfm.fr
+[15:40:11.058577] Feature usage summary:
+[15:40:11.058578] Virtuoso_Multi_mode_Simulation
+
+
+Aggregate audit (3:40:11 PM, Thur Apr 9, 2026):
+Time used: CPU = 186 ms, elapsed = 524 ms, util. = 35.5%.
+Time spent in licensing: elapsed = 271 ms, percentage of total = 51.7%.
+Peak memory used = 213 Mbytes.
+Simulation started at: 3:40:10 PM, Thur Apr 9, 2026, ended at: 3:40:11 PM, Thur Apr 9, 2026, with elapsed time (wall clock): 524 ms.
+spectre completes with 0 errors, 6 warnings, and 8 notices.
+
+
+********* LOG ENDS **************
+**                             **
+**                             **
+********* LOG STARTS ************
+
+
+
+Spectre (R) Circuit Simulator
+Version 24.1.0.198.isr3 64bit -- 6 Jan 2025
+Copyright (C) 1989-2024 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: galayko   Host: ropartz   HostID: E3846E43   PID: 3047559
+Memory  available: 125.5147 GB  physical: 133.8288 GB
+Linux   : AlmaLinux release 9.7 (Moss Jungle Cat)
+CPU Type: Intel(R) Core(TM) Ultra 7 265
+        Socket: Processors [Frequency]
+        0:       0 [800.0],  1 [2197.8],  2 [2200.0],  3 [800.0],  4 [800.0]
+                 5 [800.0],  6 [800.0],  7 [800.0],  8 [800.0],  9 [800.0]
+                10 [800.0], 11 [3226.5], 12 [3911.3], 13 [1903.7], 14 [1900.4]
+                15 [800.0], 16 [800.0], 17 [800.0], 18 [800.0], 19 [800.0]
+        
+System load averages (1min, 5min, 15min) : 1.6 %, 0.7 %, 0.2 %
+HPC is enabled
+
+
+Simulating `input.scs' on ropartz at 3:40:14 PM, Thur Apr 9, 2026 (process id: 3047559).
+Current working directory: /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/2/cours_EACN_SESI_bandgap_1/netlist
+Command line:
+    /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools/bin/spectre -64  \
+        input.scs +escchars +log ../psf/spectre.out -format psfxl -raw  \
+        ../psf  \
+        -I/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/lib/TL_SG13/RLCG/spectre/  \
+        +aps +mt +lqtimeout 900 -maxw 5 -maxn 5 -env ade  \
+        +adespetkn=0001089D13A302B663E41FB550AF0DF415A679A322D5069144BF588C12F604E07EF416DC01A319B562BB63D37FEA39A345A338BE5DC043A14CC269EB548B4F9261C179D15D9175FF34986CDB10991BD34DF37BC410970ED346EC15BE7B9917B258F7629845A045E340A279D136C874D334981006B4C6D8ED5D4F00003680  \
+        +mts -ahdllibdir  \
+        /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/sharedData/lscsJob9/ahdl/input.ahdlSimDB  \
+        +logstatus
+
+Simulation Id: MprJ95xZ7rw2EcUY
+Licensing Information:
+[15:40:14.291193] Configured Lic search path (24.01-s002): 30000@cadence.cnfm.fr
+
+Licensing Information:
+[15:40:15.254171] Periodic Lic check successful
+
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libphilips_I_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/2/cours_EACN_SESI_bandgap_1/netlist/input.scs
+Reading file:  /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/2/cours_EACN_SESI_bandgap_1/netlist/ade_e.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_vbic.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_parm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_parm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_svaricaphv_mosvar_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_paramsTSV.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_tsv.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib
+
+Notice from spectre in `bondpad_model', during circuit read-in.
+    "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib" 13: Subcircuit 'bondpad_model' is empty.
+
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs
+Reading link:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/2/cours_EACN_SESI_bandgap_1/netlist/netlist
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/psf/cours_EACN_SESI_bandgap_1/netlist/netlist
+Time for NDB Parsing: CPU = 55.742 ms, elapsed = 409.394 ms.
+Time accumulated: CPU = 111.991 ms, elapsed = 409.395 ms.
+Peak resident memory used = 191 Mbytes.
+
+Time for Elaboration: CPU = 10.678 ms, elapsed = 29.7718 ms.
+Time accumulated: CPU = 122.765 ms, elapsed = 439.263 ms.
+Peak resident memory used = 200 Mbytes.
+
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8527): There are some nodes and instances removed from the netlist topology check. Check the circuit and correct the topology. Or use preserve_inst to keep them if necessary.
+
+***********************************************
+  Total removed instances 3 ( dangling 3, terminals connected together 0)  
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8529): Dangling instance. R4 is removed.
+    WARNING (SPECTRE-8529): Dangling instance. D9_turbo_m4 is removed.
+    WARNING (SPECTRE-8529): Dangling instance. D5 is removed.
+
+
+  Total removed nodes 2 ( dangling nodes 2, floating nodes 0 )
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8530): Dangling node. net12 is removed.
+    WARNING (SPECTRE-8530): Dangling node. net7 is removed.
+
+***********************************************
+Time for EDB Visiting: CPU = 501 us, elapsed = 504.017 us.
+Time accumulated: CPU = 123.308 ms, elapsed = 439.807 ms.
+Peak resident memory used = 201 Mbytes.
+
+
+Notice from spectre during topology check.
+    Only one connection to node `sub!'.
+Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Netlist title:
+        // Point Netlist Generated on: Apr  9 15:40:11 2026
+
+
+Global user options:
+         psfversion = 1.4.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = sqldb
+      ignorezerovar = yes
+               save = allpub
+           currents = all
+     subcktprobelvl = 5
+       saveahdlvars = all
+             reltol = 0.001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 14
+                bjt 10    
+          pspnqs103 3     
+           resistor 5     
+               vcvs 1     
+            vsource 6     
+
+Analysis and control statement inventory:
+                 dc 2     
+               info 7     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 1     
+
+Design checks inventory:
+          paramtest 13    
+
+
+Notice from spectre during initial setup.
+    Protected devices exist and are not included in the circuit inventory.
+    3 vsources are shorted because their absolute value is less than or equal to 'vabsshort'.
+    APS enabled.
+
+Time for parsing: CPU = 1.38 ms, elapsed = 9.32693 ms.
+Time accumulated: CPU = 124.714 ms, elapsed = 449.159 ms.
+Peak resident memory used = 205 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (APS) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+******************
+DC Analysis `dcOp'
+******************
+
+Opening the PSF file ../psf/dcOp.dc ...
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+    rabsshort = 1 mOhm
+
+Maximum value achieved for any signal of each quantity: 
+V: V(vdd!) = 1.2 V
+I: I(V1:p) = 53.1 uA
+Convergence achieved in 20 iterations.
+DC simulation time: CPU = 1.737 ms, elapsed = 8.20899 ms.
+Total time required for dc analysis `dcOp': CPU = 1.77 ms, elapsed = 8.24094 ms, util. = 21.5%.
+Time accumulated: CPU = 131.453 ms, elapsed = 463.553 ms.
+Peak resident memory used = 209 Mbytes.
+
+dcOpInfo: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dcOpInfo.info ...
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+
+*****************************************
+DC Analysis `dc': temp = (-50 C -> 100 C)
+*****************************************
+
+Opening the PSF file ../psf/dc.dc ...
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = -50 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+    rabsshort = 1 mOhm
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -46 C       (2.67 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -45 C       (3.33 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -44 C          (4 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -43 C       (4.67 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -42 C       (5.33 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -41 C          (6 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -40 C       (6.67 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -39 C       (7.33 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -38 C          (8 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -37 C       (8.67 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -36 C       (9.33 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -35 C         (10 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -34 C       (10.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -33 C       (11.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -32 C         (12 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -31 C       (12.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -30 C       (13.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -29 C         (14 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -28 C       (14.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -27 C       (15.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -26 C         (16 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -25 C       (16.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -24 C       (17.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -23 C         (18 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -22 C       (18.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -21 C       (19.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -20 C         (20 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -19 C       (20.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -18 C       (21.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -17 C         (22 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -16 C       (22.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -15 C       (23.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -14 C         (24 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -13 C       (24.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -12 C       (25.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -11 C         (26 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -10 C       (26.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -9 C        (27.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -8 C          (28 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -7 C        (28.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -6 C        (29.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -5 C          (30 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -4 C        (30.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -3 C        (31.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -2 C          (32 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = -1 C        (32.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 0 C         (33.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 1 C           (34 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 2 C         (34.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 3 C         (35.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 4 C           (36 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 5 C         (36.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 6 C         (37.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 7 C           (38 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 8 C         (38.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 9 C         (39.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 10 C          (40 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 11 C        (40.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 12 C        (41.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 13 C          (42 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 14 C        (42.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 15 C        (43.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 16 C          (44 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 17 C        (44.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 18 C        (45.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 19 C          (46 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 20 C        (46.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 21 C        (47.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 22 C          (48 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 23 C        (48.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 24 C        (49.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 25 C          (50 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 26 C        (50.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 27 C        (51.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 28 C          (52 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 29 C        (52.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 30 C        (53.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 31 C          (54 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 32 C        (54.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 33 C        (55.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 34 C          (56 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 35 C        (56.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 36 C        (57.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 37 C          (58 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 38 C        (58.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 39 C        (59.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 40 C          (60 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 41 C        (60.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 42 C        (61.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 43 C          (62 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 44 C        (62.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 45 C        (63.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 46 C          (64 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 47 C        (64.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 48 C        (65.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 49 C          (66 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 50 C        (66.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 51 C        (67.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 52 C          (68 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 53 C        (68.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 54 C        (69.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 55 C          (70 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 56 C        (70.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 57 C        (71.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 58 C          (72 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 59 C        (72.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 60 C        (73.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 61 C          (74 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 62 C        (74.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 63 C        (75.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 64 C          (76 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 65 C        (76.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 66 C        (77.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 67 C          (78 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 68 C        (78.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 69 C        (79.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 70 C          (80 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 71 C        (80.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 72 C        (81.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 73 C          (82 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 74 C        (82.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 75 C        (83.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 76 C          (84 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 77 C        (84.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 78 C        (85.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 79 C          (86 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 80 C        (86.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 81 C        (87.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 82 C          (88 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 83 C        (88.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 84 C        (89.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 85 C          (90 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 86 C        (90.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 87 C        (91.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 88 C          (92 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 89 C        (92.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 90 C        (93.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 91 C          (94 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 92 C        (94.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 93 C        (95.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 94 C          (96 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 95 C        (96.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 96 C        (97.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 97 C          (98 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 98 C        (98.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 99 C        (99.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+    dc: temp = 100 C        (100 %), step = 1 C          (667 m%)
+
+Maximum value achieved for any signal of each quantity: 
+V: V(vdd!) = 1.2 V
+I: I(V1:p) = 53.03 uA
+DC simulation time: CPU = 48.453 ms, elapsed = 52.1891 ms.
+ Start ADE Session ID: MprJ95xZ7rw2EcUY
+
+Notice from spectre at temp = 100 C during DC analysis `dc'.
+    The value of parameter 'temp' has been reset to the original value 27.
+
+Total time required for dc analysis `dc': CPU = 48.464 ms, elapsed = 52.1989 ms, util. = 92.8%.
+Time accumulated: CPU = 181.347 ms, elapsed = 523.788 ms.
+Peak resident memory used = 211 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+Licensing Information:
+Lic Summary:
+[15:40:15.488056] Cdslmd servers:30000@cadence.cnfm.fr
+[15:40:15.488067] Feature usage summary:
+[15:40:15.488072] Virtuoso_Multi_mode_Simulation
+
+
+Aggregate audit (3:40:15 PM, Thur Apr 9, 2026):
+Time used: CPU = 188 ms, elapsed = 552 ms, util. = 34%.
+Time spent in licensing: elapsed = 275 ms, percentage of total = 49.9%.
+Peak memory used = 212 Mbytes.
+Simulation started at: 3:40:14 PM, Thur Apr 9, 2026, ended at: 3:40:15 PM, Thur Apr 9, 2026, with elapsed time (wall clock): 552 ms.
+spectre completes with 0 errors, 6 warnings, and 8 notices.
+
+
+********* LOG ENDS **************
+**                             **
+**                             **
+********* LOG STARTS ************
+
+
+
+Spectre (R) Circuit Simulator
+Version 24.1.0.198.isr3 64bit -- 6 Jan 2025
+Copyright (C) 1989-2024 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: galayko   Host: ropartz   HostID: E3846E43   PID: 3047687
+Memory  available: 125.4829 GB  physical: 133.8288 GB
+Linux   : AlmaLinux release 9.7 (Moss Jungle Cat)
+CPU Type: Intel(R) Core(TM) Ultra 7 265
+        Socket: Processors [Frequency]
+        0:       0 [800.0],  1 [800.0],  2 [800.0],  3 [800.0],  4 [2202.5]
+                 5 [800.0],  6 [2199.0],  7 [800.0],  8 [800.0],  9 [800.0]
+                10 [800.0], 11 [1544.1], 12 [800.0], 13 [800.0], 14 [2436.3]
+                15 [1800.5], 16 [1793.7], 17 [800.0], 18 [1502.2], 19 [800.0]
+        
+System load averages (1min, 5min, 15min) : 1.6 %, 0.7 %, 0.2 %
+HPC is enabled
+
+
+Simulating `input.scs' on ropartz at 3:40:17 PM, Thur Apr 9, 2026 (process id: 3047687).
+Current working directory: /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/3/cours_EACN_SESI_bandgap_1/netlist
+Command line:
+    /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools/bin/spectre -64  \
+        input.scs +escchars +log ../psf/spectre.out -format psfxl -raw  \
+        ../psf  \
+        -I/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/lib/TL_SG13/RLCG/spectre/  \
+        +aps +mt +lqtimeout 900 -maxw 5 -maxn 5 -env ade  \
+        +adespetkn=0001089D13A302B663E41FB550AF0DF415A679A322D5069144BF588C12F604E07EF416DC01A319B562BB63D353D5159C45A352AC6EC4359757D449D915ED4F925DA879D15D9175FF34986CDB10991BD34DF37BC410970ED346EC15BE7B9917B258F7629845A045E340A279D136C874D334981006B4B8D8935D4F00003651  \
+        +mts -ahdllibdir  \
+        /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/sharedData/lscsJob9/ahdl/input.ahdlSimDB  \
+        +logstatus
+
+Simulation Id: aO7xH1cLAD6TY8i0
+Licensing Information:
+[15:40:17.291217] Configured Lic search path (24.01-s002): 30000@cadence.cnfm.fr
+
+Licensing Information:
+[15:40:17.175586] Periodic Lic check successful
+
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libphilips_I_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/3/cours_EACN_SESI_bandgap_1/netlist/input.scs
+Reading file:  /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/3/cours_EACN_SESI_bandgap_1/netlist/ade_e.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_vbic.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_parm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_parm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_svaricaphv_mosvar_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_paramsTSV.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_tsv.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib
+
+Notice from spectre in `bondpad_model', during circuit read-in.
+    "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib" 13: Subcircuit 'bondpad_model' is empty.
+
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs
+Reading link:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/3/cours_EACN_SESI_bandgap_1/netlist/netlist
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/psf/cours_EACN_SESI_bandgap_1/netlist/netlist
+Time for NDB Parsing: CPU = 55.353 ms, elapsed = 408.511 ms.
+Time accumulated: CPU = 110.727 ms, elapsed = 408.512 ms.
+Peak resident memory used = 190 Mbytes.
+
+Time for Elaboration: CPU = 8.95 ms, elapsed = 11.0161 ms.
+Time accumulated: CPU = 119.717 ms, elapsed = 419.567 ms.
+Peak resident memory used = 199 Mbytes.
+
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8527): There are some nodes and instances removed from the netlist topology check. Check the circuit and correct the topology. Or use preserve_inst to keep them if necessary.
+
+***********************************************
+  Total removed instances 3 ( dangling 3, terminals connected together 0)  
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8529): Dangling instance. R4 is removed.
+    WARNING (SPECTRE-8529): Dangling instance. D9_turbo_m4 is removed.
+    WARNING (SPECTRE-8529): Dangling instance. D5 is removed.
+
+
+  Total removed nodes 2 ( dangling nodes 2, floating nodes 0 )
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8530): Dangling node. net12 is removed.
+    WARNING (SPECTRE-8530): Dangling node. net7 is removed.
+
+***********************************************
+Time for EDB Visiting: CPU = 501 us, elapsed = 504.971 us.
+Time accumulated: CPU = 120.261 ms, elapsed = 420.114 ms.
+Peak resident memory used = 200 Mbytes.
+
+
+Notice from spectre during topology check.
+    Only one connection to node `sub!'.
+Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Netlist title:
+        // Point Netlist Generated on: Apr  9 15:40:12 2026
+
+
+Global user options:
+         psfversion = 1.4.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = sqldb
+      ignorezerovar = yes
+               save = allpub
+           currents = all
+     subcktprobelvl = 5
+       saveahdlvars = all
+             reltol = 0.001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 14
+                bjt 10    
+          pspnqs103 3     
+           resistor 5     
+               vcvs 1     
+            vsource 6     
+
+Analysis and control statement inventory:
+                 dc 2     
+               info 7     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 1     
+
+Design checks inventory:
+          paramtest 13    
+
+
+Notice from spectre during initial setup.
+    Protected devices exist and are not included in the circuit inventory.
+    3 vsources are shorted because their absolute value is less than or equal to 'vabsshort'.
+    APS enabled.
+
+Time for parsing: CPU = 1.308 ms, elapsed = 8.36992 ms.
+Time accumulated: CPU = 121.595 ms, elapsed = 428.51 ms.
+Peak resident memory used = 203 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (APS) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+******************
+DC Analysis `dcOp'
+******************
+
+Opening the PSF file ../psf/dcOp.dc ...
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+    rabsshort = 1 mOhm
+
+Maximum value achieved for any signal of each quantity: 
+V: V(vdd!) = 1.2 V
+I: I(V1:p) = 49.35 uA
+Convergence achieved in 20 iterations.
+DC simulation time: CPU = 1.699 ms, elapsed = 7.59816 ms.
+Total time required for dc analysis `dcOp': CPU = 1.722 ms, elapsed = 7.61914 ms, util. = 22.6%.
+Time accumulated: CPU = 128.318 ms, elapsed = 442.53 ms.
+Peak resident memory used = 208 Mbytes.
+
+dcOpInfo: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dcOpInfo.info ...
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+
+*****************************************
+DC Analysis `dc': temp = (-50 C -> 100 C)
+*****************************************
+
+Opening the PSF file ../psf/dc.dc ...
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = -50 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+    rabsshort = 1 mOhm
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -46 C       (2.67 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -45 C       (3.33 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -44 C          (4 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -43 C       (4.67 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -42 C       (5.33 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -41 C          (6 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -40 C       (6.67 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -39 C       (7.33 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -38 C          (8 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -37 C       (8.67 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -36 C       (9.33 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -35 C         (10 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -34 C       (10.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -33 C       (11.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -32 C         (12 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -31 C       (12.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -30 C       (13.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -29 C         (14 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -28 C       (14.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -27 C       (15.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -26 C         (16 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -25 C       (16.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -24 C       (17.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -23 C         (18 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -22 C       (18.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -21 C       (19.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -20 C         (20 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -19 C       (20.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -18 C       (21.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -17 C         (22 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -16 C       (22.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -15 C       (23.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -14 C         (24 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -13 C       (24.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -12 C       (25.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -11 C         (26 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -10 C       (26.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -9 C        (27.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -8 C          (28 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -7 C        (28.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -6 C        (29.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -5 C          (30 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -4 C        (30.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -3 C        (31.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -2 C          (32 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = -1 C        (32.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 0 C         (33.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 1 C           (34 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 2 C         (34.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 3 C         (35.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 4 C           (36 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 5 C         (36.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 6 C         (37.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 7 C           (38 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 8 C         (38.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 9 C         (39.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 10 C          (40 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 11 C        (40.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 12 C        (41.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 13 C          (42 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 14 C        (42.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 15 C        (43.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 16 C          (44 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 17 C        (44.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 18 C        (45.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 19 C          (46 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 20 C        (46.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 21 C        (47.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 22 C          (48 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 23 C        (48.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 24 C        (49.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 25 C          (50 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 26 C        (50.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 27 C        (51.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 28 C          (52 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 29 C        (52.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 30 C        (53.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 31 C          (54 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 32 C        (54.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 33 C        (55.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 34 C          (56 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 35 C        (56.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 36 C        (57.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 37 C          (58 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 38 C        (58.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 39 C        (59.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 40 C          (60 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 41 C        (60.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 42 C        (61.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 43 C          (62 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 44 C        (62.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 45 C        (63.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 46 C          (64 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 47 C        (64.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 48 C        (65.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 49 C          (66 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 50 C        (66.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 51 C        (67.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 52 C          (68 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 53 C        (68.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 54 C        (69.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 55 C          (70 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 56 C        (70.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 57 C        (71.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 58 C          (72 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 59 C        (72.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 60 C        (73.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 61 C          (74 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 62 C        (74.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 63 C        (75.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 64 C          (76 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 65 C        (76.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 66 C        (77.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 67 C          (78 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 68 C        (78.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 69 C        (79.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 70 C          (80 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 71 C        (80.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 72 C        (81.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 73 C          (82 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 74 C        (82.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 75 C        (83.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 76 C          (84 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 77 C        (84.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 78 C        (85.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 79 C          (86 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 80 C        (86.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 81 C        (87.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 82 C          (88 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 83 C        (88.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 84 C        (89.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 85 C          (90 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 86 C        (90.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 87 C        (91.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 88 C          (92 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 89 C        (92.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 90 C        (93.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 91 C          (94 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 92 C        (94.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 93 C        (95.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 94 C          (96 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 95 C        (96.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 96 C        (97.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 97 C          (98 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 98 C        (98.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 99 C        (99.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+    dc: temp = 100 C        (100 %), step = 1 C          (667 m%)
+
+Maximum value achieved for any signal of each quantity: 
+V: V(vdd!) = 1.2 V
+I: I(V1:p) = 49.92 uA
+DC simulation time: CPU = 49.32 ms, elapsed = 51.8749 ms.
+ Start ADE Session ID: aO7xH1cLAD6TY8i0
+
+Notice from spectre at temp = 100 C during DC analysis `dc'.
+    The value of parameter 'temp' has been reset to the original value 27.
+
+Total time required for dc analysis `dc': CPU = 49.33 ms, elapsed = 51.883 ms, util. = 95.1%.
+Time accumulated: CPU = 179.083 ms, elapsed = 501.996 ms.
+Peak resident memory used = 209 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+Licensing Information:
+Lic Summary:
+[15:40:17.389674] Cdslmd servers:30000@cadence.cnfm.fr
+[15:40:17.913971] Feature usage summary:
+[15:40:17.913971] Virtuoso_Multi_mode_Simulation
+
+
+Aggregate audit (3:40:17 PM, Thur Apr 9, 2026):
+Time used: CPU = 185 ms, elapsed = 532 ms, util. = 34.8%.
+Time spent in licensing: elapsed = 276 ms, percentage of total = 51.8%.
+Peak memory used = 211 Mbytes.
+Simulation started at: 3:40:17 PM, Thur Apr 9, 2026, ended at: 3:40:17 PM, Thur Apr 9, 2026, with elapsed time (wall clock): 532 ms.
+spectre completes with 0 errors, 6 warnings, and 8 notices.
+
+
+********* LOG ENDS **************
+**                             **
+**                             **
+********* LOG STARTS ************
+
+
+
+Spectre (R) Circuit Simulator
+Version 24.1.0.198.isr3 64bit -- 6 Jan 2025
+Copyright (C) 1989-2024 Cadence Design Systems, Inc. All rights reserved worldwide. Cadence and Spectre are registered trademarks of Cadence Design Systems, Inc. All others are the property of their respective holders.
+
+Includes RSA BSAFE(R) Cryptographic or Security Protocol Software from RSA Security, Inc.
+
+User: galayko   Host: ropartz   HostID: E3846E43   PID: 3047813
+Memory  available: 125.4842 GB  physical: 133.8288 GB
+Linux   : AlmaLinux release 9.7 (Moss Jungle Cat)
+CPU Type: Intel(R) Core(TM) Ultra 7 265
+        Socket: Processors [Frequency]
+        0:       0 [800.0],  1 [2198.8],  2 [800.0],  3 [800.0],  4 [2200.0]
+                 5 [800.0],  6 [2198.8],  7 [2200.0],  8 [800.0],  9 [800.0]
+                10 [800.0], 11 [800.0], 12 [800.0], 13 [800.0], 14 [800.0]
+                15 [4602.1], 16 [800.0], 17 [800.0], 18 [4601.1], 19 [1850.5]
+        
+System load averages (1min, 5min, 15min) : 1.4 %, 0.7 %, 0.2 %
+HPC is enabled
+
+
+Simulating `input.scs' on ropartz at 3:40:19 PM, Thur Apr 9, 2026 (process id: 3047813).
+Current working directory: /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/4/cours_EACN_SESI_bandgap_1/netlist
+Command line:
+    /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools/bin/spectre -64  \
+        input.scs +escchars +log ../psf/spectre.out -format psfxl -raw  \
+        ../psf  \
+        -I/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/lib/TL_SG13/RLCG/spectre/  \
+        +aps +mt +lqtimeout 900 -maxw 5 -maxn 5 -env ade  \
+        +adespetkn=0001089D13A302B663E41FB550AF0DF415A679A322D5069144BF588C12F604E07EF416DC01A319B562BB63D342C3048A45A367C623D43FAB7CD962EC52D04F9264D679D15D9175FF34986CDB10991BD34DF37BC410970ED346EC15BE7B9917B258F7629845A045E340A279D136C874D334981006B4BBD8905D4F0000364F  \
+        +mts -ahdllibdir  \
+        /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/sharedData/lscsJob9/ahdl/input.ahdlSimDB  \
+        +logstatus
+
+Simulation Id: pYpTVVHAKxqiKsPN
+Licensing Information:
+[15:40:19.291233] Configured Lic search path (24.01-s002): 30000@cadence.cnfm.fr
+
+Licensing Information:
+[15:40:20.163041] Periodic Lic check successful
+
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libinfineon_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libphilips_I_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libphilips_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libsparam_sh.so ...
+Loading /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/cmi/lib/64bit/5.0/libstmodels_sh.so ...
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/4/cours_EACN_SESI_bandgap_1/netlist/input.scs
+Reading file:  /users/soft/opus/Linux/SPECTRE-24.10.03.198/tools.lnx86/spectre/etc/configs/spectre.cfg
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/4/cours_EACN_SESI_bandgap_1/netlist/ade_e.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_vbic.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_HBT/VBIC/spectre/SG13G2_hbt_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_parm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moshv_psp_parm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_svaricaphv_mosvar_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_res.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap_mm.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_stat.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_mod.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_ESD/spectre/SG13_esd.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_paramsTSV.scs
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_tsv.lib
+Reading file:  /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib
+
+Notice from spectre in `bondpad_model', during circuit read-in.
+    "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib" 13: Subcircuit 'bondpad_model' is empty.
+
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/allFunc.scs
+Reading link:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/4/cours_EACN_SESI_bandgap_1/netlist/netlist
+Reading file:  /users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/psf/cours_EACN_SESI_bandgap_1/netlist/netlist
+Time for NDB Parsing: CPU = 58.183 ms, elapsed = 422.14 ms.
+Time accumulated: CPU = 117.984 ms, elapsed = 422.141 ms.
+Peak resident memory used = 188 Mbytes.
+
+Time for Elaboration: CPU = 8.876 ms, elapsed = 11.0872 ms.
+Time accumulated: CPU = 126.9 ms, elapsed = 433.267 ms.
+Peak resident memory used = 197 Mbytes.
+
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8527): There are some nodes and instances removed from the netlist topology check. Check the circuit and correct the topology. Or use preserve_inst to keep them if necessary.
+
+***********************************************
+  Total removed instances 3 ( dangling 3, terminals connected together 0)  
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8529): Dangling instance. R4 is removed.
+    WARNING (SPECTRE-8529): Dangling instance. D9_turbo_m4 is removed.
+    WARNING (SPECTRE-8529): Dangling instance. D5 is removed.
+
+
+  Total removed nodes 2 ( dangling nodes 2, floating nodes 0 )
+
+Warning from spectre during hierarchy flattening.
+    WARNING (SPECTRE-8530): Dangling node. net12 is removed.
+    WARNING (SPECTRE-8530): Dangling node. net7 is removed.
+
+***********************************************
+Time for EDB Visiting: CPU = 503 us, elapsed = 506.878 us.
+Time accumulated: CPU = 127.445 ms, elapsed = 433.816 ms.
+Peak resident memory used = 198 Mbytes.
+
+
+Notice from spectre during topology check.
+    Only one connection to node `sub!'.
+Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small.
+
+
+Netlist title:
+        // Point Netlist Generated on: Apr  9 15:40:14 2026
+
+
+Global user options:
+         psfversion = 1.4.0
+            vabstol = 1e-06
+            iabstol = 1e-12
+               temp = 27
+               gmin = 1e-12
+             rforce = 1
+           maxnotes = 5
+           maxwarns = 5
+             digits = 5
+               cols = 80
+             pivrel = 0.001
+           sensfile = ../psf/sens.output
+     checklimitdest = sqldb
+      ignorezerovar = yes
+               save = allpub
+           currents = all
+     subcktprobelvl = 5
+       saveahdlvars = all
+             reltol = 0.001
+               tnom = 27
+             scalem = 1
+              scale = 1
+
+Scoped user options:
+
+Circuit inventory:
+              nodes 14
+                bjt 10    
+          pspnqs103 3     
+           resistor 5     
+               vcvs 1     
+            vsource 6     
+
+Analysis and control statement inventory:
+                 dc 2     
+               info 7     
+
+Output statements:
+             .probe 0     
+           .measure 0     
+               save 1     
+
+Design checks inventory:
+          paramtest 13    
+
+
+Notice from spectre during initial setup.
+    Protected devices exist and are not included in the circuit inventory.
+    3 vsources are shorted because their absolute value is less than or equal to 'vabsshort'.
+    APS enabled.
+
+Time for parsing: CPU = 1.383 ms, elapsed = 10.54 ms.
+Time accumulated: CPU = 128.854 ms, elapsed = 444.381 ms.
+Peak resident memory used = 202 Mbytes.
+
+~~~~~~~~~~~~~~~~~~~~~~
+Pre-Simulation Summary
+~~~~~~~~~~~~~~~~~~~~~~
+   -   (APS) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line.
+~~~~~~~~~~~~~~~~~~~~~~
+
+******************
+DC Analysis `dcOp'
+******************
+
+Opening the PSF file ../psf/dcOp.dc ...
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = 27 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+    rabsshort = 1 mOhm
+
+Maximum value achieved for any signal of each quantity: 
+V: V(vdd!) = 1.2 V
+I: I(V1:p) = 46.42 uA
+Convergence achieved in 8 iterations.
+DC simulation time: CPU = 1.829 ms, elapsed = 8.22091 ms.
+Total time required for dc analysis `dcOp': CPU = 1.852 ms, elapsed = 8.24308 ms, util. = 22.5%.
+Time accumulated: CPU = 135.6 ms, elapsed = 458.867 ms.
+Peak resident memory used = 206 Mbytes.
+
+dcOpInfo: writing operating point information to rawfile.
+
+Opening the PSF file ../psf/dcOpInfo.info ...
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+
+*****************************************
+DC Analysis `dc': temp = (-50 C -> 100 C)
+*****************************************
+
+Opening the PSF file ../psf/dc.dc ...
+Important parameter values:
+    reltol = 1e-03
+    abstol(V) = 1 uV
+    abstol(I) = 1 pA
+    temp = -50 C
+    tnom = 27 C
+    tempeffects = all
+    gmindc = 1 pS
+    rabsshort = 1 mOhm
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -46 C       (2.67 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -45 C       (3.33 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -44 C          (4 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -43 C       (4.67 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -42 C       (5.33 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -41 C          (6 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -40 C       (6.67 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -39 C       (7.33 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -38 C          (8 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -37 C       (8.67 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -36 C       (9.33 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -35 C         (10 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -34 C       (10.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -33 C       (11.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -32 C         (12 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -31 C       (12.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -30 C       (13.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -29 C         (14 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -28 C       (14.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -27 C       (15.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -26 C         (16 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -25 C       (16.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -24 C       (17.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -23 C         (18 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -22 C       (18.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -21 C       (19.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -20 C         (20 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -19 C       (20.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -18 C       (21.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -17 C         (22 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -16 C       (22.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -15 C       (23.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -14 C         (24 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -13 C       (24.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -12 C       (25.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -11 C         (26 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -10 C       (26.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -9 C        (27.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -8 C          (28 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -7 C        (28.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -6 C        (29.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -5 C          (30 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -4 C        (30.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -3 C        (31.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -2 C          (32 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = -1 C        (32.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 0 C         (33.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 1 C           (34 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 2 C         (34.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 3 C         (35.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 4 C           (36 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 5 C         (36.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 6 C         (37.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 7 C           (38 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 8 C         (38.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 9 C         (39.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 10 C          (40 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 11 C        (40.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 12 C        (41.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 13 C          (42 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 14 C        (42.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 15 C        (43.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 16 C          (44 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 17 C        (44.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 18 C        (45.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 19 C          (46 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 20 C        (46.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 21 C        (47.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 22 C          (48 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 23 C        (48.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 24 C        (49.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 25 C          (50 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 26 C        (50.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 27 C        (51.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 28 C          (52 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 29 C        (52.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 30 C        (53.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 31 C          (54 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 32 C        (54.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 33 C        (55.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 34 C          (56 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 35 C        (56.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 36 C        (57.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 37 C          (58 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 38 C        (58.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 39 C        (59.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 40 C          (60 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 41 C        (60.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 42 C        (61.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 43 C          (62 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 44 C        (62.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 45 C        (63.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 46 C          (64 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 47 C        (64.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 48 C        (65.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 49 C          (66 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 50 C        (66.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 51 C        (67.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 52 C          (68 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 53 C        (68.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 54 C        (69.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 55 C          (70 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 56 C        (70.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 57 C        (71.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 58 C          (72 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 59 C        (72.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 60 C        (73.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 61 C          (74 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 62 C        (74.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 63 C        (75.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 64 C          (76 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 65 C        (76.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 66 C        (77.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 67 C          (78 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 68 C        (78.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 69 C        (79.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 70 C          (80 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 71 C        (80.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 72 C        (81.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 73 C          (82 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 74 C        (82.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 75 C        (83.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 76 C          (84 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 77 C        (84.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 78 C        (85.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 79 C          (86 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 80 C        (86.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 81 C        (87.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 82 C          (88 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 83 C        (88.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 84 C        (89.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 85 C          (90 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 86 C        (90.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 87 C        (91.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 88 C          (92 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 89 C        (92.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 90 C        (93.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 91 C          (94 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 92 C        (94.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 93 C        (95.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 94 C          (96 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 95 C        (96.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 96 C        (97.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 97 C          (98 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 98 C        (98.7 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 99 C        (99.3 %), step = 1 C          (667 m%)
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+    dc: temp = 100 C        (100 %), step = 1 C          (667 m%)
+
+Maximum value achieved for any signal of each quantity: 
+V: V(vdd!) = 1.2 V
+I: I(V1:p) = 47.49 uA
+DC simulation time: CPU = 49.913 ms, elapsed = 53.0479 ms.
+ Start ADE Session ID: pYpTVVHAKxqiKsPN
+
+Notice from spectre at temp = 100 C during DC analysis `dc'.
+    The value of parameter 'temp' has been reset to the original value 27.
+
+Total time required for dc analysis `dc': CPU = 49.927 ms, elapsed = 53.0598 ms, util. = 94.1%.
+Time accumulated: CPU = 187.114 ms, elapsed = 520.049 ms.
+Peak resident memory used = 207 Mbytes.
+
+modelParameter: writing model parameter values to rawfile.
+
+Opening the PSF file ../psf/modelParameter.info ...
+element: writing instance parameter values to rawfile.
+
+Opening the PSF file ../psf/element.info ...
+outputParameter: writing output parameter values to rawfile.
+
+Opening the PSF file ../psf/outputParameter.info ...
+designParamVals: writing netlist parameters to rawfile.
+
+Opening the PSFASCII file ../psf/designParamVals.info ...
+primitives: writing primitives to rawfile.
+
+Opening the PSFASCII file ../psf/primitives.info.primitives ...
+subckts: writing subcircuits to rawfile.
+
+Opening the PSFASCII file ../psf/subckts.info.subckts ...
+Licensing Information:
+Lic Summary:
+[15:40:20.397801] Cdslmd servers:30000@cadence.cnfm.fr
+[15:40:20.397810] Feature usage summary:
+[15:40:20.397810] Virtuoso_Multi_mode_Simulation
+
+
+Aggregate audit (3:40:20 PM, Thur Apr 9, 2026):
+Time used: CPU = 194 ms, elapsed = 558 ms, util. = 34.8%.
+Time spent in licensing: elapsed = 278 ms, percentage of total = 49.8%.
+Peak memory used = 209 Mbytes.
+Simulation started at: 3:40:19 PM, Thur Apr 9, 2026, ended at: 3:40:20 PM, Thur Apr 9, 2026, with elapsed time (wall clock): 558 ms.
+spectre completes with 0 errors, 6 warnings, and 8 notices.
+
+
+********* LOG ENDS **************
+**                             **

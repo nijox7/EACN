@@ -1,0 +1,56 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-AMSINPUT
+-UNBUFFERED
+-ERRORMAX
+50
+-STATUS
+-NOWARN
+DLNOHV
+-NOWARN
+DLCLAP
+-ADE
+-AMSINPUT
+-ANALOGCONTROL
+./spiceModels.scs
+-AMSINPUT
+-ANALOGCONTROL
+./amsControlSpectre.scs
+-INPUT
+./probe.tcl
+-RUN
+-EXIT
++amsrawdir
+../psf
+-SPECTRE_ARGS
+"-ahdllibdir /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/ADC_SAR/maestro/results/maestro/ExplorerRun.0/sharedData/CDS/ahdl/input.ahdlSimDB"
+-SPECTRE_ARGS
++logstatus
+-SIMCOMPATIBLE_AMS
+spectre
+-AMSINPUT
+-ANALOGCONTROL
+./ie_card.scs
+-SPECTRE_ARGS
++aps
+-ANALOGCONTROL
+.amsbind.scs
+-MESSAGES
++EMGRLOG
+../psf/xrun.log
+-XLSTIME
+1776353343
+-XLKEEP
+-XLMODE
+./xcelium.d/project_EACN_SESI.ADC_SAR_config.lnx8664.23.03.d
+-RUNMODE
+-CDSLIB
+./xcelium.d/project_EACN_SESI.ADC_SAR_config.lnx8664.23.03.d/cds.lib
+-HDLVAR
+./xcelium.d/project_EACN_SESI.ADC_SAR_config.lnx8664.23.03.d/hdl.var
+-XLNAME
+xrun
+-XLVERSION
+"TOOL:	xrun(64)	23.03-s013"

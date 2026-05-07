@@ -1,0 +1,18 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "quad_resference"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "vdd! gnd!"
+  hierDelim "."
+  netlistDir "/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/quad_resference/maestro_1/results/maestro/Interactive.0.RO/1/cours_EACN_SESI_quad_resference_1/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "cours_EACN_SESI/quad_resference/schematic" "quad_resference" )
+ )
+( "quad_resference" "ihnl/cds0/map" )
+ )

@@ -1,0 +1,15 @@
+1773911929 /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/spiceModels.scs
+1347018022 /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/soac.scs
+1425297383 /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/processOption.scs
+1443604416 /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/process.scs
+1410358254 /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/soac.va
+1425297384 /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/processOption/C35B4M3.scs
+1443604415 /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/cmos53.scs
+1443604416 /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/res.scs
+1443604416 /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/cap.scs
+1443604416 /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/bip.scs
+1443604416 /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/ind.scs
+1443604416 /users/soft/techno/dev/vienne/035.HV-4.10/spectre/c35/soac/esddiode.scs
+1773911769 /users/cao/galayko/cadence_amsC35_projEACN/allFunc.scs
+1773911929 /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/amsControlSpectre.scs
+1773912167 /users/cao/galayko/cadence_amsC35_projEACN/Sim/ADC_SAR/ams/config/netlist/ie_card.scs

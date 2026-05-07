@@ -1,0 +1,79 @@
+xmvhdl: 23.03-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+ASSIGN mixSig DISPLAY CadenceLib
+|
+xmvhdl: *W,DLCLIB (/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/env/cds.lib_composite,14): cds.lib Library not defined 'mixSig' (cds.lib command ignored).
+ASSIGN spectreHDL DISPLAY CadenceLib
+|
+xmvhdl: *W,DLCLIB (/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/env/cds.lib_composite,15): cds.lib Library not defined 'spectreHDL' (cds.lib command ignored).
+ASSIGN corners DISPLAY CadenceLib
+|
+xmvhdl: *W,DLCLIB (/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/env/cds.lib_composite,16): cds.lib Library not defined 'corners' (cds.lib command ignored).
+ASSIGN SG13_Example DISPLAY PDKlib
+|
+xmvhdl: *W,DLCLIB (/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/env/cds.lib_composite,31): cds.lib Library not defined 'SG13_Example' (cds.lib command ignored).
+DEFINE MEMRES_updated_march2026 /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//Modules/MEMRES_0.20.0_updated_march2026/lib/MEMRES_updated_march2026
+|
+xmvhdl: *W,DLCPTH (/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/modules.lib,7): cds.lib Permission denied '/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/Modules/MEMRES_0.20.0_updated_march2026/lib/MEMRES_updated_march2026' (cds.lib command ignored).
+ASSIGN MEMRES_updated_march2026 DISPLAY PDKlib
+|
+xmvhdl: *W,DLCLIB (/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/modules.lib,8): cds.lib Library not defined 'MEMRES_updated_march2026' (cds.lib command ignored).
+ASSIGN SG13_LibraryModules COMBINE ixc013g2ng_stdcell ixc013g2_iocell MEMRES_updated_march2026 |
+xmvhdl: *W,DLCOMB (/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/modules.lib,10): cds.lib COMBINE attribute library not defined 'MEMRES_updated_march2026' (cds.lib command ignored).
+TOOL:	xmvhdl	23.03-s013: Started on Apr 16, 2026 at 17:06:25 CEST
+xmvhdl
+    -USE5X
+    -CDS_IMPLICIT_TMPDIR ./.pcdb
+    -NOWARN DLNOHV
+    -WORK project_EACN_SESI
+    /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/project_EACN_SESI/SAR_control/behavioral/vhdl.vhd
+    -linedebug
+    -messages
+
+xmvhdl: *W,HVDEPRREN: HDL.VAR Variable (NCVHDLOPTS) is deprecated. Use (XMVHDLOPTS) instead.
+ASSIGN mixSig DISPLAY CadenceLib
+|
+xmvhdl_p: *W,DLCLIB (/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/env/cds.lib_composite,14): cds.lib Library not defined 'mixSig' (cds.lib command ignored).
+ASSIGN spectreHDL DISPLAY CadenceLib
+|
+xmvhdl_p: *W,DLCLIB (/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/env/cds.lib_composite,15): cds.lib Library not defined 'spectreHDL' (cds.lib command ignored).
+ASSIGN corners DISPLAY CadenceLib
+|
+xmvhdl_p: *W,DLCLIB (/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/env/cds.lib_composite,16): cds.lib Library not defined 'corners' (cds.lib command ignored).
+ASSIGN SG13_Example DISPLAY PDKlib
+|
+xmvhdl_p: *W,DLCLIB (/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/env/cds.lib_composite,31): cds.lib Library not defined 'SG13_Example' (cds.lib command ignored).
+DEFINE MEMRES_updated_march2026 /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//Modules/MEMRES_0.20.0_updated_march2026/lib/MEMRES_updated_march2026
+|
+xmvhdl_p: *W,DLCPTH (/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/modules.lib,7): cds.lib Permission denied '/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/Modules/MEMRES_0.20.0_updated_march2026/lib/MEMRES_updated_march2026' (cds.lib command ignored).
+ASSIGN MEMRES_updated_march2026 DISPLAY PDKlib
+|
+xmvhdl_p: *W,DLCLIB (/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/modules.lib,8): cds.lib Library not defined 'MEMRES_updated_march2026' (cds.lib command ignored).
+ASSIGN SG13_LibraryModules COMBINE ixc013g2ng_stdcell ixc013g2_iocell MEMRES_updated_march2026 |
+xmvhdl_p: *W,DLCOMB (/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/modules.lib,10): cds.lib COMBINE attribute library not defined 'MEMRES_updated_march2026' (cds.lib command ignored).
+/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/project_EACN_SESI/SAR_control/behavioral/vhdl.vhd:
+	errors: 0, warnings: 0
+ASSIGN mixSig DISPLAY CadenceLib
+|
+xmvhdl_cg: *W,DLCLIB (/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/env/cds.lib_composite,14): cds.lib Library not defined 'mixSig' (cds.lib command ignored).
+ASSIGN spectreHDL DISPLAY CadenceLib
+|
+xmvhdl_cg: *W,DLCLIB (/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/env/cds.lib_composite,15): cds.lib Library not defined 'spectreHDL' (cds.lib command ignored).
+ASSIGN corners DISPLAY CadenceLib
+|
+xmvhdl_cg: *W,DLCLIB (/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/env/cds.lib_composite,16): cds.lib Library not defined 'corners' (cds.lib command ignored).
+ASSIGN SG13_Example DISPLAY PDKlib
+|
+xmvhdl_cg: *W,DLCLIB (/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/env/cds.lib_composite,31): cds.lib Library not defined 'SG13_Example' (cds.lib command ignored).
+DEFINE MEMRES_updated_march2026 /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//Modules/MEMRES_0.20.0_updated_march2026/lib/MEMRES_updated_march2026
+|
+xmvhdl_cg: *W,DLCPTH (/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/modules.lib,7): cds.lib Permission denied '/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/Modules/MEMRES_0.20.0_updated_march2026/lib/MEMRES_updated_march2026' (cds.lib command ignored).
+ASSIGN MEMRES_updated_march2026 DISPLAY PDKlib
+|
+xmvhdl_cg: *W,DLCLIB (/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/modules.lib,8): cds.lib Library not defined 'MEMRES_updated_march2026' (cds.lib command ignored).
+ASSIGN SG13_LibraryModules COMBINE ixc013g2ng_stdcell ixc013g2_iocell MEMRES_updated_march2026 |
+xmvhdl_cg: *W,DLCOMB (/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/modules.lib,10): cds.lib COMBINE attribute library not defined 'MEMRES_updated_march2026' (cds.lib command ignored).
+\project_EACN_SESI\.\SAR_control\ (entity):
+	streams: 12, words: 308
+\project_EACN_SESI\.\SAR_control\:BEHAVIORAL (architecture):
+	streams: 1, words: 316
+TOOL:	xmvhdl	23.03-s013: Exiting on Apr 16, 2026 at 17:06:25 CEST  (total: 00:00:00)

@@ -1,0 +1,33 @@
+
+// Library name: project_EACN_SESI
+// Cell name: comparator_test_students
+// View name: schematic
+N5 (outn clk net7 0) sg13_lv_nmos w=500.0n l=130.00n ng=1 ad=0 as=0 \
+        pd=0 ps=0 m=1
+N4 (outp clk net11 0) sg13_lv_nmos w=500.0n l=130.00n ng=1 ad=0 as=0 \
+        pd=0 ps=0 m=1
+N3 (net7 outp B 0) sg13_lv_nmos w=1.5u l=500.0n ng=1 ad=0 as=0 pd=0 \
+        ps=0 m=1
+N2 (net11 outn A 0) sg13_lv_nmos w=1.5u l=500.0n ng=1 ad=0 as=0 pd=0 \
+        ps=0 m=1
+N1 (B inn 0 0) sg13_lv_nmos w=300.0n l=500.0n ng=1 ad=0 as=0 pd=0 ps=0 \
+        m=1
+N0 (A inp 0 0) sg13_lv_nmos w=300.0n l=500.0n ng=1 ad=0 as=0 pd=0 ps=0 \
+        m=1
+P3 (outn outp vdd! vdd!) sg13_lv_pmos w=3.000u l=500.0n ng=1 ad=0 as=0 \
+        pd=0 ps=0 m=1
+P2 (outp outn vdd! vdd!) sg13_lv_pmos w=3.000u l=500.0n ng=1 ad=0 as=0 \
+        pd=0 ps=0 m=1
+P1 (outn clk vdd! vdd!) sg13_lv_pmos w=500.0n l=130.00n ng=1 ad=0 as=0 \
+        pd=0 ps=0 m=1
+P0 (outp clk vdd! vdd!) sg13_lv_pmos w=500.0n l=130.00n ng=1 ad=0 as=0 \
+        pd=0 ps=0 m=1
+V5 (net2 0) vsource dc=510.0m type=dc
+V6 (outn net1) vsource dc=0 type=dc
+V3 (inn 0) vsource dc=500.0m type=dc
+V0 (vdd! 0) vsource dc=1.2 type=dc
+V2 (inp 0) vsource dc=500m type=pulse val0=450.00m val1=550.00m \
+        period=1 delay=0 rise=100u fall=1n width=500.0m
+V1 (clk 0) vsource dc=1.2 type=pulse val0=0 val1=1.2 period=1u delay=0 \
+        rise=1n fall=1n width=500.0n
+I12 (out 0 0 outn outp vdd! 0) DFRRSQJIX1

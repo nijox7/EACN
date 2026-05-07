@@ -1,0 +1,7 @@
+instMap,*SWITCH,*I39,*I39
+instMaster,*SWITCH,*I39,*ixc013g2ng_stdcell_INVJIX0_functional
+netMap,*SWITCH,*VDD!,*cds_globals.\VDD! 
+netMap,*SWITCH,*VSS!,*cds_globals.\VSS! 
+netMap,*SWITCH,*vdd!,*cds_globals.\vdd! 
+netMap,*SWITCH,*gnd!,*cds_globals.\gnd! 
+cellMap,*SWITCH,*SWITCH,*project_EACN_SESI,*schematic

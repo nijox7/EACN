@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"I24n" "CORELIBD_INVX1_cmos_sch"
+"I20n" "project_EACN_SESI_control_behavioral"
+"I10n I11n I13n I14n I16n I17n I19n I4n I5n I8n" "project_EACN_SESI_SWITCH_schematic"
+"X1n" "functional_comparator_spectre"
+"V3n V4n" "analogLib_vpulse_spectre"
+"V0n V1n V2n V5n" "analogLib_vdc_spectre"
+"R0n" "analogLib_res_spectre"
+"C0n C1n C2n C3n" "analogLib_cap_spectre"

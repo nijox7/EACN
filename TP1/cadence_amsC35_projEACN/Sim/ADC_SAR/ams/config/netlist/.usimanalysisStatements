@@ -1,0 +1,10 @@
+
+tran tran stop=20u write="spectre.ic" writefinal="spectre.fc" 
+
+finalTimeOP info what=oppoint where=rawfile
+
+modelParameter info what=models where=rawfile 
+element info what=inst where=rawfile 
+outputParameter info what=output where=rawfile 
+
+wave_out options rawfmt=sst2

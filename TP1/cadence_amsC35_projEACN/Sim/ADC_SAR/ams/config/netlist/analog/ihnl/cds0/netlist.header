@@ -1,0 +1,6 @@
+
+// Library name: CORELIBD
+// Cell name: INVX1
+// View name: cmos_sch
+// Inherited view list: cmos_sch
+subckt INVX1

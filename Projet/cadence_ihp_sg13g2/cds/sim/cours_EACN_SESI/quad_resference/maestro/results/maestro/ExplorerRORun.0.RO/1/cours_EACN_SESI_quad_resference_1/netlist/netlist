@@ -1,0 +1,20 @@
+
+// Library name: cours_EACN_SESI
+// Cell name: quad_resference
+// View name: schematic
+N0 (net1 net4 net2 0) sg13_lv_nmos w=8.000u l=1.000u ng=1 ad=0 as=0 pd=0 \
+        ps=0 m=1
+N5 (A A 0 0) sg13_lv_nmos w=1.000u l=1.000u ng=1 ad=0 as=0 pd=0 ps=0 m=1
+N4 (B A net3 0) sg13_lv_nmos w=8.000u l=1.000u ng=1 ad=0 as=0 pd=0 ps=0 \
+        m=1
+N1 (net1 net4 0 0) sg13_lv_nmos w=1.000u l=1.000u ng=1 ad=0 as=0 pd=0 ps=0 \
+        m=1
+R1 (net2 0) resistor r=100K
+R0 (net3 0) resistor r=r
+V1 (vdd! 0) vsource dc=vdd type=dc
+Vg (net4 0) vsource dc=Vg type=dc
+V0 (net1 0) vsource dc=600.0m type=dc
+P1 (A B vdd! vdd!) sg13_lv_pmos w=3.000u l=1.000u ng=1 ad=0 as=0 pd=0 ps=0 \
+        m=1
+P0 (B B vdd! vdd!) sg13_lv_pmos w=3.000u l=1.000u ng=1 ad=0 as=0 pd=0 ps=0 \
+        m=1

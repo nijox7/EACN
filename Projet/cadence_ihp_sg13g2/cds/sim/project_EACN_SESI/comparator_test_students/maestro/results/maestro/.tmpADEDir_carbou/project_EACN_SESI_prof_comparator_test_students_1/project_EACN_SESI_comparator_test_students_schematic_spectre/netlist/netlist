@@ -1,0 +1,106 @@
+
+// Library name: ixc013g2ng_stdcell
+// Cell name: DFRRSQJIX1
+// View name: schematic
+subckt DFRRSQJIX1 Q C D RN SN inh_VDD inh_VSS
+    N2 (Q SQIB inh_VSS inh_VSS) sg13_lv_nmos w=880.00n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    M0 (net061 SN inh_VSS inh_VSS) sg13_lv_nmos w=800.0n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    N1 (CI CIB inh_VSS inh_VSS) sg13_lv_nmos w=360.00n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MN2 (MQIB CIB net51 inh_VSS) sg13_lv_nmos w=400.0n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MN6 (MQI MQIB net061 inh_VSS) sg13_lv_nmos w=800.0n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MN1 (net51 D net42 inh_VSS) sg13_lv_nmos w=400.0n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MN8 (SQIB CI net56 inh_VSS) sg13_lv_nmos w=400.0n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MN5 (MQIB CI net52 inh_VSS) sg13_lv_nmos w=300.0n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MN11 (SQIB CIB net54 inh_VSS) sg13_lv_nmos w=300.0n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MN10 (net54 SQI net47 inh_VSS) sg13_lv_nmos w=300.0n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MN12 (SQI SQIB net060 inh_VSS) sg13_lv_nmos w=800.0n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MN9 (net47 RN inh_VSS inh_VSS) sg13_lv_nmos w=640.00n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MN7 (net56 MQI net47 inh_VSS) sg13_lv_nmos w=400.0n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MN3 (net42 RN inh_VSS inh_VSS) sg13_lv_nmos w=600.0n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MN4 (net52 MQI net42 inh_VSS) sg13_lv_nmos w=300.0n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    M3 (net060 SN inh_VSS inh_VSS) sg13_lv_nmos w=800.0n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    N0 (CIB C inh_VSS inh_VSS) sg13_lv_nmos w=360.00n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    P2 (Q SQIB inh_VDD inh_VDD) sg13_lv_pmos w=1.335u l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    P1 (CI CIB inh_VDD inh_VDD) sg13_lv_pmos w=550.00n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    P0 (CIB C inh_VDD inh_VDD) sg13_lv_pmos w=550.00n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    M1 (MQI SN inh_VDD inh_VDD) sg13_lv_pmos w=670.00n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP3 (MQIB RN inh_VDD inh_VDD) sg13_lv_pmos w=300.0n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP1 (MQIB CI net57 inh_VDD) sg13_lv_pmos w=690.00n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP9 (SQIB RN inh_VDD inh_VDD) sg13_lv_pmos w=300.0n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP6 (MQI MQIB inh_VDD inh_VDD) sg13_lv_pmos w=670.00n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP8 (net55 MQI inh_VDD inh_VDD) sg13_lv_pmos w=610.00n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    M2 (SQI SN inh_VDD inh_VDD) sg13_lv_pmos w=670.00n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP2 (net57 D inh_VDD inh_VDD) sg13_lv_pmos w=690.00n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP12 (SQI SQIB inh_VDD inh_VDD) sg13_lv_pmos w=670.00n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP11 (net58 SQI inh_VDD inh_VDD) sg13_lv_pmos w=300.0n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP10 (SQIB CI net58 inh_VDD) sg13_lv_pmos w=300.0n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP4 (MQIB CIB net53 inh_VDD) sg13_lv_pmos w=300.0n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP7 (SQIB CIB net55 inh_VDD) sg13_lv_pmos w=610.00n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP5 (net53 MQI inh_VDD inh_VDD) sg13_lv_pmos w=300.0n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+ends DFRRSQJIX1
+// End of subcircuit definition.
+
+// Library name: project_EACN_SESI
+// Cell name: comparator_test_students
+// View name: schematic
+N5 (outn clk net7 0) sg13_lv_nmos w=500.0n l=130.00n ng=1 ad=0 as=0 pd=0 \
+        ps=0 m=1
+N4 (outp clk net11 0) sg13_lv_nmos w=500.0n l=130.00n ng=1 ad=0 as=0 pd=0 \
+        ps=0 m=1
+N3 (net7 outp B 0) sg13_lv_nmos w=1.5u l=500.0n ng=1 ad=0 as=0 pd=0 ps=0 \
+        m=1
+N2 (net11 outn A 0) sg13_lv_nmos w=1.5u l=500.0n ng=1 ad=0 as=0 pd=0 ps=0 \
+        m=1
+N1 (B inn 0 0) sg13_lv_nmos w=300.0n l=500.0n ng=1 ad=0 as=0 pd=0 ps=0 m=1
+N0 (A inp 0 0) sg13_lv_nmos w=300.0n l=500.0n ng=1 ad=0 as=0 pd=0 ps=0 m=1
+P3 (outn outp vdd! vdd!) sg13_lv_pmos w=3.000u l=500.0n ng=1 ad=0 as=0 \
+        pd=0 ps=0 m=1
+P2 (outp outn vdd! vdd!) sg13_lv_pmos w=3.000u l=500.0n ng=1 ad=0 as=0 \
+        pd=0 ps=0 m=1
+P1 (outn clk vdd! vdd!) sg13_lv_pmos w=500.0n l=130.00n ng=1 ad=0 as=0 \
+        pd=0 ps=0 m=1
+P0 (outp clk vdd! vdd!) sg13_lv_pmos w=500.0n l=130.00n ng=1 ad=0 as=0 \
+        pd=0 ps=0 m=1
+V5 (net2 0) vsource dc=510.0m type=dc
+V6 (outn net1) vsource dc=0 type=dc
+V3 (inn 0) vsource dc=500.0m type=dc
+V0 (vdd! 0) vsource dc=1.2 type=dc
+V2 (inp 0) vsource dc=500m type=pulse val0=450.00m val1=550.00m period=1 \
+        delay=0 rise=100u fall=1n width=500.0m
+V1 (clk 0) vsource dc=1.2 type=pulse val0=0 val1=1.2 period=1u delay=0 \
+        rise=1n fall=1n width=500.0n
+I12 (out 0 0 outn outp vdd! 0) DFRRSQJIX1

@@ -1,0 +1,8 @@
+DEFINE SG13_LibraryModules ${IHP_TECH}/env/.cadence/compositeLib/SG13_Modules
+DEFINE SG13_TechnologyModules ${IHP_TECH}/env/.cadence/compositeLib/SG13_TechnologyModules
+DEFINE ixc013g2ng_stdcell /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//Modules/ixc013g2ng_stdcell/oa/ixc013g2ng_stdcell
+ASSIGN ixc013g2ng_stdcell DISPLAY PDKlib
+DEFINE ixc013g2_iocell /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//Modules/ixc013g2_iocell/oa/ixc013g2_iocell
+ASSIGN ixc013g2_iocell DISPLAY PDKlib
+ASSIGN SG13_LibraryModules DISPLAY PDKlib_top
+ASSIGN SG13_LibraryModules COMBINE ixc013g2ng_stdcell ixc013g2_iocell 
