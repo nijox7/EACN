@@ -1,0 +1,504 @@
+\# Program start time:     UTC 2026.05.07 14:38:19.355
+\# Local time: GMT+02:00 (UTC+02:00) 2026.05.07 16:38:19.355
+\o Program:		@(#)$CDS: Virtuoso Studio version IC23.1-64b 01/14/2025 22:42 (cpgbld16) $
+\o Hierarchy:		/users/soft/opus/Linux/IC-23.10.120/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC23.1-64b.ISR12.37  (64-bit addresses)
+\# Command line:	/users/soft/opus/Linux/IC-23.10.120/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost brahms -beanport 11369 -beanbinlog  -beanLogFile /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/amps_Service16.log -mpssession virtuoso170431 -mpshost brahms -davinciService DaVinciService_170431_1778150080 -scopedPid 170431 -axlSession fnxSession4 -axlServiceIdFlag 16 -uuid 879f7ab5-7be4-40cc-b016-e575b9c281a5 -heartbeat /dev/shm/swift-heartbeat.iJRoP3dCEI -log /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service16.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D7BF4EC7EFC06D3386AF8ED6DFC06D13E5CD38F1FFC06867D66E38F1FFC06BC4D66E38F1FFC06BC4D0F1F2CC65FDFD5B100001EE0 -interactive -offlineExprEval -upfrontMode -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	brahms (x86_64)
+\# Operating system:	Linux 5.14.0-611.49.1.el9_7.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Apr 21 16:39:08 EDT 2026
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:6290 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        765 MB
+\# Available memory:	     55,859 MB
+\# System memory:	     64,386 MB
+\# Maximum memory size:	     63,797 MB
+\# Max mem available:	     56,034 MB
+\# Initial memory used:	        176 MB
+\#        process size:	      1,533 MB
+\# Thread usage limits (effective/default):	maxthreads 126207/126207 maxload 6.00/6.00
+\# Qt version:		5.15.9
+\# Window Manager:	other
+\# User Name:		carbou
+\o Working Directory:	brahms:/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds
+\# Process Id:		264882
+\o 
+\o COPYRIGHT (C) 1992-2025  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2025  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading im.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading layers.cxt 
+\o Loading drv.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading analog.cxt 
+\o Loading par.cxt 
+\o Loading asimenv.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\# Memory report: using         314 MB, process size 1,717 MB at UTC 2026.05.07 14:38:22.223
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o Loading sipLayout.cxt 
+\o Loading viva.cxt 
+\o Loading diagCenter.cxt 
+\o INFO (ELI-00333) License program mode is LSCS.
+\# [16:38:19.189409] Configured Lic search path (23.02-s006): 30000@cadence.cnfm.fr
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso170431, host=brahms). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 264882 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\w *WARNING* The directory: '/users/soft/techno/dev/IHP/sg13/modules_SG13G2/MEMRES_0.20.0_updated_march2026/lib/MEMRES_updated_march2026' does not exist
+\w 	but was defined in libFile '/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/modules.lib' for Lib 'MEMRES_updated_march2026'.
+\o [INFO] Start cdsinit.
+\o loading cdsLibMgr.il file...
+\o loading cdsLibMgr.il file...
+\o [INFO] Calibre Integration introduction.
+\o 
+\o ***************************************************
+\o * Technology vendor:  IHP Microelectronics GmbH
+\o * Process:            SG13G2/M6M7
+\o * Technology library: SG13_dev
+\o * Designkit:          (c) 2026 IHP Microelectronics GmbH
+\o *       release name: SG13G2_618_rev1.3.3
+\o *       release date: 2026-03-03
+\o * Grid                0.005u
+\o ***************************************************
+\o IHP_TECH is set to "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/"
+\o PROJECT is set to "/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/"
+\o 
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool cdsLibManager
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool ui
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool spectre
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool asimenv
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool graphic
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool layout
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool layoutXL
+\o loading vars from /users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//env/cdsenv for tool schematic
+\w *WARNING* envSetVal: Can't set the value of variable 'markerType',
+\w 	in tool[.partition] 'schematic' - it has not been registered.
+\w *WARNING* envSetVal: Can't set the value of variable 'markerSource',
+\w 	in tool[.partition] 'schematic' - it has not been registered.
+\o Use Shift-f and Ctrl-f in the layout editor to change the display stop level
+\o Bindkey-addons in layout:
+\o Shift-0..Shift-9 change entry layer (drawing)
+\o 0..9 change SnapSpacing (0.005u to 10.0u)
+\o Ctrl-0..Ctrl9 change Cursor-Delta (0.005u to 10.0u)
+\o - toggles flight line visibility
+\o Ctrl- and Ctrl+ change IncompleteNets (in LayoutXL only)
+\o Ctrl-e toggles DRD (Design Rule Driven Layout) and dynamic measurement
+\o Use <Key>F7 in CIW to open IHP config window:
+\o Load modules...
+\o function ihpCreateEffectiveCDF redefined
+\o Loading layerProc.cxt 
+\w *WARNING* The directory: '/users/soft/techno/dev/IHP/sg13/modules_SG13G2/MEMRES_0.20.0_updated_march2026/lib/MEMRES_updated_march2026' does not exist
+\w 	but was defined in libFile '/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/modules.lib' for Lib 'MEMRES_updated_march2026'.
+\o End of GDS form initialization
+\e *Error* fprintf: argument #1 should be an I/O port (type template = "ptg") - nil
+\o Loading MPP templates
+\o Loading MPP templates for SG13_dev
+\o Loading le.cxt 
+\o [INFO] End cdsinit.
+\p SG13G2/M6M7
+\o Loading tilp.cxt 
+\o Loading validator.cxt 
+\o Loading vrf.cxt 
+\o Loading multiTechPlugin.cxt 
+\o Loading exportDie.cxt 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 264882' to open it when Virtuoso freezes.
+\# INFO (PerfDiag): The private spectre.envOpts environment variable 'useAltergroup' is set to value 'nil' different than default value 't'.
+\# INFO (PerfDiag): The private spectre.envOpts environment variable 'modelFiles' is set to value '" $IHP_TECH/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs;typ #;$IHP_TECH/tech/SG13G2_HBT/HICUM/spectre/SG13G2_cornerBIP_hicum.scs;typ $IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs;tt $IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs;tt #;$IHP_TECH/tech/SG13_MOS/library/spectreG2/CheckMOSstat.scs #;$IHP_TECH/tech/SG13_MOS/library/spectreG2/CheckMOSdyn.scs $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs;typ $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs;typ #;$IHP_TECH/tech/SG13G2_PASSIVES/spectre/Ind_unit_4PI #;$IHP_TECH/tech/SG13G2_PASSIVES/spectre/Ind_unit_2PI $IHP_TECH/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs;tt $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib $IHP_TECH/tech/SG13_ESD/spectre/SG13_esd.lib $IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs;typ $IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib"' different than default value '""'.
+\# INFO (PerfDiag): The private spectre.envOpts environment variable 'includePath' is set to value '"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//lib/TL_SG13/RLCG/spectre/"' different than default value '""'.
+\# INFO (PerfDiag): The private schematic environment variable 'instLibName' is set to value '"SG13_dev"' different than default value '""'.
+\# INFO (PerfDiag): The private ams.envOpts environment variable 'modelFiles' is set to value '" $IHP_TECH/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs;typ #;$IHP_TECH/tech/SG13G2_HBT/HICUM/spectre/SG13G2_cornerBIP_hicum.scs;typ $IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs;tt $IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs;tt #;$IHP_TECH/tech/SG13_MOS/library/spectreG2/CheckMOSstat.scs #;$IHP_TECH/tech/SG13_MOS/library/spectreG2/CheckMOSdyn.scs $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs;typ $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs;typ #;$IHP_TECH/tech/SG13G2_PASSIVES/spectre/Ind_unit_4PI #;$IHP_TECH/tech/SG13G2_PASSIVES/spectre/Ind_unit_2PI $IHP_TECH/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs;tt $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib $IHP_TECH/tech/SG13_ESD/spectre/SG13_esd.lib $IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs;typ $IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib"' different than default value '""'.
+\# (PerfDiag): Use backtrace from GLIBC.
+\i _axlRunServices()
+\o Loading simui.cxt 
+\o [2026-05-07 16:38:27.256 +0200] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"jobid": "16", "hostname": "brahms", "processid": 264882, "logfile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service16.log"}
+\# Available memory:         55,590 MB at UTC 2026.05.07 14:38:29.300
+\# Memory report: Maximum memory size now 55,998 MB at UTC 2026.05.07 14:38:29.300
+\# Thread usage report: 8 active threads, active load 1.40 at UTC 2026.05.07 14:38:29.300
+\o [2026-05-07 16:38:29.300 +0200] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "16", "history": "ExplorerRun.0", "point": 0, "testname": "cours_EACN_SESI_bandgap_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service16.log", "logFileSize": "10806", "category": "point-netlist"}
+\# Unzipping history /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/cours_EACN_SESI/bandgap/maestro/history/ExplorerRun.0.zip::historyData.sdb
+\o Loading vqp.cxt 
+\o Loading vdsil.cxt 
+\o *Warning* AXL Context Manager : job 16 is already registered. 
+\o 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = cours_EACN_SESI
+\o 	Cell         = bandgap
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ExplorerRun.0
+\o 	Results DB   = /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0.rdb
+\o 	Results Dir  = /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/1/cours_EACN_SESI_bandgap_1
+\o 	Results Loc  = /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro
+\o 	Project Dir  = /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim
+\o 	Setup DB loc = /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/cours_EACN_SESI/bandgap/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\# Memory report: using         471 MB, process size 1,941 MB at UTC 2026.05.07 14:38:31.385
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\# Unzipping history /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/cours_EACN_SESI/bandgap/maestro/history/ExplorerRun.0.zip::historyData.sdb
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading elec.cxt 
+\o [2026-05-07 16:38:31.810 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Setting dspf2adeEnabled on oasis_session in _axlRunTestNetlister {"jobid": "16", "history": "ExplorerRun.0", "point": 0, "testname": "cours_EACN_SESI_bandgap_1", "isDspf2ADEEnabled": false}
+\o [2026-05-07 16:38:31.810 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"jobid": "16", "history": "ExplorerRun.0", "point": 0, "testname": "cours_EACN_SESI_bandgap_1", "testnameKey": "cours_EACN_SESI_bandgap_1", "event": "start", "category": "design-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var R2 = "60k"
+\o Setting var Vdc = "0"
+\o Loading monte.cxt 
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/psf/cours_EACN_SESI_bandgap_1
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\# [16:38:31.423082] Periodic Lic check successful
+\# [16:38:31.947378] Feature usage summary:
+\o Initializing the control file using cp:
+\o     cp /users/soft/opus/Linux/IC-23.10.120/tools.lnx86/dfII/etc/si/control.spectre /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/psf/cours_EACN_SESI_bandgap_1/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting May  7 16:38:32 2026
+\o Loading json.cxt 
+\o End netlisting May  7 16:38:32 2026
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   25
+\o 
+\o 	Elapsed time:          1.0s (25.00/s)
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-07 16:38:33.274 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"jobid": "16", "history": "ExplorerRun.0", "point": 0, "testname": "cours_EACN_SESI_bandgap_1", "testnameKey": "cours_EACN_SESI_bandgap_1", "event": "finish", "category": "design-netlist"}
+\o [2026-05-07 16:38:35.329 +0200] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "16", "history": "ExplorerRun.0", "point": 1, "testname": "cours_EACN_SESI_bandgap_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service16.log", "logFileSize": "15864", "category": "point-netlist"}
+\o [2026-05-07 16:38:35.331 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "16", "history": "ExplorerRun.0", "point": 1, "testname": "cours_EACN_SESI_bandgap_1", "event": "start", "category": "point-netlist"}
+\o [2026-05-07 16:38:35.374 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Reading the results database to access variable values for the preparation of quick plot data. If you do not want to save quick plot data, set the quickPlotGlobalWriteDisable environment variable to t. {"jobid": "16", "history": "ExplorerRun.0", "point": 1, "testname": "cours_EACN_SESI_bandgap_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var R2 = "60k"
+\o Setting var Vdc = "0"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/1/cours_EACN_SESI_bandgap_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/1/cours_EACN_SESI_bandgap_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-07 16:38:37.560 +0200] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 909.4727 MBytes, peak memory used: 909.4727 MBytes {"jobid": "16", "hostname": "brahms", "processid": 264882, "history": "ExplorerRun.0", "testname": "cours_EACN_SESI_bandgap_1", "point": 1, "logfile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service16.log"}
+\o [2026-05-07 16:38:37.561 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "16", "history": "ExplorerRun.0", "point": 1, "testname": "cours_EACN_SESI_bandgap_1", "event": "finish", "category": "point-netlist"}
+\o [2026-05-07 16:38:38.567 +0200] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "16", "history": "ExplorerRun.0", "point": 2, "testname": "cours_EACN_SESI_bandgap_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service16.log", "logFileSize": "18454", "category": "point-netlist"}
+\o [2026-05-07 16:38:38.568 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "16", "history": "ExplorerRun.0", "point": 2, "testname": "cours_EACN_SESI_bandgap_1", "event": "start", "category": "point-netlist"}
+\o [2026-05-07 16:38:38.617 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Reading the results database to access variable values for the preparation of quick plot data. If you do not want to save quick plot data, set the quickPlotGlobalWriteDisable environment variable to t. {"jobid": "16", "history": "ExplorerRun.0", "point": 2, "testname": "cours_EACN_SESI_bandgap_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var R2 = "70K"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/2/cours_EACN_SESI_bandgap_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/2/cours_EACN_SESI_bandgap_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-07 16:38:39.869 +0200] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 909.4766 MBytes, peak memory used: 909.4766 MBytes {"jobid": "16", "hostname": "brahms", "processid": 264882, "history": "ExplorerRun.0", "testname": "cours_EACN_SESI_bandgap_1", "point": 2, "logfile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service16.log"}
+\o [2026-05-07 16:38:39.869 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "16", "history": "ExplorerRun.0", "point": 2, "testname": "cours_EACN_SESI_bandgap_1", "event": "finish", "category": "point-netlist"}
+\o [2026-05-07 16:38:40.873 +0200] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "16", "history": "ExplorerRun.0", "point": 3, "testname": "cours_EACN_SESI_bandgap_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service16.log", "logFileSize": "20961", "category": "point-netlist"}
+\o [2026-05-07 16:38:40.874 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "16", "history": "ExplorerRun.0", "point": 3, "testname": "cours_EACN_SESI_bandgap_1", "event": "start", "category": "point-netlist"}
+\o [2026-05-07 16:38:40.890 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Reading the results database to access variable values for the preparation of quick plot data. If you do not want to save quick plot data, set the quickPlotGlobalWriteDisable environment variable to t. {"jobid": "16", "history": "ExplorerRun.0", "point": 3, "testname": "cours_EACN_SESI_bandgap_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var R2 = "80K"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/3/cours_EACN_SESI_bandgap_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/3/cours_EACN_SESI_bandgap_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-07 16:38:41.707 +0200] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 909.4766 MBytes, peak memory used: 909.4766 MBytes {"jobid": "16", "hostname": "brahms", "processid": 264882, "history": "ExplorerRun.0", "testname": "cours_EACN_SESI_bandgap_1", "point": 3, "logfile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service16.log"}
+\o [2026-05-07 16:38:41.708 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "16", "history": "ExplorerRun.0", "point": 3, "testname": "cours_EACN_SESI_bandgap_1", "event": "finish", "category": "point-netlist"}
+\o [2026-05-07 16:38:42.719 +0200] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "16", "history": "ExplorerRun.0", "point": 4, "testname": "cours_EACN_SESI_bandgap_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service16.log", "logFileSize": "23468", "category": "point-netlist"}
+\o [2026-05-07 16:38:42.720 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "16", "history": "ExplorerRun.0", "point": 4, "testname": "cours_EACN_SESI_bandgap_1", "event": "start", "category": "point-netlist"}
+\o [2026-05-07 16:38:42.745 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Reading the results database to access variable values for the preparation of quick plot data. If you do not want to save quick plot data, set the quickPlotGlobalWriteDisable environment variable to t. {"jobid": "16", "history": "ExplorerRun.0", "point": 4, "testname": "cours_EACN_SESI_bandgap_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var R2 = "90K"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/4/cours_EACN_SESI_bandgap_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/4/cours_EACN_SESI_bandgap_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-07 16:38:43.393 +0200] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 909.4766 MBytes, peak memory used: 909.4766 MBytes {"jobid": "16", "hostname": "brahms", "processid": 264882, "history": "ExplorerRun.0", "testname": "cours_EACN_SESI_bandgap_1", "point": 4, "logfile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service16.log"}
+\o [2026-05-07 16:38:43.394 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "16", "history": "ExplorerRun.0", "point": 4, "testname": "cours_EACN_SESI_bandgap_1", "event": "finish", "category": "point-netlist"}
+\o [2026-05-07 16:40:35.212 +0200] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "16", "history": "ExplorerRun.0", "point": 0, "testname": "cours_EACN_SESI_bandgap_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service16.log", "logFileSize": "25975", "category": "point-netlist"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Unzipping history /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/cours_EACN_SESI/bandgap/maestro/history/ExplorerRun.0.zip::historyData.sdb
+\o *Warning* AXL Context Manager : job 16 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = cours_EACN_SESI
+\o 	Cell         = bandgap
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ExplorerRun.0
+\o 	Results DB   = /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0.rdb
+\o 	Results Dir  = /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/1/cours_EACN_SESI_bandgap_1
+\o 	Results Loc  = /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro
+\o 	Project Dir  = /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim
+\o 	Setup DB loc = /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/cours_EACN_SESI/bandgap/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\# Unzipping history /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/cours_EACN_SESI/bandgap/maestro/history/ExplorerRun.0.zip::historyData.sdb
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o [2026-05-07 16:40:37.112 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Setting dspf2adeEnabled on oasis_session in _axlRunTestNetlister {"jobid": "16", "history": "ExplorerRun.0", "point": 0, "testname": "cours_EACN_SESI_bandgap_1", "isDspf2ADEEnabled": false}
+\o [2026-05-07 16:40:37.112 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"jobid": "16", "history": "ExplorerRun.0", "point": 0, "testname": "cours_EACN_SESI_bandgap_1", "testnameKey": "cours_EACN_SESI_bandgap_1", "event": "start", "category": "design-netlist"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var R2 = "60k"
+\o Setting var Vdc = "0"
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/psf/cours_EACN_SESI_bandgap_1
+\o 
+\o generate netlist...
+\o Initializing the control file using cp:
+\o     cp /users/soft/opus/Linux/IC-23.10.120/tools.lnx86/dfII/etc/si/control.spectre /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/psf/cours_EACN_SESI_bandgap_1/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting May  7 16:40:37 2026
+\o End netlisting May  7 16:40:37 2026
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   25
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-07 16:40:38.807 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"jobid": "16", "history": "ExplorerRun.0", "point": 0, "testname": "cours_EACN_SESI_bandgap_1", "testnameKey": "cours_EACN_SESI_bandgap_1", "event": "finish", "category": "design-netlist"}
+\o [2026-05-07 16:40:40.862 +0200] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "16", "history": "ExplorerRun.0", "point": 1, "testname": "cours_EACN_SESI_bandgap_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service16.log", "logFileSize": "28000", "category": "point-netlist"}
+\o [2026-05-07 16:40:40.863 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "16", "history": "ExplorerRun.0", "point": 1, "testname": "cours_EACN_SESI_bandgap_1", "event": "start", "category": "point-netlist"}
+\o [2026-05-07 16:40:40.887 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Reading the results database to access variable values for the preparation of quick plot data. If you do not want to save quick plot data, set the quickPlotGlobalWriteDisable environment variable to t. {"jobid": "16", "history": "ExplorerRun.0", "point": 1, "testname": "cours_EACN_SESI_bandgap_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var R2 = "60k"
+\o Setting var Vdc = "0"
+\o Setting var temperature = "27"
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/1/cours_EACN_SESI_bandgap_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/1/cours_EACN_SESI_bandgap_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-07 16:40:42.709 +0200] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 919.6758 MBytes, peak memory used: 919.6758 MBytes {"jobid": "16", "hostname": "brahms", "processid": 264882, "history": "ExplorerRun.0", "testname": "cours_EACN_SESI_bandgap_1", "point": 1, "logfile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service16.log"}
+\o [2026-05-07 16:40:42.710 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "16", "history": "ExplorerRun.0", "point": 1, "testname": "cours_EACN_SESI_bandgap_1", "event": "finish", "category": "point-netlist"}
+\o [2026-05-07 16:40:43.713 +0200] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "16", "history": "ExplorerRun.0", "point": 2, "testname": "cours_EACN_SESI_bandgap_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service16.log", "logFileSize": "32616", "category": "point-netlist"}
+\o [2026-05-07 16:40:43.714 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "16", "history": "ExplorerRun.0", "point": 2, "testname": "cours_EACN_SESI_bandgap_1", "event": "start", "category": "point-netlist"}
+\o [2026-05-07 16:40:43.730 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Reading the results database to access variable values for the preparation of quick plot data. If you do not want to save quick plot data, set the quickPlotGlobalWriteDisable environment variable to t. {"jobid": "16", "history": "ExplorerRun.0", "point": 2, "testname": "cours_EACN_SESI_bandgap_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var R2 = "70K"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/2/cours_EACN_SESI_bandgap_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/2/cours_EACN_SESI_bandgap_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-07 16:40:45.132 +0200] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 919.6758 MBytes, peak memory used: 919.6758 MBytes {"jobid": "16", "hostname": "brahms", "processid": 264882, "history": "ExplorerRun.0", "testname": "cours_EACN_SESI_bandgap_1", "point": 2, "logfile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service16.log"}
+\o [2026-05-07 16:40:45.133 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "16", "history": "ExplorerRun.0", "point": 2, "testname": "cours_EACN_SESI_bandgap_1", "event": "finish", "category": "point-netlist"}
+\o [2026-05-07 16:40:46.136 +0200] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "16", "history": "ExplorerRun.0", "point": 3, "testname": "cours_EACN_SESI_bandgap_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service16.log", "logFileSize": "35123", "category": "point-netlist"}
+\o [2026-05-07 16:40:46.136 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "16", "history": "ExplorerRun.0", "point": 3, "testname": "cours_EACN_SESI_bandgap_1", "event": "start", "category": "point-netlist"}
+\o [2026-05-07 16:40:46.156 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Reading the results database to access variable values for the preparation of quick plot data. If you do not want to save quick plot data, set the quickPlotGlobalWriteDisable environment variable to t. {"jobid": "16", "history": "ExplorerRun.0", "point": 3, "testname": "cours_EACN_SESI_bandgap_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var R2 = "80K"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/3/cours_EACN_SESI_bandgap_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/3/cours_EACN_SESI_bandgap_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-07 16:40:46.893 +0200] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 919.6758 MBytes, peak memory used: 919.6758 MBytes {"jobid": "16", "hostname": "brahms", "processid": 264882, "history": "ExplorerRun.0", "testname": "cours_EACN_SESI_bandgap_1", "point": 3, "logfile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service16.log"}
+\o [2026-05-07 16:40:46.894 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "16", "history": "ExplorerRun.0", "point": 3, "testname": "cours_EACN_SESI_bandgap_1", "event": "finish", "category": "point-netlist"}
+\o [2026-05-07 16:40:47.897 +0200] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"jobid": "16", "history": "ExplorerRun.0", "point": 4, "testname": "cours_EACN_SESI_bandgap_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service16.log", "logFileSize": "37630", "category": "point-netlist"}
+\o [2026-05-07 16:40:47.897 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"jobid": "16", "history": "ExplorerRun.0", "point": 4, "testname": "cours_EACN_SESI_bandgap_1", "event": "start", "category": "point-netlist"}
+\o [2026-05-07 16:40:47.911 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Reading the results database to access variable values for the preparation of quick plot data. If you do not want to save quick plot data, set the quickPlotGlobalWriteDisable environment variable to t. {"jobid": "16", "history": "ExplorerRun.0", "point": 4, "testname": "cours_EACN_SESI_bandgap_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var R2 = "90K"
+\o 
+\o *Info*    Netlist Directory =
+\o           /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/4/cours_EACN_SESI_bandgap_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/cours_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRun.0/4/cours_EACN_SESI_bandgap_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2026-05-07 16:40:48.652 +0200] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 919.6758 MBytes, peak memory used: 919.6758 MBytes {"jobid": "16", "hostname": "brahms", "processid": 264882, "history": "ExplorerRun.0", "testname": "cours_EACN_SESI_bandgap_1", "point": 4, "logfile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service16.log"}
+\o [2026-05-07 16:40:48.652 +0200] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"jobid": "16", "history": "ExplorerRun.0", "point": 4, "testname": "cours_EACN_SESI_bandgap_1", "event": "finish", "category": "point-netlist"}
+\o [2026-05-07 16:41:50.745 +0200] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Netlist Service process exits. {"jobid": "16", "hostname": "brahms", "processid": 264882, "history": "ExplorerRun.0", "logfile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service16.log"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Lic Summary:
+\# [16:41:51.332091] Cdslmd servers:30000@cadence.cnfm.fr
+\# [16:41:51.856433] Feature usage summary:
+\# Memory report: on exit            524 MB, process size 1,996 MB at UTC 2026.05.07 14:41:51.856
+\# Memory report: peak usage         524 MB, process size 1,996 MB

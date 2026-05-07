@@ -1,6 +1,5 @@
 adexl.gui	adexlDefaultApp	cyclic	"ADE Assembler"
 adexl.gui	adestateDefaultApp	cyclic	"ADE Explorer"
-adexl.testEditor	adexlTestEditorSetupValidateMsg	boolean	nil
 asimenv	windowBased	boolean	t
 asimenv	loadWavescan	boolean	nil
 asimenv	saveAsCellview	boolean	nil

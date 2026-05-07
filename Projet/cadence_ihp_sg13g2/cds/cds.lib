@@ -1,3 +1,5 @@
+# File Created by Clement Carbou [m1] at Thu May  7 09:56:02 2026
+# assisted by CdsLibEditor
 # File Created by Dimitri Galayko at Thu Apr  2 09:14:54 2026
 # assisted by CdsLibEditor
 #---------------------------------------------------------------
@@ -9,3 +11,4 @@ SOFTINCLUDE ${AMSHOME}/tools/inca/files/cds.lib_plain
 DEFINE tmp tmp
 DEFINE cours_EACN_SESI cours_EACN_SESI
 DEFINE project_EACN_SESI project_EACN_SESI
+DEFINE project_EACN_SESI_students ~galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/project_EACN_SESI_students/

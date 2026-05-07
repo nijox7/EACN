@@ -1,9 +1,9 @@
 // PDK version:/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/
 // Generated for: spectre
-// Design Netlist Generated on: Apr 16 18:07:40 2026
+// Design Netlist Generated on: May  7 14:04:53 2026
 // Design library name: project_EACN_SESI
 // Design cell name: comparator_test_students
 // Design view name: schematic
 simulator lang=spectre
 include "ade_e.scs"
-global 0 VDD! VSS! vdd!
+global 0 vdd!

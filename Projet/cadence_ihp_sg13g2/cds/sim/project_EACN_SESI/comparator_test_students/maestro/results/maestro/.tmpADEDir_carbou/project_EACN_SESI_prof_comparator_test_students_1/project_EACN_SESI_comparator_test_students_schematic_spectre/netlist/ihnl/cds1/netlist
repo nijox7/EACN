@@ -22,10 +22,12 @@ P0 (outp clk vdd! vdd!) sg13_lv_pmos w=500.0n l=130.00n ng=1 ad=0 as=0 \
         pd=0 ps=0 m=1
 V5 (net2 0) vsource dc=510.0m type=dc
 V6 (outn net1) vsource dc=0 type=dc
-V3 (inn 0) vsource dc=500.0m type=dc
+V3 (inn 0) vsource dc=500mV type=dc
 V0 (vdd! 0) vsource dc=1.2 type=dc
-V2 (inp 0) vsource dc=500m type=pulse val0=450.00m val1=550.00m period=1 \
-        delay=0 rise=100u fall=1n width=500.0m
+V2 (inp 0) vsource dc=500m type=pulse val0=550.00m val1=450.00m period=1 \
+        delay=0 rise=100.0u fall=1n width=500.0m
 V1 (clk 0) vsource dc=1.2 type=pulse val0=0 val1=1.2 period=1u delay=0 \
         rise=1n fall=1n width=500.0n
-I12 (out 0 0 outn outp vdd! 0) DFRRSQJIX1
+I12 (net4 0 0 net5 net3 vdd! 0) DFRRSQJIX1
+I25 (net9 outn out vdd! 0) NA2JIX0
+I24 (out outp net9 vdd! 0) NA2JIX0

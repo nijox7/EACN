@@ -1,0 +1,15 @@
+2026/05/07 16:27:22 INFO (/users/soft/opus/Linux/IC-23.10.120/tools.lnx86/bin/cdnsEnvCheck): AlmaLinux release 9.7 (Moss Jungle Cat) detected (set environment variable CDS_SKIP_OS_CHECK_ON_STARTUP=1 to suppress).
+Qt Unknown Message Type: Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+panic: runtime error: slice bounds out of range
+
+goroutine 1 [running]:
+gitlab.cadence.com/platform-services/cdnsEnvCheck/platform.(*OSVersion).processUbuntuVersion(0xc420057c40, 0xc4200ae780, 0x242, 0xc4200ea000, 0x242)
+	/home/fujii/src/goworkspace/src/gitlab.cadence.com/platform-services/cdnsEnvCheck/platform/osversions.go:122 +0x2ad
+gitlab.cadence.com/platform-services/cdnsEnvCheck/platform.(*OSVersion).getVersion(0xc420057c40, 0xc4200ae780, 0x242)
+	/home/fujii/src/goworkspace/src/gitlab.cadence.com/platform-services/cdnsEnvCheck/platform/osversions.go:134 +0x184
+gitlab.cadence.com/platform-services/cdnsEnvCheck/platform.GetDistVersion(0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, ...)
+	/home/fujii/src/goworkspace/src/gitlab.cadence.com/platform-services/cdnsEnvCheck/platform/osversions.go:170 +0xc6
+main.runChecks(0x6b5601, 0xc42000a7d0, 0x0, 0x0, 0x0)
+	/home/fujii/src/goworkspace/src/gitlab.cadence.com/platform-services/cdnsEnvCheck/checks.go:25 +0x37
+main.main()
+	/home/fujii/src/goworkspace/src/gitlab.cadence.com/platform-services/cdnsEnvCheck/cdnsEnvCheck.go:78 +0x244

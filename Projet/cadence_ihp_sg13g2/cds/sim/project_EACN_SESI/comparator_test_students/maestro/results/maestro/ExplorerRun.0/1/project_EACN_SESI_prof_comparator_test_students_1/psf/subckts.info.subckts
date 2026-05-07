@@ -2,8 +2,8 @@ HEADER
 "PSFversion" "1.00"
 "simulator" "spectre"
 "version" "24.1.0.198.isr3"
-"date" "3:35:32 PM, Thur Apr 16, 2026"
-"design" "// Point Netlist Generated on: Apr 16 15:35:27 2026"
+"date" "2:11:27 PM, Thur May 7, 2026"
+"design" "// Point Netlist Generated on: May  7 14:11:23 2026"
 "analysis type" "info.subckts"
 "analysis name" "subckts"
 "analysis description" "Circuit Information"
@@ -35,7 +35,7 @@ VALUE
 "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_mod.lib 79"
 "mfact ng wmin z2 ad z1 as pd trise w ps l rfmode pre_layout"
 "d g s b"
-"N5 N4 N3 N2 N1 N0 I12.N2 I12.M0 I12.N1 I12.MN2 I12.MN6 I12.MN1 I12.MN8 I12.MN5 I12.MN11 I12.MN10 I12.MN12 I12.MN9 I12.MN7 I12.MN3 I12.MN4 I12.M3 I12.N0"
+"N5 N4 N3 N2 N1 N0 I12.N2 I12.M0 I12.N1 I12.MN2 I12.MN6 I12.MN1 I12.MN8 I12.MN5 I12.MN11 I12.MN10 I12.MN12 I12.MN9 I12.MN7 I12.MN3 I12.MN4 I12.M3 I12.N0 I25.N11 I25.N3 I24.N11 I24.N3"
 )
 "inductor3" "subckt" (
 "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib 183"
@@ -85,6 +85,12 @@ VALUE
 ""
 ""
 )
+"NA2JIX0" "subckt" (
+"input.scs 101"
+""
+"Q A B inh_VDD inh_VSS"
+"I25 I24"
+)
 "isolbox" "subckt" (
 "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib 211"
 ""
@@ -131,7 +137,7 @@ VALUE
 "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13_MOS/library/spectreG2/sg13g2_moslv_psp_mod.lib 126"
 "mfact ng wmin z2 ad z1 as pd trise w ps l rfmode pre_layout"
 "d g s b"
-"P3 P2 P1 P0 I12.P2 I12.P1 I12.P0 I12.M1 I12.MP3 I12.MP1 I12.MP9 I12.MP6 I12.MP8 I12.M2 I12.MP2 I12.MP12 I12.MP11 I12.MP10 I12.MP4 I12.MP7 I12.MP5"
+"P3 P2 P1 P0 I12.P2 I12.P1 I12.P0 I12.M1 I12.MP3 I12.MP1 I12.MP9 I12.MP6 I12.MP8 I12.M2 I12.MP2 I12.MP12 I12.MP11 I12.MP10 I12.MP4 I12.MP7 I12.MP5 I25.P3 I25.P11 I24.P3 I24.P11"
 )
 "cap_cmim" "subckt" (
 "/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/tech/SG13G2_PASSIVES/spectre/SG13_cap.lib 84"

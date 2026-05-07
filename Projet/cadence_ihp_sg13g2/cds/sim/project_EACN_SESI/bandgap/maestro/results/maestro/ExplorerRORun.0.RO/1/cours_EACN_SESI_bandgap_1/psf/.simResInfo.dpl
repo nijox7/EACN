@@ -1,0 +1,12 @@
+nodes=14
+jobId=2
+idInRun=1
+host=brahms
+jobLog=logs0/Job2.log
+recommendedThreads=1
+cpuTime=0.307000
+cpuUtil=40.3
+Memory=216 M
+startTime=5:10:08 PM, Thur May 7, 2026
+endTime=5:10:09 PM, Thur May 7, 2026
+elapsedTime=0.761000

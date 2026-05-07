@@ -1,1 +1,1 @@
-(nil plottableAnalyses tran(ac noise dc) signals ((nil fullName "/inp" sigExpr "VT(\"/inp\")") (nil fullName "/out" sigExpr "VT(\"/out\")")) plottableExpressions nil)
+(nil plottableAnalyses tran(ac noise dc) signals ((nil fullName "/outp" sigExpr "VT(\"/outp\")") (nil fullName "/outn" sigExpr "VT(\"/outn\")") (nil fullName "/clk" sigExpr "VT(\"/clk\")") (nil fullName "/inp" sigExpr "VT(\"/inp\")") (nil fullName "/out" sigExpr "VT(\"/out\")")) plottableExpressions nil)

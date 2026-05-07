@@ -12,8 +12,8 @@ main.runChecks(0x6b5601, 0xc42000a6b0, 0x0, 0x0, 0x0)
 main.main()
 	/home/fujii/src/goworkspace/src/gitlab.cadence.com/platform-services/cdnsEnvCheck/cdnsEnvCheck.go:78 +0x244
 pvsgui:   ERROR: The command /users/soft/opus/Linux/PVS-19.12.000/share/oa/bin/sysname returned an error status:
-                            unknown
 pvsgui:    INFO: Note that OpenAccess (OA) requires running the Configure phase.
 pvsgui:          See the "OpenAccess Installation and Configuration Guide" before
+                            unknown
 pvsgui:          you complete the configuration step. This manual is included with
 pvsgui:          the Cadence product documentation.

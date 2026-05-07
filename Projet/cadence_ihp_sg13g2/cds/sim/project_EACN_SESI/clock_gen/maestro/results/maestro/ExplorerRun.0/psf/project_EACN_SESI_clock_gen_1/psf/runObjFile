@@ -1,0 +1,41 @@
+HEADER
+"PSFversion" "1.00"
+"Run Generator" "drlRun rev. 1.0"
+"Run Time Stamp" "May  7 15:52:05 2026"
+"date" "May  7 15:52:05 2026"
+"simulator" "spectre"
+"netlistDir" "../netlist"
+"axlParamFlag" "true"
+"#maeHistoryName" "ExplorerRun.0"
+"#maeTestName" "project_EACN_SESI_clock_gen_1"
+ "externalSweepVariableCount" 1
+TYPE
+"runObject" STRUCT(
+"logName" ARRAY( * ) STRING *
+"parent" STRING *
+"sweepVariable" ARRAY( * ) STRING *
+) PROP( "key" "runObject" )
+VALUE
+"Root" "runObject" (
+("")
+""
+("Design_Point")
+)
+"Design_Point=1.0" "runObject" (
+(
+"../../../1/project_EACN_SESI_clock_gen_1/psf/logFile"
+"../../../1/project_EACN_SESI_clock_gen_1/psf/artistLogFile"
+"../../../1/project_EACN_SESI_clock_gen_1/psf/matlabLogFile"
+)
+"Root"
+()
+) PROP(
+ "#maeDesignPoint" 1
+"#maeCorner" "nom"
+ "#pointID" 1
+"netlistDir" "../../../1/project_EACN_SESI_clock_gen_1/netlist"
+"dataDir" "../../../1/project_EACN_SESI_clock_gen_1"
+ "Design_Point" 1.000000e+00
+)
+
+END

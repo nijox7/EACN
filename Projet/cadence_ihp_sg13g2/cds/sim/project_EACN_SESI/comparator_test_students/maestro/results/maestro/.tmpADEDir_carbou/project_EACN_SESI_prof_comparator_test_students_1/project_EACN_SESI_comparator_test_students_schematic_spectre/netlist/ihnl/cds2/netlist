@@ -1,0 +1,10 @@
+    N11 (Q A net15 inh_VSS) sg13_lv_nmos w=440.00n l=130.00n ng=1 ad=0.0 \
+        as=0.0 pd=0.0 ps=0.0 m=1
+    N3 (net15 B inh_VSS inh_VSS) sg13_lv_nmos w=440.00n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    P3 (Q B inh_VDD inh_VDD) sg13_lv_pmos w=670.00n l=130.00n ng=1 ad=0.0 \
+        as=0.0 pd=0.0 ps=0.0 m=1
+    P11 (Q A inh_VDD inh_VDD) sg13_lv_pmos w=670.00n l=130.00n ng=1 ad=0.0 \
+        as=0.0 pd=0.0 ps=0.0 m=1
+ends NA2JIX0
+// End of subcircuit definition.

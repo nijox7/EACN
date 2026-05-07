@@ -1,0 +1,8 @@
+HEADER
+"PSFversion" "1.00"
+"MN1n" "SG13_dev_nmos_spectre"
+"MP1n" "SG13_dev_pmos_spectre"
+"Qv" ":1v"
+"Av" ":2v"
+"VDDv" ":3v"
+"VSSv" ":4v"

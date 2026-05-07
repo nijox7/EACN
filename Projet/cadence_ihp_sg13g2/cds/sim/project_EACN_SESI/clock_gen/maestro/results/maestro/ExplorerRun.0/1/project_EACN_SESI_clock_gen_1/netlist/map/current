@@ -1,0 +1,22 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "clock_gen"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd! vdd!"
+  hierDelim "."
+  netlistDir "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/clock_gen/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_clock_gen_1/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "project_EACN_SESI/clock_gen/schematic" "clock_gen" )
+( "ixc013g2ng_stdcell/INVJIX0/schematic" "INVJIX0" )
+( "ixc013g2ng_stdcell/DFRRSQJIX1/schematic" "DFRRSQJIX1" )
+ )
+( "DFRRSQJIX1" "ihnl/cds0/map" )
+( "INVJIX0" "ihnl/cds1/map" )
+( "clock_gen" "ihnl/cds2/map" )
+ )

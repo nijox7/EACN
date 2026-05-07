@@ -1,15 +1,14 @@
 \o Program:		@(#)$CDS: libManager version 23.1 - CAT38 12/12/2024 16:47 (cpgbld16) $
 \o Sub version:		sub-version  s121 
-\o Arguments:		-mpssession virtuoso170431 -mpshost brahms -masterPID 170431 -ADVM 
+\o Arguments:		-mpssession virtuoso285506 -mpshost brahms -masterPID 285506 -ADVM 
 \o Working Directory:	brahms:/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds
 \o 64-bit offsets
 \o Qt version: 		5.15.9
 \o Log file is "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/libManager.log".
 \o Opening libManager window.
-\a nrSetCurrentWindow(cdsLibManager)
 \o Loading customization file "./cdsLibMgr.il"
 \o loading cdsLibMgr.il file...
-\a nrResizeWindow(cdsLibManager list(649 169 852 742))
+\a nrResizeWindow(cdsLibManager list(0 28 1920 1031))
 \o MPS virtuoso types registered: 68
 \w Warning: The directory: '/users/soft/techno/dev/IHP/sg13/modules_SG13G2/MEMRES_0.20.0_updated_march2026/lib/MEMRES_updated_march2026' does not exist
 \w 	but was defined in libFile '/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/modules.lib' for Lib 'MEMRES_updated_march2026'.
@@ -23,3 +22,153 @@
 \a nrSetCurrentWindow(cdsLibManager)
 \w Warning: The directory: '/users/soft/techno/dev/IHP/sg13/modules_SG13G2/MEMRES_0.20.0_updated_march2026/lib/MEMRES_updated_march2026' does not exist
 \w 	but was defined in libFile '/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/modules.lib' for Lib 'MEMRES_updated_march2026'.
+\a cdsLibManager->libListBox->value = "project_EACN_SESI"
+\a cdsLibManager->libLineEdit->value = "project_EACN_SESI"
+\a nrListItemAction(cdsLibManager->libListBox "project_EACN_SESI" 0)
+\a cdsLibManager->cellListBox->value = "clock_gen"
+\a cdsLibManager->cellLineEdit->value = "clock_gen"
+\a cdsLibManager->cellListBox->value = "bandgap"
+\a cdsLibManager->cellLineEdit->value = "bandgap"
+\o MPS request: open design readonly
+\a nrListItemAction(cdsLibManager->cellListBox 3 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\w Warning: The directory: '/users/soft/techno/dev/IHP/sg13/modules_SG13G2/MEMRES_0.20.0_updated_march2026/lib/MEMRES_updated_march2026' does not exist
+\w 	but was defined in libFile '/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/modules.lib' for Lib 'MEMRES_updated_march2026'.
+\a cdsLibManager->libListBox->value = "project_EACN_SESI"
+\a cdsLibManager->libLineEdit->value = "project_EACN_SESI"
+\a cdsLibManager->cellListBox->value = "bandgap"
+\a cdsLibManager->cellLineEdit->value = "bandgap"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "ADC_SAR"
+\a cdsLibManager->cellLineEdit->value = "ADC_SAR"
+\o MPS request: open design readonly
+\a nrListItemAction(cdsLibManager->cellListBox 0 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\w Warning: The directory: '/users/soft/techno/dev/IHP/sg13/modules_SG13G2/MEMRES_0.20.0_updated_march2026/lib/MEMRES_updated_march2026' does not exist
+\w 	but was defined in libFile '/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/modules.lib' for Lib 'MEMRES_updated_march2026'.
+\a cdsLibManager->libListBox->value = "project_EACN_SESI"
+\a cdsLibManager->libLineEdit->value = "project_EACN_SESI"
+\a cdsLibManager->cellListBox->value = "ADC_SAR"
+\a cdsLibManager->cellLineEdit->value = "ADC_SAR"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "bandgap"
+\a cdsLibManager->cellLineEdit->value = "bandgap"
+\a cdsLibManager->cellListBox->value = "buf_eq_delay"
+\a cdsLibManager->cellLineEdit->value = "buf_eq_delay"
+\a cdsLibManager->cellListBox->value = "clock_gen"
+\a cdsLibManager->cellLineEdit->value = "clock_gen"
+\a cdsLibManager->cellListBox->value = "control"
+\a cdsLibManager->cellLineEdit->value = "control"
+\a cdsLibManager->cellListBox->value = "d_latch_top"
+\a cdsLibManager->cellLineEdit->value = "d_latch_top"
+\a cdsLibManager->cellListBox->value = "refgen"
+\a cdsLibManager->cellLineEdit->value = "refgen"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "d_latch_top"
+\a cdsLibManager->cellLineEdit->value = "d_latch_top"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellListBox->value = "control"
+\a cdsLibManager->cellLineEdit->value = "control"
+\a cdsLibManager->cellListBox->value = "comparator_test_students"
+\a cdsLibManager->cellLineEdit->value = "comparator_test_students"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "clock_gen"
+\a cdsLibManager->cellLineEdit->value = "clock_gen"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "buf_eq_delay"
+\a cdsLibManager->cellLineEdit->value = "buf_eq_delay"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "bandgap"
+\a cdsLibManager->cellLineEdit->value = "bandgap"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "SWITCH"
+\a cdsLibManager->cellLineEdit->value = "SWITCH"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "bandgap"
+\a cdsLibManager->cellLineEdit->value = "bandgap"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "buf_eq_delay"
+\a cdsLibManager->cellLineEdit->value = "buf_eq_delay"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "clock_gen"
+\a cdsLibManager->cellLineEdit->value = "clock_gen"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "comparator_test_students"
+\a cdsLibManager->cellLineEdit->value = "comparator_test_students"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "clock_gen"
+\a cdsLibManager->cellLineEdit->value = "clock_gen"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "buf_eq_delay"
+\a cdsLibManager->cellLineEdit->value = "buf_eq_delay"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "bandgap"
+\a cdsLibManager->cellLineEdit->value = "bandgap"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 132 278 2 "")
+\a lmgrLogShowPopup("mainListPopup1" 88 229 2 "")
+\a lmgrLogShowPopup("mainListPopup0" 230 298 2 "project_EACN_SESI")
+\a cdsLibManager->FileNewCVButton->value = t
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: The directory: '/users/soft/techno/dev/IHP/sg13/modules_SG13G2/MEMRES_0.20.0_updated_march2026/lib/MEMRES_updated_march2026' does not exist
+\w 	but was defined in libFile '/users/enseig/galayko/cours_EACN/projet/cadence_ihp_sg13g2/cds/modules.lib' for Lib 'MEMRES_updated_march2026'.
+\a cdsLibManager->libListBox->value = "project_EACN_SESI"
+\a cdsLibManager->libLineEdit->value = "project_EACN_SESI"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "d_latch_top"
+\a cdsLibManager->cellLineEdit->value = "d_latch_top"
+\o MPS service: shutdown
+\o libManager is exiting.
+\a exit(0)

@@ -1,13 +1,13 @@
-// Point Netlist Generated on: Apr 16 18:07:40 2026
+// Point Netlist Generated on: May  7 14:11:23 2026
 // PDK version:/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3/
 // Generated for: spectre
-// Design Netlist Generated on: Apr 16 18:07:40 2026
+// Design Netlist Generated on: May  7 14:04:53 2026
 // Design library name: project_EACN_SESI
 // Design cell name: comparator_test_students
 // Design view name: schematic
 simulator lang=spectre
 include "ade_e.scs"
-global 0 VDD! VSS! vdd!
+global 0 vdd!
 parameters temperature=27
 include "$IHP_TECH/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs" section=typ
 include "$IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs" section=tt
@@ -46,8 +46,8 @@ subckt DFRRSQJIX1 Q C D RN SN inh_VDD inh_VSS
         ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
     MN12 (SQI SQIB net060 inh_VSS) sg13_lv_nmos w=800.0n l=130.00n ng=1 \
         ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
-    MN9 (net47 RN inh_VSS inh_VSS) sg13_lv_nmos w=640.00n l=130.00n ng=1 \
-        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MN9 (net47 RN inh_VSS inh_VSS) sg13_lv_nmos w=640.00n l=130.00n \
+        ng=1 ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
     MN7 (net56 MQI net47 inh_VSS) sg13_lv_nmos w=400.0n l=130.00n ng=1 \
         ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
     MN3 (net42 RN inh_VSS inh_VSS) sg13_lv_nmos w=600.0n l=130.00n ng=1 \
@@ -72,27 +72,42 @@ subckt DFRRSQJIX1 Q C D RN SN inh_VDD inh_VSS
         ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
     MP9 (SQIB RN inh_VDD inh_VDD) sg13_lv_pmos w=300.0n l=130.00n ng=1 \
         ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
-    MP6 (MQI MQIB inh_VDD inh_VDD) sg13_lv_pmos w=670.00n l=130.00n ng=1 \
-        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
-    MP8 (net55 MQI inh_VDD inh_VDD) sg13_lv_pmos w=610.00n l=130.00n ng=1 \
-        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP6 (MQI MQIB inh_VDD inh_VDD) sg13_lv_pmos w=670.00n l=130.00n \
+        ng=1 ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP8 (net55 MQI inh_VDD inh_VDD) sg13_lv_pmos w=610.00n l=130.00n \
+        ng=1 ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
     M2 (SQI SN inh_VDD inh_VDD) sg13_lv_pmos w=670.00n l=130.00n ng=1 \
         ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
     MP2 (net57 D inh_VDD inh_VDD) sg13_lv_pmos w=690.00n l=130.00n ng=1 \
         ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
-    MP12 (SQI SQIB inh_VDD inh_VDD) sg13_lv_pmos w=670.00n l=130.00n ng=1 \
-        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
-    MP11 (net58 SQI inh_VDD inh_VDD) sg13_lv_pmos w=300.0n l=130.00n ng=1 \
-        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP12 (SQI SQIB inh_VDD inh_VDD) sg13_lv_pmos w=670.00n l=130.00n \
+        ng=1 ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP11 (net58 SQI inh_VDD inh_VDD) sg13_lv_pmos w=300.0n l=130.00n \
+        ng=1 ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
     MP10 (SQIB CI net58 inh_VDD) sg13_lv_pmos w=300.0n l=130.00n ng=1 \
         ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
     MP4 (MQIB CIB net53 inh_VDD) sg13_lv_pmos w=300.0n l=130.00n ng=1 \
         ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
     MP7 (SQIB CIB net55 inh_VDD) sg13_lv_pmos w=610.00n l=130.00n ng=1 \
         ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
-    MP5 (net53 MQI inh_VDD inh_VDD) sg13_lv_pmos w=300.0n l=130.00n ng=1 \
-        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP5 (net53 MQI inh_VDD inh_VDD) sg13_lv_pmos w=300.0n l=130.00n \
+        ng=1 ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
 ends DFRRSQJIX1
+// End of subcircuit definition.
+
+// Library name: ixc013g2ng_stdcell
+// Cell name: NA2JIX0
+// View name: schematic
+subckt NA2JIX0 Q A B inh_VDD inh_VSS
+    N11 (Q A net15 inh_VSS) sg13_lv_nmos w=440.00n l=130.00n ng=1 ad=0.0 \
+        as=0.0 pd=0.0 ps=0.0 m=1
+    N3 (net15 B inh_VSS inh_VSS) sg13_lv_nmos w=440.00n l=130.00n ng=1 \
+        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    P3 (Q B inh_VDD inh_VDD) sg13_lv_pmos w=670.00n l=130.00n ng=1 ad=0.0 \
+        as=0.0 pd=0.0 ps=0.0 m=1
+    P11 (Q A inh_VDD inh_VDD) sg13_lv_pmos w=670.00n l=130.00n ng=1 ad=0.0 \
+        as=0.0 pd=0.0 ps=0.0 m=1
+ends NA2JIX0
 // End of subcircuit definition.
 
 // Library name: project_EACN_SESI
@@ -118,13 +133,15 @@ P0 (outp clk vdd! vdd!) sg13_lv_pmos w=500.0n l=130.00n ng=1 ad=0 as=0 \
         pd=0 ps=0 m=1
 V5 (net2 0) vsource dc=510.0m type=dc
 V6 (outn net1) vsource dc=0 type=dc
-V3 (inn 0) vsource dc=500.0m type=dc
+V3 (inn 0) vsource dc=500mV type=dc
 V0 (vdd! 0) vsource dc=1.2 type=dc
-V2 (inp 0) vsource dc=500m type=pulse val0=450.00m val1=550.00m period=1 \
-        delay=0 rise=100u fall=1n width=500.0m
+V2 (inp 0) vsource dc=500m type=pulse val0=550.00m val1=450.00m period=1 \
+        delay=0 rise=100.0u fall=1n width=500.0m
 V1 (clk 0) vsource dc=1.2 type=pulse val0=0 val1=1.2 period=1u delay=0 \
         rise=1n fall=1n width=500.0n
-I12 (out 0 0 outn outp vdd! 0) DFRRSQJIX1
+I12 (net4 0 0 net5 net3 vdd! 0) DFRRSQJIX1
+I25 (net9 outn out vdd! 0) NA2JIX0
+I24 (out outp net9 vdd! 0) NA2JIX0
 simulatorOptions options psfversion="1.4.0" reltol=1e-3 vabstol=1e-6 \
     iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
     maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \

@@ -1,14 +1,14 @@
-\# Program start time:     UTC 2026.04.16 13:34:36.561
-\# Local time: GMT+02:00 (UTC+02:00) 2026.04.16 15:34:36.561
+\# Program start time:     UTC 2026.05.07 13:05:55.565
+\# Local time: GMT+02:00 (UTC+02:00) 2026.05.07 15:05:55.565
 \o Program:		@(#)$CDS: Virtuoso Studio version IC23.1-64b 01/14/2025 22:42 (cpgbld16) $
 \o Hierarchy:		/users/soft/opus/Linux/IC-23.10.120/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC23.1-64b.ISR12.37  (64-bit addresses)
-\# Command line:	/users/soft/opus/Linux/IC-23.10.120/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost onslow -beanport 11714 -beanbinlog  -beanLogFile /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/amps_Service7.log -mpssession virtuoso2372617 -mpshost onslow -davinciService DaVinciService_2372617_1776334622 -scopedPid 2372617 -axlSession fnxSession2 -axlServiceIdFlag 7 -uuid d121c1a1-6cb9-4a48-82e1-05f20b5f41e9 -heartbeat /dev/shm/swift-heartbeat.JrpBJ2wiDA -log /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service7.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D7BF4EC7EFC06D3387AF8E071FC06D33A5CD08F1FFC06867E66E38F1FFC06BC4D66E38F1FFC06BC4D0F036A75196CD5AD00001E88 -interactive -offlineExprEval -upfrontMode -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
-\# Host name (type):	onslow (x86_64)
-\# Operating system:	Linux 5.14.0-611.38.1.el9_7.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Mar 10 17:21:28 EDT 2026
+\# Command line:	/users/soft/opus/Linux/IC-23.10.120/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost brahms -beanport 11369 -beanbinlog  -beanLogFile /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/amps_Service7.log -mpssession virtuoso170431 -mpshost brahms -davinciService DaVinciService_170431_1778150080 -scopedPid 170431 -axlSession fnxSession1 -axlServiceIdFlag 7 -uuid 2927ace9-d4db-4b4d-8563-e029259ba093 -heartbeat /dev/shm/swift-heartbeat.07amXY03Ly -log /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service7.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D7BF4EC7EFC06D3386AF8ED6DFC06D13E5CD38F1FFC06867D66E38F1FFC06BC4D66E38F1FFC06BC4D0F1F012E7237D5B100001E98 -interactive -offlineExprEval -upfrontMode -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	brahms (x86_64)
+\# Operating system:	Linux 5.14.0-611.49.1.el9_7.x86_64 #1 SMP PREEMPT_DYNAMIC Tue Apr 21 16:39:08 EDT 2026
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:4721 (1024x868)
+\# X display name (WxH):	:7153 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			The X.Org Foundation
 \# Depth of Visual (Root):	24 (24)
@@ -18,19 +18,19 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        748 MB
-\# Available memory:	    145,712 MB
-\# System memory:	    160,397 MB
-\# Maximum memory size:	    159,824 MB
-\# Max mem available:	    145,888 MB
+\# Initial sbrk value:	        756 MB
+\# Available memory:	     56,344 MB
+\# System memory:	     64,386 MB
+\# Maximum memory size:	     63,806 MB
+\# Max mem available:	     56,520 MB
 \# Initial memory used:	        176 MB
 \#        process size:	      1,533 MB
-\# Thread usage limits (effective/default):	maxthreads 510227/510227 maxload 20.00/20.00
+\# Thread usage limits (effective/default):	maxthreads 126207/126207 maxload 6.00/6.00
 \# Qt version:		5.15.9
 \# Window Manager:	other
 \# User Name:		carbou
-\o Working Directory:	onslow:/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds
-\# Process Id:		2486975
+\o Working Directory:	brahms:/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds
+\# Process Id:		229672
 \o 
 \o COPYRIGHT (C) 1992-2025  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2025  UNIX SYSTEMS Laboratories INC.,
@@ -60,9 +60,9 @@
 \o Loading drv.cxt 
 \o Loading ams.cxt 
 \o Loading oasis.cxt 
+\# Memory report: using         276 MB, process size 1,636 MB at UTC 2026.05.07 13:05:58.021
 \o Loading dal.cxt 
 \o Loading awv.cxt 
-\# Memory report: using         284 MB, process size 1,644 MB at UTC 2026.04.16 13:34:38.101
 \o Loading socket.cxt 
 \o Loading analog.cxt 
 \o Loading par.cxt 
@@ -82,10 +82,10 @@
 \o Loading viva.cxt 
 \o Loading diagCenter.cxt 
 \o INFO (ELI-00333) License program mode is LSCS.
-\# [15:34:36.189361] Configured Lic search path (23.02-s006): 30000@cadence.cnfm.fr
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso2372617, host=onslow). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\# [15:05:55.189353] Configured Lic search path (23.02-s006): 30000@cadence.cnfm.fr
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso170431, host=brahms). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 2486975 within 90 seconds is being processed...
+\o INFO (ELI-00304) The registration of the child 229672 within 90 seconds is being processed...
 \o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
 \o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
 \w *WARNING* The directory: '/users/soft/techno/dev/IHP/sg13/modules_SG13G2/MEMRES_0.20.0_updated_march2026/lib/MEMRES_updated_march2026' does not exist
@@ -147,26 +147,24 @@
 \o Loading exportDie.cxt 
 \# Loading perfDiag...
 \# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
-\# The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 2486975' to open it when Virtuoso freezes.
+\# The Health Monitor tool is installed. You can access it from CIW - Tools - Diagnostic Center or use the shell command 'cdsPerfDiag -p 229672' to open it when Virtuoso freezes.
 \# INFO (PerfDiag): The private spectre.envOpts environment variable 'useAltergroup' is set to value 'nil' different than default value 't'.
 \# INFO (PerfDiag): The private spectre.envOpts environment variable 'modelFiles' is set to value '" $IHP_TECH/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs;typ #;$IHP_TECH/tech/SG13G2_HBT/HICUM/spectre/SG13G2_cornerBIP_hicum.scs;typ $IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs;tt $IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs;tt #;$IHP_TECH/tech/SG13_MOS/library/spectreG2/CheckMOSstat.scs #;$IHP_TECH/tech/SG13_MOS/library/spectreG2/CheckMOSdyn.scs $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs;typ $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs;typ #;$IHP_TECH/tech/SG13G2_PASSIVES/spectre/Ind_unit_4PI #;$IHP_TECH/tech/SG13G2_PASSIVES/spectre/Ind_unit_2PI $IHP_TECH/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs;tt $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib $IHP_TECH/tech/SG13_ESD/spectre/SG13_esd.lib $IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs;typ $IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib"' different than default value '""'.
 \# INFO (PerfDiag): The private spectre.envOpts environment variable 'includePath' is set to value '"/users/soft/techno/dev/IHP/sg13/SG13G2_618_rev1.3.3//lib/TL_SG13/RLCG/spectre/"' different than default value '""'.
 \# INFO (PerfDiag): The private schematic environment variable 'instLibName' is set to value '"SG13_dev"' different than default value '""'.
 \# INFO (PerfDiag): The private ams.envOpts environment variable 'modelFiles' is set to value '" $IHP_TECH/tech/SG13G2_HBT/VBIC/spectre/SG13G2_cornerBIP_vbic.scs;typ #;$IHP_TECH/tech/SG13G2_HBT/HICUM/spectre/SG13G2_cornerBIP_hicum.scs;typ $IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOSlv_psp.scs;tt $IHP_TECH/tech/SG13_MOS/library/spectreG2/cornerMOShv_psp.scs;tt #;$IHP_TECH/tech/SG13_MOS/library/spectreG2/CheckMOSstat.scs #;$IHP_TECH/tech/SG13_MOS/library/spectreG2/CheckMOSdyn.scs $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerRES.scs;typ $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_cornerCAP.scs;typ #;$IHP_TECH/tech/SG13G2_PASSIVES/spectre/Ind_unit_4PI #;$IHP_TECH/tech/SG13G2_PASSIVES/spectre/Ind_unit_2PI $IHP_TECH/tech/SG13G2_PASSIVES/spectre/sg13g2_dschottky_nbl1_corner.scs;tt $IHP_TECH/tech/SG13G2_PASSIVES/spectre/SG13_diodes.lib $IHP_TECH/tech/SG13_ESD/spectre/SG13_esd.lib $IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_cornerTSV.scs;typ $IHP_TECH/tech/SG13_PASSIVES/spectre/SG13_bondpad.lib"' different than default value '""'.
 \# (PerfDiag): Use backtrace from GLIBC.
+\# Memory report: using         379 MB, process size 1,786 MB at UTC 2026.05.07 13:06:05.104
 \i _axlRunServices()
-\# [15:34:42.253752] Periodic Lic check successful
-\# [15:34:42.253754] Feature usage summary:
 \o Loading simui.cxt 
-\o [2026-04-16 15:34:42.270 +0200] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"jobid": "7", "hostname": "onslow", "processid": 2486975, "logfile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service7.log"}
-\# Available memory:        145,614 MB at UTC 2026.04.16 13:34:46.316
-\# Memory report: Maximum memory size now 146,022 MB at UTC 2026.04.16 13:34:46.316
-\# Thread usage report: 12 active threads, active load 1.40 at UTC 2026.04.16 13:34:46.316
-\# Memory report: using         408 MB, process size 1,879 MB at UTC 2026.04.16 13:34:46.316
-\o [2026-04-16 15:39:44.675 +0200] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Netlist Service process exits. {"jobid": "7", "hostname": "onslow", "processid": 2486975, "logfile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service7.log"}
+\o [2026-05-07 15:06:05.147 +0200] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"jobid": "7", "hostname": "brahms", "processid": 229672, "logfile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service7.log"}
+\# Available memory:         56,044 MB at UTC 2026.05.07 13:06:09.193
+\# Memory report: Maximum memory size now 56,452 MB at UTC 2026.05.07 13:06:09.193
+\# Thread usage report: 8 active threads, active load 1.40 at UTC 2026.05.07 13:06:09.194
+\o [2026-05-07 15:11:07.639 +0200] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Netlist Service process exits. {"jobid": "7", "hostname": "brahms", "processid": 229672, "logfile": "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Service7.log"}
 \o Loading vdsil.cxt 
 \# Lic Summary:
-\# [15:39:45.180458] Cdslmd servers:30000@cadence.cnfm.fr
-\# [15:39:45.704778] Feature usage summary:
-\# Memory report: on exit            408 MB, process size 1,879 MB at UTC 2026.04.16 13:39:45.704
+\# [15:11:08.158641] Cdslmd servers:30000@cadence.cnfm.fr
+\# [15:11:08.682992] Feature usage summary:
+\# Memory report: on exit            408 MB, process size 1,879 MB at UTC 2026.05.07 13:11:08.683
 \# Memory report: peak usage         408 MB, process size 1,879 MB

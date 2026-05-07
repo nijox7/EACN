@@ -1,8 +1,8 @@
 HEADER
 "PSFversion" "1.00"
 "Run Generator" "drlRun rev. 1.0"
-"Run Time Stamp" "Apr 16 15:35:37 2026"
-"date" "Apr 16 15:35:37 2026"
+"Run Time Stamp" "May  7 14:11:33 2026"
+"date" "May  7 14:11:33 2026"
 "simulator" "spectre"
 "netlistDir" "../netlist"
 "axlParamFlag" "true"
@@ -19,9 +19,9 @@ VALUE
 "Root" "runObject" (
 ("")
 ""
-("Design_Point")
+("V")
 )
-"Design_Point=1.0" "runObject" (
+"V=" "runObject" (
 (
 "../../../1/project_EACN_SESI_prof_comparator_test_students_1/psf/logFile"
 "../../../1/project_EACN_SESI_prof_comparator_test_students_1/psf/artistLogFile"
@@ -35,7 +35,7 @@ VALUE
  "#pointID" 1
 "netlistDir" "../../../1/project_EACN_SESI_prof_comparator_test_students_1/netlist"
 "dataDir" "../../../1/project_EACN_SESI_prof_comparator_test_students_1"
- "Design_Point" 1.000000e+00
+ "V" 0
 )
 
 END

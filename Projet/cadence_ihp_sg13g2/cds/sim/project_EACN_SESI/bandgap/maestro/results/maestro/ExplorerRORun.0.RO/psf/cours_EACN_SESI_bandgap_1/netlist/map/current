@@ -1,0 +1,18 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "bandgap"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "sub! vdd! gnd!"
+  hierDelim "."
+  netlistDir "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/bandgap/maestro/results/maestro/ExplorerRORun.0.RO/1/cours_EACN_SESI_bandgap_1/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "cours_EACN_SESI/bandgap/schematic" "bandgap" )
+ )
+( "bandgap" "ihnl/cds0/map" )
+ )

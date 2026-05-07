@@ -30,6 +30,11 @@
 						<value>active</value>
 					</option>
 				</tooloptions>
+				<vars>
+					<var>V
+						<value></value>
+					</var>
+				</vars>
 			</test>
 		</tests>
 		<extensions>

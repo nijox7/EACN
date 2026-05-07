@@ -1,0 +1,16 @@
+"hnlProcessDifferentPmAndInstTerminalRepresentation" nil
+"_dspfFullDesignInfo" nil
+"dspfBindingToCell" "bindToAll"
+"issueInfoMsgOnCellRename" t
+"printComments" (nil nil)
+"setTopLevelAsSubckt" nil
+"preserveSubcktTermNamesByOrder" nil
+"supportDspfMasterOption" t
+"dspfBindingSummary" t
+"termMismatch" "default"
+"srcFileMappingInfo" nil
+"_dspfFileToEnvOptionsMapInfo" nil
+"bindingSummaryCellData" (("INVJIX0" ("ixc013g2ng_stdcell" "INVJIX0" "schematic")) ("DFRRSQJIX1" ("ixc013g2ng_stdcell" "DFRRSQJIX1" "schematic")))
+"dutlcv" "slotUnbound/slotUnbound/slotUnbound"
+"changedSubcktNames" nil
+"termDirectionMismatch" "default"

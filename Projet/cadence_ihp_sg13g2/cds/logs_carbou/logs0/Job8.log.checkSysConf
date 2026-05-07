@@ -1,0 +1,146 @@
+=======================================================================
+[Copyright 2002-2025] Cadence Design Systems, Inc. All rights reserved.
+
+This  program and online  documentation  may not be copied, modified,
+re-published, uploaded,  executed, or  distributed in any way, in any
+medium, whether in whole or in part, without prior written permission
+from Cadence Design Systems, Inc.
+=======================================================================
+
+
+============== checkSysConf:  Version 3.62 ====================
+
+
+Date information gathered: Thu May  7 15:48:41 CEST 2026
+-------------------------------------------------------
+Host Name ..............:  brahms
+Hostid .................:  e3843d43
+Operating System .......:  Linux / x86_64
+OS Version .............:  AlmaLinux release 9.7 (Moss Jungle Cat)
+Kernel Version .........:  5.14.0-611.49.1.el9_7.x86_64
+Hardware Type ..........:  x86_64
+Memory .................:  31618 Megabyte
+CPU model ..............:  Intel(R) Core(TM) i5-9500 CPU @ 3.00GHz
+No. of CPUs ............:  6
+Total Swap Space........:  32768 Megabyte
+Local X Server .........:  
+Patch Data file ........:  /users/soft/opus/Linux/IC-23.10.120/share/patchData/Linux/x86_64/generic/9.0WS/IC23.1
+
+
+****************   Now verifying configuration     ****************
+
+
+Validating Kernel requirements...
+            Minimum             Installed                   Status    Info                
+            --------------      --------------------------  ------    --------------------
+            5.14.0-70.26.1      5.14.0-611.49.1.el9_7.x86_64PASS                          
+
+
+Validating MEMORY requirements MegaByte ...
+            Minimum   Installed Status  Info                
+            -------   --------- ------  --------------------
+            4096MB    31618MB   PASS                        
+
+
+Validating SWAP requirements in MegaByte ...
+            Minimum   Installed Status  Info                
+            -------   --------- ------  --------------------
+            4096MB    32768MB   PASS                        
+
+
+Validating OS version requirement...
+            Minimum     Installed   Status    Info
+            ----------  ----------  ------    ----------------------------
+            9.0         9.7         PASS      
+
+
+Validating DISPLAY requirements...
+          Minimum           Installed                   Status  Info                
+          ----------------- ---------------------       ------  ----                
+          8 planes          32 planes                   PASS                        
+          PseudoColor       DirectColor                                             
+
+
+Validating XKEYBOARD extension requirement...
+          Requirement  Installed   Status     Info
+          -----------  ---------   ------     ---------------------------
+          Required     Yes         PASS       
+
+
+Validating PACKAGE requirements.....30 to check
+#   PACKAGE                Release    Build          Installed               Arch        Status  Info               
+--  -------                -------    -----          ----------              ----        ------  --------------------
+1   glibc                  2.34       28.el9_0.2     2.34-231.el9_7.10       x86_64      PASS                       
+->  'glibc'
+2   elfutils-libelf        0.186      1.el9          0.193-1.el9.alma.1      x86_64      PASS                       
+->  'libelf.so.1'
+3   ksh                    1.0.0      0              1.0.6-14.el9            x86_64      PASS                       
+->  'ksh'
+4   xterm                  366        8.el9          366-12.el9_6            x86_64      PASS                       
+->  'xterm command'
+5   mesa-libGL             21.3.4     2.el9          25.0.7-5.el9_7.alma.1   x86_64      PASS                       
+->  'libGLX_mesa.so.0'
+6   libglvnd-glx           1.3.4      1.el9          1.3.4-1.el9             x86_64      PASS                       
+->  'libGL.so.1'
+7   mesa-libGLU            9.0.1      6.el9          9.0.1-6.el9             x86_64      PASS                       
+->  'libGLU.so.1'
+8   motif                  2.3.4      25.el9         2.3.4-31.el9            x86_64      PASS                       
+->  'libXm.so.4'
+9   libXp                  1.0.3      11.el9         1.0.3-11.el9            x86_64      PASS                       
+->  'libXp.so.6'
+10  libpng                 1.6.37     12.el9         1.6.37-12.el9_7.2       x86_64      PASS                       
+->  'libpng16.so.16'
+11  libjpeg-turbo          2.0.90     5.el9          2.0.90-7.el9            x86_64      PASS                       
+->  'libjpeg.so.62'
+12  expat                  2.2.10     12.el9_0.3     2.5.0-5.el9_7.1         x86_64      PASS                       
+->  'libexpat.so.1'
+13  libXtst                1.2.3      16.el9         1.2.3-16.el9            x86_64      PASS                       
+->  'libXtst.so.6'
+14  readline               8.1        4.el9          8.1-4.el9               x86_64      PASS                       
+->  'libreadline.so.8 libhistory.so.8'
+15  ncurses-libs           6.2        8.20210508     6.2-12.20210508.el9     x86_64      PASS                       
+->  'libncurses.so.6'
+16  glibc-devel            2.34       28.el9_0.2     2.34-231.el9_7.10       x86_64      PASS                       
+->  'glibc header files'
+17  xorg-x11-fonts-misc    7.5        33.el9         7.5-33.el9              noarch      PASS                       
+->  'Bitmap fonts'
+18  xorg-x11-fonts-ISO8859-1-75dpi7.5        33.el9         7.5-33.el9              noarch      PASS                       
+->  '75dpi fonts'
+19  gdb                    10.2       9.el9          16.3-2.el9              x86_64      PASS                       
+->  'GNU Debugger'
+20  libXScrnSaver          1.2.3      10.el9         1.2.3-10.el9            x86_64      PASS                       
+->  'libXss.so.1'
+21  apr                    1.7.0      11.el9         1.7.0-12.el9_3          x86_64      PASS                       
+->  'libapr-1.so.0'
+22  apr-util               1.6.1      20.el9         1.6.1-23.el9            x86_64      PASS                       
+->  'libaprutil-1.so.0'
+23  xorg-x11-server-Xvfb   1.20.11    10.el9         1.20.11-33.el9_7        x86_64      PASS                       
+->  'Xvfb command'
+24  mesa-dri-drivers       21.3.4     2.el9          25.0.7-5.el9_7.alma.1   x86_64      PASS                       
+->  'swrast_dri.so'
+25  libXext                1.3.4      8              1.3.4-8.el9             x86_64      PASS                       
+->  'libXext.so.6'
+26  libxkbcommon-x11       1.0.3      4              1.0.3-4.el9             x86_64      PASS                       
+->  'libxkbcommon-x11.so.0'
+27  xcb-util-image         0.4.0      19             0.4.0-19.el9            x86_64      PASS                       
+->  'libxcb-image.so.0'
+28  xcb-util-keysyms       0.4.0      17             0.4.0-17.el9            x86_64      PASS                       
+->  'libxcb-keysyms.so.1'
+29  xcb-util-renderutil    0.3.9      20             0.3.9-20.el9            x86_64      PASS                       
+->  'libxcb-render-util.so.0'
+30  xcb-util-wm            0.4.1      22             0.4.1-22.el9            x86_64      PASS                       
+->  'libxcb-icccm.so.4'
+
+
+Validating WRITABLE-FILE .....1 to check
+#   WRITABLE-FILE                           Exists    Status  Info                                   
+-   -------------                           ------    ------  ------------                           
+1   /dev/shm                                YES       PASS    edpSharedMemory                           
+
+
+
+Normal exit. This workstation (brahms) status is: PASS
+
+
+Exiting checkSysConf ... Good-bye
+Output is saved as /tmp/checkSysConf.brahms-2026.05.07.15:48.247317.log

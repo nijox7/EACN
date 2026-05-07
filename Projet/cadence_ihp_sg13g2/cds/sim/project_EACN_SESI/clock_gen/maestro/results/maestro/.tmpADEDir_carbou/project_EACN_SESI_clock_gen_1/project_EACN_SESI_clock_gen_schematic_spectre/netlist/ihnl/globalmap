@@ -1,0 +1,13 @@
+CADENCE IHNL11140
+$model
+ixc013g2ng_stdcell/INVJIX0/schematic INVJIX0
+ixc013g2ng_stdcell/DFRRSQJIX1/schematic DFRRSQJIX1
+project_EACN_SESI/clock_gen/schematic clock_gen
+$endmodel
+$net
+gnd! 0
+vdd! vdd!
+$endnet
+$param
+temperature temperature
+$endparam

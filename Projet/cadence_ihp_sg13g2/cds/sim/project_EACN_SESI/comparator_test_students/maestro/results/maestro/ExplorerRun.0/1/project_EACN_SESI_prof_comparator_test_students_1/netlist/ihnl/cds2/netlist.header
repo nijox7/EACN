@@ -1,0 +1,5 @@
+
+// Library name: ixc013g2ng_stdcell
+// Cell name: NA2JIX0
+// View name: schematic
+subckt NA2JIX0 Q A B inh_VDD inh_VSS

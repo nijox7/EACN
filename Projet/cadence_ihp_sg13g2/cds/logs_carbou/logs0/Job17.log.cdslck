@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      carbou
+HostName                       brahms
+ProcessIdentifier              265620
+ProcessCreationTime_UTC        1778164719
+ProcessCreationTime_Readable   Thu May  7 16:38:39 2026 CEST
+AppIdentifier                  Unknown Application
+OSType                         lnx86
+ReasonForPlacingEditLock       lock for simulation monitor log file
+FilePathUsedToEditLock         /users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/logs_carbou/logs0/Job17.log
+TimeEditLocked                 Thu May  7 16:38:39 2026 CEST

@@ -4,7 +4,7 @@
   blockName "comparator_test_students"
   repList "spectre cmos_sch cmos.sch schematic veriloga"
   stopList "spectre"
-  globalList "VDD! VSS! gnd! vdd!"
+  globalList "gnd! vdd!"
   hierDelim "."
   netlistDir "/users/enseig/carbou/Documents/S2/EACN/Projet/cadence_ihp_sg13g2/cds/sim/project_EACN_SESI/comparator_test_students/maestro/results/maestro/ExplorerRun.0/1/project_EACN_SESI_prof_comparator_test_students_1/netlist"
  )
@@ -12,9 +12,11 @@
 ( "gnd!" "0" )
  )
 ( model
+( "ixc013g2ng_stdcell/NA2JIX0/schematic" "NA2JIX0" )
 ( "project_EACN_SESI/comparator_test_students/schematic" "comparator_test_students" )
 ( "ixc013g2ng_stdcell/DFRRSQJIX1/schematic" "DFRRSQJIX1" )
  )
+( "NA2JIX0" "ihnl/cds2/map" )
 ( "comparator_test_students" "ihnl/cds1/map" )
 ( "DFRRSQJIX1" "ihnl/cds0/map" )
  )

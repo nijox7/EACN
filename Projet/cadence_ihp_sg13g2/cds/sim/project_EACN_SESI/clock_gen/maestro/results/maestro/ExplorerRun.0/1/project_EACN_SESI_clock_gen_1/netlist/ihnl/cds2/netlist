@@ -1,0 +1,17 @@
+
+// Library name: project_EACN_SESI
+// Cell name: clock_gen
+// View name: schematic
+I13 (vdd! net7) isource dc=100.0n type=dc
+C0 (net7 0) capacitor c=75f
+N1 (net7 net13 0 0) sg13_lv_nmos w=1.000u l=130.00n ng=1 ad=0 as=0 pd=0 \
+        ps=0 m=1
+I35 (out net1 net12 vdd! vdd! vdd! 0) DFRRSQJIX1
+I16 (net11 0 0 net7 net8 vdd! 0) DFRRSQJIX1
+I36 (net12 out vdd! 0) INVJIX0
+I34 (net8 net7 vdd! 0) INVJIX0
+I29 (net13 net10 vdd! 0) INVJIX0
+I28 (net10 net1 vdd! 0) INVJIX0
+I27 (net1 net4 vdd! 0) INVJIX0
+I25 (net4 net11 vdd! 0) INVJIX0
+V0 (vdd! 0) vsource dc=1.2 type=dc

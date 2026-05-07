@@ -1,0 +1,5 @@
+CADENCE IHNL11143
+
+ixc013g2ng_stdcell DFRRSQJIX1 schematic cds0
+ixc013g2ng_stdcell INVJIX0 schematic cds1
+project_EACN_SESI clock_gen schematic cds2

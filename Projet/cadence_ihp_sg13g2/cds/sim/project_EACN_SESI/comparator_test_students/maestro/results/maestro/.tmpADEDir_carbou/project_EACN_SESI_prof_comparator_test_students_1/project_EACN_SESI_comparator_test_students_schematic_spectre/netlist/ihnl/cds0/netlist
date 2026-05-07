@@ -20,8 +20,8 @@
         ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
     MN12 (SQI SQIB net060 inh_VSS) sg13_lv_nmos w=800.0n l=130.00n ng=1 \
         ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
-    MN9 (net47 RN inh_VSS inh_VSS) sg13_lv_nmos w=640.00n l=130.00n ng=1 \
-        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MN9 (net47 RN inh_VSS inh_VSS) sg13_lv_nmos w=640.00n l=130.00n \
+        ng=1 ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
     MN7 (net56 MQI net47 inh_VSS) sg13_lv_nmos w=400.0n l=130.00n ng=1 \
         ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
     MN3 (net42 RN inh_VSS inh_VSS) sg13_lv_nmos w=600.0n l=130.00n ng=1 \
@@ -46,25 +46,25 @@
         ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
     MP9 (SQIB RN inh_VDD inh_VDD) sg13_lv_pmos w=300.0n l=130.00n ng=1 \
         ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
-    MP6 (MQI MQIB inh_VDD inh_VDD) sg13_lv_pmos w=670.00n l=130.00n ng=1 \
-        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
-    MP8 (net55 MQI inh_VDD inh_VDD) sg13_lv_pmos w=610.00n l=130.00n ng=1 \
-        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP6 (MQI MQIB inh_VDD inh_VDD) sg13_lv_pmos w=670.00n l=130.00n \
+        ng=1 ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP8 (net55 MQI inh_VDD inh_VDD) sg13_lv_pmos w=610.00n l=130.00n \
+        ng=1 ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
     M2 (SQI SN inh_VDD inh_VDD) sg13_lv_pmos w=670.00n l=130.00n ng=1 \
         ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
     MP2 (net57 D inh_VDD inh_VDD) sg13_lv_pmos w=690.00n l=130.00n ng=1 \
         ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
-    MP12 (SQI SQIB inh_VDD inh_VDD) sg13_lv_pmos w=670.00n l=130.00n ng=1 \
-        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
-    MP11 (net58 SQI inh_VDD inh_VDD) sg13_lv_pmos w=300.0n l=130.00n ng=1 \
-        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP12 (SQI SQIB inh_VDD inh_VDD) sg13_lv_pmos w=670.00n l=130.00n \
+        ng=1 ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP11 (net58 SQI inh_VDD inh_VDD) sg13_lv_pmos w=300.0n l=130.00n \
+        ng=1 ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
     MP10 (SQIB CI net58 inh_VDD) sg13_lv_pmos w=300.0n l=130.00n ng=1 \
         ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
     MP4 (MQIB CIB net53 inh_VDD) sg13_lv_pmos w=300.0n l=130.00n ng=1 \
         ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
     MP7 (SQIB CIB net55 inh_VDD) sg13_lv_pmos w=610.00n l=130.00n ng=1 \
         ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
-    MP5 (net53 MQI inh_VDD inh_VDD) sg13_lv_pmos w=300.0n l=130.00n ng=1 \
-        ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
+    MP5 (net53 MQI inh_VDD inh_VDD) sg13_lv_pmos w=300.0n l=130.00n \
+        ng=1 ad=0.0 as=0.0 pd=0.0 ps=0.0 m=1
 ends DFRRSQJIX1
 // End of subcircuit definition.
